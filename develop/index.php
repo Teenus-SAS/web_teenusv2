@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="es">
 
@@ -10,6 +9,18 @@
     <title>Desarrollo de Software a la Medida</title>
     <?php include_once __DIR__ . '/partials/scriptsCSS.php' ?>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-50746429-1');
+    </script>
 </head>
 
 <body>
@@ -29,52 +40,56 @@
     <!--start header-->
     <?php require_once dirname(__DIR__) . '/develop/partials/nav.php'; ?>
     <!--end header-->
-    
+
     <!--start home area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/banner.php'; ?>
     <!--end home area-->
-    
+
     <!--start feature area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/features.php'; ?>
     <!--end feature area-->
-    
+
     <!--start about area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/aboutDevelop.php'; ?>
     <!--end about area-->
-    
+
     <!--start video area-->
-    <?php //require_once dirname(__DIR__) . '/develop/modules/video.php'; ?>
+    <?php //require_once dirname(__DIR__) . '/develop/modules/video.php'; 
+    ?>
     <!--end video area-->
-    
+
     <!--start why choose area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/whyChoseArea.php'; ?>
     <!--end why choose area-->
-    
+
     <!--start product area-->
-    <?php //require_once dirname(__DIR__) . '/develop/modules/ProductArea.php'; ?>
+    <?php //require_once dirname(__DIR__) . '/develop/modules/ProductArea.php'; 
+    ?>
     <!--end product area-->
-    
+
     <!--start testimonial area-->
-    <?php //require_once dirname(__DIR__) . '/develop/modules/testimonials.php'; ?>
+    <?php //require_once dirname(__DIR__) . '/develop/modules/testimonials.php'; 
+    ?>
     <!--end testimonial area-->
-    
+
     <!--start newsletter area-->
-    <?php //require_once dirname(__DIR__) . '/develop/modules/newsletter.php'; ?>
+    <?php //require_once dirname(__DIR__) . '/develop/modules/newsletter.php'; 
+    ?>
     <!--end newsletter area-->
-    
+
     <!--start faq area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/faq.php'; ?>
     <!--end faq area-->
-    
+
     <!--start contact area-->
     <?php require_once dirname(__DIR__) . '/develop/modules/contact.php'; ?>
     <!--end contact area-->
-    
+
     <!--start footer-->
     <?php require_once dirname(__DIR__) . '/develop/modules/footer.php'; ?>
     <!--end footer-->
     <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría que hablaramos y saber más sobre como podemos desarrollar un proyecto que tengo en mente'">
-    
+
     <?php require_once dirname(__DIR__) . '/develop/partials/scriptsJS.php'; ?>
 </body>
 

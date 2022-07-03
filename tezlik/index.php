@@ -9,8 +9,21 @@
     <meta name="description" content="Tezlik-C es una plataforma para generar y analizar los precios de los productos a partir de los costos de fabricacion" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    
+
     <?php include_once dirname(__DIR__) . '/tezlik/partials/scriptsCSS.php' ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-50746429-1');
+    </script>
 </head>
 
 <body>
@@ -31,21 +44,27 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/banner.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/works.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/about.php' ?>
-        <?php include_once dirname(__DIR__) . '/tezlik/modules/overview.php' ?>     
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/video.php' ?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/overview.php' ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' 
+        ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/video.php' 
+        ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/faq.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php' 
+        ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/faq.php' 
+        ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' 
+        ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/download.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/contact.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/map.php' ?>
-        
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/map.php' 
+        ?>
+
     </div>
     <!-- Page Wrapper End -->
     <?php include_once dirname(__DIR__) . '/tezlik/modules/footer.php' ?>
-    
+
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top back-to-top-pulse"><i class="fa fa-caret-up"></i></a>
