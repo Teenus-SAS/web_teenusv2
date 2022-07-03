@@ -9,26 +9,6 @@
 	<!-- Title -->
 	<title>Teenus - Aplicaciones web</title>
 	<?php include_once __DIR__ . '/partials/scriptsHeader.php' ?>
-
-	<style>
-		img.btn-whatsapp {
-			display: block !important;
-			position: fixed;
-			z-index: 9999999;
-			bottom: 580px;
-			right: 20px;
-			cursor: pointer;
-			border-radius: 100px !important;
-		}
-
-		img.btn-whatsapp:hover {
-			border-radius: 100px !important;
-			-webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-			-moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-			box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-			transition-duration: 1s;
-		}
-	</style>
 </head>
 
 <body>
@@ -60,7 +40,8 @@
 	<!-- End Services Section -->
 
 	<!-- Start Project Section -->
-	<?php //include_once __DIR__ . '/modules/projects.php' ?>
+	<?php //include_once __DIR__ . '/modules/projects.php' 
+	?>
 	<!-- End Project Section -->
 
 	<!-- Start Counter Section -->

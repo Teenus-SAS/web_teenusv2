@@ -1,5 +1,5 @@
 <!-- Start Contact Section -->
-<div class="contact-section bg-grey section-padding" id="contact-section">
+<div class="contact-section bg-grey section-padding" id="contact">
     <div class="container">
         <div class="section-title">
             <h6>Desarrollar Sofwate a su Medida</h6>

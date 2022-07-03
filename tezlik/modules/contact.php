@@ -83,7 +83,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <textarea class="form-control" id="message" name="message" id="message" rows="10" placeholder="Mensaje*" required="required" data-error="Please, leave us a message."></textarea>
+                                                <textarea class="form-control" id="message" name="message" id="message" rows="3" placeholder="Mensaje*" required="required" data-error="Please, leave us a message."></textarea>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>

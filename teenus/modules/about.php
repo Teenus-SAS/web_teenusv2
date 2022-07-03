@@ -27,9 +27,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="about-btn-box">
+                       <!--  <div class="about-btn-box">
                             <a class="default-btn project-btn-1" href="/views/develop.php">Aprender más<span></span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href="/develop/assets/css/animate.css">
 <!--main css-->
 <link rel="stylesheet" type="text/css" href="/develop/assets/css/style.css">
+<link rel="stylesheet" href="/assets/globalstyle.css">
 <!--responsive css-->
 <link rel="stylesheet" type="text/css" href="/develop/assets/css/responsive.css">
 <!-- Google Fonts -->

@@ -5,8 +5,8 @@
                 <div class="single-counter">
                     <div class="counter-contents">
                         <h2>
-                            <span class="counter-number">27</span>
-                            <span></span>
+                            <span>+</span>
+                            <span class="counter-number">100</span>
                         </h2>
                         <h3 class="counter-heading">Clientes</h3>
                     </div>

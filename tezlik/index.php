@@ -270,7 +270,7 @@
 
 <!-- Back to Top -->
 <a href="#" class="back-to-top back-to-top-pulse"><i class="fa fa-caret-up"></i></a>
-
+<img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría que hablaramos y saber más sobre como podemos desarrollar un proyecto que tengo en mente'">
 <?php include_once dirname(__DIR__) . '/tezlik/partials/scriptsJS.php' ?>
 
 </body>

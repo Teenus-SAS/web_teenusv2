@@ -23,5 +23,6 @@
 <link rel="stylesheet" href="teenus/assets/css/owl.carousel.min.css">
 <!-- Style CSS -->
 <link rel="stylesheet" href="teenus/assets/css/style.css">
+<link rel="stylesheet" href="/assets/globalstyle.css">
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="teenus/assets/css/responsive.css">

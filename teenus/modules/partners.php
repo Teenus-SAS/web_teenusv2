@@ -6,19 +6,19 @@
         </div>
         <div class="partner-list">
             <div class="partner-item">
-                <a href="#0"><img src="teenus/assets/img/partner/cya.png" style="height: 60px;" alt="cyahospitalarios"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#0"><img src="teenus/assets/img/partner/damecos.png" style="height: 60px;" alt="damecos"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#0"><img src="teenus/assets/img/partner/greenpack.png" style="height: 60px;" alt="greenpack"></a>
+                <a href="#0"><img src="teenus/assets/img/partner/samara.png" style="height: 60px;" alt="samara-cosmetics"></a>
             </div>
             <div class="partner-item">
                 <a href="#0"><img src="teenus/assets/img/partner/proyecformas.jpg" style="height: 60px;" alt="proyecformas"></a>
             </div>
             <div class="partner-item">
-                <a href="#0"><img src="teenus/assets/img/partner/samara.png" style="height: 60px;" alt="samara-cosmetics"></a>
+                <a href="#0"><img src="teenus/assets/img/partner/cya.png" style="height: 60px;" alt="cyahospitalarios"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#0"><img src="teenus/assets/img/partner/greenpack.png" style="height: 60px;" alt="greenpack"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#0"><img src="teenus/assets/img/partner/damecos.png" style="height: 60px;" alt="damecos"></a>
             </div>
             <!-- <div class="partner-item">
                 <a href="#0"><img src="teenus/assets/img/partner/client-6.png" alt="image"></a>

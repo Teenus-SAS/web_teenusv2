@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <!-- Logo -->
-            <a class="logo" href="/"><img src="/assets/images/teenus/logo.jpg" alt="logo"  style="width: 150px;"></a>
+            <a class="logo" href="/"><img src="/assets/images/teenus/logo_white.png" alt="logo"  style="width: 150px;"></a>
             <!--scroll logo-->
             <a class="logo-scroll" href="#"><img src="/assets/images/teenus/logo.jpg" alt="logo" style="width: 150px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
