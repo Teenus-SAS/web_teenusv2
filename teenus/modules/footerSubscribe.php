@@ -5,14 +5,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="subscribe-content">
-                        <h2>Suscríbete a nuestro boletín</h2>
-                        <span class="sub-title">Te Ofrecemos un Boletín Informativo Mensual de Tecnología.</span>
+                        <h2>Suscríbase a nuestro boletín</h2>
+                        <span class="sub-title">Le Ofrecemos un Boletín Informativo Mensual de Tecnología.</span>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <form class="newsletter-form">
-                        <input type="email" class="input-newsletter" placeholder="Ingresa tu email" name="EMAIL" required autocomplete="off">
-                        <button type="submit">Suscríbete ahora</button>
+                        <input type="email" class="input-newsletter" placeholder="Ingrese tu email" name="EMAIL" required autocomplete="off">
+                        <button type="submit">Suscríbase ahora</button>
                         <div id="validator-newsletter" class="form-result"></div>
                     </form>
                 </div>
@@ -41,11 +41,11 @@
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Que puedes hacer</h3>
+                            <h3>¿Qué puede hacer?</h3>
                         </div>
                         <ul class="footer-quick-links">
                             <li> <a href="/develop/index.php">Desarrollo a la medida</a></li>
-                            <li> <a href="/tezlik/index.php">Costear tus productos</a></li>
+                            <li> <a href="/tezlik/index.php">Costee sus productos y fije sus precios</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Contact Info</h3>
+                            <h3>Información de Contacto</h3>
                         </div>
                         <div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
                             <h3>Teléfono móvil</h3>
