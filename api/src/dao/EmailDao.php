@@ -24,7 +24,6 @@ class EmailDao
         $company = $dataContact['company'];
         $subject = $dataContact['subject'];
         $message = $dataContact['message'];
-        $email = 'martha.olmos@teenus.com.co';
 
         $msg = "Hola,<br><br>
                     Tienes un nuevo contacto con los siguientes datos:
