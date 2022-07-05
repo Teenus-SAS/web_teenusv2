@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="desarrollo de aplicaciones, software, costos, planeacion, produccion, cotizador">
+    <meta name="description" content="Desarrollar softeare a la medida siempre sera una muy buena inversión, la utilidad al mediano y largo plazo es 10X mayor a si inversión inicial">
     <title>Desarrollo de Software a la Medida</title>
     <?php include_once __DIR__ . '/partials/scriptsCSS.php' ?>
 
@@ -91,6 +91,9 @@
     <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría que hablaramos y saber más sobre como podemos desarrollar un proyecto que tengo en mente'">
 
     <?php require_once dirname(__DIR__) . '/develop/partials/scriptsJS.php'; ?>
+    <script>
+        let zone = 'Desarrollo de Software'
+    </script>
 </body>
 
 </html>

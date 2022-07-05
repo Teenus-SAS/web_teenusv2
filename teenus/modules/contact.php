@@ -9,7 +9,7 @@
             <div class="col-lg-10 offset-lg-1">
                 <div class="contact-form">
                     <p class="form-message"></p><br />
-                    <form id="contact-form" class="contact-form form" action="mail.php" method="POST">
+                    <form id="contact-form" class="contact-form form">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
@@ -21,14 +21,24 @@
                                     <input type="email" name="email" id="email" class="form-control" required placeholder="Email">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="form-group">
                                     <input type="text" name="phone" id="phone" required class="form-control" placeholder="Teléfono">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-8 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="subject" id="subject" class="form-control" required placeholder="Asunto">
+                                    <input type="text" name="company" id="company" required class="form-control" placeholder="Empresa">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="subject" id="subject">
+                                        <option value="0">Asunto...</option>
+                                        <option value="Desarrollo de Software">Desarrollo de Sofware</option>
+                                        <option value="Tezlik">Tezlik</option>
+                                    </select>
+                                    <!--<input type="text" name="subject" id="subject" class="form-control" required placeholder="Asunto">-->
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
@@ -37,7 +47,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <button type="submit" class="default-btn submit-btn">Enviar Mensaje <span></span></button>
+                                <button type="submit" class="default-btn submit-btn" id="btnSendContact">Enviar Mensaje <span></span></button>
                             </div>
                         </div>
                     </form>

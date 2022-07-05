@@ -25,3 +25,5 @@
 <script src="teenus/assets/js/wow.min.js"></script>
 <!-- Main JS -->
 <script src="teenus/assets/js/main.js"></script>
+<!-- Contacts -->
+<script src="/assets/js/contacts.js"></script>

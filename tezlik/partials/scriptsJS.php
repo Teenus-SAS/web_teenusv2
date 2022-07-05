@@ -8,7 +8,7 @@
 <script src="/tezlik/assets/js/gmap3.min.js"></script>
 <!--validator js-->
 <script src="/tezlik/assets/js/validator.min.js"></script>
-<!--contact js-->
-<script src="/tezlik/assets/js/contact.js"></script>
 <!--Site Main js-->
 <script src="/tezlik/assets/js/main.js"></script>
+<!-- Contacts -->
+<script src="/assets/js/contacts.js"></script>

@@ -55,12 +55,12 @@
                     </div>
                     <div class="col-md-12">
                         <div class="form-container-box">
-                            <form class="contact-form form" id="contactForm">
+                            <form class="contact-form form" id="contact-form">
                                 <div class="controls">
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="name" name="names" placeholder="Nombres y Apellidos*" required="required" data-error="Name is required.">
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombres y Apellidos*" required="required" data-error="Name is required.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -72,13 +72,13 @@
                                         </div>
                                         <div class="col-md-2">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="telefono" placeholder="Teléfono*" required="required" data-error="Valid email is required.">
+                                                <input type="text" class="form-control" name="phone" placeholder="Teléfono*" required="required" data-error="Valid email is required.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required="required">
+                                                <input type="text" class="form-control" name="company" id="company" placeholder="Empresa" required="required">
                                             </div>
                                         </div>
                                         <div class="col-md-12">
@@ -88,7 +88,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button type="submit" class="button" data-text="Send Message" id="btnSendMessage">Enviar Mensaje</button>
+                                            <button type="submit" class="button" data-text="Send Message" id="btnSendContact">Enviar Mensaje</button>
                                         </div>
                                         <div class="messages">
                                             <div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Thank You! your message has been sent. </div>

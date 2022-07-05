@@ -15,7 +15,17 @@ $app->get('/allContacts', function (Request $request, Response $response, $args)
 
 $app->post('/addContact', function (Request $request, Response $response, $args) use ($contactDao) {
     $dataContact = $request->getParsedBody();
-    $contacts = $contactDao->insertContact($dataContact);
-    $response->getBody()->write(json_encode($contacts, JSON_NUMERIC_CHECK));
+
+    if (empty($dataContact['name']))
+        exit;
+
+    $contactDao->insertContact($dataContact);
+
+    if (null)
+        $resp = array('success' => true, 'message' => 'Gracias por contactarnos. En breve uno de nuestros colaboradores le estará contactado');
+    else
+        $resp = array('error' => true, 'message' => 'Ocurrio un error . Por favor intentelo nuevamente');
+
+    $response->getBody()->write(json_encode($resp, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });

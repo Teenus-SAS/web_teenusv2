@@ -18,16 +18,16 @@ class EmailDao
 
     public function sendEmail($contact, $subject, $message)
     {
-        $email = 'sergio.velandia@teenus.com.co';
+        $email = 'martha.olmos@teenus.com.co';
         $msg = "Hola,<br><br>
-                Tienes un nuevo contacto con los siguientes datos:
+                    Tienes un nuevo contacto con los siguientes datos:
                 <ul>
-                <li>Nombre del contacto: $contact</li>
-                <li>Asunto: $subject</li>
-                <li>Mensaje: $message</li>
+                    <li>Nombre del contacto: $contact</li>
+                    <li>Asunto: $subject</li>
+                    <li>Mensaje: $message</li>
                 </ul>
                 <br><br>
-                Por favor responder urgentemente y hacer seguimiento.<br><br>
+                    Por favor responder urgentemente y hacer seguimiento.<br><br>
 
                 Saludos,<br><br>
 

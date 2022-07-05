@@ -9,6 +9,8 @@
 	<!-- Title -->
 	<title>Teenus - Aplicaciones web</title>
 	<?php include_once __DIR__ . '/partials/scriptsHeader.php' ?>
+	<!-- notifications -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>

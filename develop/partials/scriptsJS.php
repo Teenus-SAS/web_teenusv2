@@ -13,6 +13,6 @@
 <!--validator js-->
 <script src="/develop/assets/js/validator.min.js"></script>
 <!--contact js-->
-<script src="/develop/assets/js/contact.js"></script>
+<script src="/assets/js/contacts.js"></script>
 <!--main js-->
 <script src="/develop/assets/js/custom.js"></script>

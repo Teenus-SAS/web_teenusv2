@@ -26,3 +26,5 @@
 <link rel="stylesheet" href="/assets/globalstyle.css">
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="teenus/assets/css/responsive.css">
+<!-- notifications -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">

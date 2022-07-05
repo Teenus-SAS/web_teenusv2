@@ -34,17 +34,19 @@ class ContactDao
     $connection = Connection::getInstance()->getConnection();
 
     try {
-      $stmt = $connection->prepare("INSERT INTO contacts (names, email, subject, message) 
-                                    VALUE(:names, :email, :subject, :message)");
+      $stmt = $connection->prepare("INSERT INTO contacts (names, email, phone, company, subject, message) 
+                                    VALUE(:names, :email, :phone, :company, :subject, :message)");
       $stmt->execute([
-        'names' => $dataContact['names'],
+        'names' => $dataContact['name'],
         'email' => $dataContact['email'],
+        'phone' => $dataContact['phone'],
+        'company' => $dataContact['company'],
         'subject' => $dataContact['subject'],
         'message' => $dataContact['message'],
       ]);
 
       $emailDao = new EmailDao;
-      $emailDao->sendEmail($dataContact['names'], $dataContact['email'], $dataContact['subject'], $dataContact['message']);
+      $emailDao->sendEmail($dataContact['name'], $dataContact['email'], $dataContact['subject'], $dataContact['message']);
 
       $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     } catch (\Exception $e) {
