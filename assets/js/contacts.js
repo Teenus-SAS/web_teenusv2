@@ -19,10 +19,14 @@ $(document).ready(function() {
             url: "/api/addContact",
             data: data,
             success: function(resp) {
-                if (resp.success == true)
-                    toastr.success(resp.message);
-                else
-                    toastr.error(resp.message);
+                if (resp.success == true) {
+                    $('.alert-success').show(500);
+                    $('.message').html(resp.message);
+                    document.getElementById("contact-form").reset();
+                } else {
+                    $('.alert-danger').show(500);
+                    $('.message').html(resp.message);
+                }
             }
         });
 

@@ -45,8 +45,8 @@ class ContactDao
         'message' => $dataContact['message'],
       ]);
 
-      $emailDao = new EmailDao;
-      $emailDao->sendEmail($dataContact);
+      /* $emailDao = new EmailDao;
+      $emailDao->sendEmail($dataContact); */
 
       $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     } catch (\Exception $e) {

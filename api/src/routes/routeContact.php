@@ -19,9 +19,9 @@ $app->post('/addContact', function (Request $request, Response $response, $args)
     if (empty($dataContact['name']))
         exit;
 
-    $contactDao->insertContact($dataContact);
+    $resp = $contactDao->insertContact($dataContact);
 
-    if (null)
+    if ($resp == null)
         $resp = array('success' => true, 'message' => 'Gracias por contactarnos. En breve uno de nuestros colaboradores le estará contactado');
     else
         $resp = array('error' => true, 'message' => 'Ocurrio un error . Por favor intentelo nuevamente');
