@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $(document).on('click', '#btnSendContact', function(e) {
         e.preventDefault()
-        debugger
+
         subject = $('#subject').val();
 
         if (subject == 0) {

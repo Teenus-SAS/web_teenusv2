@@ -12,3 +12,5 @@
 <script src="/tezlik/assets/js/main.js"></script>
 <!-- Contacts -->
 <script src="/assets/js/contacts.js"></script>
+<!-- toastr -->
+<script src="/assets/plugins/toast/toastr.min.js"></script>

@@ -16,3 +16,5 @@
 <script src="/assets/js/contacts.js"></script>
 <!--main js-->
 <script src="/develop/assets/js/custom.js"></script>
+<!-- toastr -->
+<script src="/assets/plugins/toast/toastr.min.js"></script>
