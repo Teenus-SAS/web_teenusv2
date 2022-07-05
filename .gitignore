@@ -1,0 +1,5 @@
+env.php
+api/logs/
+api/environment.env
+api/*.env
+*.env
