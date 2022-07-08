@@ -37,9 +37,9 @@
                             </ul>
                         </div> -->
                     </div>
-                    <div class="more-prod-btn">
+                    <!-- <div class="more-prod-btn">
                         <a href="">Leer Más</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!--end about info-->

@@ -63,11 +63,11 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="faq4">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">¿Es precio puede llegar a tener un desarrollo de software a la medida?</a>
+                                <a class="collapsed" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">¿Qúe precio puede llegar a tener un desarrollo de software a la medida?</a>
                             </h5>
                         </div>
                         <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="faq4" data-parent="#accordion2">
-                            <div class="card-body">El precio varia de acuerdo al tamaño del desarrollo; sin embargo, es necesario conocer que un desarrollo siempre sea mas economico a la larga</div>
+                            <div class="card-body">El precio varia de acuerdo al tamaño del desarrollo; sin embargo, es necesario conocer que un desarrollo siempre sera más económico en el mediano y corto plazo</div>
                         </div>
                     </div>
                     <!--end faq single-->

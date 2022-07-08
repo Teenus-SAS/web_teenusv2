@@ -17,7 +17,7 @@
                     <div class="works-icon"><span class="pulse-p"><i class="ti-money"></i></span></div>
                     <div class="works-info">
                         <h3>Rentabilidad</h3>
-                        <p>Calcule automáticamente los costos, rentabilidad y precios para todos sus productos. En tiempo real y en segundos.</p>
+                        <p>Calculela automáticamente para todos sus productos. En tiempo real y en segundos.</p>
                     </div>
                     <span class="work-count">1</span>
                 </div>
@@ -28,7 +28,7 @@
                     <!-- <div class="works-icon icon-bg-2"><i class="ti-pulse"></i></div> -->
                     <div class="works-info">
                         <h3>Confianza</h3>
-                        <p>Tenga la plena confianza y tranquilidad que el precio calculado va a ser exacto y nunca va a estar por debajo de su costo.</p>
+                        <p>El precio calculado es exacto y nunca va a estar por debajo de su costo.</p>
                     </div>
                     <span class="work-count">2</span>
                     <!--  <div class="works-info-bottom"><i class="ti-angle-double-down"></i></div> -->
@@ -40,7 +40,7 @@
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
                         <h3>Flexibilidad</h3>
-                        <p>Obtenga en cualquier momento información 100% confiable y disponible desde sus dispositivos y en cualquier momento</p>
+                        <p>Información 100% confiable, disponible y veraz.</p>
                     </div>
                     <span class="work-count">3</span>
                 </div>
@@ -51,7 +51,7 @@
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
                         <h3>Oportunidad</h3>
-                        <p>Gane confianza total con precios competitivos y negocie fácilmente con sus potenciales o habituales clientes</p>
+                        <p>Negocie fácilmente con sus potenciales o habituales clientes</p>
                     </div>
                     <span class="work-count">4</span>
                 </div>

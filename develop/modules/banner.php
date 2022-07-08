@@ -7,7 +7,7 @@
                     <div class="d-table-cell align-middle">
                         <h2 style="color: white;font-weight:700">Aumente la productividad, las Ventas y un mejor ambiente de trabajo en su Empresa</h2>
                         <p>Las soluciones de software son una herramienta que siempre brindan bienestar, tranquilidad y agilidad sobre los procesos manuales</p>
-                        <a href="#contact-area" style="background: deepskyblue;"><i class="icofont-sell" ></i> Contactenos</a>
+                        <a href="#contact-area" style="background: deepskyblue;"><i class="icofont-sell" ></i> Conoce Más</a>
                     </div>
                 </div>
             </div>

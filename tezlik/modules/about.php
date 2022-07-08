@@ -12,7 +12,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Calcular el precio de sus productos fácil, rápido y seguro</h3>
+                                    <h3>Calcular el precio de sus productos.</h3>
                                 </div>
                             </div>
                         </div>
@@ -20,7 +20,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-r"></div>
                                 <div class="features-info">
-                                    <h3>Conocer los costos de sus productos en detalle</h3>
+                                    <h3>Conocer sus costos en detalle</h3>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-b"></div>
                                 <div class="features-info">
-                                    <h3>Cambiar el precio de la materia prima y en segundos obtener el nuevo precio</h3>
+                                    <h3>Actualizar precios de materia prima</h3>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-o"></div>
                                 <div class="features-info">
-                                    <h3>Calcular los precios fácil y rápido para sus nuevos productos</h3>
+                                    <h3>Analizar los datos de costos</h3>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-g"></div>
                                 <div class="features-info">
-                                    <h3>Negociar con sus proveedores a su favor. Identifique las materias primas que más consume y proyecte su costo</h3>
+                                    <h3>Negociar con sus proveedores a su favor.</h3>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Tomar decisiones mejor informado basado en indicadores veraces de sus costos, productos y rentabilidades</h3>
+                                    <h3>Tomar decisiones mejor informado.</h3>
                                 </div>
                             </div>
                         </div>

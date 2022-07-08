@@ -4,30 +4,37 @@
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="about-content">
                     <div class="about-content-text">
-                        <h6>Pensando en llevar su empresa al siguiente nivel</h6>
-                        <h2>Desarrollar software no es costoso</h2>
-                        <p>Para obtener beneficios tangibles en un corto tiempo y con mayor escala, Desarrollar software es el camino correcto y más rápido, optimizando el recurso más preciado <b>"El Tiempo"</b> y la manera de hacerlo es enfocando el tiempo y costo en los siguientes grandes temas.</p>
+                        <h6>¿Pensando en llevar su empresa al siguiente nivel?</h6>
+                        <h2>Desarrollar software es la solución</h2>
+                        <p>Obtenga beneficios tangibles rapidos, duraderos y con mayor rentabilidad.
+                            Optimice su recurso más preciado <b>"El Tiempo"</b> y la manera es enfocar ese recurso en:</p>
                         <div class="skills">
                             <div class="skill-item">
-                                <h6>Consultoria <em>100%</em></h6>
+                                <h6>Asesorarse correctamente <em>100%</em></h6>
                                 <div class="skill-progress">
                                     <div class="progres" data-value="100%"></div>
                                 </div>
                             </div>
                             <div class="skill-item">
-                                <h6>Desarrollo de Aplicaciones <em>60%</em></h6>
+                                <h6>Crear ideas que aporten valor <em>100%</em></h6>
                                 <div class="skill-progress">
-                                    <div class="progres" data-value="60%"></div>
+                                    <div class="progres" data-value="100%"></div>
                                 </div>
                             </div>
                             <div class="skill-item">
-                                <h6>Mantenimiento <em>20%</em></h6>
+                                <h6>Desarrollar Aplicaciones Web <em>100%</em></h6>
                                 <div class="skill-progress">
-                                    <div class="progres" data-value="20%"></div>
+                                    <div class="progres" data-value="100%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h6>Mantenerlo <em>100%</em></h6>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="100%"></div>
                                 </div>
                             </div>
                         </div>
-                       <!--  <div class="about-btn-box">
+                        <!--  <div class="about-btn-box">
                             <a class="default-btn project-btn-1" href="/views/develop.php">Aprender más<span></span></a>
                         </div> -->
                     </div>

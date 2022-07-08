@@ -5,7 +5,7 @@
             <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
                 <div class="section-heading text-center">
                     <h2>Hagamos equipo</h2>
-                    <p>Porque llevamos años cumpliendo nuestros compromisos, trabajamos con transparencia, confianza y empatía y usted es único para nosotros.</p>
+                    <p>Llevamos años cumpliendo los objetivos de nuestros clientes, trabajamos con transparencia, confianza y empatía y usted es único para nosotros.</p>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                                 <div class="why-chose-single text-center">
                                     <i class="icon-coding"></i>
                                     <h4>Diseño</h4>
-                                    <p>Desarrollar una aplicación web requiere de intefaces amigables que permitan su usuabilidad y adaptabilidad a la empresa</p>
+                                    <p>Desarrollamos aplicaciones web con intefaces amigables que permiten su uso y adaptación fácil y rápido a cada uno de los colaboradores y directores de la empresa</p>
                                 </div>
                             </div>
                             <!--end feature single-->
@@ -54,7 +54,7 @@
                                 <div class="why-chose-single text-center">
                                     <i class="icon-box"></i>
                                     <h4>Diferenciación</h4>
-                                    <p>Es un factor que gana terreno, ya que un equipo centrado en los resultados y el análisis, es un equipo orientado a lograr que la empresas no pare de crecer. </p>
+                                    <p>Es un factor que gana terreno, ya que un equipo centrado en los resultados y el análisis, es un equipo orientado a lograr que la empresa no pare de crecer. </p>
                                 </div>
                             </div>
                             <!--end feature single-->
@@ -63,7 +63,7 @@
                                 <div class="why-chose-single text-center">
                                     <i class="icon-avatar"></i>
                                     <h4>Efectividad y Resultados</h4>
-                                    <p>No malgaste y desgaste su tiempo en procesos manuales. Ahora centrese en los resultados para aumentar los benficios de la empresa.</p>
+                                    <p>No malgaste y desgaste su tiempo en procesos manuales. Ahora centrese en los resultados para aumentar los beneficios de la empresa.</p>
                                 </div>
                             </div>
                             <!--end feature single-->

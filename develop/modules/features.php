@@ -16,7 +16,9 @@
                         <i class="icon-cloud1"></i>
                     </div>
                     <h4>Aumente la calidad de su trabajo</h4>
-                    <p>Con una aplicacion web su trabajo se centrara en mejorar los procesos, analizar y sobre todo concluir como mejorar para obtener mejores rentabilidades. El trabajo manual sera cosa del pasado</p>
+                    <p>Con una nueva aplicacion web, su trabajo se centrara en mejorar los procesos, analizar los datos y 
+                        enfocarse en como continuar para obtener mejores rentabilidades. El trabajo manual 
+                        sera cosa del pasado</p>
                 </div>
             </div>
             <!--end feature single-->
@@ -27,7 +29,8 @@
                         <i class="icon-coding"></i>
                     </div>
                     <h4>Confie en la información</h4>
-                    <p>Las Hojas de calculo son un muy buen recurso; sin embargo, los resultados y la automatizacion del los procesos manuales siempre seran limitados</p>
+                    <p>Las Hojas de calculo son un muy buen recurso; sin embargo, los resultados y la automatizacion del los procesos manuales 
+                        siempre seran limitados</p>
                 </div>
             </div>
             <!--end feature single-->
@@ -38,7 +41,7 @@
                         <i class="icon-box"></i>
                     </div>
                     <h4>Desempeño</h4>
-                    <p>En un desarrollo de software los procesos se ejecutan en segundo con resultados inmediatos.</p>
+                    <p>En un desarrollo de software los procesos se ejecutan en segundos con resultados inmediatos.</p>
                 </div>
             </div>
             <!--end feature single-->

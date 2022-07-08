@@ -1,8 +1,8 @@
 <section class="partner-section pb-70 section-padding">
     <div class="container">
         <div class="partner-title">
-            <h6>La confianza es eso que se gana con hechos</h6>
-            <h2>Compruebelo con alguno de nuestros Clientes</h2>
+            <h2>La confianza se gana con hechos</h2>
+            <!-- <h2>Comprueba cómo los clientes triunfan con sus nuevos proyectos</h2> -->
         </div>
         <div class="partner-list">
             <div class="partner-item">

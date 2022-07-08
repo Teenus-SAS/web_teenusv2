@@ -143,7 +143,7 @@
                         </li>
                     </ul> -->
                     <p class="mt-20">Competencia y Agilidad. Objetivos comunes en muchas empresas. Transforme cómo su empresa toma decisiones. </p>
-                    <p>Incorporar datos y análisis en los ciclos de toma de decisiones es la manera de lograr el mayor impacto en su organización.</p>
+                    <p>Incorpore datos y análisis en los ciclos de toma de decisiones para lograr el mayor impacto en su organización.</p>
 
                 </div>
             </div>

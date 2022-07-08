@@ -4,9 +4,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                 <div class="download-app-text text-center">
-                    <h2>
-                        Estas a pocos pasos para mejorar la rentabilidad de tus productos!
-                    </h2>
+                    <h2>Esta a pocos pasos para mejorar la rentabilidad de sus productos!</h2>
 
                     <!-- <div class="download-app-button">
                                 <a href="#" class="download-btn">

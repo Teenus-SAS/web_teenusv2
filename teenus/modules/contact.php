@@ -2,8 +2,8 @@
 <div class="contact-section bg-grey section-padding" id="contact">
     <div class="container">
         <div class="section-title">
-            <h6>Desarrollar Sofwate a su Medida</h6>
-            <h2>!Su mejor decisión¡</h2>
+            <h6>Desarrollamos el software que necesita a su medida</h6>
+            <h2>! Su mejor decisión ¡</h2>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

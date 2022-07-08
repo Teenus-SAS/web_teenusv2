@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-8">
                 <div class="section-heading">
                     <h2>Esta a pocos pasos del Éxito</h2>
-                    <p>Estamos seguros de maximizar y entregar resultados contundentes en cada proyecto que emprendemos.</p>
+                    <h5>Estamos seguros de maximizar y entregarle resultados contundentes.</h5>
                 </div>
             </div>
             <!--end section heading-->
