@@ -2,8 +2,8 @@ img.btn-whatsapp {
     display: block !important;
     position: fixed;
     z-index: 9999999;
-    bottom: 535px;
-    right: 10px;
+    bottom: 579px;
+    right: 15px;
     cursor: pointer;
     border-radius: 100px !important;
 }
