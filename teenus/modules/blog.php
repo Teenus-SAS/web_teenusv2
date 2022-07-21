@@ -9,7 +9,7 @@
                 <div class="blog-item">
                     <div class="blog-image">
                         <a href="single-blog.html">
-                            <img src="assets/img/blog/blog-1.jpg" alt="image">
+                            <img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
                         </a>
                     </div>
                     <div class="single-blog-item">
@@ -22,7 +22,7 @@
                             </li>
                         </ul>
                         <div class="blog-content">
-                            <h3><a href="single-blog.html">Planning for a Safe Return to the Workplace IT Solutions</a></h3>
+                            <h3><a href="single-blog.html">¿Por que desarrollar software?</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
                             <div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
                             </div>
@@ -34,7 +34,7 @@
                 <div class="blog-item">
                     <div class="blog-image">
                         <a href="single-blog.html">
-                            <img src="assets/img/blog/blog-2.jpg" alt="image">
+                            <img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
                         </a>
                     </div>
                     <div class="single-blog-item">
@@ -49,7 +49,7 @@
                         <div class="blog-content">
                             <h3>
                                 <a href="single-blog.html">
-                                    Announcing Our New Smiles for Success Charity
+                                    ¿Desarrollar software es costoso?
                                 </a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
@@ -64,7 +64,7 @@
                 <div class="blog-item">
                     <div class="blog-image">
                         <a href="single-blog.html">
-                            <img src="assets/img/blog/blog-3.jpg" alt="image">
+                            <img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
                         </a>
                     </div>
                     <div class="single-blog-item">
@@ -79,7 +79,7 @@
                         <div class="blog-content">
                             <h3>
                                 <a href="single-blog.html">
-                                    Machine Learning Applications for Every Industry
+                                Colombia, revolución en tecnología de automatización
                                 </a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
