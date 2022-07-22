@@ -102,6 +102,8 @@
     </script>
     <!--app JS-->
     <script src="assets/js/app.js"></script>
+    <!-- Autenticación -->
+    <script src="/admin/js/login/autentication.js"></script>
 </body>
 
 </html>
