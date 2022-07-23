@@ -11,29 +11,29 @@
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="/admin/assets/images/favicon-32x32.png">
 	<!-- Bootstrap Min CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/bootstrap.min.css">
 	<!-- Animate Min CSS -->
-	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!-- <link rel="stylesheet" href="/teenus/assets/css/animate.min.css"> -->
 	<!-- FlatIcon CSS -->
-	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="/teenus/assets/css/flaticon.css">
 	<!-- Font Awesome Min CSS -->
-	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css">
 	<!-- Mran Menu CSS -->
-	<link rel="stylesheet" href="assets/css/meanmenu.css">
+	<link rel="stylesheet" href="/teenus/assets/css/meanmenu.css">
 	<!-- Magnific Popup Min CSS -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/magnific-popup.min.css">
 	<!-- Nice Select Min CSS -->
-	<link rel="stylesheet" href="assets/css/nice-select.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/nice-select.min.css">
 	<!-- Swiper Min CSS -->
-	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/swiper.min.css">
 	<!-- Owl Carousel Min CSS -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/owl.carousel.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="/teenus/assets/css/style.css">
 	<!-- Responsive CSS -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 		</div>
 	</div>
 	<!-- End Preloader Area -->
-	
+
 	<!-- Start Navbar Area -->
 	<div class="navbar-area">
 		<div class="techvio-responsive-nav">
@@ -70,118 +70,118 @@
 					</a>
 					<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 						<ul class="navbar-nav">
-							<li class="nav-item"> 
+							<li class="nav-item">
 								<a href="index.html" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"> 
+									<li class="nav-item">
 										<a href="index.html" class="nav-link">Home 1</a>
 									</li>
-									<li class="nav-item"> 
+									<li class="nav-item">
 										<a href="index-2.html" class="nav-link">Home 2</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item"> <a href="about.html" class="nav-link">
-                                        About Us
-                                    </a>
+									About Us
+								</a>
 							</li>
 							<li class="nav-item"> <a href="#" class="nav-link">
-                                        Services 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
+									Services
+									<i class="fas fa-chevron-down"></i>
+								</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"> <a href="services.html" class="nav-link">
-                                                Services
-                                            </a>
+											Services
+										</a>
 									</li>
 									<li class="nav-item"> <a href="single-services.html" class="nav-link">
-                                                Services Details
-                                            </a>
+											Services Details
+										</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item"> <a href="#" class="nav-link">
-                                        Projects 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
+									Projects
+									<i class="fas fa-chevron-down"></i>
+								</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"> <a href="projects.html" class="nav-link">
-                                                Projects
-                                            </a>
+											Projects
+										</a>
 									</li>
 									<li class="nav-item"> <a href="single-projects.html" class="nav-link">
-                                                Projects Details
-                                            </a>
+											Projects Details
+										</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item"> <a href="#" class="nav-link">
-                                        Pages 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
+									Pages
+									<i class="fas fa-chevron-down"></i>
+								</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"> <a href="about.html" class="nav-link">
-                                                About Us
-                                            </a>
+											About Us
+										</a>
 									</li>
 									<li class="nav-item"> <a href="team.html" class="nav-link">
-                                                Team
-                                            </a>
+											Team
+										</a>
 									</li>
 									<li class="nav-item"> <a href="pricing.html" class="nav-link">
-                                                Pricing
-                                            </a>
+											Pricing
+										</a>
 									</li>
 									<li class="nav-item"> <a href="error-404.html" class="nav-link">
-                                                404 Error
-                                            </a>
+											404 Error
+										</a>
 									</li>
 									<li class="nav-item"> <a href="faq.html" class="nav-link">
-                                                FAQ
-                                            </a>
+											FAQ
+										</a>
 									</li>
 									<li class="nav-item"> <a href="coming-soon.html" class="nav-link">
-                                                Coming Soon
-                                            </a>
+											Coming Soon
+										</a>
 									</li>
 									<li class="nav-item"> <a href="terms-condition.html" class="nav-link">
-                                                Terms & Conditions
-                                            </a>
+											Terms & Conditions
+										</a>
 									</li>
 									<li class="nav-item"> <a href="privacy-policy.html" class="nav-link">
-                                                Privacy Policy
-                                            </a>
+											Privacy Policy
+										</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item"> <a href="#" class="nav-link active">
-                                        Blog 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
+									Blog
+									<i class="fas fa-chevron-down"></i>
+								</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"> <a href="blog-1.html" class="nav-link">
-                                                Blog Grid
-                                            </a>
+											Blog Grid
+										</a>
 									</li>
 									<li class="nav-item"> <a href="blog-2.html" class="nav-link">
-                                                Blog Right Sidebar
-                                            </a>
+											Blog Right Sidebar
+										</a>
 									</li>
 									<li class="nav-item"> <a href="single-blog.html" class="nav-link active">
-                                                Blog Details
-                                            </a>
+											Blog Details
+										</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item"> <a href="contact.html" class="nav-link">
-                                        Contact
-                                    </a>
+									Contact
+								</a>
 							</li>
 						</ul>
 						<div class="other-option"> <a class="default-btn" href="mailto:demo@example.com">
-                                    Get It Support 
-                                    <span></span>
-                                </a>
+								Get It Support
+								<span></span>
+							</a>
 						</div>
 					</div>
 				</nav>
@@ -189,7 +189,7 @@
 		</div>
 	</div>
 	<!-- End Navbar Area -->
-	
+
 	<!-- Start Page Title Area -->
 	<div class="page-title-area item-bg1">
 		<div class="d-table">
@@ -208,7 +208,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Blog Details Area -->
 	<section class="blog-details-area ptb-100">
 		<div class="container">
@@ -216,14 +216,14 @@
 				<div class="col-lg-8 col-md-12">
 					<div class="blog-details-desc">
 						<div class="article-image">
-							<img src="assets/img/blog-details/3.jpg" alt="image">
+							<img src="/teenus/assets/img/blog-details/3.jpg" alt="image">
 						</div>
 						<div class="article-content">
 							<div class="entry-meta">
 								<ul>
-									<li> <span>Posted On:</span>  <a href="#">June 10 - 2021</a>
+									<li> <span>Posted On:</span> <a href="#">June 10 - 2021</a>
 									</li>
-									<li> <span>Posted By:</span>  <a href="#">Herman Boone</a>
+									<li> <span>Posted By:</span> <a href="#">Herman Boone</a>
 									</li>
 								</ul>
 							</div>
@@ -234,17 +234,17 @@
 							<ul class="wp-block-gallery columns-3">
 								<li class="blocks-gallery-item">
 									<figure>
-										<img src="assets/img/blog-details/1.jpg" alt="image">
+										<img src="/teenus/assets/img/blog-details/1.jpg" alt="image">
 									</figure>
 								</li>
 								<li class="blocks-gallery-item">
 									<figure>
-										<img src="assets/img/blog-details/2.jpg" alt="image">
+										<img src="/teenus/assets/img/blog-details/2.jpg" alt="image">
 									</figure>
 								</li>
 								<li class="blocks-gallery-item">
 									<figure>
-										<img src="assets/img/blog-details/3.jpg" alt="image">
+										<img src="/teenus/assets/img/blog-details/3.jpg" alt="image">
 									</figure>
 								</li>
 							</ul>
@@ -280,9 +280,9 @@
 									<a href="#"> <i class="fa fa-arrow-left"></i> Prev Post</a>
 								</div>
 								<div class="nav-next"> <a href="#">
-                                            Next Post 
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
+										Next Post
+										<i class="fa fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -406,8 +406,8 @@
 								<div class="info">
 									<span>June 10, 2021</span>
 									<h4 class="title usmall">
-                                            <a href="#">5 Technology Considerations for Office Relocations</a>
-                                        </h4>
+										<a href="#">5 Technology Considerations for Office Relocations</a>
+									</h4>
 								</div>
 							</article>
 							<article class="item">
@@ -416,8 +416,8 @@
 								<div class="info">
 									<span>June 15, 2021</span>
 									<h4 class="title usmall">
-                                            <a href="#">Everything you need to know about geo-blocking</a>
-                                        </h4>
+										<a href="#">Everything you need to know about geo-blocking</a>
+									</h4>
 								</div>
 							</article>
 							<article class="item">
@@ -426,8 +426,8 @@
 								<div class="info">
 									<span>June 25, 2021</span>
 									<h4 class="title usmall">
-                                            <a href="#">Machine Learning Applications for Every Industry</a>
-                                        </h4>
+										<a href="#">Machine Learning Applications for Every Industry</a>
+									</h4>
 								</div>
 							</article>
 						</section>
@@ -450,28 +450,28 @@
 							<h3 class="widget-title">Recent Comments</h3>
 							<ul>
 								<li> <span class="comment-author-link">
-                                            <a href="#">A WordPress Commenter</a>
-                                        </span>
+										<a href="#">A WordPress Commenter</a>
+									</span>
 									on <a href="#">Hello world!</a>
 								</li>
 								<li> <span class="comment-author-link">
-                                            <a href="#">Crimso</a>
-                                        </span>
+										<a href="#">Crimso</a>
+									</span>
 									on <a href="#">Hello world!</a>
 								</li>
 								<li> <span class="comment-author-link">
-                                            <a href="#">Wordpress</a>
-                                        </span>
+										<a href="#">Wordpress</a>
+									</span>
 									on <a href="#">Hello world!</a>
 								</li>
 								<li> <span class="comment-author-link">
-                                            <a href="#">A WordPress Commenter</a>
-                                        </span>
+										<a href="#">A WordPress Commenter</a>
+									</span>
 									on <a href="#">Hello world!</a>
 								</li>
 								<li> <span class="comment-author-link">
-                                            <a href="#">Techvio</a>
-                                        </span>
+										<a href="#">Techvio</a>
+									</span>
 									on <a href="#">Hello world!</a>
 								</li>
 							</ul>
@@ -490,36 +490,36 @@
 						<section class="widget widget_tag_cloud">
 							<h3 class="widget-title">Tags</h3>
 							<div class="tagcloud"> <a href="#">
-                                        IT 
-                                        <span class="tag-link-count"> (3)</span>
-                                    </a>
+									IT
+									<span class="tag-link-count"> (3)</span>
+								</a>
 								<a href="#"> Technology
-                                        <span class="tag-link-count"> (3)</span>
-                                    </a>
+									<span class="tag-link-count"> (3)</span>
+								</a>
 								<a href="#">
-                                        Applications 
-                                        <span class="tag-link-count"> (2)</span>
-                                    </a>
+									Applications
+									<span class="tag-link-count"> (2)</span>
+								</a>
 								<a href="#">
-                                        Solutions 
-                                        <span class="tag-link-count"> (2)</span>
-                                    </a>
+									Solutions
+									<span class="tag-link-count"> (2)</span>
+								</a>
 								<a href="#">
-                                        Overview
-                                        <span class="tag-link-count"> (1)</span>
-                                    </a>
+									Overview
+									<span class="tag-link-count"> (1)</span>
+								</a>
 								<a href="#">
-                                        Industry 
-                                        <span class="tag-link-count"> (1)</span>
-                                    </a>
+									Industry
+									<span class="tag-link-count"> (1)</span>
+								</a>
 								<a href="#">
-                                        Marketing 
-                                        <span class="tag-link-count"> (1)</span>
-                                    </a>
+									Marketing
+									<span class="tag-link-count"> (1)</span>
+								</a>
 								<a href="#">
-                                        Guide 
-                                        <span class="tag-link-count"> (2)</span>
-                                    </a>
+									Guide
+									<span class="tag-link-count"> (2)</span>
+								</a>
 							</div>
 						</section>
 					</aside>
@@ -528,7 +528,7 @@
 		</div>
 	</section>
 	<!-- End Blog Details Area -->
-	
+
 	<!-- Start Footer & Subscribe Section -->
 	<section class="footer-subscribe-wrapper">
 		<!-- Start Subscribe Area -->
@@ -552,7 +552,7 @@
 			</div>
 		</div>
 		<!-- End Subscribe Area -->
-		
+
 		<!-- Start Footer Area -->
 		<div class="footer-area ptb-100">
 			<div class="container">
@@ -626,7 +626,7 @@
 							</div>
 							<div class="footer-info-contact"> <i class="flaticon-placeholder"></i>
 								<h3>Address</h3>
-								<span>526  Melrose Street, Water Mill, 11976  New York</span>
+								<span>526 Melrose Street, Water Mill, 11976 New York</span>
 							</div>
 						</div>
 					</div>
@@ -636,7 +636,7 @@
 		<!-- End Footer Section -->
 	</section>
 	<!-- End Footer & Subscribe Section -->
-	
+
 	<!-- Start Copy Right Section -->
 	<div class="copyright-area">
 		<div class="container">
@@ -656,42 +656,42 @@
 		</div>
 	</div>
 	<!-- End Copy Right Section -->
-	
+
 	<!-- Start Go Top Section -->
 	<div class="go-top">
 		<i class="fas fa-chevron-up"></i>
 		<i class="fas fa-chevron-up"></i>
 	</div>
 	<!-- End Go Top Section -->
-	
+
 	<!-- jQuery Min JS -->
-	<script src="assets/js/jquery.min.js"></script>
+	<script src="/teenus/assets/js/jquery.min.js"></script>
 	<!-- Popper Min JS -->
-	<script src="assets/js/popper.min.js"></script>
+	<script src="/teenus/assets/js/popper.min.js"></script>
 	<!-- Bootstrap Min JS -->
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="/teenus/assets/js/bootstrap.min.js"></script>
 	<!-- MeanMenu JS  -->
-	<script src="assets/js/jquery.meanmenu.js"></script>
+	<script src="/teenus/assets/js/jquery.meanmenu.js"></script>
 	<!-- Appear Min JS -->
-	<script src="assets/js/jquery.appear.min.js"></script>
+	<script src="/teenus/assets/js/jquery.appear.min.js"></script>
 	<!-- CounterUp Min JS -->
-	<script src="assets/js/jquery.waypoints.min.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="/teenus/assets/js/jquery.waypoints.min.js"></script>
+	<script src="/teenus/assets/js/jquery.counterup.min.js"></script>
 	<!-- Owl Carousel Min JS -->
-	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="/teenus/assets/js/owl.carousel.min.js"></script>
 	<!-- Magnific Popup Min JS -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="/teenus/assets/js/jquery.magnific-popup.min.js"></script>
 	<!-- Nice Select Min JS -->
-	<script src="assets/js/jquery.nice-select.min.js"></script>
+	<script src="/teenus/assets/js/jquery.nice-select.min.js"></script>
 	<!-- Isotope Min JS -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
 	<!-- Swiper Min JS -->
-	<script src="assets/js/swiper.min.js"></script>
+	<script src="/teenus/assets/js/swiper.min.js"></script>
 	<!-- WOW Min JS -->
-	<script src="assets/js/wow.min.js"></script>
+	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
-	<script src="assets/js/main.js"></script>
-	
+	<script src="/teenus/assets/js/main.js"></script>
+
 </body>
 
 </html>

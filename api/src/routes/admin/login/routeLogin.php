@@ -95,15 +95,11 @@ $app->post('/userAutentication', function (Request $request, Response $response,
     /* Modificar el estado de la sesion del usuario en BD */
     //$statusActiveUserDao->changeStatusUserLogin();
 
-    $user["id_rols"] == 1 ? $location = '../../admin/' : $location = '../../app/';
+    $user["id_rols"] == 2 ? $location = '../../admin/' : $location = '../../app/';
 
     $resp = array('success' => true, 'message' => 'Ingresar código', 'location' => $location);
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
-
-    /* $resp = array('success' => true, 'message' => 'access granted');
-    $response->getBody()->write(json_encode($resp));
-    return $response->withStatus(200)->withHeader('Content-Type', 'application/json'); */
 });
 
 /* Logout */

@@ -12,4 +12,8 @@ $app->setBasePath('/api');
 require_once('../api/src/routes/routeContact.php');
 require_once('../api/src/routes/routeSubscribe.php');
 
+/* Admin */
+// Login
+require_once('../api/src/routes/admin/login/routeLogin.php');
+
 $app->run();

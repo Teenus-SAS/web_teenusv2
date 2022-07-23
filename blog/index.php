@@ -15,25 +15,25 @@
 	<!-- Bootstrap Min CSS -->
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<!-- Animate Min CSS -->
-	<link rel="stylesheet" href="../assets/css/animate.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/animate.min.css">
 	<!-- FlatIcon CSS -->
-	<link rel="stylesheet" href="../assets/css/flaticon.css">
+	<link rel="stylesheet" href="/teenus/assets/css/flaticon.css">
 	<!-- Font Awesome Min CSS -->
-	<link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css">
 	<!-- Mran Menu CSS -->
-	<link rel="stylesheet" href="../assets/css/meanmenu.css">
+	<link rel="stylesheet" href="/teenus/assets/css/meanmenu.css">
 	<!-- Magnific Popup Min CSS -->
-	<link rel="stylesheet" href="../assets/css/magnific-popup.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/magnific-popup.min.css">
 	<!-- Nice Select Min CSS -->
-	<link rel="stylesheet" href="../assets/css/nice-select.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/nice-select.min.css">
 	<!-- Swiper Min CSS -->
-	<link rel="stylesheet" href="../assets/css/swiper.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/swiper.min.css">
 	<!-- Owl Carousel Min CSS -->
-	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/teenus/assets/css/owl.carousel.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="/teenus/assets/css/style.css">
 	<!-- Responsive CSS -->
-	<link rel="stylesheet" href="../assets/css/responsive.css">
+	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
 <body>
@@ -78,7 +78,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-1.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -101,7 +101,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-2.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -131,7 +131,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-3.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -160,7 +160,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-4.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -189,7 +189,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-5.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -219,7 +219,7 @@
 							<div class="blog-item">
 								<div class="blog-image">
 									<a href="single-blog.html">
-										<img src="../assets/img/blog/blog-6.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
@@ -517,32 +517,32 @@
 	<!-- End Go Top Section -->
 
 	<!-- jQuery Min JS -->
-	<script src="../assets/js/jquery.min.js"></script>
+	<script src="/teenus/assets/js/jquery.min.js"></script>
 	<!-- Popper Min JS -->
-	<script src="../assets/js/popper.min.js"></script>
+	<script src="/teenus/assets/js/popper.min.js"></script>
 	<!-- Bootstrap Min JS -->
-	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="/teenus/assets/js/bootstrap.min.js"></script>
 	<!-- MeanMenu JS  -->
-	<script src="../assets/js/jquery.meanmenu.js"></script>
+	<script src="/teenus/assets/js/jquery.meanmenu.js"></script>
 	<!-- Appear Min JS -->
-	<script src="../assets/js/jquery.appear.min.js"></script>
+	<script src="/teenus/assets/js/jquery.appear.min.js"></script>
 	<!-- CounterUp Min JS -->
-	<script src="../assets/js/jquery.waypoints.min.js"></script>
-	<script src="../assets/js/jquery.counterup.min.js"></script>
+	<script src="/teenus/assets/js/jquery.waypoints.min.js"></script>
+	<script src="/teenus/assets/js/jquery.counterup.min.js"></script>
 	<!-- Owl Carousel Min JS -->
-	<script src="../assets/js/owl.carousel.min.js"></script>
+	<script src="/teenus/assets/js/owl.carousel.min.js"></script>
 	<!-- Magnific Popup Min JS -->
-	<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="/teenus/assets/js/jquery.magnific-popup.min.js"></script>
 	<!-- Nice Select Min JS -->
-	<script src="../assets/js/jquery.nice-select.min.js"></script>
+	<script src="/teenus/assets/js/jquery.nice-select.min.js"></script>
 	<!-- Isotope Min JS -->
-	<script src="../assets/js/isotope.pkgd.min.js"></script>
+	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
 	<!-- Swiper Min JS -->
-	<script src="../assets/js/swiper.min.js"></script>
+	<script src="/teenus/assets/js/swiper.min.js"></script>
 	<!-- WOW Min JS -->
-	<script src="../assets/js/wow.min.js"></script>
+	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
-	<script src="../assets/js/main.js"></script>
+	<script src="/teenus/assets/js/main.js"></script>
 
 </body>
 

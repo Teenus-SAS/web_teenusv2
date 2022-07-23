@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
+	<link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" />
 	<!--plugins-->
 	<link href="../assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
 	<link href="../assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
@@ -245,7 +245,7 @@
 								<tbody>
 									<tr>
 										<td>Iphone 5</td>
-										<td><img src="assets/images/products/01.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/01.png" class="product-img-2" alt="product img"></td>
 										<td>#9405822</td>
 										<td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
 										<td>$1250.00</td>
@@ -259,7 +259,7 @@
 
 									<tr>
 										<td>Earphone GL</td>
-										<td><img src="assets/images/products/02.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/02.png" class="product-img-2" alt="product img"></td>
 										<td>#8304620</td>
 										<td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
 										<td>$1500.00</td>
@@ -273,7 +273,7 @@
 
 									<tr>
 										<td>HD Hand Camera</td>
-										<td><img src="assets/images/products/03.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/03.png" class="product-img-2" alt="product img"></td>
 										<td>#4736890</td>
 										<td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
 										<td>$1400.00</td>
@@ -287,7 +287,7 @@
 
 									<tr>
 										<td>Clasic Shoes</td>
-										<td><img src="assets/images/products/04.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/04.png" class="product-img-2" alt="product img"></td>
 										<td>#8543765</td>
 										<td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
 										<td>$1200.00</td>
@@ -300,7 +300,7 @@
 									</tr>
 									<tr>
 										<td>Sitting Chair</td>
-										<td><img src="assets/images/products/06.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/06.png" class="product-img-2" alt="product img"></td>
 										<td>#9629240</td>
 										<td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
 										<td>$1500.00</td>
@@ -313,7 +313,7 @@
 									</tr>
 									<tr>
 										<td>Hand Watch</td>
-										<td><img src="assets/images/products/05.png" class="product-img-2" alt="product img"></td>
+										<td><img src="/admin/assets/images/products/05.png" class="product-img-2" alt="product img"></td>
 										<td>#8506790</td>
 										<td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
 										<td>$1800.00</td>
@@ -603,6 +603,8 @@
 	<script src="../assets/js/index.js"></script>
 	<!--app JS-->
 	<script src="../assets/js/app.js"></script>
+	<script src="/admin/js/global/loadContent.js"></script>
+	<script src="/admin/js/global/logout.js"></script>
 </body>
 
 </html>

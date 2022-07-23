@@ -20,6 +20,11 @@
     <link href="assets/css/app.css" rel="stylesheet">
     <link href="assets/css/icons.css" rel="stylesheet">
     <title>admin</title>
+
+    <!-- ================== BEGIN APP CSS  ================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 </head>
 
 <body class="bg-login">
@@ -40,15 +45,15 @@
                                     </div>
 
                                     <div class="form-body">
-                                        <form class="row g-3">
+                                        <form class="row g-3" id="loginForm" name="loginForm" novalidate>
                                             <div class="col-12">
                                                 <label for="inputEmailAddress" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="inputEmailAddress" placeholder="Email">
+                                                <input type="email" class="form-control" id="email" name="validation-email" placeholder="Email">
                                             </div>
                                             <div class="col-12">
                                                 <label for="inputChoosePassword" class="form-label">Password</label>
                                                 <div class="input-group" id="show_hide_password">
-                                                    <input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" placeholder="Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+                                                    <input type="password" class="form-control border-end-0" id="password" name="validation-password" placeholder="Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -61,7 +66,7 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-grid">
-                                                    <button type="submit" class="btn btn-primary"><i class="bx bxs-lock-open"></i>Ingresar</button>
+                                                    <button type="submit" class="btn btn-primary btn-block" data-effect="wave"><i class="bx bxs-lock-open"></i>Ingresar</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -100,10 +105,16 @@
             });
         });
     </script>
-    <!--app JS-->
+
+    <!-- ================== BEGIN PAGE LEVEL JS ================== -->
+    <script src="assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
+    <script src="assets/libs/jquery-validation/js/additional-methods.min.js"></script>
+
+    <!-- ================== BEGIN PAGE JS ================== -->
     <script src="assets/js/app.js"></script>
-    <!-- Autenticación -->
-    <script src="/admin/js/login/autentication.js"></script>
+    <script src="js/login/autentication.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 </body>
 
 </html>
