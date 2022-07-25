@@ -39,12 +39,12 @@
 <body>
 
 	<!-- Start Preloader Area -->
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loader">
 			<div class="shadow"></div>
 			<div class="box"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- End Preloader Area -->
 
 	<!-- Start Navbar Area -->

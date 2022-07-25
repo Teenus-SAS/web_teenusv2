@@ -84,7 +84,7 @@
                     </div> -->
                     <!--end faq single-->
                     <!--start faq single-->
-                   <!--  <div class="card">
+                    <!--  <div class="card">
                         <div class="card-header" role="tab" id="faq6">
                             <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapse6">¿?</a>
@@ -99,7 +99,7 @@
                 <div class="col-md-6">
                     <!--start faq image-->
                     <div class="faq-image">
-                        <img src="assets/images/faq3.jpg" class="img-fluid" alt="Image">
+                        <img src="/develop/assets/images/faq3.jpg" class="img-fluid" alt="Image">
                     </div>
                     <!--end faq image-->
 

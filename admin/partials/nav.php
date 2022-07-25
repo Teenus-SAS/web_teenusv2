@@ -23,7 +23,7 @@
                     <div class="menu-title">Blog</div>
                 </a>
                 <ul>
-                    <li> <a href="javascript:;" onclick="loadContent('page-content','../../blog-single/index.php')"><i class="bx bx-right-arrow-alt"></i>Default</a></li>
+                    <li> <a href="javascript:;" onclick="loadContent('page-content','../../blog/index.php')"><i class="bx bx-right-arrow-alt"></i>Default</a></li>
                 </ul>
             </li>
             <li>

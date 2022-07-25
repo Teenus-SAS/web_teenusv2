@@ -28,6 +28,7 @@
 </head>
 
 <body class="bg-login">
+
     <!--wrapper-->
     <div class="wrapper">
         <div class="section-authentication-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
@@ -62,7 +63,7 @@
                                                     <label class="form-check-label" for="flexSwitchCheckChecked">Recordarme</label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 text-end"> <a href="authentication-forgot-password.html">Olvido Password ?</a>
+                                            <div class="col-md-6 text-end"> <a href="#">Olvido Password ?</a>
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-grid">

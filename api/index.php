@@ -9,11 +9,13 @@ $app = AppFactory::create();
 $app->setBasePath('/api');
 
 // Analysis
-require_once('../api/src/routes/routeContact.php');
-require_once('../api/src/routes/routeSubscribe.php');
+require_once('../api/src/routes/admin/global/routeContact.php');
+require_once('../api/src/routes/admin/global/routeSubscribe.php');
 
 /* Admin */
 // Login
 require_once('../api/src/routes/admin/login/routeLogin.php');
+// Users
+require_once('../api/src/routes/admin/users/routeUsers.php');
 
 $app->run();

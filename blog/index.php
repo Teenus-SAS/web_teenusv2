@@ -37,15 +37,14 @@
 </head>
 
 <body>
-
 	<!-- Start Preloader Area -->
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loader">
 			<div class="shadow"></div>
 			<div class="box"></div>
 		</div>
-	</div>
-	<!-- End Preloader Area -->
+	</div> -->
+	<!-- End Preloader Area
 
 	<!-- Start Navbar Area -->
 	<?php require_once dirname(__DIR__) . '/teenus/partials/nav.php'; ?>

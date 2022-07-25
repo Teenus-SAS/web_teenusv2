@@ -25,7 +25,7 @@
 
 <body>
     <!--Start Preloader-->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="d-table">
             <div class="d-table-cell align-middle">
                 <div class="spinner">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--End Preloader-->
 
     <!--start header-->

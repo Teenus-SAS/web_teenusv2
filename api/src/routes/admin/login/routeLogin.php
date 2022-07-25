@@ -37,7 +37,8 @@ $app->post('/userAutentication', function (Request $request, Response $response,
 
     /* Valida el password del usuario */
 
-    if ($user['password'] != hash("sha256", $password)) {
+    // if ($user['password'] != hash("sha256", $password)) {
+    if ($user['password'] != $password) {
 
         $resp = array('error' => true, 'message' => 'Usuario y/o password incorrectos, valide nuevamente');
         $response->getBody()->write(json_encode($resp));
@@ -95,7 +96,7 @@ $app->post('/userAutentication', function (Request $request, Response $response,
     /* Modificar el estado de la sesion del usuario en BD */
     //$statusActiveUserDao->changeStatusUserLogin();
 
-    $user["id_rols"] == 2 ? $location = '../../admin/' : $location = '../../app/';
+    $user["id_rols"] == 2 ? $location = 'app/' : $location = '../';
 
     $resp = array('success' => true, 'message' => 'Ingresar código', 'location' => $location);
     $response->getBody()->write(json_encode($resp));

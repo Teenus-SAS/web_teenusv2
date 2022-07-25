@@ -90,7 +90,6 @@ class UsersDao
                 'pass' => $pass,
                 'id_company' => $id_company,
                 'active' => 1
-
             ]);
         }
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
