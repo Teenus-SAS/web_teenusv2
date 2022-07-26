@@ -123,7 +123,6 @@ class UsersDao
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     }
 
-
     public function deleteUser($dataUser)
     {
         $connection = Connection::getInstance()->getConnection();

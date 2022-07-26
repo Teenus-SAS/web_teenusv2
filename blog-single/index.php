@@ -39,12 +39,12 @@
 <body>
 
 	<!-- Start Preloader Area -->
-	<!-- <div class="preloader">
+	<div class="preloader">
 		<div class="loader">
 			<div class="shadow"></div>
 			<div class="box"></div>
 		</div>
-	</div> -->
+	</div>
 	<!-- End Preloader Area -->
 
 	<!-- Start Navbar Area -->
@@ -664,6 +664,8 @@
 	</div>
 	<!-- End Go Top Section -->
 
+	<!-- Preloader -->
+	<script src="/assets/js/preloader.js"></script>
 	<!-- jQuery Min JS -->
 	<script src="/teenus/assets/js/jquery.min.js"></script>
 	<!-- Popper Min JS -->
@@ -690,7 +692,7 @@
 	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
-	<script src="/teenus/assets/js/main.js"></script>
+	<!-- <script src="/teenus/assets/js/main.js"></script> -->
 
 </body>
 

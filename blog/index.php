@@ -38,12 +38,12 @@
 
 <body>
 	<!-- Start Preloader Area -->
-	<!-- <div class="preloader">
+	<div class="preloader">
 		<div class="loader">
 			<div class="shadow"></div>
 			<div class="box"></div>
 		</div>
-	</div> -->
+	</div>
 	<!-- End Preloader Area
 
 	<!-- Start Navbar Area -->
@@ -82,8 +82,8 @@
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="#"> <i class="fa fa-user-alt"></i> Author</a></li>
-										<li><a href="#"> <i class="fas fa-calendar-week"></i>17 June 2021</a></li>
+										<li><a href="#"><i class="fa fa-user-alt"></i> Author</a></li>
+										<li><a href="#"><i class="fas fa-calendar-week"></i>17 June 2021</a></li>
 									</ul>
 									<div class="blog-content">
 										<h3>
@@ -515,6 +515,10 @@
 	</div>
 	<!-- End Go Top Section -->
 
+	<script src="/blog/js/loadArticles.js"></script>
+	<script src="/blog/js/articles.js"></script>
+	<script src="/assets/js/preloader.js"></script>
+
 	<!-- jQuery Min JS -->
 	<script src="/teenus/assets/js/jquery.min.js"></script>
 	<!-- Popper Min JS -->
@@ -541,7 +545,7 @@
 	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
-	<script src="/teenus/assets/js/main.js"></script>
+	<!-- <script src="/teenus/assets/js/main.js"></script> -->
 
 </body>
 

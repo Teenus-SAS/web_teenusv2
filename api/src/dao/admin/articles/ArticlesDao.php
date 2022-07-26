@@ -16,12 +16,15 @@ class ArticlesDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAllArticles()
+    public function findAllArticles($id_company)
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("");
-        $stmt->execute();
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.desc_article, a.author, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` DESC");
+        $stmt->execute(['id_company' => $id_company]);
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
         $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
@@ -29,14 +32,27 @@ class ArticlesDao
         return $articles;
     }
 
-    public function insertArticle($dataArticle)
+    public function findLastArticle()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT MAX(id_article) AS id_article FROM articles");
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetch($connection::FETCH_ASSOC);
+        return $articles;
+    }
+
+    public function insertArticle($dataArticle, $id_company)
     {
         $connection = Connection::getInstance()->getConnection();
 
         try {
-            $stmt = $connection->prepare("INSERT INTO articles (title, desc_article, author) 
-                                          VALUES (:title, :desc_article, :author)");
+            $stmt = $connection->prepare("INSERT INTO articles (id_company, title, desc_article, author) 
+                                          VALUES (:id_company, :title, :desc_article, :author)");
             $stmt->execute([
+                'id_company' => $id_company,
                 'title' => $dataArticle['title'],
                 'desc_article' => $dataArticle['description'],
                 'author' => $dataArticle['author']

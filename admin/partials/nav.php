@@ -22,7 +22,7 @@
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
-                <ul>
+                <ul class="blog">
                     <li> <a href="javascript:;" onclick="loadContent('page-content','../../blog/index.php')"><i class="bx bx-right-arrow-alt"></i>Default</a></li>
                 </ul>
             </li>
