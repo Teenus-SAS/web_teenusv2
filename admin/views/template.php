@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="../assets/css/semi-dark.css" />
 	<link rel="stylesheet" href="../assets/css/header-colors.css" />
 	<title>Teenus</title>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
 </head>
 
 <body>
@@ -600,6 +601,13 @@
 	<script src="../assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
 	<script src="../assets/plugins/chartjs/js/Chart.min.js"></script>
 	<script src="../assets/plugins/chartjs/js/Chart.extension.js"></script>
+	<!-- Datatables -->
+	<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+	<!-- CKEditor -->
+	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
+	<!-- Confirms -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 	<script src="../assets/js/index.js"></script>
 	<!--app JS-->
 	<script src="../assets/js/app.js"></script>

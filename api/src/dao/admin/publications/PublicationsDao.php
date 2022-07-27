@@ -21,14 +21,13 @@ class PublicationsDao
     public function insertPublication($dataArticle)
     {
         $connection = Connection::getInstance()->getConnection();
-        $date = date('Y-m-d');
 
         try {
             $stmt = $connection->prepare("INSERT INTO publications(id_article, publication_date) 
                                           VALUES (:id_article, :publication_date)");
             $stmt->execute([
                 'id_article' => $dataArticle['id_article'],
-                'publication_date' => $date
+                'publication_date' => $dataArticle['publicationDate']
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
         } catch (\Exception $e) {

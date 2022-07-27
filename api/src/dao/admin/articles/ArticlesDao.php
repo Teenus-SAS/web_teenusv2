@@ -20,7 +20,7 @@ class ArticlesDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.desc_article, a.author, p.publication_date
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.author, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
                                       WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` DESC");
@@ -32,29 +32,18 @@ class ArticlesDao
         return $articles;
     }
 
-    public function findLastArticle()
-    {
-        $connection = Connection::getInstance()->getConnection();
-
-        $stmt = $connection->prepare("SELECT MAX(id_article) AS id_article FROM articles");
-        $stmt->execute();
-        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-
-        $articles = $stmt->fetch($connection::FETCH_ASSOC);
-        return $articles;
-    }
-
     public function insertArticle($dataArticle, $id_company)
     {
         $connection = Connection::getInstance()->getConnection();
 
         try {
-            $stmt = $connection->prepare("INSERT INTO articles (id_company, title, desc_article, author) 
-                                          VALUES (:id_company, :title, :desc_article, :author)");
+
+            $stmt = $connection->prepare("INSERT INTO articles (id_company, title, content, author) 
+                                          VALUES (:id_company, :title, :content, :author)");
             $stmt->execute([
                 'id_company' => $id_company,
                 'title' => $dataArticle['title'],
-                'desc_article' => $dataArticle['description'],
+                'content' => $dataArticle['content'],
                 'author' => $dataArticle['author']
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
@@ -70,12 +59,12 @@ class ArticlesDao
         $connection = Connection::getInstance()->getConnection();
 
         try {
-            $stmt = $connection->prepare("UPDATE articles SET title = :title, desc_article = :desc_article, author = :author
+            $stmt = $connection->prepare("UPDATE articles SET title = :title, content = :content, author = :author
                                           WHERE id_article = :id_article");
             $stmt->execute([
                 'id_article' => $dataArticle['idArticle'],
                 'title' => $dataArticle['title'],
-                'desc_article' => $dataArticle['description'],
+                'content' => $dataArticle['content'],
                 'author' => $dataArticle['author']
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
@@ -83,6 +72,55 @@ class ArticlesDao
             $message = $e->getMessage();
             $error = array('info' => true, 'message' => $message);
             return $error;
+        }
+    }
+
+    public function findLastArticle()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT MAX(id_article) AS id_article FROM articles");
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetch($connection::FETCH_ASSOC);
+        return $articles;
+    }
+
+    public function imageArticle($id_article, $id_company)
+    {
+        $connection = Connection::getInstance()->getConnection();
+        $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/' . $id_company;
+        $allowTypes = array('jpg', 'jpeg', 'png');
+
+        $image_name = $_FILES['img']['name'];
+        $tmp_name   = $_FILES['img']['tmp_name'];
+        $size       = $_FILES['img']['size'];
+        $type       = $_FILES['img']['type'];
+        $error      = $_FILES['img']['error'];
+
+        /* Verifica si directorio esta creado y lo crea */
+        if (!is_dir($targetDir))
+            mkdir($targetDir, 0777, true);
+
+        $targetDir = '/api/src/assets/images/articles/' . $id_company;
+        $targetFilePath = $targetDir . '/' . $image_name;
+
+        $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
+
+        if (in_array($fileType, $allowTypes)) {
+            $sql = "UPDATE articles SET img = :img WHERE id_article = :id_article AND id_company = :id_company";
+            $query = $connection->prepare($sql);
+            $query->execute([
+                'img' => $targetFilePath,
+                'id_article' => $id_article,
+                'id_company' => $id_company
+            ]);
+
+            $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/' . $id_company;
+            $targetFilePath = $targetDir . '/' . $image_name;
+
+            move_uploaded_file($tmp_name, $targetFilePath);
         }
     }
 

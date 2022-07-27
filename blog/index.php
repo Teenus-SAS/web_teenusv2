@@ -44,7 +44,7 @@
 			<div class="box"></div>
 		</div>
 	</div>
-	<!-- End Preloader Area
+	<!-- End Preloader Area -->
 
 	<!-- Start Navbar Area -->
 	<?php require_once dirname(__DIR__) . '/teenus/partials/nav.php'; ?>
@@ -514,9 +514,6 @@
 		<i class="fas fa-chevron-up"></i>
 	</div>
 	<!-- End Go Top Section -->
-
-	<script src="/blog/js/loadArticles.js"></script>
-	<script src="/blog/js/articles.js"></script>
 	<script src="/assets/js/preloader.js"></script>
 
 	<!-- jQuery Min JS -->

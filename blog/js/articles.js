@@ -1,99 +1,110 @@
 $(document).ready(function () {
-  /* Ocultar panel crear producto */
-  $('.cardCreateArticle').hide();
-
-  /* Abrir panel crear producto */
-
-  $('#btnNewArticle').click(function (e) {
+  /* Abrir vista crear articulo */
+  $('#btnNewArticles').click(function (e) {
     e.preventDefault();
-
-    $('.cardImportArticle').hide(800);
-    $('.cardCreateArticle').toggle(800);
-    $('#btnCreateArticle').html('Crear');
-
+    $('#btnCreateArticles').html('Crear');
     sessionStorage.removeItem('id_article');
-
-    $('#formCreateArticle').trigger('reset');
   });
 
-  /* Crear nuevo proceso */
+  /* Mostrar imagen */
+  loadFile = (data) => {
+    var output = document.getElementById('img');
+    output.src = URL.createObjectURL(data.target.files[0]);
+    output.onload = function () {
+      URL.revokeObjectURL(output.src);
+    };
+  };
 
-  $('#btnCreateArticle').click(function (e) {
+  /* Crear articulo */
+
+  $('#btnCreateArticles').click(function (e) {
     e.preventDefault();
-
     let idArticle = sessionStorage.getItem('id_article');
 
     if (idArticle == '' || idArticle == null) {
       title = $('#title').val();
-      desc = $('#description').val();
-      author = $('#author').val();
+      author = $('#content').val();
+      content = $('#content').val();
 
-      if (title == '' || desc == '' || author == '') {
+      if (title == '' || content == '' || author == '') {
         toastr.error('Ingrese todos los campos');
         return false;
       }
 
-      article = $('#formCreateArticle').serialize();
+      let imageProd = $('#formFile')[0].files[0];
 
-      $.post(
-        '../../api/addArticles',
-        article,
-        function (data, textStatus, jqXHR) {
-          message(data);
-        }
-      );
+      dataArticles = new FormData(formCreateArticles);
+      dataArticles.append('img', imageProd);
+
+      $.ajax({
+        type: 'POST',
+        url: '/api/addArticles',
+        data: dataArticles,
+        contentType: false,
+        cache: false,
+        processData: false,
+
+        success: function (resp) {
+          message(resp);
+          updateTable();
+        },
+      });
     } else {
-      updateArticle();
+      updateArticles();
     }
   });
 
-  /* Actualizar procesos */
+  /* Actualizar Articulos */
 
-  $(document).on('click', '.updateArticle', function (e) {
-    $('.cardImportArticle').hide(800);
-    $('.cardCreateArticle').show(800);
-    $('#btnCreateArticle').html('Actualizar');
+  $(document).on('click', '.updateArticles', function (e) {
+    $('.cardImportArticles').hide(800);
+    $('.cardCreateArticles').show(800);
+    $('#btnCreateArticles').html('Actualizar');
+
+    idArticle = this.id;
+    idArticle = sessionStorage.setItem('id_article', idArticle);
 
     let row = $(this).parent().parent()[0];
-    let data = loadArticles.fnGetData(row);
+    let data = tblArticles.fnGetData(row);
 
-    sessionStorage.setItem('id_article', data.id_article);
+    $('#referenceArticles').val(data.reference);
+    $('#Articles').val(data.Articles);
+    $('#profitability').val(data.profitability);
+    $('#commisionSale').val(data.commission_sale);
 
-    // Cargar información
-    $('#title').val(data.title);
-    $('#description').val(data.desc_article);
-    $('#author').val(data.author);
-    $('#publication').val(data.publication_date);
-
-    $('html, body').animate(
-      {
-        scrollTop: 0,
-      },
-      1000
-    );
+    $('html, body').animate({ scrollTop: 0 }, 1000);
   });
 
-  updateArticle = () => {
-    let data = $('#formCreateArticle').serialize();
-    idArticle = sessionStorage.getItem('id_article');
-    data = data + '&idArticle=' + idArticle;
+  updateArticles = () => {
+    let idArticle = sessionStorage.getItem('id_article');
+    let imageProd = $('#formFile')[0].files[0];
 
-    $.post(
-      '../../api/updateArticles',
-      data,
-      function (data, textStatus, jqXHR) {
-        message(data);
-      }
-    );
+    dataArticles = new FormData(formCreateArticles);
+    dataArticles.append('idArticle', idArticle);
+    dataArticles.append('img', imageProd);
+
+    $.ajax({
+      type: 'POST',
+      url: '/api/updateArticle',
+      data: dataArticle,
+      contentType: false,
+      cache: false,
+      processData: false,
+
+      success: function (resp) {
+        updateTable();
+        message(resp);
+      },
+    });
   };
 
-  /* Eliminar proceso */
+  /* Eliminar Articulos */
 
   deleteFunction = () => {
     let row = $(this.activeElement).parent().parent()[0];
-    let data = articles.fnGetData(row);
+    let data = tblArticles.fnGetData(row);
 
-    let id_article = data.id_article;
+    let idArticle = data.id_article;
 
     bootbox.confirm({
       title: 'Eliminar',
@@ -112,7 +123,7 @@ $(document).ready(function () {
       callback: function (result) {
         if (result == true) {
           $.get(
-            `../../api/deleteArticle/${id_article}`,
+            `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
               message(data);
             }
@@ -124,14 +135,21 @@ $(document).ready(function () {
 
   /* Mensaje de exito */
 
-  message = (data) => {
+  const message = (data) => {
     if (data.success == true) {
-      $('.cardCreateArticle').hide(800);
-      $('#formCreateArticle').trigger('reset');
-      loadArticle();
+      $('.cardCreateArticles').hide(800);
+      $('#formCreateArticles')[0].reset();
+      updateTable();
       toastr.success(data.message);
       return false;
     } else if (data.error == true) toastr.error(data.message);
     else if (data.info == true) toastr.info(data.message);
   };
+
+  /* Actualizar tabla */
+
+  function updateTable() {
+    $('#tblArticles').DataTable().clear();
+    $('#tblArticles').DataTable().ajax.reload();
+  }
 });

@@ -20,17 +20,20 @@ $app->get('/articles', function (Request $request, Response $response, $args) us
 $app->post('/addArticles', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {
     session_start();
     $id_company = $_SESSION['id_company'];
-    $dataArticles = $request->getParsedBody();
+    $dataArticle = $request->getParsedBody();
 
-    if (empty($dataArticles['title']) || empty($dataArticles['description']) || empty($dataArticles['author'])) {
+    if (empty($dataArticle['title']) || empty($dataArticle['description']) || empty($dataArticle['author'])) {
         $resp = array('error' => true, 'message' => 'Ingrese todos los campos');
     } else {
-        $articles = $articlesDao->insertArticle($dataArticles, $id_company);
-
+        $articles = $articlesDao->insertArticle($dataArticle, $id_company);
         // Obtener ultimo articulo ingresado
-        $dataArticle = $articlesDao->findLastArticle();
+        $lastArticle = $articlesDao->findLastArticle();
+
+        if (sizeof($_FILES) > 0)
+            $articlesDao->imageArticle($lastArticle['id_article'], $id_company);
+
         // Insertar publicación
-        $publications = $publicationsDao->insertPublication($dataArticle);
+        $publications = $publicationsDao->insertPublication($lastArticle);
 
         if ($articles == null && $publications == null)
             $resp = array('success' => true, 'message' => 'Articulo creado correctamente');

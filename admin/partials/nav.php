@@ -18,13 +18,13 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:;" class="has-arrow">
+                <a href="javascript:;" onclick="loadContent('page-content','../../blog/views/adminArticles.php')" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
-                <ul class="blog">
+                <!-- <ul>
                     <li> <a href="javascript:;" onclick="loadContent('page-content','../../blog/index.php')"><i class="bx bx-right-arrow-alt"></i>Default</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li>
                 <a href="javascript:;" onclick="loadContent('page-content','../views/users.php')">
