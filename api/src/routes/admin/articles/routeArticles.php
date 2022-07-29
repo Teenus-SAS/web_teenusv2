@@ -33,7 +33,7 @@ $app->post('/addArticles', function (Request $request, Response $response, $args
             $articlesDao->imageArticle($lastArticle['id_article'], $id_company);
 
         // Insertar publicación
-        $publications = $publicationsDao->insertPublication($lastArticle);
+        $publications = $publicationsDao->insertPublication($lastArticle, $dataArticle);
 
         if ($articles == null && $publications == null)
             $resp = array('success' => true, 'message' => 'Articulo creado correctamente');

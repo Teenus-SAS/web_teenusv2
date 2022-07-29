@@ -25,37 +25,12 @@
                 </div>
                 <div class="col-sm-7 col-xl-6">
                     <div class="form-inline justify-content-sm-end">
-                        <button class="btn btn-warning" onclick="loadContent('page-content','../../blog/views/editArticles.php')" id="btnNewArticles" name="btnNewArticles" style="margin-left:550px;">Crear</button>
+                        <button class="btn btn-warning" id="btnNewArticles" name="btnNewArticles" style="margin-left:550px;">Crear</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- <div class="page-content-wrapper mt--45 mb-5 cardCreateArticles">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <form id="formCreateArticles">
-                        <div class="card-body">
-                            <div class="gridx2p">
-                                <div class="form-group floating-label enable-floating-label show-label" style="margin-bottom:0px">
-                                    <label for="">Proceso</label>
-                                    <input type="text" class="form-control" id="Articles" name="Articles">
-                                </div>
-                                <div class="form-group floating-label enable-floating-label show-label" style="margin-bottom:0px;margin-top:4px">
-                                    <button class="btn btn-success" id="btnCreateArticles">Crear Proceso</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 
     <!-- page content -->
     <div class="page-content-wrapper mt--45">
@@ -82,4 +57,4 @@
 </body>
 
 <script src="/blog/js/tblArticles.js"></script>
-<script src="/blog/js/articles.js"></script>
+<script src="/blog/js/editArticle.js"></script>

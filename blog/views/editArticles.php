@@ -19,7 +19,7 @@
             <div class="col-md-8 col-lg-12">
                 <div class="inbox-rightbar card">
                     <div class="card-body">
-                        <form id="formSendSupport">
+                        <form id="formCreateArticles">
                             <div class="form-group pt-4">
                                 <input type="text" class="form-control" placeholder="Titulo" id="title" name="title" />
                             </div>
@@ -28,7 +28,9 @@
                             </div>
 
                             <div class="form-group pt-4">
-                                <div class="message" id="compose-editor" name="content">Hey</div>
+                                <div class="message">
+                                    <div id="compose-editor" name="content"></div>
+                                </div>
                             </div>
                             <div class="form-group pt-4">
                                 <div class="image-upload">
@@ -67,3 +69,4 @@
     }
 </style>
 <script src="/blog/js/compose-editor.js"></script>
+<script src="/blog/js/saveArticle.js"></script>

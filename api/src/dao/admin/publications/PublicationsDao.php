@@ -18,7 +18,7 @@ class PublicationsDao
 
     // public function findAllPublications() {}
 
-    public function insertPublication($dataArticle)
+    public function insertPublication($lastArticle, $dataArticle)
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -26,7 +26,7 @@ class PublicationsDao
             $stmt = $connection->prepare("INSERT INTO publications(id_article, publication_date) 
                                           VALUES (:id_article, :publication_date)");
             $stmt->execute([
-                'id_article' => $dataArticle['id_article'],
+                'id_article' => $lastArticle['id_article'],
                 'publication_date' => $dataArticle['publicationDate']
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));

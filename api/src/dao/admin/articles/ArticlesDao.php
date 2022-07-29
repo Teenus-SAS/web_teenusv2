@@ -20,7 +20,7 @@ class ArticlesDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.author, p.publication_date
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
                                       WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` DESC");
@@ -42,9 +42,9 @@ class ArticlesDao
                                           VALUES (:id_company, :title, :content, :author)");
             $stmt->execute([
                 'id_company' => $id_company,
-                'title' => $dataArticle['title'],
-                'content' => $dataArticle['content'],
-                'author' => $dataArticle['author']
+                'title' => strtoupper($dataArticle['title']),
+                'content' => $dataArticle['description'],
+                'author' => ucfirst($dataArticle['author'])
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
         } catch (\Exception $e) {
@@ -63,9 +63,9 @@ class ArticlesDao
                                           WHERE id_article = :id_article");
             $stmt->execute([
                 'id_article' => $dataArticle['idArticle'],
-                'title' => $dataArticle['title'],
-                'content' => $dataArticle['content'],
-                'author' => $dataArticle['author']
+                'title' => strtoupper($dataArticle['title']),
+                'content' => $dataArticle['description'],
+                'author' => ucwords($dataArticle['author'])
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
         } catch (\Exception $e) {
