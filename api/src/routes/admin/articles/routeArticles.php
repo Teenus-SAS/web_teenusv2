@@ -17,7 +17,7 @@ $app->get('/articles', function (Request $request, Response $response, $args) us
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-$app->post('/addArticles', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {
+$app->post('/addArticle', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {
     session_start();
     $id_company = $_SESSION['id_company'];
     $dataArticle = $request->getParsedBody();
@@ -44,13 +44,18 @@ $app->post('/addArticles', function (Request $request, Response $response, $args
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
 });
 
-$app->post('/updateArticles', function (Request $request, Response $response, $args) use ($articlesDao) {
+$app->post('/updateArticle', function (Request $request, Response $response, $args) use ($articlesDao) {
+    session_start();
+    $id_company = $_SESSION['id_company'];
     $dataArticle = $request->getParsedBody();
 
     if (empty($dataArticle['idArticle']) || empty($dataArticle['title']) || empty($dataArticle['description']) || empty($dataArticle['author'])) {
         $resp = array('error' => true, 'message' => 'No hubo cambio alguno');
     } else {
         $articles = $articlesDao->updateArticle($dataArticle);
+
+        if (sizeof($_FILES) > 0)
+            $articlesDao->imageArticle($dataArticle['idArticle'], $id_company);
 
         if ($articles == null)
             $resp = array('success' => true, 'message' => 'Articulo modificado correctamente');

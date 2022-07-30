@@ -36,7 +36,9 @@
                                 <div class="image-upload">
                                     <input accept="image/*" type="file" id="file" onchange="loadFile(event)">
                                     <label for="file">
-                                        <img src="https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg" style="width:180px;" alt="" id="img" class="img-thumbnail">
+                                        <div class="img">
+                                            <img src="https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg" style="width:200px;height:180px" alt="" id="img" class="img-thumbnail">
+                                        </div>
                                     </label>
                                 </div>
                             </div>

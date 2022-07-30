@@ -9,7 +9,6 @@ $(document).ready(function () {
   };
 
   /* Crear articulo */
-
   $('#btnCreateArticles').click(function (e) {
     e.preventDefault();
     let idArticle = sessionStorage.getItem('id_article');
@@ -17,7 +16,7 @@ $(document).ready(function () {
     if (idArticle == '' || idArticle == null) {
       title = $('#title').val();
       author = $('#author').val();
-      content = $('.ck-editor__editable').html();
+      content = getContent();
 
       if (
         !title ||
@@ -25,7 +24,7 @@ $(document).ready(function () {
         !author ||
         author == '' ||
         !content ||
-        content == '<p><br data-cke-filler="true"></p>'
+        content == ''
       ) {
         toastr.error('Ingrese todos los campos');
         return false;
@@ -37,10 +36,19 @@ $(document).ready(function () {
       dataArticles.append('img', imageArticle);
       dataArticles.append('description', content);
 
+      date = new Date();
+      month = date.getMonth() + 1;
+      day = date.getDate();
+      month > 10 ? month : (month = `0${month}`);
+      day > 10 ? day : (day = `0${day}`);
+      now = `${date.getFullYear()}-${month}-${day}`;
+
+      /* Guardar fecha de publicación */
       bootbox.prompt({
-        title: 'Creación Articulos',
+        title: 'Creación de Articulo',
         message: '<p>Ingrese fecha de publicación:</p>',
         inputType: 'date',
+        min: now,
         callback: function (result) {
           if (result != null) {
             if (!result || result == '') {
@@ -48,7 +56,7 @@ $(document).ready(function () {
               return false;
             }
             dataArticles.append('publicationDate', result);
-            saveArticle(dataArticles);
+            saveArticle(dataArticles, '/api/addArticle');
           }
         },
       });
@@ -57,11 +65,45 @@ $(document).ready(function () {
     }
   });
 
+  /* Actualizar articulo */
+  data = sessionStorage.getItem('data');
+
+  !data ? data : setArticle(data);
+
+  function setArticle(data) {
+    data = JSON.parse(data);
+
+    $('#btnCreateArticles').html('Actualizar');
+
+    $('#title').val(data.title);
+    $('#author').val(data.author);
+    setContent(data.content);
+
+    $('.img').html(
+      `<img id="img" src="${data.img}" style="width:200px;height:180px"/>`
+    );
+
+    $('html, body').animate({ scrollTop: 0 }, 1000);
+  }
+
+  updateArticles = () => {
+    let idArticle = sessionStorage.getItem('id_article');
+    content = getContent();
+    let imageArticle = $('#file')[0].files[0];
+
+    dataArticles = new FormData(formCreateArticles);
+    dataArticles.append('idArticle', idArticle);
+    dataArticles.append('description', content);
+    dataArticles.append('img', imageArticle);
+
+    saveArticle(dataArticles, '/api/updateArticle');
+  };
+
   /* Guardar articulo */
-  saveArticle = (data) => {
+  saveArticle = (data, url) => {
     $.ajax({
       type: 'POST',
-      url: '/api/addArticles',
+      url: url,
       data: data,
       contentType: false,
       cache: false,
@@ -76,7 +118,6 @@ $(document).ready(function () {
   };
 
   /* Mensaje de exito */
-
   message = (data) => {
     if (data.success == true) {
       updateTable();
@@ -87,7 +128,6 @@ $(document).ready(function () {
   };
 
   /* Actualizar tabla */
-
   function updateTable() {
     $('#tblArticles').DataTable().clear();
     $('#tblArticles').DataTable().ajax.reload();

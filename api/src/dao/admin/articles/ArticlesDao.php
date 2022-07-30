@@ -58,13 +58,16 @@ class ArticlesDao
     {
         $connection = Connection::getInstance()->getConnection();
 
+        $date = date('Y-m-d');
+
         try {
-            $stmt = $connection->prepare("UPDATE articles SET title = :title, content = :content, author = :author
+            $stmt = $connection->prepare("UPDATE articles SET title = :title, content = :content, modification_date = :modification_date, author = :author
                                           WHERE id_article = :id_article");
             $stmt->execute([
                 'id_article' => $dataArticle['idArticle'],
                 'title' => strtoupper($dataArticle['title']),
                 'content' => $dataArticle['description'],
+                'modification_date' => $date,
                 'author' => ucwords($dataArticle['author'])
             ]);
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));

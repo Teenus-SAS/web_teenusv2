@@ -1,52 +1,14 @@
 $(document).ready(function () {
   /* Actualizar Articulos */
   $(document).on('click', '.updateArticles', function (e) {
-    debugger;
-    setTimeout(
-      loadContent('page-content', '../../blog/views/editArticles.php'),
-      5000
-    );
     idArticle = this.id;
     sessionStorage.setItem('id_article', idArticle);
 
     let row = $(this).parent().parent()[0];
     let data = tblArticles.fnGetData(row);
 
-    $('#btnCreateArticles').html('Actualizar');
-
-    title = $('#title').val(data.title);
-    author = $('#author').val(data.author);
-    content = $('.ck-editor__editable').html(data.content);
-    $('#file').html(
-      `<img id="img" src="${data.img}" style="width:20%;padding-bottom:15px"/>`
-    );
-
-    $('html, body').animate({ scrollTop: 0 }, 1000);
+    sessionStorage.setItem('data', JSON.stringify(data));
   });
-
-  updateArticles = () => {
-    let idArticle = sessionStorage.getItem('id_article');
-    let imageArticle = $('#formFile')[0].files[0];
-
-    dataArticles = new FormData(formCreateArticles);
-    dataArticles.append('idArticle', idArticle);
-    dataArticles.append('img', imageArticle);
-
-    $.ajax({
-      type: 'POST',
-      url: '/api/updateArticle',
-      data: dataArticle,
-      contentType: false,
-      cache: false,
-      processData: false,
-
-      success: function (resp) {
-        $('#formCreateArticles').trigger('reset');
-        loadContent('page-content', '../../blog/views/adminArticles.php');
-        message(resp);
-      },
-    });
-  };
 
   /* Eliminar Articulos */
 

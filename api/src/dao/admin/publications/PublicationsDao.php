@@ -37,26 +37,6 @@ class PublicationsDao
         }
     }
 
-    // public function updateArticle($dataArticle)
-    // {
-    //     $connection = Connection::getInstance()->getConnection();
-
-    //     try {
-    //         $stmt = $connection->prepare("UPDATE publications SET id_article = :id_article, publication_date = :publication_date
-    //                                       WHERE id_publication = :id_publication");
-    //         $stmt->execute([
-    //             'id_publication' => $dataArticle['idPublication'],
-    //             'id_article' => $dataArticle['idArticle'],
-    //             'publication_date' => $dataArticle['publicationDate']
-    //         ]);
-    //         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-    //     } catch (\Exception $e) {
-    //         $message = $e->getMessage();
-    //         $error = array('info' => true, 'message' => $message);
-    //         return $error;
-    //     }
-    // }
-
     public function deletePublication($id_article)
     {
         $connection = Connection::getInstance()->getConnection();
