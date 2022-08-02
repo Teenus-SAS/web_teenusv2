@@ -88,7 +88,7 @@
 	<!-- End Partner section -->
 
 	<!-- Start Blog Section -->
-	<?php //include_once __DIR__ . '/modules/blog.php' 
+	<?php include_once __DIR__ . '/modules/blog.php' 
 	?>
 	<!-- End Blog Section -->
 
