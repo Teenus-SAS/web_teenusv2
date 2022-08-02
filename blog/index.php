@@ -34,6 +34,10 @@
 	<link rel="stylesheet" href="/teenus/assets/css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
+	<!-- DataTable -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+	<!-- Notifications -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 </head>
 
 <body>
@@ -76,20 +80,20 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-1">
 										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="#"><i class="fa fa-user-alt"></i> Author</a></li>
-										<li><a href="#"><i class="fas fa-calendar-week"></i>17 June 2021</a></li>
+										<li><a href="#"><i class="fa fa-user-alt" id="author-1"></i></a></li>
+										<li><a href="#"><i class="fas fa-calendar-week" id="date-1"></i></a></li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">Planning for a Safe Return to the Workplace IT Solutions</a>
+											<a href="single-blog.html" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
@@ -99,26 +103,26 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-2">
 										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt"></i> Author</a>
+											<a href="#"> <i class="fa fa-user-alt" id="author-2"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week"></i>20 June 2021</a>
+											<a href="#"> <i class="fas fa-calendar-week" id="date-2"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">
+											<a href="single-blog.html" id="title-2">
 												Announcing Our New Smiles for Success Charity
 											</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
 											<a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
@@ -129,26 +133,26 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-3">
 										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt"></i> Author</a>
+											<a href="#"> <i class="fa fa-user-alt" id="author-3"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week"></i>25 June 2021</a>
+											<a href="#"> <i class="fas fa-calendar-week" id="date-3"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">
+											<a href="single-blog.html" id="title-3">
 												Machine Learning Applications for Every Industry
 											</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
@@ -158,26 +162,26 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-4">
 										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt"></i> Author</a>
+											<a href="#"> <i class="fa fa-user-alt" id="author-4"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week"></i>27 June 2021</a>
+											<a href="#"> <i class="fas fa-calendar-week" id="date-4"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">
+											<a href="single-blog.html" id="title-4">
 												5 Technology Considerations for Office Relocations
 											</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
@@ -187,26 +191,26 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-5">
 										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt"></i> Author</a>
+											<a href="#"> <i class="fa fa-user-alt" id="author-5"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week"></i>28 June 2021</a>
+											<a href="#"> <i class="fas fa-calendar-week" id="date-5"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">
+											<a href="single-blog.html" id="title-5">
 												Everything you need to know about geo-blocking
 											</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
 											<a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
@@ -217,26 +221,26 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="single-blog.html">
+									<a href="single-blog.html" class="image-6">
 										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt"></i> Author</a>
+											<a href="#"> <i class="fa fa-user-alt" id="author-6"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week"></i>30 June 2021</a>
+											<a href="#"> <i class="fas fa-calendar-week" id="date-6"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html">
+											<a href="single-blog.html" id="title-6">
 												Internal or outsourced IT: What’s the best choice?
 											</a>
 										</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+										<p id="content-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
@@ -268,32 +272,32 @@
 						<section class="widget widget_techvio_posts_thumb">
 							<h3 class="widget-title">Popular Posts</h3>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg1" role="img"></span>
+								<a href="#" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 10, 2021</span>
+									<span id="p-date-1">June 10, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">5 Technology Considerations for Office Relocations</a>
+										<a href="#" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg2" role="img"></span>
+								<a href="#" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 15, 2021</span>
+									<span id="p-date-2">June 15, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">Everything you need to know about geo-blocking</a>
+										<a href="#" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg3" role="img"></span>
+								<a href="#" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 25, 2021</span>
+									<span id="p-date-3">June 25, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">Machine Learning Applications for Every Industry</a>
+										<a href="#" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
 								</div>
 							</article>
@@ -316,15 +320,15 @@
 						<section class="widget widget_recent_entries">
 							<h3 class="widget-title">Recent Posts</h3>
 							<ul>
-								<li> <a href="#">Machine Learning Applications for Every Industry</a>
+								<li> <a href="#" id="r-title-1">Machine Learning Applications for Every Industry</a>
 								</li>
-								<li> <a href="#">5 Technology Considerations for Office Relocations</a>
+								<li> <a href="#" id="r-title-2">5 Technology Considerations for Office Relocations</a>
 								</li>
-								<li> <a href="#">5 Technology Considerations for Office Relocations</a>
+								<li> <a href="#" id="r-title-3">5 Technology Considerations for Office Relocations</a>
 								</li>
-								<li> <a href="#">A business guide to purchasing technology</a>
+								<li> <a href="#" id="r-title-4">A business guide to purchasing technology</a>
 								</li>
-								<li> <a href="#">Announcing Our New Smiles for Success Charity</a>
+								<li> <a href="#" id="r-title-5">Announcing Our New Smiles for Success Charity</a>
 								</li>
 							</ul>
 						</section>
@@ -484,6 +488,7 @@
 				</div>
 			</div>
 		</div>
+		<script src="/blog/js/blog/blog.js"></script>
 		<!-- End Footer Section -->
 	</section>
 	<!-- End Footer & Subscribe Section -->
@@ -513,6 +518,7 @@
 		<i class="fas fa-chevron-up"></i>
 		<i class="fas fa-chevron-up"></i>
 	</div>
+
 	<!-- End Go Top Section -->
 	<script src="/assets/js/preloader.js"></script>
 
@@ -543,7 +549,15 @@
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
 	<!-- <script src="/teenus/assets/js/main.js"></script> -->
-
+	<!-- Datatables -->
+	<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+	<!-- Notifications -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+	<!-- CKEditor -->
+	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
+	<!-- Confirms -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 </body>
 
 </html>

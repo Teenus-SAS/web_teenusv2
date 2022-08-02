@@ -111,7 +111,7 @@ $(document).ready(function () {
 
       success: function (resp) {
         $('#formCreateArticles').trigger('reset');
-        loadContent('page-content', '../../blog/views/adminArticles.php');
+        loadContent('page-content', '../../blog/views/details.php');
         message(resp);
       },
     });

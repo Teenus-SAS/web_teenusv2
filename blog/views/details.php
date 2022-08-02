@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <body>
     <!-- Start Preloader Area -->
     <div class="preloader">
@@ -44,7 +40,7 @@
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-striped" id="tblArticles">
+                                <table class="table table-striped" id="article/tblArticles">
 
                                 </table>
                             </div>
@@ -56,5 +52,5 @@
     </div>
 </body>
 
-<script src="/blog/js/tblArticles.js"></script>
-<script src="/blog/js/editArticle.js"></script>
+<script src="/blog/js/article/tblArticles.js"></script>
+<script src="/blog/js/article/editArticle.js"></script>

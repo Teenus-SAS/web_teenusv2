@@ -9,10 +9,31 @@ $publicationsDao = new PublicationsDao();
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
+/* Cargar articulo */
+
+$app->get('/article/{id_article}', function (Request $request, Response $response, $args) use ($articlesDao) {
+    $article = $articlesDao->findArticle($args['id_article']);
+    $response->getBody()->write(json_encode($article, JSON_NUMERIC_CHECK));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+/* Cargar articulos por compañia */
 $app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao) {
     session_start();
     $id_company = $_SESSION['id_company'];
-    $articles = $articlesDao->findAllArticles($id_company);
+    $recentArticles = $articlesDao->findRecentArticles($id_company);
+    $popularArticles = $articlesDao->findPopularArticles($id_company);
+
+    $articles['recentArticles'] = $recentArticles;
+    $articles['popularArticles'] = $popularArticles;
+
+    $response->getBody()->write(json_encode($articles, JSON_NUMERIC_CHECK));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+/* Cargar articulos globales */
+$app->get('/globalArticles', function (Request $request, Response $response, $args) use ($articlesDao) {
+    $articles = $articlesDao->findAllArticles();
     $response->getBody()->write(json_encode($articles, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });

@@ -1,13 +1,4 @@
 $(document).ready(function () {
-  /* Abrir vista crear articulo */
-  $('#btnNewArticles').click(function (e) {
-    e.preventDefault();
-    loadContent('page-content', '../../blog/views/editArticles.php');
-    $('#btnCreateArticles').html('Crear');
-    sessionStorage.removeItem('id_article');
-    sessionStorage.removeItem('data');
-  });
-
   /* Cargar tabla */
 
   tblArticles = $('#tblArticles').dataTable({
@@ -63,7 +54,7 @@ $(document).ready(function () {
         className: 'classCenter',
         render: function (data) {
           return `
-                  <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue"></i></a>`;
+                  <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye viewArticle" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue" onclick="loadContent('page-content', '../../blog/index.php')"></i></a>`;
         },
       },
       {
@@ -71,7 +62,7 @@ $(document).ready(function () {
         data: 'id_article',
         className: 'classCenter',
         render: function (data) {
-          return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;" onclick="loadContent('page-content', '../../blog/views/editArticles.php')"></i></a>`;
+          return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;" onclick="loadContent('page-content', '../../blog/views/edit.php')"></i></a>`;
         },
       },
       {
@@ -84,5 +75,14 @@ $(document).ready(function () {
         },
       },
     ],
+  });
+
+  /* Abrir vista crear articulo */
+  $('#btnNewArticles').click(function (e) {
+    e.preventDefault();
+    loadContent('page-content', '../../blog/views/edit.php');
+    $('#btnCreateArticles').html('Crear');
+    sessionStorage.removeItem('id_article');
+    sessionStorage.removeItem('data');
   });
 });

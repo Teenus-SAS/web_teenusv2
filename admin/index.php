@@ -110,8 +110,8 @@
     <!-- ================== BEGIN PAGE LEVEL JS ================== -->
     <script src="assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
     <script src="assets/libs/jquery-validation/js/additional-methods.min.js"></script>
-
     <!-- ================== BEGIN PAGE JS ================== -->
+
     <script src="assets/js/app.js"></script>
     <script src="js/login/autentication.js"></script>
 

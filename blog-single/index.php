@@ -221,14 +221,14 @@
 						<div class="article-content">
 							<div class="entry-meta">
 								<ul>
-									<li> <span>Posted On:</span> <a href="#">June 10 - 2021</a>
+									<li> <span>Posted On:</span> <a href="#" id="date">June 10 - 2021</a>
 									</li>
-									<li> <span>Posted By:</span> <a href="#">Herman Boone</a>
+									<li> <span>Posted By:</span> <a href="#" id="author">Herman Boone</a>
 									</li>
 								</ul>
 							</div>
-							<h3>5 Technology Considerations for Office Relocations</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
+							<h3 id="title">5 Technology Considerations for Office Relocations</h3>
+							<p id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
 							<ul class="wp-block-gallery columns-3">

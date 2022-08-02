@@ -1,4 +1,12 @@
 $(document).ready(function () {
+  sessionStorage.removeItem('id_article');
+
+  /* Visualizar Articulo */
+  $(document).on('click', '.viewArticle', function (e) {
+    idArticle = this.id;
+    sessionStorage.setItem('id_article', idArticle);
+  });
+
   /* Actualizar Articulos */
   $(document).on('click', '.updateArticles', function (e) {
     idArticle = this.id;

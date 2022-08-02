@@ -70,5 +70,5 @@
         cursor: pointer;
     }
 </style>
-<script src="/blog/js/compose-editor.js"></script>
-<script src="/blog/js/saveArticle.js"></script>
+<script src="/blog/js/article/compose-editor.js"></script>
+<script src="/blog/js/article/saveArticle.js"></script>

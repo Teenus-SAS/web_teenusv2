@@ -16,15 +16,62 @@ class ArticlesDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAllArticles($id_company)
+    public function findArticle($id_article)
     {
         $connection = Connection::getInstance()->getConnection();
 
         $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
-                                      WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` DESC");
+                                      WHERE a.id_article = :id_article");
+        $stmt->execute(['id_article' => $id_article]);
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $article = $stmt->fetch($connection::FETCH_ASSOC);
+        return $article;
+    }
+
+    public function findRecentArticles($id_company)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.active = 1 AND a.id_company = :id_company ORDER BY `p`.`publication_date` ASC;");
         $stmt->execute(['id_company' => $id_company]);
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
+        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
+        return $articles;
+    }
+
+    public function findPopularArticles($id_company)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.active = 1 AND a.id_company = :id_company ORDER BY `a`.`views` DESC;");
+        $stmt->execute(['id_company' => $id_company]);
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
+        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
+        return $articles;
+    }
+
+    public function findAllArticles()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.active = 1 ORDER BY `p`.`publication_date` ASC;");
+        $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
         $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
