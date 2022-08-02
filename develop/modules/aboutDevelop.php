@@ -4,7 +4,7 @@
             <!--start about image-->
             <div class="col-md-4">
                 <div class="about-img text-center">
-                    <img src="assets/images/ventajas-software-a-la-medida.jpeg" class="img-fluid animation-jump" alt="Image">
+                    <img src="/develop/assets/images/ventajas-software-a-la-medida.jpeg" class="img-fluid animation-jump" alt="Image">
                 </div>
             </div>
             <!--end about image-->

@@ -101,7 +101,7 @@
             <!--start contact image-->
             <div class="col-md-5">
                 <div class="contact-img text-center">
-                    <img src="assets/images/contact.png" class="img-fluid animation-jump" alt="">
+                    <img src="/develop/assets/images/contact.png" class="img-fluid animation-jump" alt="">
                 </div>
             </div>
             <!--end contact image-->

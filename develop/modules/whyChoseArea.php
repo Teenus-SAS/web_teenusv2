@@ -40,9 +40,9 @@
                     <!--start product gallery-->
                     <div class="col-lg-4 col-md-4">
                         <div class="product-gallery owl-carousel">
-                            <img src="assets/images/analisis.jpeg" class="img-fluid" alt="">
-                            <img src="assets/images/indicadores.jpeg" class="img-fluid" alt="">
-                            <img src="assets/images/transparencia.jpeg" class="img-fluid" alt="">
+                            <img src="/develop/assets/images/analisis.jpeg" class="img-fluid" alt="">
+                            <img src="/develop/assets/images/indicadores.jpeg" class="img-fluid" alt="">
+                            <img src="/develop/assets/images/transparencia.jpeg" class="img-fluid" alt="">
                         </div>
                     </div>
                     <!--end product gallery-->
