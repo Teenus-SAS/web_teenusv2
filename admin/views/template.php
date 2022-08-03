@@ -8,7 +8,7 @@
 	<!--favicon-->
 	<link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" />
 	<title>Teenus</title>
-	<?php require_once dirname(__DIR__) . '/partials/scriptsCSS.php'; ?>
+	<?php include_once dirname(__DIR__) . '/partials/scriptsCSS.php'; ?>
 </head>
 
 <body>
@@ -18,12 +18,12 @@
 		<div class="header-wrapper">
 			<!--start header -->
 			<header>
-				<?php require_once dirname(__DIR__) . '/partials/header.php' ?>
+				<?php include_once dirname(__DIR__) . '/partials/header.php' ?>
 			</header>
 			<!--end header -->
 
 			<!--navigation-->
-			<?php require_once dirname(__DIR__) . '/partials/nav.php' ?>
+			<?php include_once dirname(__DIR__) . '/partials/nav.php' ?>
 			<!--end navigation-->
 
 		</div>
@@ -552,7 +552,6 @@
 					</div>
 				</div>
 				<!--end row-->
-
 			</div>
 		</div>
 		<!--end page wrapper -->
@@ -564,12 +563,12 @@
 		<!--Start Back To Top Button-->
 		<a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
 		<!--End Back To Top Button-->
-		<?php require_once dirname(__DIR__) . '/partials/footer.php' ?>
+		<?php include_once dirname(__DIR__) . '/partials/footer.php' ?>
 	</div>
 	<!--end wrapper-->
-	<?php require_once dirname(__DIR__) . '/partials/scriptsJS.php'; ?>
+	<?php include_once dirname(__DIR__) . '/partials/scriptsJS.php'; ?>
 	<!--start switcher-->
-	<?php require_once dirname(__DIR__) . '/partials/swicher.php' ?>
+	<?php include_once dirname(__DIR__) . '/partials/swicher.php' ?>
 	<!--end switcher-->
 
 	<script src="../assets/js/app.js"></script>

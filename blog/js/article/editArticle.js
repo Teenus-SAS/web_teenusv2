@@ -45,11 +45,22 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
+              loadContent('page-content', '../../blog/views/details.php');
               message(data);
             }
           );
         }
       },
     });
+  };
+
+  /* Mensaje de exito */
+  message = (data) => {
+    if (data.success == true) {
+      // updateTable();
+      toastr.success(data.message);
+      return false;
+    } else if (data.error == true) toastr.error(data.message);
+    else if (data.info == true) toastr.info(data.message);
   };
 });

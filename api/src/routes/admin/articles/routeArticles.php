@@ -21,9 +21,11 @@ $app->get('/article/{id_article}', function (Request $request, Response $respons
 $app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao) {
     session_start();
     $id_company = $_SESSION['id_company'];
+    $allArticles = $articlesDao->findAllArticles($id_company);
     $recentArticles = $articlesDao->findRecentArticles($id_company);
     $popularArticles = $articlesDao->findPopularArticles($id_company);
 
+    $articles['allArticles'] = $allArticles;
     $articles['recentArticles'] = $recentArticles;
     $articles['popularArticles'] = $popularArticles;
 
@@ -33,7 +35,7 @@ $app->get('/articles', function (Request $request, Response $response, $args) us
 
 /* Cargar articulos globales */
 $app->get('/globalArticles', function (Request $request, Response $response, $args) use ($articlesDao) {
-    $articles = $articlesDao->findAllArticles();
+    $articles = $articlesDao->findAllActivesArticles();
     $response->getBody()->write(json_encode($articles, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });
@@ -85,6 +87,12 @@ $app->post('/updateArticle', function (Request $request, Response $response, $ar
     }
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
+});
+
+$app->get('/updateArticleView/{id_article}', function (Request $request, Response $response, $args) use ($articlesDao) {
+    $article = $articlesDao->updateArticleView($args['id_article']);
+    $response->getBody()->write(json_encode($article));
+    return $response->withHeader('Content-Type', 'application/json');
 });
 
 $app->get('/deleteArticle/{id_article}', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {

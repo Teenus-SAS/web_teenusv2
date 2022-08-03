@@ -71,12 +71,14 @@ $(document).ready(function () {
   !data ? data : setArticle(data);
 
   function setArticle(data) {
+    debugger;
     data = JSON.parse(data);
 
     $('#btnCreateArticles').html('Actualizar');
 
     $('#title').val(data.title);
     $('#author').val(data.author);
+
     setContent(data.content);
 
     $('.img').html(
@@ -119,8 +121,9 @@ $(document).ready(function () {
 
   /* Mensaje de exito */
   message = (data) => {
+    debugger;
     if (data.success == true) {
-      updateTable();
+      // updateTable();
       toastr.success(data.message);
       return false;
     } else if (data.error == true) toastr.error(data.message);
@@ -129,7 +132,7 @@ $(document).ready(function () {
 
   /* Actualizar tabla */
   function updateTable() {
-    $('#tblArticles').DataTable().clear();
-    $('#tblArticles').DataTable().ajax.reload();
+    // $('#tblArticles').DataTable().clear();
+    // $('#tblArticles').DataTable().ajax.reload();
   }
 });

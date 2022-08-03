@@ -35,9 +35,7 @@
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 	<!-- DataTable -->
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
-	<!-- Notifications -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css">
 </head>
 
 <body>
@@ -523,6 +521,7 @@
 	<script src="/assets/js/preloader.js"></script>
 
 	<!-- jQuery Min JS -->
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 	<script src="/teenus/assets/js/jquery.min.js"></script>
 	<!-- Popper Min JS -->
 	<script src="/teenus/assets/js/popper.min.js"></script>
@@ -550,14 +549,12 @@
 	<!-- Main JS -->
 	<!-- <script src="/teenus/assets/js/main.js"></script> -->
 	<!-- Datatables -->
-	<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
-	<!-- Notifications -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
-	<!-- CKEditor -->
-	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
 	<!-- Confirms -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+	<!-- CKEditor -->
+	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
 </body>
 
 </html>

@@ -229,8 +229,8 @@
 							</div>
 							<h3 id="title">5 Technology Considerations for Office Relocations</h3>
 							<p id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p> -->
 							<ul class="wp-block-gallery columns-3">
 								<li class="blocks-gallery-item">
 									<figure>
@@ -401,32 +401,32 @@
 						<section class="widget widget_techvio_posts_thumb">
 							<h3 class="widget-title">Popular Posts</h3>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg1" role="img"></span>
+								<a href="#" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 10, 2021</span>
+									<span id="p-date-1">June 10, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">5 Technology Considerations for Office Relocations</a>
+										<a href="#" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg2" role="img"></span>
+								<a href="#" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 15, 2021</span>
+									<span id="p-date-2">June 15, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">Everything you need to know about geo-blocking</a>
+										<a href="#" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb"> <span class="fullimage cover bg3" role="img"></span>
+								<a href="#" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
-									<span>June 25, 2021</span>
+									<span id="p-date-3">June 25, 2021</span>
 									<h4 class="title usmall">
-										<a href="#">Machine Learning Applications for Every Industry</a>
+										<a href="#" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
 								</div>
 							</article>
@@ -633,6 +633,7 @@
 				</div>
 			</div>
 		</div>
+		<script src="/blog-single/js/blog-single.js"></script>
 		<!-- End Footer Section -->
 	</section>
 	<!-- End Footer & Subscribe Section -->

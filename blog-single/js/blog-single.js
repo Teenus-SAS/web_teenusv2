@@ -1,50 +1,92 @@
 $(document).ready(function () {
   idArticle = sessionStorage.getItem('id_article');
+  // Actualizar visita
+  $.ajax({
+    type: 'GET',
+    url: `/api/updateArticleView/${idArticle}`,
+  });
+
+  // Cargar articulo
   fetch(`/api/article/${idArticle}`)
     .then((response) => response.text())
     .then((data) => {
       data = JSON.parse(data);
       loadArticle(data);
     });
-});
 
-/* Cargar Articulo */
-loadArticle = (data) => {
-  // Imagen
-  $('.image').html(`
-        <img src="${data[0].img}" style="width:350px;height:287.77px" alt="image"/>
+  loadArticle = (data) => {
+    // Imagen
+    $('.article-image').html(`
+        <img src="${data.img}" style="width:730px;height:547.5px" alt="image"/>
     `);
-  // Autor
-  $('#author').html(` ${data[0].author}`);
+    // Autor
+    $('#author').html(` ${data.author}`);
 
-  // Fecha Publicación
-  months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'Octuber',
-    'November',
-    'December',
-  ];
-  date = new Date(data[0].publication_date);
-  day = data.substr(8, 8);
-  month = date.getMonth() + 1;
-  month = months[month];
-  year = data.substr(0, 4);
+    // Fecha Publicación
+    date = getPublicationDate(data.publication_date);
 
-  publication_date = `${date.day} ${date.month} ${date.year}`;
+    publication_date = `${date.day} ${date.month} ${date.year}`;
 
-  $('#date').html(` ${publication_date}`);
+    $('#date').html(` ${publication_date}`);
 
-  // Titulo
-  $('#title').html(data[0].title);
+    // Titulo
+    $('#title').html(data.title);
 
-  // Contenido
-  $('#content').html(data[0].content);
-};
+    // Contenido
+    $('#content').html(data.content);
+  };
+
+  // Cargar Post populares
+  fetch(`/api/articles`)
+    .then((response) => response.text())
+    .then((data) => {
+      data = JSON.parse(data);
+      loadPopularArticles(data.popularArticles);
+    });
+
+  loadPopularArticles = (data) => {
+    data.length > 3 ? (count = 3) : (count = data.length);
+    for (i = 0; i < count; i++) {
+      // Imagen
+      $(`.p-image-${i + 1}`).html(`
+        <img src="${data[i].img}" style="width:80px;heigth:80px" />
+      `);
+      // Fecha de publicación
+      date = getPublicationDate(data[i].publication_date);
+
+      publication_date = `${date.month} ${date.day}, ${date.year}`;
+
+      $(`#p-date-${i + 1}`).html(publication_date);
+
+      // Titulo
+      $(`#p-title-${i + 1}`).html(data[i].title);
+    }
+  };
+
+  // Obtener fecha de publicación
+  getPublicationDate = (data) => {
+    months = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'Octuber',
+      'November',
+      'December',
+    ];
+    date = new Date(data);
+    day = data.substr(8, 8);
+    month = date.getMonth() + 1;
+    month = months[month];
+    year = data.substr(0, 4);
+
+    publication_date = { day: day, month: month, year: year };
+
+    return publication_date;
+  };
+});

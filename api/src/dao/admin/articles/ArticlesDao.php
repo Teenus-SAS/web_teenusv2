@@ -16,6 +16,22 @@ class ArticlesDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
+    public function findAllArticles($id_company)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` ASC;");
+        $stmt->execute(['id_company' => $id_company]);
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
+        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
+        return $articles;
+    }
+
     public function findArticle($id_article)
     {
         $connection = Connection::getInstance()->getConnection();
@@ -63,7 +79,7 @@ class ArticlesDao
         return $articles;
     }
 
-    public function findAllArticles()
+    public function findAllActivesArticles()
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -171,6 +187,22 @@ class ArticlesDao
             $targetFilePath = $targetDir . '/' . $image_name;
 
             move_uploaded_file($tmp_name, $targetFilePath);
+        }
+    }
+
+    /* Actualizar Visita de articulo */
+    public function updateArticleView($id_article)
+    {
+        $connection = Connection::getInstance()->getconnection();
+
+        try {
+            $stmt = $connection->prepare("UPDATE articles SET views = views + 1 WHERE id_article = :id_article");
+            $stmt->execute(['id_article' => $id_article]);
+            $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            $error = array('info' => true, 'message' => $message);
+            return $error;
         }
     }
 

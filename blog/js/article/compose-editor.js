@@ -1,6 +1,5 @@
 $(document).ready(function () {
-  let newEditor;
-  sessionStorage.removeItem('editor');
+  // let newEditor;
   /* Cargar editor */
   ClassicEditor.create(document.querySelector('#compose-editor'))
     .then((editor) => {

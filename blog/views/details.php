@@ -1,3 +1,8 @@
+<head>
+    <!-- Notifications -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+</head>
+
 <body>
     <!-- Start Preloader Area -->
     <div class="preloader">
@@ -40,7 +45,7 @@
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-striped" id="article/tblArticles">
+                                <table class="table table-striped" id="tblArticles">
 
                                 </table>
                             </div>
@@ -50,7 +55,9 @@
             </div>
         </div>
     </div>
-</body>
+    <script src="/blog/js/article/tblArticles.js"></script>
+    <script src="/blog/js/article/editArticle.js"></script>
 
-<script src="/blog/js/article/tblArticles.js"></script>
-<script src="/blog/js/article/editArticle.js"></script>
+    <!-- Notifications -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</body>
