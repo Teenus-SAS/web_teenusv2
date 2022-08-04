@@ -79,7 +79,7 @@ $(document).ready(function () {
     $('#title').val(data.title);
     $('#author').val(data.author);
 
-    setContent(data.content);
+    // setContent(data.content);
 
     $('.img').html(
       `<img id="img" src="${data.img}" style="width:200px;height:180px"/>`
@@ -121,18 +121,10 @@ $(document).ready(function () {
 
   /* Mensaje de exito */
   message = (data) => {
-    debugger;
     if (data.success == true) {
-      // updateTable();
       toastr.success(data.message);
       return false;
     } else if (data.error == true) toastr.error(data.message);
     else if (data.info == true) toastr.info(data.message);
   };
-
-  /* Actualizar tabla */
-  function updateTable() {
-    // $('#tblArticles').DataTable().clear();
-    // $('#tblArticles').DataTable().ajax.reload();
-  }
 });

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // let newEditor;
+  let newEditor;
   /* Cargar editor */
   ClassicEditor.create(document.querySelector('#compose-editor'))
     .then((editor) => {

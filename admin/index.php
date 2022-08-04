@@ -23,9 +23,8 @@
 
     <!-- ================== BEGIN APP CSS  ================== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"> -->
-    <?php require_once dirname(__DIR__) . '/admin/partials/scriptsCSS.php' ?>
 </head>
 
 <body class="bg-login">
@@ -112,8 +111,6 @@
     <script src="assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
     <script src="assets/libs/jquery-validation/js/additional-methods.min.js"></script>
     <!-- ================== BEGIN PAGE JS ================== -->
-    <?php require_once dirname(__DIR__) . '/admin/partials/scriptsJS.php' ?>
-
     <script src="assets/js/app.js"></script>
     <script src="js/login/autentication.js"></script>
 
