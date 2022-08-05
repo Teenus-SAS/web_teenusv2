@@ -71,7 +71,6 @@ $(document).ready(function () {
   !data ? data : setArticle(data);
 
   function setArticle(data) {
-    debugger;
     data = JSON.parse(data);
 
     $('#btnCreateArticles').html('Actualizar');
@@ -79,7 +78,7 @@ $(document).ready(function () {
     $('#title').val(data.title);
     $('#author').val(data.author);
 
-    // setContent(data.content);
+    setContent(data.content);
 
     $('.img').html(
       `<img id="img" src="${data.img}" style="width:200px;height:180px"/>`

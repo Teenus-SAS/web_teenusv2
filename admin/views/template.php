@@ -572,7 +572,7 @@
 	<!--end switcher-->
 
 	<script src="../assets/js/app.js"></script>
-	<script src="/admin/js/global/loadContent.js"></script>
+	<script src="/global/js/loadContent.js"></script>
 	<script src="/admin/js/global/logout.js"></script>
 </body>
 

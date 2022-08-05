@@ -12,3 +12,12 @@
 <script src="../assets/plugins/chartjs/js/Chart.min.js"></script>
 <script src="../assets/plugins/chartjs/js/Chart.extension.js"></script>
 <script src="../assets/js/index.js"></script>
+<!-- Datatables -->
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+<!-- Confirms -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+<!-- CKEditor -->
+<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
+<!-- Notifications -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>

@@ -4,10 +4,8 @@ use tezlik_web\dao\AutenticationUserDao;
 use tezlik_web\dao\EmailDao;
 use tezlik_web\dao\GenerateCodeDao;
 use tezlik_web\dao\LastLoginDao;
-use tezlik_web\Dao\LicenseCompanyDao;
 use tezlik_web\dao\StatusActiveUserDao;
 
-$licenseDao = new LicenseCompanyDao();
 $autenticationDao = new AutenticationUserDao();
 $statusActiveUserDao = new StatusActiveUserDao();
 $generateCodeDao = new GenerateCodeDao();
@@ -19,7 +17,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 
 /* Autenticación */
 
-$app->post('/userAutentication', function (Request $request, Response $response, $args) use ($autenticationDao, $licenseDao, $statusActiveUserDao, $generateCodeDao, $sendEmailDao, $lastLoginDao) {
+$app->post('/userAutentication', function (Request $request, Response $response, $args) use ($autenticationDao, $statusActiveUserDao, $generateCodeDao, $sendEmailDao, $lastLoginDao) {
     $parsedBody = $request->getParsedBody();
 
     $user = $parsedBody["validation-email"];
@@ -44,7 +42,7 @@ $app->post('/userAutentication', function (Request $request, Response $response,
         return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
     }
 
-  
+
     /* Validar que el usuario es activo */
 
     if ($user['active'] != 1) {
@@ -70,7 +68,6 @@ $app->post('/userAutentication', function (Request $request, Response $response,
     $_SESSION['lastname'] = $user['lastname'];
     $_SESSION['email'] = $user['email'];
     $_SESSION['rol'] = $user["id_rols"];
-    $_SESSION['id_company'] = $user['id_company'];
     $_SESSION["time"] = time();
 
     /* Actualizar metodo ultimo logueo */

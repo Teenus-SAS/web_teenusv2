@@ -9,6 +9,7 @@ fetch(`/api/articles`)
 
 /* Cargar todos los articulos */
 loadArticles = (data) => {
+  debugger;
   for (i = 0; i < data.length; i++) {
     // Imagen
     $(`.image-${i + 1}`).html(`
@@ -29,6 +30,8 @@ loadArticles = (data) => {
 
     // Contenido
     $(`#content-${i + 1}`).html(data[i].content);
+
+    // Id articulo
   }
 };
 
@@ -53,14 +56,14 @@ loadPopularArticles = (data) => {
   }
 };
 
-/* Cargar articulos recientes */
+/* Cargar articulos recientes
 loadRecentArticles = (data) => {
   data.length > 5 ? (count = 5) : (count = data.length);
 
   for (i = 0; i < count; i++) {
     $(`#r-title-${i + 1}`).html(data[i].title);
   }
-};
+}; */
 
 // Obtener fecha publicación
 getPublicationDate = (data) => {

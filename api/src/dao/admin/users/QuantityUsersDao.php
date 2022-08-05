@@ -16,9 +16,9 @@ class QuantityUsersDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    /*Obtener cantidad para creacion de usuario permitidos*/
+    /*Obtener cantidad para creacion de usuario permitidos
 
-    public function quantityUsersAllows($id_company)
+    public function quantityUsersAllows()
     {
         $connection = Connection::getInstance()->getConnection();
         $stmt = $connection->prepare("SELECT quantity_user FROM companies_licenses 
@@ -29,21 +29,21 @@ class QuantityUsersDao
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
         $this->logger->notice("usuario Obtenido", array('usuario' => $quantity_users_allows));
         return $quantity_users_allows;
-    }
+    } */
 
-    /*Obtener cantidad de usuarios creados*/
+    /*Obtener cantidad de usuarios creados
 
-    public function quantityUsersCreated($id_company)
+    public function quantityUsersCreated()
     {
         $connection = Connection::getInstance()->getConnection();
-        $stmt = $connection->prepare("SELECT COUNT(*) FROM users WHERE id_company = :id_company;");
-        $stmt->execute(['id_company' => $id_company]);
+        $stmt = $connection->prepare("SELECT COUNT(*) FROM users");
+        $stmt->execute();
         $quantity_users_created = $stmt->fetch($connection::FETCH_ASSOC);
 
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
         $this->logger->notice("cantidad usuarios obtenidos", array('cantidad usuarios' => $quantity_users_created));
         return $quantity_users_created;
-    }
+    } */
 
     /*Obtener cantidad de usuarios activos*/
     /*Obtener cantidad de usuarios permitidos por empresa*/

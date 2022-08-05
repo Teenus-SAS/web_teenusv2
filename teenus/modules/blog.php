@@ -6,9 +6,9 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6">
-                <div class="blog-item">
-                    <div class="blog-image blog-image-1">
-                        <a href="single-blog.html">
+                <div class="blog-item" id="idArticle-1">
+                    <div class="blog-image">
+                        <a href="javascript:;" class="blog-image-1">
                             <img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
                         </a>
                     </div>
@@ -22,18 +22,18 @@
                             </li>
                         </ul>
                         <div class="blog-content">
-                            <h3 id="title-1"><a href="single-blog.html">¿Por que desarrollar software?</a></h3>
+                            <h3><a href="javascript:;" id="title-1">¿Por que desarrollar software?</a></h3>
                             <p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-                            <div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="blog-item">
-                    <div class="blog-image blog-image-2">
-                        <a href="single-blog.html">
+                <div class="blog-item" id="idArticle-2">
+                    <div class="blog-image">
+                        <a href="javascript:;" class="blog-image-2">
                             <img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
                         </a>
                     </div>
@@ -47,23 +47,23 @@
                             </li>
                         </ul>
                         <div class="blog-content">
-                            <h3 id="title-2">
-                                <a href="single-blog.html">
+                            <h3>
+                                <a href="javascript:;" id="title-2">
                                     ¿Desarrollar software es costoso?
                                 </a>
                             </h3>
                             <p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
                             <div class="blog-btn">
-                                <a href="single-blog.html" class="blog-btn-one">Read More</a>
+                                <a href="javascript:;" class="blog-btn-one">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="blog-item">
-                    <div class="blog-image blog-image-3">
-                        <a href="single-blog.html">
+                <div class="blog-item" id="idArticle-3">
+                    <div class="blog-image">
+                        <a href="javascript:;" class="blog-image-3">
                             <img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
                         </a>
                     </div>
@@ -77,13 +77,13 @@
                             </li>
                         </ul>
                         <div class="blog-content">
-                            <h3 id="title-3">
-                                <a href="single-blog.html">
+                            <h3>
+                                <a href="javascript:;" id="title-3">
                                     Colombia, revolución en tecnología de automatización
                                 </a>
                             </h3>
                             <p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-                            <div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -92,5 +92,4 @@
         </div>
     </div>
 </section>
-
 <script src="/teenus/js/blog/blog.js"></script>

@@ -16,30 +16,27 @@ class UsersDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAll()
+    // public function findAll()
+    // {
+    //     $connection = Connection::getInstance()->getConnection();
+
+    //      if ($id_company == 1)
+    //         $stmt = $connection->prepare("SELECT * FROM users WHERE id_company = 2  ORDER BY firstname");
+    //      else if ($id_company == 4)
+    //     $stmt = $connection->prepare("SELECT * FROM users ORDER BY firstname");
+
+    //     $stmt->execute();
+    //     $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+    //     $users = $stmt->fetchAll($connection::FETCH_ASSOC);
+    //     $this->logger->notice("usuarios Obtenidos", array('usuarios' => $users));
+    //     return $users;
+    // }
+
+    public function findAllUsers()
     {
-        session_start();
-        $id_company = $_SESSION['id_company'];
-
         $connection = Connection::getInstance()->getConnection();
-
-        if ($id_company == 1)
-            $stmt = $connection->prepare("SELECT * FROM users WHERE id_company = 2  ORDER BY firstname");
-        else if ($id_company == 4)
-            $stmt = $connection->prepare("SELECT * FROM users ORDER BY firstname");
-
+        $stmt = $connection->prepare("SELECT * FROM users");
         $stmt->execute();
-        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-        $users = $stmt->fetchAll($connection::FETCH_ASSOC);
-        $this->logger->notice("usuarios Obtenidos", array('usuarios' => $users));
-        return $users;
-    }
-
-    public function findAllUsersByCompany($id_company)
-    {
-        $connection = Connection::getInstance()->getConnection();
-        $stmt = $connection->prepare("SELECT * FROM users  WHERE id_company = :id_company;");
-        $stmt->execute(['id_company' => $id_company]);
 
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
@@ -63,7 +60,7 @@ class UsersDao
         return $user;
     }
 
-    public function saveUser($dataUser, $id_company)
+    public function saveUser($dataUser)
     {
         $newPassDao = new GenerateCodeDao();
         // $email = new EmailDao();
@@ -81,14 +78,13 @@ class UsersDao
             // $email->SendEmailPassword($dataUser['emailUser'], $newPass);
             $pass = password_hash($newPass, PASSWORD_DEFAULT);
 
-            $stmt = $connection->prepare("INSERT INTO users (firstname, lastname, email, password, id_company, active) 
-                                    VALUES(:firstname, :lastname, :email, :pass, :id_company, :active)");
+            $stmt = $connection->prepare("INSERT INTO users (firstname, lastname, email, password, active) 
+                                    VALUES(:firstname, :lastname, :email, :pass, :active)");
             $stmt->execute([
                 'firstname' => ucwords(strtolower(trim($dataUser['nameUser']))),
                 'lastname' => ucwords(strtolower(trim($dataUser['lastnameUser']))),
                 'email' => trim($dataUser['emailUser']),
                 'pass' => $pass,
-                'id_company' => $id_company,
                 'active' => 1
             ]);
         }

@@ -29,3 +29,4 @@
 <script src="/assets/js/contacts.js"></script>
 <!-- toastr -->
 <script src="/assets/plugins/toast/toastr.min.js"></script>
+<script src="/global/js/loadContent.js"></script>

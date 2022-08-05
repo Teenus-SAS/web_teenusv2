@@ -192,16 +192,18 @@
 
 	<!-- Start Page Title Area -->
 	<div class="page-title-area item-bg1">
-		<div class="d-table">
-			<div class="d-table-cell">
-				<div class="container">
-					<div class="page-title-content">
-						<h2>Blog Details</h2>
-						<ul>
-							<li><a href="index.html">Home</a>
-							</li>
-							<li>Blog Details</li>
-						</ul>
+		<div class="image">
+			<div class="d-table">
+				<div class="d-table-cell">
+					<div class="container">
+						<div class="page-title-content">
+							<h2>Blog Details</h2>
+							<ul>
+								<li><a href="index.html">Home</a>
+								</li>
+								<li>Blog Details</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -286,7 +288,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="comments-area">
+						<!-- <div class="comments-area">
 							<h3 class="comments-title">3 Comments:</h3>
 							<ol class="comment-list">
 								<li class="comment">
@@ -384,7 +386,7 @@
 									</p>
 								</form>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12">

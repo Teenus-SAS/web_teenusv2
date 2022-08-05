@@ -15,3 +15,7 @@
 <link rel="stylesheet" href="../assets/css/dark-theme.css" />
 <link rel="stylesheet" href="../assets/css/semi-dark.css" />
 <link rel="stylesheet" href="../assets/css/header-colors.css" />
+<!-- DataTable -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css">
+<!-- Notifications -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">

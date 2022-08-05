@@ -1,5 +1,5 @@
 /* Cargar los tres ultimos articulos publicados */
-fetch(`/api/globalArticles`)
+fetch(`/api/articles`)
   .then((response) => response.text())
   .then((data) => {
     data = JSON.parse(data);
@@ -10,6 +10,10 @@ loadRecentArticles = (data) => {
   data.length > 3 ? (count = 3) : (count = data.length);
 
   for (i = 0; i < count; i++) {
+    // Id articulo
+    var article = document.getElementById(`idArticle-${i + 1}`);
+    article.id = data[i].id_article;
+
     // Imagen
     $(`.blog-image-${i + 1}`).html(`
         <img src="${data[i].img}" style="width:350px;height:287.77px" alt="image"/>
@@ -48,3 +52,13 @@ loadRecentArticles = (data) => {
     $(`#content-${i + 1}`).html(data[i].content);
   }
 };
+/* 
+    // Guardar id articulo
+    document.getElementById('17').addEventListener('click', getIdArticle);
+
+    function getIdArticle() {
+        debugger;
+        id_article = this.id;
+        sessionStorage.setItem('idArticle', id_article);
+    }
+*/

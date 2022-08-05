@@ -16,15 +16,15 @@ class ArticlesDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAllArticles($id_company)
+    public function findAllArticles()
     {
         $connection = Connection::getInstance()->getConnection();
 
         $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
-                                      WHERE a.id_company = :id_company ORDER BY `p`.`publication_date` ASC;");
-        $stmt->execute(['id_company' => $id_company]);
+                                      ORDER BY `p`.`publication_date` ASC;");
+        $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
         $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
@@ -47,39 +47,7 @@ class ArticlesDao
         return $article;
     }
 
-    public function findRecentArticles($id_company)
-    {
-        $connection = Connection::getInstance()->getConnection();
-
-        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
-                                      FROM articles a
-                                      INNER JOIN publications p ON p.id_article = a.id_article
-                                      WHERE a.active = 1 AND a.id_company = :id_company ORDER BY `p`.`publication_date` ASC;");
-        $stmt->execute(['id_company' => $id_company]);
-        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-
-        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
-        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
-        return $articles;
-    }
-
-    public function findPopularArticles($id_company)
-    {
-        $connection = Connection::getInstance()->getConnection();
-
-        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
-                                      FROM articles a
-                                      INNER JOIN publications p ON p.id_article = a.id_article
-                                      WHERE a.active = 1 AND a.id_company = :id_company ORDER BY `a`.`views` DESC;");
-        $stmt->execute(['id_company' => $id_company]);
-        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-
-        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
-        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
-        return $articles;
-    }
-
-    public function findAllActivesArticles()
+    public function findRecentArticles()
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -95,16 +63,31 @@ class ArticlesDao
         return $articles;
     }
 
-    public function insertArticle($dataArticle, $id_company)
+    public function findPopularArticles()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.active = 1 ORDER BY `a`.`views` DESC;");
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $articles = $stmt->fetchAll($connection::FETCH_ASSOC);
+        $this->logger->notice("Articulos Obtenidos", array('Articulos' => $articles));
+        return $articles;
+    }
+
+    public function insertArticle($dataArticle)
     {
         $connection = Connection::getInstance()->getConnection();
 
         try {
 
-            $stmt = $connection->prepare("INSERT INTO articles (id_company, title, content, author) 
-                                          VALUES (:id_company, :title, :content, :author)");
+            $stmt = $connection->prepare("INSERT INTO articles (title, content, author) 
+                                          VALUES (:title, :content, :author)");
             $stmt->execute([
-                'id_company' => $id_company,
                 'title' => strtoupper($dataArticle['title']),
                 'content' => $dataArticle['description'],
                 'author' => ucfirst($dataArticle['author'])
@@ -153,10 +136,10 @@ class ArticlesDao
         return $articles;
     }
 
-    public function imageArticle($id_article, $id_company)
+    public function imageArticle($id_article)
     {
         $connection = Connection::getInstance()->getConnection();
-        $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/' . $id_company;
+        $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/';
         $allowTypes = array('jpg', 'jpeg', 'png');
 
         $image_name = $_FILES['img']['name'];
@@ -169,21 +152,20 @@ class ArticlesDao
         if (!is_dir($targetDir))
             mkdir($targetDir, 0777, true);
 
-        $targetDir = '/api/src/assets/images/articles/' . $id_company;
+        $targetDir = '/api/src/assets/images/articles/';
         $targetFilePath = $targetDir . '/' . $image_name;
 
         $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
 
         if (in_array($fileType, $allowTypes)) {
-            $sql = "UPDATE articles SET img = :img WHERE id_article = :id_article AND id_company = :id_company";
+            $sql = "UPDATE articles SET img = :img WHERE id_article = :id_article";
             $query = $connection->prepare($sql);
             $query->execute([
                 'img' => $targetFilePath,
-                'id_article' => $id_article,
-                'id_company' => $id_company
+                'id_article' => $id_article
             ]);
 
-            $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/' . $id_company;
+            $targetDir = dirname(dirname(dirname(__DIR__))) . '/assets/images/articles/';
             $targetFilePath = $targetDir . '/' . $image_name;
 
             move_uploaded_file($tmp_name, $targetFilePath);

@@ -15,6 +15,7 @@ require_once('../api/src/routes/global/routeSubscribe.php');
 /* Admin */
 // Login
 require_once('../api/src/routes/admin/login/routeLogin.php');
+require_once('../api/src/routes/admin/login/routepassUser.php');
 // Users
 require_once('../api/src/routes/admin/users/routeUsers.php');
 // Articles

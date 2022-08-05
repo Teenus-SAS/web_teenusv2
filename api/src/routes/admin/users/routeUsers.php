@@ -12,9 +12,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 /* Consulta todos */
 
 $app->get('/users', function (Request $request, Response $response, $args) use ($userDao) {
-    session_start();
-    $company = $_SESSION['id_company'];
-    $users = $userDao->findAllusersByCompany($company);
+    $users = $userDao->findAllusers();
     $response->getBody()->write(json_encode($users, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });
@@ -28,36 +26,33 @@ $app->get('/user', function (Request $request, Response $response, $args) use ($
 /* Insertar usuario */
 
 $app->post('/addUser', function (Request $request, Response $response, $args) use ($userDao, $quantityUsersDao) {
-    session_start();
-    $id_company = $_SESSION['id_company'];
-
     $dataUser = $request->getParsedBody();
 
-    //selecciona quantity_user de companies_licenses que tengan el id_company
-    $quantityAllowsUsers = $quantityUsersDao->quantityUsersAllows($id_company);
+    // selecciona quantity_user de companies_licenses
+    // $quantityAllowsUsers = $quantityUsersDao->quantityUsersAllows();
 
-    //obtener cantidad de usuarios creados con el id_company
-    $quantityCreatedUsers = $quantityUsersDao->quantityUsersCreated($id_company);
+    //obtener cantidad de usuarios creados
+    // $quantityCreatedUsers = $quantityUsersDao->quantityUsersCreated();
 
-    if ($quantityAllowsUsers >= $quantityCreatedUsers)
-        $resp = array('error' => true, 'message' => 'Cantidad de usuarios maxima alcanzada');
-    else {
-        if (empty($dataUser['nameUser']) && empty($dataUser['lastnameUser']) && empty($dataUser['emailUser'])) {
-            $resp = array('error' => true, 'message' => 'Complete todos los datos');
-            exit();
-        }
-
-        /* Almacena el usuario */
-        $users = $userDao->saveUser($dataUser, $id_company);
-
-        if ($users == 1) {
-            $resp = array('error' => true, 'message' => 'El email ya se encuentra registrado. Intente con uno nuevo');
-        } elseif ($users == null) {
-            $resp = array('success' => true, 'message' => 'Usuario creado correctamente');
-        } else {
-            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
-        }
+    // if ($quantityAllowsUsers >= $quantityCreatedUsers)
+    //     $resp = array('error' => true, 'message' => 'Cantidad de usuarios maxima alcanzada');
+    // else {
+    if (empty($dataUser['nameUser']) && empty($dataUser['lastnameUser']) && empty($dataUser['emailUser'])) {
+        $resp = array('error' => true, 'message' => 'Complete todos los datos');
+        exit();
     }
+
+    /* Almacena el usuario */
+    $users = $userDao->saveUser($dataUser);
+
+    if ($users == 1) {
+        $resp = array('error' => true, 'message' => 'El email ya se encuentra registrado. Intente con uno nuevo');
+    } elseif ($users == null) {
+        $resp = array('success' => true, 'message' => 'Usuario creado correctamente');
+    } else {
+        $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
+    }
+    // }
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
 });

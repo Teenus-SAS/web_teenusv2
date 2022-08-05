@@ -24,7 +24,7 @@
                         <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
                         <li class="nav-item"><a href="/develop/index.php" class="nav-link">Desarrollo de Software</a></li>
                         <li class="nav-item"><a href="/tezlik/index.php" class="nav-link">Automatice sus costos y precios</a></li>
-                        <li class="nav-item"><a href="/teenus/blog/resume.php" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="javascript:;" onclick="loadContent('page-content','../../blog/index.php')" class="nav-link">Blog</a></li>
                     </ul>
                     <div class="other-option">
                         <a class="default-btn" href="#contact">Contactenos <span></span></a>

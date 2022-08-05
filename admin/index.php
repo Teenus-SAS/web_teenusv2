@@ -23,7 +23,8 @@
 
     <!-- ================== BEGIN APP CSS  ================== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
+    <!-- Notifications -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
 
 </head>
 
@@ -31,53 +32,55 @@
 
     <!--wrapper-->
     <div class="wrapper">
-        <div class="section-authentication-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
-            <div class="container-fluid">
-                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
-                    <div class="col mx-auto">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="border p-4 rounded">
-                                    <div class="mb-4 text-center">
-                                        <img src="/assets/images/teenus/logo-Teenus.png" width="180" alt="" />
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="">Iniciar Sesión</h3>
-                                    </div>
+        <div class="page-content">
+            <div class="section-authentication-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                        <div class="col mx-auto">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="border p-4 rounded">
+                                        <div class="mb-4 text-center">
+                                            <img src="/assets/images/teenus/logo-Teenus.png" width="180" alt="" />
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="">Iniciar Sesión</h3>
+                                        </div>
 
-                                    <div class="form-body">
-                                        <form class="row g-3" id="loginForm" name="loginForm" novalidate>
-                                            <div class="col-12">
-                                                <label for="inputEmailAddress" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="email" name="validation-email" placeholder="Email">
-                                            </div>
-                                            <div class="col-12">
-                                                <label for="inputChoosePassword" class="form-label">Password</label>
-                                                <div class="input-group" id="show_hide_password">
-                                                    <input type="password" class="form-control border-end-0" id="password" name="validation-password" placeholder="Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+                                        <div class="form-body">
+                                            <form class="row g-3" id="loginForm" name="loginForm" novalidate>
+                                                <div class="col-12">
+                                                    <label for="inputEmailAddress" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="email" name="validation-email" placeholder="Email">
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-check form-switch">
-                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                    <label class="form-check-label" for="flexSwitchCheckChecked">Recordarme</label>
+                                                <div class="col-12">
+                                                    <label for="inputChoosePassword" class="form-label">Password</label>
+                                                    <div class="input-group" id="show_hide_password">
+                                                        <input type="password" class="form-control border-end-0" id="password" name="validation-password" placeholder="Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6 text-end"> <a href="#">Olvido Password ?</a>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="d-grid">
-                                                    <button type="submit" class="btn btn-primary btn-block" data-effect="wave"><i class="bx bxs-lock-open"></i>Ingresar</button>
+                                                <div class="col-md-6">
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexSwitchCheckChecked">Recordarme</label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </form>
+                                                <div class="col-md-6 text-end"> <a href="javascript:;" onclick="loadContent('page-content','/admin/views/auth-forgot-password.php')">Olvido Password ?</a>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-grid">
+                                                        <button type="submit" class="btn btn-primary btn-block" data-effect="wave"><i class="bx bxs-lock-open"></i>Ingresar</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--end row-->
                 </div>
-                <!--end row-->
             </div>
         </div>
     </div>
@@ -85,6 +88,7 @@
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--plugins-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
     <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
@@ -111,10 +115,11 @@
     <script src="assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
     <script src="assets/libs/jquery-validation/js/additional-methods.min.js"></script>
     <!-- ================== BEGIN PAGE JS ================== -->
+    <script src="/global/js/loadContent.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="js/login/autentication.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <!-- Notifications -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </body>
 
 </html>

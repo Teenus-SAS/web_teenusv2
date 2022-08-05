@@ -17,13 +17,11 @@ $app->get('/article/{id_article}', function (Request $request, Response $respons
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-/* Cargar articulos por compañia */
+/* Cargar articulos*/
 $app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao) {
-    session_start();
-    $id_company = $_SESSION['id_company'];
-    $allArticles = $articlesDao->findAllArticles($id_company);
-    $recentArticles = $articlesDao->findRecentArticles($id_company);
-    $popularArticles = $articlesDao->findPopularArticles($id_company);
+    $allArticles = $articlesDao->findAllArticles();
+    $recentArticles = $articlesDao->findRecentArticles();
+    $popularArticles = $articlesDao->findPopularArticles();
 
     $articles['allArticles'] = $allArticles;
     $articles['recentArticles'] = $recentArticles;
@@ -33,27 +31,18 @@ $app->get('/articles', function (Request $request, Response $response, $args) us
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-/* Cargar articulos globales */
-$app->get('/globalArticles', function (Request $request, Response $response, $args) use ($articlesDao) {
-    $articles = $articlesDao->findAllActivesArticles();
-    $response->getBody()->write(json_encode($articles, JSON_NUMERIC_CHECK));
-    return $response->withHeader('Content-Type', 'application/json');
-});
-
 $app->post('/addArticle', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {
-    session_start();
-    $id_company = $_SESSION['id_company'];
     $dataArticle = $request->getParsedBody();
 
     if (empty($dataArticle['title']) || empty($dataArticle['description']) || empty($dataArticle['author'])) {
         $resp = array('error' => true, 'message' => 'Ingrese todos los campos');
     } else {
-        $articles = $articlesDao->insertArticle($dataArticle, $id_company);
+        $articles = $articlesDao->insertArticle($dataArticle);
         // Obtener ultimo articulo ingresado
         $lastArticle = $articlesDao->findLastArticle();
 
         if (sizeof($_FILES) > 0)
-            $articlesDao->imageArticle($lastArticle['id_article'], $id_company);
+            $articlesDao->imageArticle($lastArticle['id_article']);
 
         // Insertar publicación
         $publications = $publicationsDao->insertPublication($lastArticle, $dataArticle);
@@ -68,8 +57,6 @@ $app->post('/addArticle', function (Request $request, Response $response, $args)
 });
 
 $app->post('/updateArticle', function (Request $request, Response $response, $args) use ($articlesDao) {
-    session_start();
-    $id_company = $_SESSION['id_company'];
     $dataArticle = $request->getParsedBody();
 
     if (empty($dataArticle['idArticle']) || empty($dataArticle['title']) || empty($dataArticle['description']) || empty($dataArticle['author'])) {
@@ -78,7 +65,7 @@ $app->post('/updateArticle', function (Request $request, Response $response, $ar
         $articles = $articlesDao->updateArticle($dataArticle);
 
         if (sizeof($_FILES) > 0)
-            $articlesDao->imageArticle($dataArticle['idArticle'], $id_company);
+            $articlesDao->imageArticle($dataArticle['idArticle']);
 
         if ($articles == null)
             $resp = array('success' => true, 'message' => 'Articulo modificado correctamente');

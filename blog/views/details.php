@@ -1,8 +1,3 @@
-<head>
-    <!-- Notifications -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
-</head>
-
 <body>
     <!-- Start Preloader Area -->
     <div class="preloader">
@@ -57,7 +52,4 @@
     </div>
     <script src="/blog/js/article/tblArticles.js"></script>
     <script src="/blog/js/article/editArticle.js"></script>
-
-    <!-- Notifications -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </body>

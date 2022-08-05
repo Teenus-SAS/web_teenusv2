@@ -16,8 +16,8 @@ $(document).ready(function () {
 
   loadArticle = (data) => {
     // Imagen
-    $('.article-image').html(`
-        <img src="${data.img}" style="width:730px;height:547.5px" alt="image"/>
+    $('.image').html(`
+        <img src="${data.img}" style="width:1301px;height:500px" alt="image"/>
     `);
     // Autor
     $('#author').html(` ${data.author}`);
