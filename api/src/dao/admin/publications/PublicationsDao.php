@@ -37,6 +37,23 @@ class PublicationsDao
         }
     }
 
+    public function updatePublicationDate($dataArticle)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        try {
+            $stmt = $connection->prepare("UPDATE publications SET publication_date = :publication_date WHERE id_article = :id_article");
+            $stmt->execute([
+                'id_article' => $dataArticle['idArticle'],
+                'publication_date' => $dataArticle['publicationDate']
+            ]);
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            $error = array('info' => true, 'message' => $message);
+            return $error;
+        }
+    }
+
     public function deletePublication($id_article)
     {
         $connection = Connection::getInstance()->getConnection();

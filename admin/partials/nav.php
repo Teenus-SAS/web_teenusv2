@@ -1,3 +1,8 @@
+<?php
+$rol = $_SESSION['rol'];
+if ($roll == 1) echo "<script>document.getElementById('dashboard').style.display = 'none';
+        document.getElementById('user').style.display = 'none';</script>";
+?>
 <div class="nav-container">
     <div class="mobile-topbar-header">
         <div>
@@ -12,19 +17,19 @@
     <nav class="topbar-nav">
         <ul class="metismenu" id="menu">
             <li>
-                <a href="javascript:;" onclick="loadContent('page-content','../views/template.php')">
+                <a href="javascript:;" id="dashboard" onclick="loadContent('page-content','../views/template.php')">
                     <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                     <div class="menu-title">Dashboard</div>
                 </a>
             </li>
             <li>
-                <a href="javascript:;" onclick="loadContent('page-content','../../blog/views/details.php')" class="has-arrow">
+                <a href="javascript:;" id="blog" onclick="loadContent('page-content','../../blog/views/details.php')" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
             <li>
-                <a href="javascript:;" onclick="loadContent('page-content','../views/users.php')">
+                <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users.php')">
                     <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                     <div class="menu-title">Usuarios</div>
                 </a>

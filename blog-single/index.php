@@ -666,7 +666,6 @@
 		<i class="fas fa-chevron-up"></i>
 	</div>
 	<!-- End Go Top Section -->
-
 	<!-- Preloader -->
 	<script src="/assets/js/preloader.js"></script>
 	<!-- jQuery Min JS -->
@@ -695,7 +694,7 @@
 	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
-	<!-- <script src="/teenus/assets/js/main.js"></script> -->
+	<script src="/teenus/assets/js/main.js"></script>
 
 </body>
 

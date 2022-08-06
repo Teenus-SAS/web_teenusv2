@@ -4,13 +4,15 @@ fetch(`/api/articles`)
     data = JSON.parse(data);
     loadArticles(data.recentArticles);
     loadPopularArticles(data.popularArticles);
-    loadRecentArticles(data.recentArticles);
+    // loadRecentArticles(data.recentArticles);
   });
 
 /* Cargar todos los articulos */
 loadArticles = (data) => {
-  debugger;
   for (i = 0; i < data.length; i++) {
+    // Id articulo
+    var article = document.getElementById(`idArticle-${i + 1}`);
+    article.id = data[i].id_article;
     // Imagen
     $(`.image-${i + 1}`).html(`
         <img src="${data[i].img}" style="width:350px;height:287.77px" alt="image"/>
@@ -30,8 +32,6 @@ loadArticles = (data) => {
 
     // Contenido
     $(`#content-${i + 1}`).html(data[i].content);
-
-    // Id articulo
   }
 };
 

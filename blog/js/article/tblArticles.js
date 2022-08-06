@@ -59,6 +59,15 @@ $(document).ready(function () {
           render: $.fn.dataTable.render.number('.', ',', 0),
         },
         {
+          title: 'Fecha de Publicación',
+          data: null,
+          className: 'classCenter',
+          render: function (data) {
+            return `
+                  <a href="javascript:;" <i id="${data.id_article}" value="${data.publication_date}" class="fa-solid fa-calendar" data-toggle='tooltip' title='Fecha de Publicación' style="font-size: 30px" onclick="updatePublication('${data.id_article}','${data.publication_date}')"></i></a>`;
+          },
+        },
+        {
           title: 'Visualizar',
           data: 'id_article',
           className: 'classCenter',

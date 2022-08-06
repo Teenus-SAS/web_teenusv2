@@ -1,3 +1,9 @@
+<?php
+$rol = $_SESSION['rol'];
+
+if ($rol == 1) //echo '<script>', "loadContent('page-content','../../blog/views/details.php')", '</script>';
+?>
+
 <!doctype html>
 <html lang="en">
 
