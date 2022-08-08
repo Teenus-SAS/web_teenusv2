@@ -29,7 +29,7 @@ $(document).ready(function () {
             '/api/updatePublication',
             data,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '../../blog/views/details.php');
+              loadContent('page-content', '/admin/views/blog/details.php');
               message(data);
             }
           );
@@ -82,7 +82,7 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '../../blog/views/details.php');
+              loadContent('page-content', '/admin/views/blog/details.php');
               message(data);
             }
           );

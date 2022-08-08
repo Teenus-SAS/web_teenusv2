@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  tblUser = $('#tblUser').dataTable({
+  tblUser = $('#tblUsers').dataTable({
     pageLength: 50,
     ajax: {
       url: '../../api/users',

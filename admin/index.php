@@ -65,7 +65,7 @@
                                                         <label class="form-check-label" for="flexSwitchCheckChecked">Recordarme</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 text-end"> <a href="javascript:;" onclick="loadContent('page-content','/admin/views/auth-forgot-password.php')">Olvido Password ?</a>
+                                                <div class="col-md-6 text-end"> <a href="javascript:;" onclick="loadContent('page-content','/admin/views/password/auth-forgot-password.php')">Olvido Password ?</a>
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="d-grid">

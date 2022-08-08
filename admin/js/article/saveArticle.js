@@ -112,7 +112,7 @@ $(document).ready(function () {
 
       success: function (resp) {
         $('#formCreateArticles').trigger('reset');
-        loadContent('page-content', '../../blog/views/details.php');
+        loadContent('page-content', '/admin/views/blog/details.php');
         message(resp);
       },
     });

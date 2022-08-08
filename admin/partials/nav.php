@@ -1,8 +1,3 @@
-<?php
-$rol = $_SESSION['rol'];
-if ($roll == 1) echo "<script>document.getElementById('dashboard').style.display = 'none';
-        document.getElementById('user').style.display = 'none';</script>";
-?>
 <div class="nav-container">
     <div class="mobile-topbar-header">
         <div>
@@ -23,13 +18,13 @@ if ($roll == 1) echo "<script>document.getElementById('dashboard').style.display
                 </a>
             </li>
             <li>
-                <a href="javascript:;" id="blog" onclick="loadContent('page-content','../../blog/views/details.php')" class="has-arrow">
+                <a href="javascript:;" id="blog" onclick="loadContent('page-content','../views/blog/details.php')" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
             <li>
-                <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users.php')">
+                <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users/users.php')">
                     <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                     <div class="menu-title">Usuarios</div>
                 </a>
@@ -37,3 +32,8 @@ if ($roll == 1) echo "<script>document.getElementById('dashboard').style.display
         </ul>
     </nav>
 </div>
+<?php
+$rol = $_SESSION['rol'];
+if ($rol == 1) echo "<script>document.getElementById('dashboard').style.display = 'none';
+        document.getElementById('user').style.display = 'none';</script>";
+?>

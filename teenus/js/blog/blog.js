@@ -60,7 +60,7 @@
       toastr.error('No es posible acceder a este articulo');
       return false;
     } else {
-      sessionStorage.setItem('idArticle', id_article);
+      sessionStorage.setItem('id_article', id_article);
       loadContent('page-content', '../blog-single/index.php');
     }
   });

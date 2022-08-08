@@ -695,7 +695,6 @@
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
 	<script src="/teenus/assets/js/main.js"></script>
-
 </body>
 
 </html>

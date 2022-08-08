@@ -50,6 +50,6 @@
             </div>
         </div>
     </div>
-    <script src="/blog/js/article/tblArticles.js"></script>
-    <script src="/blog/js/article/editArticle.js"></script>
+    <script src="/admin/js/article/tblArticles.js"></script>
+    <script src="/admin/js/article/editArticle.js"></script>
 </body>

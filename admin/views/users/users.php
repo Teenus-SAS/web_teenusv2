@@ -19,11 +19,11 @@
                         </ol>
                     </div>
                 </div>
-                <!-- <div class="col-sm-7 col-xl-6">
-                <div class="form-inline justify-content-sm-end">
-                    <button class="btn btn-warning" id="btnNewUser">Nuevo Usuario y Accesos</button>
+                <div class="col-sm-7 col-xl-6">
+                    <div class="form-inline justify-content-sm-end">
+                        <button class="btn btn-warning" id="btnNewUser" style="margin-left:407px;">Nuevo Usuario y Accesos</button>
+                    </div>
                 </div>
-            </div> -->
             </div>
         </div>
     </div>
