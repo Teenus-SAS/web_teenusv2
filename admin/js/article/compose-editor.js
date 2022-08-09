@@ -1,7 +1,11 @@
 $(document).ready(function () {
   let newEditor;
   /* Cargar editor */
-  ClassicEditor.create(document.querySelector('#compose-editor'))
+  ClassicEditor.create(document.querySelector('#compose-editor'), {
+    ckfinder: {
+      uploadUrl: 'http://webteenus/admin/assets/plugins/ckfinder/userfiles/',
+    },
+  })
     .then((editor) => {
       editor.ui.view.editable.element.style.height = '250px';
       newEditor = editor;

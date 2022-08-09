@@ -64,7 +64,14 @@ $(document).ready(function () {
           className: 'classCenter',
           render: function (data) {
             return `
-                  <a href="javascript:;" <i id="${data.id_article}" value="${data.publication_date}" class="fa-solid fa-calendar" data-toggle='tooltip' title='Fecha de Publicación' style="font-size: 30px" onclick="updatePublication('${data.id_article}','${data.publication_date}')"></i></a>`;
+                <div class="row">
+                  <div class="col-lg-5">
+                    <p>${data.publication_date}</p>
+                  </div>
+                  <div class="col">
+                    <a href="javascript:;" <i id="${data.id_article}" value="${data.publication_date}" class="fa-solid fa-calendar" data-toggle='tooltip' title='Fecha de Publicación' style="font-size: 30px" onclick="updatePublication('${data.id_article}','${data.publication_date}')"></i></a>
+                  </div>
+                </div>`;
           },
         },
         {
@@ -73,7 +80,7 @@ $(document).ready(function () {
           className: 'classCenter',
           render: function (data) {
             return `
-                  <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye viewArticle" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue" onclick="loadContent('page-content', '../../blog-single/index.php')"></i></a>`;
+                  <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue" onclick="viewArticle(${data})"></i></a>`;
           },
         },
         {

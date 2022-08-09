@@ -21,41 +21,47 @@
                 </div>
                 <div class="col-sm-7 col-xl-6">
                     <div class="form-inline justify-content-sm-end">
-                        <button class="btn btn-warning" id="btnNewUser" style="margin-left:407px;">Nuevo Usuario y Accesos</button>
+                        <button class="btn btn-warning" id="btnNewUser" style="margin-left:490px;">Nuevo Usuario</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- <div class="page-content-wrapper mt--45 mb-5 cardCreateUsers">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        <form id="formCreateUser">
-                            <div class="gridx3estandar">
-                                <div class="form-group floating-label enable-floating-label show-label" style="margin-bottom:0px">
-                                    <label for="">Nombres </label>
-                                    <input type="text" class="form-control" id="nameUser" name="names">
+    <div class="page-content-wrapper mt--45 mb-5 cardCreateUsers">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="formCreateUser">
+                                <div class="row">
+                                    <div class="col-3" style="margin-bottom:0px">
+                                        <label>Nombres</label>
+                                        <input type="text" class="form-control text-center" id="nameUser" name="nameUser">
+
+                                    </div>
+                                    <div class="col-3" style="margin-bottom:0px"><label for="">Apellidos</label>
+                                        <input type="text" class="form-control text-center" id="lastnameUser" name="lastnameUser">
+
+
+                                    </div>
+                                    <div class="col-4" style="margin-bottom:0px"><label for="">Email</label>
+                                        <input type="text" class="form-control text-center" id="emailUser" name="emailUser">
+
+
+                                    </div>
+                                    <div class="col" style="margin-bottom:0px;margin-top:21px">
+                                        <button class="btn btn-info" id="btnCreateUser" name="btnCreateUser">Actualizar</button>
+                                    </div>
                                 </div>
-                                <div class="form-group floating-label enable-floating-label show-label" style="margin-bottom:0px">
-                                    <label for="">Apellidos </label>
-                                    <input type="text" class="form-control" id="lastnameUser" name="lastnames">
-                                </div>
-                                <div class="form-group floating-label enable-floating-label show-label" style="margin-bottom:0px">
-                                    <label for="">Email </label>
-                                    <input type="text" class="form-control" id="emailUser" name="email">
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
 
     <!-- page content -->
     <div class="page-content-wrapper mt--45">

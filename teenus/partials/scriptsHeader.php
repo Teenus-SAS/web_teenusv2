@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="teenus/assets/css/fontawesome.min.css">
 <!-- Mran Menu CSS -->
 <link rel="stylesheet" href="teenus/assets/css/meanmenu.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <!-- Magnific Popup Min CSS -->
 <link rel="stylesheet" href="teenus/assets/css/magnific-popup.min.css">
 <!-- Nice Select Min CSS -->

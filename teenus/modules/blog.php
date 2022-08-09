@@ -20,6 +20,9 @@
                             <li>
                                 <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-1"> </i></a>
                             </li>
+                            <li>
+                                <a href="javascript:;"> <i class="bi bi-eye-fill" id="view-1"> </i></a>
+                            </li>
                         </ul>
                         <div class="blog-content">
                             <h3><a href="javascript:;" id="title-1">¿Por que desarrollar software?</a></h3>
@@ -44,6 +47,9 @@
                             </li>
                             <li>
                                 <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-2"> </i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"> <i class="bi bi-eye-fill" id="view-2"> </i></a>
                             </li>
                         </ul>
                         <div class="blog-content">
@@ -74,6 +80,9 @@
                             </li>
                             <li>
                                 <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-3"> </i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"> <i class="bi bi-eye-fill" id="view-3"> </i></a>
                             </li>
                         </ul>
                         <div class="blog-content">

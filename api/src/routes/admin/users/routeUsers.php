@@ -39,7 +39,6 @@ $app->post('/addUser', function (Request $request, Response $response, $args) us
     // else {
     if (empty($dataUser['nameUser']) && empty($dataUser['lastnameUser']) && empty($dataUser['emailUser'])) {
         $resp = array('error' => true, 'message' => 'Complete todos los datos');
-        exit();
     }
 
     /* Almacena el usuario */

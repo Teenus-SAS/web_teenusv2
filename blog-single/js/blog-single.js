@@ -17,7 +17,9 @@ $(document).ready(function () {
   loadArticle = (data) => {
     // Imagen
     $('.image').html(`
-        <img src="${data.img}" style="width:1301px;height:500px" alt="image"/>
+        <img src="${data.img}" style="width:100%;
+        height:500px; margin: auto;
+         display: block;"/>
     `);
     // Autor
     $('#author').html(` ${data.author}`);
@@ -51,12 +53,9 @@ $(document).ready(function () {
       $(`.p-image-${i + 1}`).html(`
         <img src="${data[i].img}" style="width:80px;heigth:80px" />
       `);
-      // Fecha de publicación
-      date = getPublicationDate(data[i].publication_date);
 
-      publication_date = `${date.month} ${date.day}, ${date.year}`;
-
-      $(`#p-date-${i + 1}`).html(publication_date);
+      // Vista
+      $(`#p-view-${i + 1}`).html(` ${data[i].views.toLocaleString()}`);
 
       // Titulo
       $(`#p-title-${i + 1}`).html(data[i].title);
@@ -89,4 +88,6 @@ $(document).ready(function () {
 
     return publication_date;
   };
+
+  sessionStorage.removeItem('id_article');
 });

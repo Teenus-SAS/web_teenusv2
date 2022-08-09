@@ -48,7 +48,7 @@
 	<!-- End Preloader Area -->
 
 	<!-- Start Navbar Area -->
-	<div class="navbar-area">
+	<!-- <div class="navbar-area">
 		<div class="techvio-responsive-nav">
 			<div class="container">
 				<div class="techvio-responsive-menu">
@@ -187,7 +187,8 @@
 				</nav>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	<?php include_once dirname(__DIR__) . '/teenus/partials/nav.php' ?>
 	<!-- End Navbar Area -->
 
 	<!-- Start Page Title Area -->
@@ -233,7 +234,7 @@
 							<p id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p> -->
-							<ul class="wp-block-gallery columns-3">
+							<!-- <ul class="wp-block-gallery columns-3">
 								<li class="blocks-gallery-item">
 									<figure>
 										<img src="/teenus/assets/img/blog-details/1.jpg" alt="image">
@@ -251,12 +252,12 @@
 								</li>
 							</ul>
 							<h3>Emergency It Services</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p> -->
 						</div>
 						<div class="article-footer">
-							<div class="article-tags"> <span>Tag:</span>
+							<!-- <div class="article-tags"> <span>Tag:</span>
 								<a href="#">Solutions</a>, <a href="#">Guide</a>
-							</div>
+							</div> -->
 							<div class="article-share">
 								<ul class="social">
 									<li><span>Share:</span>
@@ -406,7 +407,7 @@
 								<a href="#" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-1">June 10, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-1"></span>
 									<h4 class="title usmall">
 										<a href="#" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
@@ -416,7 +417,7 @@
 								<a href="#" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-2">June 15, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-2"></span>
 									<h4 class="title usmall">
 										<a href="#" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
@@ -426,14 +427,14 @@
 								<a href="#" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-3">June 25, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-3"></span>
 									<h4 class="title usmall">
 										<a href="#" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
 								</div>
 							</article>
 						</section>
-						<section class="widget widget_categories">
+						<!-- <section class="widget widget_categories">
 							<h3 class="widget-title">Categories</h3>
 							<ul>
 								<li> <a href="#">Business</a>
@@ -523,7 +524,7 @@
 									<span class="tag-link-count"> (2)</span>
 								</a>
 							</div>
-						</section>
+						</section> -->
 					</aside>
 				</div>
 			</div>
@@ -532,8 +533,8 @@
 	<!-- End Blog Details Area -->
 
 	<!-- Start Footer & Subscribe Section -->
-	<section class="footer-subscribe-wrapper">
-		<!-- Start Subscribe Area -->
+	<!-- <section class="footer-subscribe-wrapper">
+		<!-- Start Subscribe Area 
 		<div class="subscribe-area">
 			<div class="container">
 				<div class="row align-items-center">
@@ -553,10 +554,10 @@
 				</div>
 			</div>
 		</div>
-		<!-- End Subscribe Area -->
+		<!-- End Subscribe Area 
 
-		<!-- Start Footer Area -->
-		<div class="footer-area ptb-100">
+		<!-- Start Footer Area 
+		<!-- <div class="footer-area ptb-100">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-6">
@@ -634,14 +635,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<script src="/blog-single/js/blog-single.js"></script>
-		<!-- End Footer Section -->
-	</section>
+		</div> 
+		<!-- End Footer Section 
+	</section> -->
+	<?php include_once dirname(__DIR__) . '/teenus/modules/footerSubscribe.php' ?>
+	<script src="/blog-single/js/blog-single.js"></script>
 	<!-- End Footer & Subscribe Section -->
 
 	<!-- Start Copy Right Section -->
-	<div class="copyright-area">
+	<!-- <div class="copyright-area">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-6">
@@ -657,7 +659,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	<?php include_once dirname(__DIR__) . '/teenus/modules/copyright.php' ?>
 	<!-- End Copy Right Section -->
 
 	<!-- Start Go Top Section -->

@@ -28,14 +28,19 @@ $(document).ready(function () {
         className: 'uniqueClassName',
       },
       {
-        title: 'Nombre Usuario',
-        data: 'username',
-        className: 'uniqueClassName',
-      },
-      {
         title: 'Correo',
         data: 'email',
         className: 'uniqueClassName',
+      },
+      {
+        title: 'Acciones',
+        data: 'id_user',
+        className: 'uniqueClassName',
+        render: function (data) {
+          return `
+                <a href="javascript:;" <i id="${data}" class="fa-solid fa-pen-to-square updateUser" data-toggle='tooltip' title='Actualizar Usuario' style="font-size: 30px;margin-right:15px"></i></a>
+                <a href="javascript:;" <i id="${data}" class="fa-solid fa-trash-can" data-toggle='tooltip' title='Eliminar Usuario' style="font-size: 30px;color:red" onclick="deleteFunction()"></i></a>`;
+        },
       },
     ],
   });

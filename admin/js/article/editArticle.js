@@ -39,10 +39,20 @@ $(document).ready(function () {
   };
 
   /* Visualizar Articulo */
-  $(document).on('click', '.viewArticle', function (e) {
-    idArticle = this.id;
-    sessionStorage.setItem('id_article', idArticle);
-  });
+  viewArticle = (id_article) => {
+    debugger;
+    setArticle(id_article);
+
+    url = 'http://webteenus/';
+
+    link = document.createElement('a');
+
+    link.target = '_blank';
+
+    link.href = url;
+    document.body.appendChild(link);
+    link.click();
+  };
 
   /* Actualizar Articulos */
   $(document).on('click', '.updateArticles', function (e) {

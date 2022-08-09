@@ -78,7 +78,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-1">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-1">
+									<a href="javascript:;" class="image-1">
 										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
 									</a>
 								</div>
@@ -86,13 +86,16 @@
 									<ul class="blog-list">
 										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-1"></i></a></li>
 										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-1"></i></a></li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-1"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
+											<a href="javascript:;" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
 										</h3>
 										<p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -101,7 +104,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-2">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-2">
+									<a href="javascript:;" class="image-2">
 										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
 									</a>
 								</div>
@@ -113,16 +116,19 @@
 										<li>
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-2"></i></a>
 										</li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-2"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-2">
+											<a href="javascript:;" id="title-2">
 												Announcing Our New Smiles for Success Charity
 											</a>
 										</h3>
 										<p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
-											<a href="single-blog.html" class="blog-btn-one">Read More</a>
+											<a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -131,7 +137,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-3">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-3">
+									<a href="javascript:;" class="image-3">
 										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
 									</a>
 								</div>
@@ -143,15 +149,18 @@
 										<li>
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-3"></i></a>
 										</li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-3"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-3">
+											<a href="javascript:;" id="title-3">
 												Machine Learning Applications for Every Industry
 											</a>
 										</h3>
 										<p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -160,7 +169,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-4">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-4">
+									<a href="javascript:;" class="image-4">
 										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
 									</a>
 								</div>
@@ -172,15 +181,18 @@
 										<li>
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-4"></i></a>
 										</li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-4"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-4">
+											<a href="javascript:;" id="title-4">
 												5 Technology Considerations for Office Relocations
 											</a>
 										</h3>
 										<p id="content-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -189,7 +201,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-5">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-5">
+									<a href="javascript:;" class="image-5">
 										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
 									</a>
 								</div>
@@ -201,16 +213,19 @@
 										<li>
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-5"></i></a>
 										</li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-5"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-5">
+											<a href="javascript:;" id="title-5">
 												Everything you need to know about geo-blocking
 											</a>
 										</h3>
 										<p id="content-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
-											<a href="single-blog.html" class="blog-btn-one">Read More</a>
+											<a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -219,7 +234,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-6">
 								<div class="blog-image">
-									<a href="single-blog.html" class="image-6">
+									<a href="javascript:;" class="image-6">
 										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
 									</a>
 								</div>
@@ -231,15 +246,18 @@
 										<li>
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-6"></i></a>
 										</li>
+										<li>
+											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-6"> </i></a>
+										</li>
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="single-blog.html" id="title-6">
+											<a href="javascript:;" id="title-6">
 												Internal or outsourced IT: What’s the best choice?
 											</a>
 										</h3>
 										<p id="content-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
+										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -273,7 +291,7 @@
 								<a href="javascript:;" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-1">June 10, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-1"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
@@ -283,7 +301,7 @@
 								<a href="javascript:;" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-2">June 15, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-2"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
@@ -293,14 +311,14 @@
 								<a href="javascript:;" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
-									<span id="p-date-3">June 25, 2021</span>
+									<span class="bi bi-eye-fill" id="p-view-2"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
 								</div>
 							</article>
 						</section>
-						<section class="widget widget_categories">
+						<!-- <section class="widget widget_categories">
 							<h3 class="widget-title">Categories</h3>
 							<ul>
 								<li> <a href="javascript:;">Business</a>
@@ -375,7 +393,7 @@
 									<span class="tag-link-count"> (3)</span>
 								</a>
 							</div>
-						</section>
+						</section> -->
 					</aside>
 				</div>
 			</div>
@@ -384,116 +402,117 @@
 	<!-- End Blog Section -->
 
 	<!-- Start Footer & Subscribe Section -->
-	<section class="footer-subscribe-wrapper">
-		<!-- Start Subscribe Area -->
+	<!-- <section class="footer-subscribe-wrapper">
+		<!-- Start Subscribe Area
 		<div class="subscribe-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
-						<div class="subscribe-content">
-							<h2>Sign Up Our Newsletter</h2>
-							<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
-						</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6">
+					<div class="subscribe-content">
+						<h2>Sign Up Our Newsletter</h2>
+						<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
 					</div>
-					<div class="col-lg-6 col-md-6">
-						<form class="newsletter-form">
-							<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
-							<button type="submit">Subscribe Now</button>
-							<div id="validator-newsletter" class="form-result"></div>
-						</form>
-					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<form class="newsletter-form">
+						<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+						<button type="submit">Subscribe Now</button>
+						<div id="validator-newsletter" class="form-result"></div>
+					</form>
 				</div>
 			</div>
 		</div>
-		<!-- End Subscribe Area -->
-		<!-- Start Footer Area -->
+		</div>
+		<!-- End Subscribe Area
+		<!-- Start Footer Area
 		<div class="footer-area ptb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<div class="footer-heading">
-								<h3>About Us</h3>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
-							<ul class="footer-social">
-								<li>
-									<a href="javascript:;"> <i class="fab fa-facebook-f"></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;"> <i class="fab fa-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;"> <i class="fab fa-pinterest"></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;"> <i class="fab fa-linkedin"></i>
-									</a>
-								</li>
-							</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<div class="footer-heading">
+							<h3>About Us</h3>
 						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
+						<ul class="footer-social">
+							<li>
+								<a href="javascript:;"> <i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;"> <i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;"> <i class="fab fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;"> <i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-2 col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<div class="footer-heading">
-								<h3>Our Services</h3>
-							</div>
-							<ul class="footer-quick-links">
-								<li> <a href="javascript:;">IT Solution</a></li>
-								<li> <a href="projects.html">Web Development</a></li>
-								<li> <a href="services.html">Networking Services</a></li>
-								<li> <a href="team.html">SEO Optimization</a></li>
-								<li> <a href="contact.html">App Optimization</a></li>
-							</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<div class="footer-heading">
+							<h3>Our Services</h3>
 						</div>
+						<ul class="footer-quick-links">
+							<li> <a href="javascript:;">IT Solution</a></li>
+							<li> <a href="projects.html">Web Development</a></li>
+							<li> <a href="services.html">Networking Services</a></li>
+							<li> <a href="team.html">SEO Optimization</a></li>
+							<li> <a href="contact.html">App Optimization</a></li>
+						</ul>
 					</div>
-					<div class="col-lg-2 col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<div class="footer-heading">
-								<h3>Useful Links</h3>
-							</div>
-							<ul class="footer-quick-links">
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="projects.html">Case Study</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-								<li><a href="privacy-policy.html">Privacy Policy</a></li>
-								<li><a href="terms-condition.html">Terms & Conditions</a></li>
-							</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<div class="footer-heading">
+							<h3>Useful Links</h3>
 						</div>
+						<ul class="footer-quick-links">
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="projects.html">Case Study</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="privacy-policy.html">Privacy Policy</a></li>
+							<li><a href="terms-condition.html">Terms & Conditions</a></li>
+						</ul>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<div class="footer-heading">
-								<h3>Contact Info</h3>
-							</div>
-							<div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
-								<h3>Phone</h3>
-								<span><a href="tel:0802235678">080 707 555-321</a></span>
-							</div>
-							<div class="footer-info-contact"> <i class="flaticon-envelope"></i>
-								<h3>Email</h3>
-								<span><a href="mailto:demo@example.com">demo@example.com</a></span>
-							</div>
-							<div class="footer-info-contact"> <i class="flaticon-placeholder"></i>
-								<h3>Address</h3>
-								<span>526 Melrose Street, Water Mill, 11976 New York</span>
-							</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<div class="footer-heading">
+							<h3>Contact Info</h3>
+						</div>
+						<div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
+							<h3>Phone</h3>
+							<span><a href="tel:0802235678">080 707 555-321</a></span>
+						</div>
+						<div class="footer-info-contact"> <i class="flaticon-envelope"></i>
+							<h3>Email</h3>
+							<span><a href="mailto:demo@example.com">demo@example.com</a></span>
+						</div>
+						<div class="footer-info-contact"> <i class="flaticon-placeholder"></i>
+							<h3>Address</h3>
+							<span>526 Melrose Street, Water Mill, 11976 New York</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<script src="/blog/js/blog/blog.js"></script>
-		<!-- <script src="/blog/js/blog/blog-single.js"></script> -->
-		<!-- End Footer Section -->
-	</section>
+		</div>
+		<!-- <script src="/blog/js/blog/blog-single.js"></script>
+		<!-- End Footer Section
+	</section> -->
+	<?php include_once dirname(__DIR__) . '/teenus/modules/footerSubscribe.php' ?>
+	<script src="/blog/js/blog.js"></script>
 	<!-- End Footer & Subscribe Section -->
 
 	<!-- Start Copy Right Section -->
-	<div class="copyright-area">
+	<!-- <div class="copyright-area">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-6">
@@ -509,7 +528,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	<?php include_once dirname(__DIR__) . '/teenus/modules/copyright.php' ?>
 	<!-- End Copy Right Section -->
 
 	<!-- Start Go Top Section -->
@@ -544,10 +564,10 @@
 	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
 	<!-- Swiper Min JS -->
 	<script src="/teenus/assets/js/swiper.min.js"></script>
-	WOW Min JS
+	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>
-	Main JS
-	<script src="/teenus/assets/js/main.js"></script> -->
+	<!-- Main JS -->
+	<script src="/teenus/assets/js/main.js"></script>
 </body>
 
 </html>

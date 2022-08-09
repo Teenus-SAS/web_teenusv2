@@ -16,22 +16,6 @@ class UsersDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    // public function findAll()
-    // {
-    //     $connection = Connection::getInstance()->getConnection();
-
-    //      if ($id_company == 1)
-    //         $stmt = $connection->prepare("SELECT * FROM users WHERE id_company = 2  ORDER BY firstname");
-    //      else if ($id_company == 4)
-    //     $stmt = $connection->prepare("SELECT * FROM users ORDER BY firstname");
-
-    //     $stmt->execute();
-    //     $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-    //     $users = $stmt->fetchAll($connection::FETCH_ASSOC);
-    //     $this->logger->notice("usuarios Obtenidos", array('usuarios' => $users));
-    //     return $users;
-    // }
-
     public function findAllUsers()
     {
         $connection = Connection::getInstance()->getConnection();

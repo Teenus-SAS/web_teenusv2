@@ -46,11 +46,16 @@
 
       $(`#date-${i + 1}`).html(` ${publication_date}`);
 
+      // Vista
+      $(`#view-${i + 1}`).html(data[i].views.toLocaleString());
+
       // Titulo
       $(`#title-${i + 1}`).html(data[i].title);
 
       // Contenido
-      $(`#content-${i + 1}`).html(data[i].content);
+      content = data[i].content;
+      content.length > 86 ? (content = content.substr(0, 86)) : content;
+      $(`#content-${i + 1}`).html(content);
     }
   };
   $(document).on('click', '.blog-item', function (e) {
