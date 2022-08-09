@@ -11,29 +11,28 @@
     </div>
     <nav class="topbar-nav">
         <ul class="metismenu" id="menu">
-            <li>
-                <a href="javascript:;" id="dashboard" onclick="loadContent('page-content','../views/template.php')">
-                    <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
-                    <div class="menu-title">Dashboard</div>
-                </a>
-            </li>
+            <?php if ($_SESSION['rol'] == 2) {  ?>
+                <li>
+                    <a href="javascript:;" id="dashboard" onclick="loadContent('page-content','../views/template.php')">
+                        <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
+                        <div class="menu-title">Dashboard</div>
+                    </a>
+                </li>
+            <?php } ?>
             <li>
                 <a href="javascript:;" id="blog" onclick="loadContent('page-content','../views/blog/details.php')" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
-            <li>
-                <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users/users.php')">
-                    <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
-                    <div class="menu-title">Usuarios</div>
-                </a>
-            </li>
+            <?php if ($_SESSION['rol'] == 2) {  ?>
+                <li>
+                    <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users/users.php')">
+                        <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
+                        <div class="menu-title">Usuarios</div>
+                    </a>
+                </li>
+            <?php } ?>
         </ul>
     </nav>
 </div>
-<?php
-$rol = $_SESSION['rol'];
-if ($rol == 1) echo "<script>document.getElementById('dashboard').style.display = 'none';
-        document.getElementById('user').style.display = 'none';</script>";
-?>
