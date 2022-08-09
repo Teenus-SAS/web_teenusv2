@@ -639,7 +639,7 @@
 		<!-- End Footer Section 
 	</section> -->
 	<?php include_once dirname(__DIR__) . '/teenus/modules/footerSubscribe.php' ?>
-	<script src="/blog-single/js/blog-single.js"></script>
+	
 	<!-- End Footer & Subscribe Section -->
 
 	<!-- Start Copy Right Section -->
@@ -698,6 +698,8 @@
 	<script src="/teenus/assets/js/wow.min.js"></script>
 	<!-- Main JS -->
 	<script src="/teenus/assets/js/main.js"></script>
+
+	<script src="/blog-single/js/blog-single.js"></script>
 </body>
 
 </html>
