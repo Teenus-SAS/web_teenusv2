@@ -20,5 +20,7 @@ require_once('../api/src/routes/admin/login/routepassUser.php');
 require_once('../api/src/routes/admin/users/routeUsers.php');
 // Articles
 require_once('../api/src/routes/admin/articles/routeArticles.php');
+// Publications
+require_once('../api/src/routes/admin/publications/routePublications.php');
 
 $app->run();

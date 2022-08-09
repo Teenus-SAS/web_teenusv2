@@ -15,10 +15,10 @@
                     <div class="single-blog-item">
                         <ul class="blog-list">
                             <li>
-                                <a href="#"> <i class="fa fa-user-alt" id="author-1"> </i></a>
+                                <a href="javascript:;"> <i class="fa fa-user-alt" id="author-1"> </i></a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fas fa-calendar-week" id="date-1"> </i></a>
+                                <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-1"> </i></a>
                             </li>
                         </ul>
                         <div class="blog-content">
@@ -40,10 +40,10 @@
                     <div class="single-blog-item">
                         <ul class="blog-list">
                             <li>
-                                <a href="#"> <i class="fa fa-user-alt" id="author-2"> </i></a>
+                                <a href="javascript:;"> <i class="fa fa-user-alt" id="author-2"> </i></a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fas fa-calendar-week" id="date-2"> </i></a>
+                                <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-2"> </i></a>
                             </li>
                         </ul>
                         <div class="blog-content">
@@ -70,10 +70,10 @@
                     <div class="single-blog-item">
                         <ul class="blog-list">
                             <li>
-                                <a href="#"> <i class="fa fa-user-alt" id="author-3"> </i></a>
+                                <a href="javascript:;"> <i class="fa fa-user-alt" id="author-3"> </i></a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fas fa-calendar-week" id="date-3"> </i></a>
+                                <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-3"> </i></a>
                             </li>
                         </ul>
                         <div class="blog-content">
@@ -92,4 +92,3 @@
         </div>
     </div>
 </section>
-<script src="/teenus/js/blog/blog.js"></script>

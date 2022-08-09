@@ -68,5 +68,5 @@
         cursor: pointer;
     }
 </style>
-<script src="/blog/js/article/compose-editor.js"></script>
-<script src="/blog/js/article/saveArticle.js"></script>
+<script src="/admin/js/article/compose-editor.js"></script>
+<script src="/admin/js/article/saveArticle.js"></script>

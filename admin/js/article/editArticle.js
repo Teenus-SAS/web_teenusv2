@@ -1,6 +1,43 @@
 $(document).ready(function () {
   sessionStorage.removeItem('id_article');
 
+  /* Modificar Fecha de publicación */
+  updatePublication = (id_article, publication_date) => {
+    bootbox.confirm({
+      title: 'Modificación de Articulo',
+      message: `<p>Ingrese fecha de publicación:</p>
+            <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" value="${publication_date}">`,
+      buttons: {
+        confirm: {
+          label: 'Guardar',
+          className: 'btn-success',
+        },
+        cancel: {
+          label: 'Cancelar',
+          className: 'btn-danger',
+        },
+      },
+      callback: function (result) {
+        if (result == true) {
+          publication_date = $('#publicationDate').val();
+
+          data = {};
+          data['publicationDate'] = publication_date;
+          data['idArticle'] = id_article;
+
+          $.post(
+            '/api/updatePublication',
+            data,
+            function (data, textStatus, jqXHR) {
+              loadContent('page-content', '/admin/views/blog/details.php');
+              message(data);
+            }
+          );
+        }
+      },
+    });
+  };
+
   /* Visualizar Articulo */
   $(document).on('click', '.viewArticle', function (e) {
     idArticle = this.id;
@@ -45,7 +82,7 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '../../blog/views/details.php');
+              loadContent('page-content', '/admin/views/blog/details.php');
               message(data);
             }
           );

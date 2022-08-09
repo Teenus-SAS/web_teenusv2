@@ -59,6 +59,15 @@ $(document).ready(function () {
           render: $.fn.dataTable.render.number('.', ',', 0),
         },
         {
+          title: 'Fecha de Publicación',
+          data: null,
+          className: 'classCenter',
+          render: function (data) {
+            return `
+                  <a href="javascript:;" <i id="${data.id_article}" value="${data.publication_date}" class="fa-solid fa-calendar" data-toggle='tooltip' title='Fecha de Publicación' style="font-size: 30px" onclick="updatePublication('${data.id_article}','${data.publication_date}')"></i></a>`;
+          },
+        },
+        {
           title: 'Visualizar',
           data: 'id_article',
           className: 'classCenter',
@@ -72,7 +81,7 @@ $(document).ready(function () {
           data: 'id_article',
           className: 'classCenter',
           render: function (data) {
-            return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;" onclick="loadContent('page-content', '../../blog/views/edit.php')"></i></a>`;
+            return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;" onclick="loadContent('page-content', '/admin/views/blog/edit.php')"></i></a>`;
           },
         },
         {
@@ -87,16 +96,10 @@ $(document).ready(function () {
       ],
     });
   };
-  /* Ajustas posición tabla */
-  // document.getElementsByClassName('dataTables_filter').style.marginLeft =
-  //   '400px';
-  // $('.dataTables_filter').css('margin-left', '400px');
-  // $('#tblArticles_paginate').css('margin-left', '500px');
-
   /* Abrir vista crear articulo */
   $('#btnNewArticles').click(function (e) {
     e.preventDefault();
-    loadContent('page-content', '../../blog/views/edit.php');
+    loadContent('page-content', '/admin/views/blog/edit.php');
     $('#btnCreateArticles').html('Crear');
     sessionStorage.removeItem('id_article');
     sessionStorage.removeItem('data');

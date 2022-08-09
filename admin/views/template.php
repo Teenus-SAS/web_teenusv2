@@ -574,6 +574,11 @@
 
 	<script src="../assets/js/app.js"></script>
 	<script src="/global/js/loadContent.js"></script>
+	<?php
+	$rol = $_SESSION['rol'];
+
+	if ($rol == 1) echo '<script>', "loadContent('page-content','/admin/views/blog/details.php')", '</script>';
+	?>
 	<script src="/admin/js/global/logout.js"></script>
 </body>
 

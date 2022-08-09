@@ -1,3 +1,5 @@
+<!-- End Go Top Section -->
+<script src="/assets/js/preloader.js"></script>
 <!-- jQuery Min JS -->
 <script src="teenus/assets/js/jquery.min.js"></script>
 <!-- Popper Min JS -->
@@ -27,6 +29,8 @@
 <script src="teenus/assets/js/main.js"></script>
 <!-- Contacts -->
 <script src="/assets/js/contacts.js"></script>
+<!-- Blog -->
+<script src="/teenus/js/blog/blog.js"></script>
 <!-- toastr -->
 <script src="/assets/plugins/toast/toastr.min.js"></script>
 <script src="/global/js/loadContent.js"></script>

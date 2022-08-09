@@ -1,8 +1,6 @@
-$(document).ready(function () {
-  setTimeout(preloader, 2000);
+setTimeout(preloader, 2000);
 
-  function preloader() {
-    $('.preloader').addClass('preloader-deactivate');
-    $('.blog').toggleClass('mm-show');
-  }
-});
+function preloader() {
+  $('.preloader').addClass('preloader-deactivate');
+  $('.blog').toggleClass('mm-show');
+}

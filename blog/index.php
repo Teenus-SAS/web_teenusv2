@@ -76,7 +76,7 @@
 				<div class="col-lg-8 col-md-12">
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-1">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-1">
 										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
@@ -84,8 +84,8 @@
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="#"><i class="fa fa-user-alt" id="author-1"></i></a></li>
-										<li><a href="#"><i class="fas fa-calendar-week" id="date-1"></i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-1"></i></a></li>
+										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-1"></i></a></li>
 									</ul>
 									<div class="blog-content">
 										<h3>
@@ -99,7 +99,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-2">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-2">
 										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
@@ -108,10 +108,10 @@
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt" id="author-2"></i></a>
+											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-2"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week" id="date-2"></i></a>
+											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-2"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -129,7 +129,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-3">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-3">
 										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
@@ -138,10 +138,10 @@
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt" id="author-3"></i></a>
+											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-3"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week" id="date-3"></i></a>
+											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-3"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -158,7 +158,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-4">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-4">
 										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
@@ -167,10 +167,10 @@
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt" id="author-4"></i></a>
+											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-4"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week" id="date-4"></i></a>
+											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-4"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -187,7 +187,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-5">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-5">
 										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
@@ -196,10 +196,10 @@
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt" id="author-5"></i></a>
+											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-5"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week" id="date-5"></i></a>
+											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-5"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -217,7 +217,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<div class="blog-item">
+							<div class="blog-item" id="idArticle-6">
 								<div class="blog-image">
 									<a href="single-blog.html" class="image-6">
 										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
@@ -226,10 +226,10 @@
 								<div class="single-blog-item">
 									<ul class="blog-list">
 										<li>
-											<a href="#"> <i class="fa fa-user-alt" id="author-6"></i></a>
+											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-6"></i></a>
 										</li>
 										<li>
-											<a href="#"> <i class="fas fa-calendar-week" id="date-6"></i></a>
+											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-6"></i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -246,12 +246,12 @@
 							</div>
 						</div>
 						<div class="col-lg-12 col-md-12">
-							<div class="pagination-area"> <a href="#" class="prev page-numbers"><i class="fas fa-angle-double-left"></i></a>
-								<a href="#" class="page-numbers">1</a>
+							<div class="pagination-area"> <a href="javascript:;" class="prev page-numbers"><i class="fas fa-angle-double-left"></i></a>
+								<a href="javascript:;" class="page-numbers">1</a>
 								<span class="page-numbers current" aria-current="page">2</span>
-								<a href="#" class="page-numbers">3</a>
-								<a href="#" class="page-numbers">4</a>
-								<a href="#" class="next page-numbers"><i class="fas fa-angle-double-right"></i></a>
+								<a href="javascript:;" class="page-numbers">3</a>
+								<a href="javascript:;" class="page-numbers">4</a>
+								<a href="javascript:;" class="next page-numbers"><i class="fas fa-angle-double-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -270,32 +270,32 @@
 						<section class="widget widget_techvio_posts_thumb">
 							<h3 class="widget-title">Popular Posts</h3>
 							<article class="item">
-								<a href="#" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
+								<a href="javascript:;" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
 									<span id="p-date-1">June 10, 2021</span>
 									<h4 class="title usmall">
-										<a href="#" id="p-title-1">5 Technology Considerations for Office Relocations</a>
+										<a href="javascript:;" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
+								<a href="javascript:;" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
 									<span id="p-date-2">June 15, 2021</span>
 									<h4 class="title usmall">
-										<a href="#" id="p-title-2">Everything you need to know about geo-blocking</a>
+										<a href="javascript:;" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
 								</div>
 							</article>
 							<article class="item">
-								<a href="#" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
+								<a href="javascript:;" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
 									<span id="p-date-3">June 25, 2021</span>
 									<h4 class="title usmall">
-										<a href="#" id="p-title-3">Machine Learning Applications for Every Industry</a>
+										<a href="javascript:;" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
 								</div>
 							</article>
@@ -303,74 +303,74 @@
 						<section class="widget widget_categories">
 							<h3 class="widget-title">Categories</h3>
 							<ul>
-								<li> <a href="#">Business</a>
+								<li> <a href="javascript:;">Business</a>
 								</li>
-								<li> <a href="#">Solutions</a>
+								<li> <a href="javascript:;">Solutions</a>
 								</li>
-								<li> <a href="#">Technology</a>
+								<li> <a href="javascript:;">Technology</a>
 								</li>
-								<li> <a href="#">Guide</a>
+								<li> <a href="javascript:;">Guide</a>
 								</li>
-								<li> <a href="#">Uncategorized</a>
+								<li> <a href="javascript:;">Uncategorized</a>
 								</li>
 							</ul>
 						</section>
 						<section class="widget widget_recent_entries">
 							<h3 class="widget-title">Recent Posts</h3>
 							<ul>
-								<li> <a href="#" id="r-title-1">Machine Learning Applications for Every Industry</a>
+								<li> <a href="javascript:;" id="r-title-1">Machine Learning Applications for Every Industry</a>
 								</li>
-								<li> <a href="#" id="r-title-2">5 Technology Considerations for Office Relocations</a>
+								<li> <a href="javascript:;" id="r-title-2">5 Technology Considerations for Office Relocations</a>
 								</li>
-								<li> <a href="#" id="r-title-3">5 Technology Considerations for Office Relocations</a>
+								<li> <a href="javascript:;" id="r-title-3">5 Technology Considerations for Office Relocations</a>
 								</li>
-								<li> <a href="#" id="r-title-4">A business guide to purchasing technology</a>
+								<li> <a href="javascript:;" id="r-title-4">A business guide to purchasing technology</a>
 								</li>
-								<li> <a href="#" id="r-title-5">Announcing Our New Smiles for Success Charity</a>
+								<li> <a href="javascript:;" id="r-title-5">Announcing Our New Smiles for Success Charity</a>
 								</li>
 							</ul>
 						</section>
 						<section class="widget widget_archive">
 							<h3 class="widget-title">Archives</h3>
 							<ul>
-								<li> <a href="#">June 2021</a>
+								<li> <a href="javascript:;">June 2021</a>
 								</li>
-								<li> <a href="#">July 2021</a>
+								<li> <a href="javascript:;">July 2021</a>
 								</li>
-								<li> <a href="#">August 2021</a>
+								<li> <a href="javascript:;">August 2021</a>
 								</li>
 							</ul>
 						</section>
 						<section class="widget widget_tag_cloud">
 							<h3 class="widget-title">Tags</h3>
-							<div class="tagcloud section-bottom"> <a href="#">
+							<div class="tagcloud section-bottom"> <a href="javascript:;">
 									IT
 									<span class="tag-link-count"> (7)</span>
 								</a>
-								<a href="#"> Technology
+								<a href="javascript:;"> Technology
 									<span class="tag-link-count"> (10)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Applications
 									<span class="tag-link-count"> (15)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Solutions
 									<span class="tag-link-count"> (30)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Overview
 									<span class="tag-link-count"> (10)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Industry
 									<span class="tag-link-count"> (12)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Marketing
 									<span class="tag-link-count"> (7)</span>
 								</a>
-								<a href="#">
+								<a href="javascript:;">
 									Guide
 									<span class="tag-link-count"> (3)</span>
 								</a>
@@ -418,19 +418,19 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
 							<ul class="footer-social">
 								<li>
-									<a href="#"> <i class="fab fa-facebook-f"></i>
+									<a href="javascript:;"> <i class="fab fa-facebook-f"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <i class="fab fa-twitter"></i>
+									<a href="javascript:;"> <i class="fab fa-twitter"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <i class="fab fa-pinterest"></i>
+									<a href="javascript:;"> <i class="fab fa-pinterest"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <i class="fab fa-linkedin"></i>
+									<a href="javascript:;"> <i class="fab fa-linkedin"></i>
 									</a>
 								</li>
 							</ul>
@@ -442,7 +442,7 @@
 								<h3>Our Services</h3>
 							</div>
 							<ul class="footer-quick-links">
-								<li> <a href="#">IT Solution</a></li>
+								<li> <a href="javascript:;">IT Solution</a></li>
 								<li> <a href="projects.html">Web Development</a></li>
 								<li> <a href="services.html">Networking Services</a></li>
 								<li> <a href="team.html">SEO Optimization</a></li>
@@ -487,6 +487,7 @@
 			</div>
 		</div>
 		<script src="/blog/js/blog/blog.js"></script>
+		<!-- <script src="/blog/js/blog/blog-single.js"></script> -->
 		<!-- End Footer Section -->
 	</section>
 	<!-- End Footer & Subscribe Section -->
@@ -516,8 +517,7 @@
 		<i class="fas fa-chevron-up"></i>
 		<i class="fas fa-chevron-up"></i>
 	</div>
-
-	<!-- End Go Top Section -->
+	<!-- Preloader -->
 	<script src="/assets/js/preloader.js"></script>
 
 	<!-- jQuery Min JS -->
@@ -544,17 +544,10 @@
 	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
 	<!-- Swiper Min JS -->
 	<script src="/teenus/assets/js/swiper.min.js"></script>
-	<!-- WOW Min JS -->
+	WOW Min JS
 	<script src="/teenus/assets/js/wow.min.js"></script>
-	<!-- Main JS -->
-	<!-- <script src="/teenus/assets/js/main.js"></script> -->
-	<!-- Datatables -->
-	<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
-	<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
-	<!-- Confirms -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
-	<!-- CKEditor -->
-	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
+	Main JS
+	<script src="/teenus/assets/js/main.js"></script> -->
 </body>
 
 </html>
