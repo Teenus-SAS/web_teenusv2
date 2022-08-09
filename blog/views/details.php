@@ -20,8 +20,8 @@
                     </div>
                 </div>
                 <div class="col-sm-7 col-xl-6">
-                    <div class="form-inline justify-content-sm-end">
-                        <button class="btn btn-warning" id="btnNewArticles" name="btnNewArticles" style="margin-left:550px;">Crear</button>
+                    <div class="form-inline justify-content-sm-end" style="display:flex">
+                        <button class="btn btn-warning" id="btnNewArticles" name="btnNewArticles">Crear</button>
                     </div>
                 </div>
             </div>

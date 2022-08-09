@@ -6,7 +6,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" />
+	<link rel="icon" type="image/png" href="/teenus/assets/img/favicon.png">
+	<!-- <link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" /> -->
 	<title>Teenus</title>
 	<?php include_once dirname(__DIR__) . '/partials/scriptsCSS.php'; ?>
 </head>

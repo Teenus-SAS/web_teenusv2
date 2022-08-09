@@ -1,40 +1,42 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="es">
 
-<!-- <head>
-	 Required meta tags 
+<head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	 Title 
+	<!-- Title -->
 	<title>Teenus - Blog</title>
-	 Google Fonts 
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	 Favicon 
+	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
-	 Bootstrap Min CSS 
+	<!-- Bootstrap Min CSS -->
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-	 Animate Min CSS 
+	<!-- Animate Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/animate.min.css">
-	 FlatIcon CSS 
+	<!-- FlatIcon CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/flaticon.css">
-	 Font Awesome Min CSS 
+	<!-- Font Awesome Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css">
-	 Mran Menu CSS 
+	<!-- Mran Menu CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/meanmenu.css">
-	 Magnific Popup Min CSS 
+	<!-- Magnific Popup Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/magnific-popup.min.css">
-	 Nice Select Min CSS 
+	<!-- Nice Select Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/nice-select.min.css">
-	 Swiper Min CSS 
+	<!-- Swiper Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/swiper.min.css">
-	 Owl Carousel Min CSS 
+	<!-- Owl Carousel Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/owl.carousel.min.css">
-	 Style CSS 
+	<!-- Style CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/style.css">
-	 Responsive CSS 
+	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
-</head> -->
+	<!-- DataTable -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css">
+</head>
 
 <body>
 	<!-- Start Preloader Area -->
@@ -51,7 +53,7 @@
 	<!-- End Navbar Area -->
 
 	<!-- Start Page Title Area -->
-	<div class="page-content page-title-area item-bg2">
+	<div class="page-title-area item-bg2">
 		<div class="d-table">
 			<div class="d-table-cell">
 				<div class="container">
@@ -70,13 +72,13 @@
 	<!-- Start Blog Section -->
 	<section class="blog-section pt-100 pb-100">
 		<div class="container">
-			<div class="row page-content">
+			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-1">
+									<a href="single-blog.html" class="image-1">
 										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
 									</a>
 								</div>
@@ -87,10 +89,10 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
+											<a href="single-blog.html" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
 										</h3>
 										<p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
+										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -99,7 +101,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-2">
+									<a href="single-blog.html" class="image-2">
 										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
 									</a>
 								</div>
@@ -114,13 +116,13 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-2">
+											<a href="single-blog.html" id="title-2">
 												Announcing Our New Smiles for Success Charity
 											</a>
 										</h3>
 										<p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
-											<a href="javascript:;" class="blog-btn-one" id="idArticle-2">Read More</a>
+											<a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -129,7 +131,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-3">
+									<a href="single-blog.html" class="image-3">
 										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
 									</a>
 								</div>
@@ -144,12 +146,12 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-3">
+											<a href="single-blog.html" id="title-3">
 												Machine Learning Applications for Every Industry
 											</a>
 										</h3>
 										<p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one" id="idArticle-3">Read More</a>
+										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -158,7 +160,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-4">
+									<a href="single-blog.html" class="image-4">
 										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
 									</a>
 								</div>
@@ -173,12 +175,12 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-4">
+											<a href="single-blog.html" id="title-4">
 												5 Technology Considerations for Office Relocations
 											</a>
 										</h3>
 										<p id="content-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one" id="idArticle-4">Read More</a>
+										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -187,7 +189,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-5">
+									<a href="single-blog.html" class="image-5">
 										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
 									</a>
 								</div>
@@ -202,13 +204,13 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-5">
+											<a href="single-blog.html" id="title-5">
 												Everything you need to know about geo-blocking
 											</a>
 										</h3>
 										<p id="content-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
 										<div class="blog-btn">
-											<a href="javascript:;" class="blog-btn-one" id="idArticle-5">Read More</a>
+											<a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -217,7 +219,7 @@
 						<div class="col-lg-6 col-md-6">
 							<div class="blog-item">
 								<div class="blog-image">
-									<a href="javascript:;" class="image-6">
+									<a href="single-blog.html" class="image-6">
 										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
 									</a>
 								</div>
@@ -232,12 +234,12 @@
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-6">
+											<a href="single-blog.html" id="title-6">
 												Internal or outsourced IT: What’s the best choice?
 											</a>
 										</h3>
 										<p id="content-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one" id="idArticle-6">Read More</a>
+										<div class="blog-btn"> <a href="single-blog.html" class="blog-btn-one">Read More</a>
 										</div>
 									</div>
 								</div>
@@ -517,34 +519,42 @@
 
 	<!-- End Go Top Section -->
 	<script src="/assets/js/preloader.js"></script>
-	<!-- jQuery Min JS
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- jQuery Min JS -->
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 	<script src="/teenus/assets/js/jquery.min.js"></script>
-	Popper Min JS
+	<!-- Popper Min JS -->
 	<script src="/teenus/assets/js/popper.min.js"></script>
-	Bootstrap Min JS
+	<!-- Bootstrap Min JS -->
 	<script src="/teenus/assets/js/bootstrap.min.js"></script>
-	MeanMenu JS
+	<!-- MeanMenu JS  -->
 	<script src="/teenus/assets/js/jquery.meanmenu.js"></script>
-	Appear Min JS
+	<!-- Appear Min JS -->
 	<script src="/teenus/assets/js/jquery.appear.min.js"></script>
-	CounterUp Min JS
+	<!-- CounterUp Min JS -->
 	<script src="/teenus/assets/js/jquery.waypoints.min.js"></script>
 	<script src="/teenus/assets/js/jquery.counterup.min.js"></script>
-	Owl Carousel Min JS
+	<!-- Owl Carousel Min JS -->
 	<script src="/teenus/assets/js/owl.carousel.min.js"></script>
-	Magnific Popup Min JS
+	<!-- Magnific Popup Min JS -->
 	<script src="/teenus/assets/js/jquery.magnific-popup.min.js"></script>
-	Nice Select Min JS
+	<!-- Nice Select Min JS -->
 	<script src="/teenus/assets/js/jquery.nice-select.min.js"></script>
-	Isotope Min JS
+	<!-- Isotope Min JS -->
 	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
-	Swiper Min JS
+	<!-- Swiper Min JS -->
 	<script src="/teenus/assets/js/swiper.min.js"></script>
-	WOW Min JS
+	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>
-	Main JS
-	<script src="/teenus/assets/js/main.js"></script> -->
+	<!-- Main JS -->
+	<!-- <script src="/teenus/assets/js/main.js"></script> -->
+	<!-- Datatables -->
+	<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+	<!-- Confirms -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+	<!-- CKEditor -->
+	<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
 </body>
 
 </html>

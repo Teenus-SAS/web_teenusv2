@@ -1,11 +1,11 @@
 <div class="nav-container">
     <div class="mobile-topbar-header">
         <div>
-            <img src="/admin/assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+            <img src="/assets/images/teenus/logo-Teenus.png" class="logo-icon" alt="logo icon">
         </div>
-        <div>
+        <!-- <div>
             <h4 class="logo-text">Teenus</h4>
-        </div>
+        </div> -->
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
     </div>
