@@ -1,4 +1,4 @@
-(function ($) {
+$(document).ready(function () {
   /* Cargar los tres ultimos articulos publicados */
   fetch(`/api/articles`)
     .then((response) => response.text())
@@ -24,6 +24,7 @@
 
       // Fecha Publicación
       months = [
+        '',
         'January',
         'February',
         'March',
@@ -54,10 +55,11 @@
 
       // Contenido
       content = data[i].content;
-      content.length > 86 ? (content = content.substr(0, 86)) : content;
+      content.length > 86 ? (content = `${content.substr(0, 86)}...`) : content;
       $(`#content-${i + 1}`).html(content);
     }
   };
+
   $(document).on('click', '.blog-item', function (e) {
     id_article = this.id;
 
@@ -65,8 +67,8 @@
       toastr.error('No es posible acceder a este articulo');
       return false;
     } else {
-      sessionStorage.setItem('id_article', id_article);
+      localStorage.setItem('id_article', id_article);
       loadContent('page-content', '../blog-single/index.php');
     }
   });
-})(jQuery);
+});

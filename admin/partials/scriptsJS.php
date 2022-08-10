@@ -18,7 +18,7 @@
 <!-- Confirms -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 <!-- CKEditor -->
-<script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
-<script src="/admin/assets/plugins/ckfinder/ckfinder.js"></script>
+<script src="/admin/assets/plugins/ckeditor5-build-classic/build/ckeditor.js"></script>
+<!-- <script src="/admin/assets/plugins/ckfinder/ckfinder.js"></script> -->
 <!-- Notifications -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>

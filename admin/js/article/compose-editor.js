@@ -1,9 +1,13 @@
 $(document).ready(function () {
   let newEditor;
+  debugger;
   /* Cargar editor */
   ClassicEditor.create(document.querySelector('#compose-editor'), {
-    ckfinder: {
-      uploadUrl: 'http://webteenus/admin/assets/plugins/ckfinder/userfiles/',
+    simpleUpload: {
+      uploadUrl: '/api/image.upload',
+    },
+    mediaEmbed: {
+      previewsInData: true,
     },
   })
     .then((editor) => {
