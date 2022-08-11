@@ -2,11 +2,9 @@
 
 use tezlik_web\dao\ArticlesDao;
 use tezlik_web\dao\PublicationsDao;
-use tezlik_web\dao\UploadImageDao;
 
 $articlesDao = new ArticlesDao();
 $publicationsDao = new PublicationsDao();
-$uploadImageDao = new UploadImageDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -31,16 +29,6 @@ $app->get('/articles', function (Request $request, Response $response, $args) us
 
     $response->getBody()->write(json_encode($articles, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
-});
-
-/* Cargar imagenes */
-$app->post('/image.upload', function (Request $request, Response $response, $args) use ($uploadImageDao) {
-    $image = $uploadImageDao->upload();
-
-    $resp = array('url' => $image);
-
-    $response->getBody()->write(json_encode($resp));
-    return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
 });
 
 $app->post('/addArticle', function (Request $request, Response $response, $args) use ($articlesDao, $publicationsDao) {

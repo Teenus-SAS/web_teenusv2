@@ -16,7 +16,7 @@ $(document).ready(function () {
     if (idArticle == '' || idArticle == null) {
       title = $('#title').val();
       author = $('#author').val();
-      content = getContent();
+      content = $('#compose-editor').html();
 
       if (
         !title ||
@@ -78,7 +78,7 @@ $(document).ready(function () {
     $('#title').val(data.title);
     $('#author').val(data.author);
 
-    setContent(data.content);
+    $('#compose-editor').html(data.content);
 
     $('.img').html(
       `<img id="img" src="${data.img}" style="width:200px;height:180px"/>`
@@ -89,7 +89,7 @@ $(document).ready(function () {
 
   updateArticles = () => {
     let idArticle = sessionStorage.getItem('id_article');
-    content = getContent();
+    content = $('#compose-editor').html();
     let imageArticle = $('#file')[0].files[0];
 
     dataArticles = new FormData(formCreateArticles);

@@ -1,31 +1,24 @@
 $(document).ready(function () {
-  let newEditor;
-  debugger;
   /* Cargar editor */
-  ClassicEditor.create(document.querySelector('#compose-editor'), {
-    simpleUpload: {
-      uploadUrl: '/api/image.upload',
+  $('#compose-editor').trumbowyg({
+    btns: [
+      ['viewHTML'],
+      ['historyUndo', 'historyRedo'],
+      ['formatting'],
+      ['fontfamily', 'fontsize'],
+      ['strong', 'em', 'del'],
+      ['link'],
+      ['base64', 'noembed', 'table'],
+      ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
+      ['unorderedList', 'orderedList'],
+      ['horizontalRule'],
+      ['removeformat'],
+    ],
+    plugins: {
+      resizimg: {
+        minSize: 64,
+        step: 16,
+      },
     },
-    mediaEmbed: {
-      previewsInData: true,
-    },
-  })
-    .then((editor) => {
-      editor.ui.view.editable.element.style.height = '250px';
-      newEditor = editor;
-    })
-    .catch((error) => {
-      console.error(error);
-    });
-
-  /* Obtener contenido */
-  getContent = () => {
-    content = newEditor.getData();
-    return content;
-  };
-
-  /* Establecer contenido */
-  setContent = (content) => {
-    newEditor.setData(content);
-  };
+  });
 });

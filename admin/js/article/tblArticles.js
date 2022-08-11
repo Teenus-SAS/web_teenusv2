@@ -108,7 +108,7 @@ $(document).ready(function () {
     e.preventDefault();
     loadContent('page-content', '/admin/views/blog/edit.php');
     $('#btnCreateArticles').html('Crear');
-    localStorage.removeItem('id_article');
+    sessionStorage.removeItem('id_article');
     sessionStorage.removeItem('data');
   });
 });
