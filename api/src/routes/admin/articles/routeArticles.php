@@ -1,10 +1,12 @@
 <?php
 
 use tezlik_web\dao\ArticlesDao;
+use tezlik_web\dao\PublicateArticleDao;
 use tezlik_web\dao\PublicationsDao;
 
 $articlesDao = new ArticlesDao();
 $publicationsDao = new PublicationsDao();
+$publicateArticleDao = new PublicateArticleDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -18,10 +20,13 @@ $app->get('/article/{id_article}', function (Request $request, Response $respons
 });
 
 /* Cargar articulos*/
-$app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao) {
+$app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao, $publicateArticleDao) {
     $allArticles = $articlesDao->findAllArticles();
     $recentArticles = $articlesDao->findRecentArticles();
     $popularArticles = $articlesDao->findPopularArticles();
+
+    $publicateArticleDao->activeArticle();
+    $publicateArticleDao->desactivateArticle();
 
     $articles['allArticles'] = $allArticles;
     $articles['recentArticles'] = $recentArticles;

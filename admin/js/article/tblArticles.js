@@ -1,16 +1,17 @@
 $(document).ready(function () {
-  let data;
-  if (data == undefined) getArticles();
-
+  debugger;
   /* Cargar tabla */
-  function getArticles() {
-    fetch(`/api/articles`)
-      .then((response) => response.text())
-      .then((data) => {
-        data = JSON.parse(data);
-        loadTableArticles(data.allArticles);
-      });
-  }
+  fetchindata = async () => {
+    data = await getArticles();
+    loadTableArticles(data.allArticles);
+    // loadRecentArticles(data.recentArticles);
+  };
+  fetchindata();
+  // fetch(`/api/articles`)
+  //   .then((response) => response.text())
+  //   .then((data) => {
+  //     data = JSON.parse(data);
+  //   });
 
   loadTableArticles = (data) => {
     tblArticles = $('#tblArticles').dataTable({

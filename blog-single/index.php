@@ -219,9 +219,9 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="blog-details-desc">
-						<div class="article-image">
+						<!-- <div class="article-image">
 							<img src="/teenus/assets/img/blog-details/3.jpg" alt="image">
-						</div>
+						</div> -->
 						<div class="article-content">
 							<div class="entry-meta">
 								<ul>
