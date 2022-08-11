@@ -25,9 +25,9 @@
                             </li>
                         </ul>
                         <div class="blog-content">
-                            <h3><a href="javascript:;" id="title-1">¿Por que desarrollar software?</a></h3>
-                            <p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
+                            <h3><a href="javascript:;" id="title-1"></a></h3>
+                            <p id="content-1"></p>
+                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -54,13 +54,11 @@
                         </ul>
                         <div class="blog-content">
                             <h3>
-                                <a href="javascript:;" id="title-2">
-                                    ¿Desarrollar software es costoso?
-                                </a>
+                                <a href="javascript:;" id="title-2"></a>
                             </h3>
-                            <p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
+                            <p id="content-2"></p>
                             <div class="blog-btn">
-                                <a href="javascript:;" class="blog-btn-one">Read More</a>
+                                <a href="javascript:;" class="blog-btn-one">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -87,12 +85,10 @@
                         </ul>
                         <div class="blog-content">
                             <h3>
-                                <a href="javascript:;" id="title-3">
-                                    Colombia, revolución en tecnología de automatización
-                                </a>
+                                <a href="javascript:;" id="title-3"></a>
                             </h3>
-                            <p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
+                            <p id="content-3"></p>
+                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Leer más</a>
                             </div>
                         </div>
                     </div>
