@@ -572,7 +572,6 @@
 	<?php include_once dirname(__DIR__) . '/partials/swicher.php' ?>
 	<!--end switcher-->
 
-	<script src="../assets/js/app.js"></script>
 	<script src="/global/js/loadContent.js"></script>
 	<?php
 	$rol = $_SESSION['rol'];

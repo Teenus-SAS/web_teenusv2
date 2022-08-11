@@ -42,7 +42,6 @@
                                     </label>
                                 </div>
                             </div>
-
                             <div class="form-group pt-4">
                                 <div class="text-right">
                                     <button class="btn btn-primary chat-send-btn" data-effect="wave" id="btnCreateArticles">

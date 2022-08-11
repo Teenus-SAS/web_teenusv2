@@ -13,7 +13,7 @@
         <ul class="metismenu" id="menu">
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
-                    <a href="javascript:;" id="dashboard" onclick="loadContent('page-content','../views/template.php')">
+                    <a href="javascript:history.go(0)" id="dashboard">
                         <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                         <div class="menu-title">Dashboard</div>
                     </a>
