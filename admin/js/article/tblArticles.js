@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  debugger;
   /* Cargar tabla */
   fetchindata = async () => {
     data = await getArticles();
@@ -7,11 +6,6 @@ $(document).ready(function () {
     // loadRecentArticles(data.recentArticles);
   };
   fetchindata();
-  // fetch(`/api/articles`)
-  //   .then((response) => response.text())
-  //   .then((data) => {
-  //     data = JSON.parse(data);
-  //   });
 
   loadTableArticles = (data) => {
     tblArticles = $('#tblArticles').dataTable({

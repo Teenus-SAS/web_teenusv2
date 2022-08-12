@@ -10,7 +10,7 @@ $(document).ready(function () {
         if (data.success == true) {
           toastr.success(data.message);
           setTimeout(() => {
-            location.href = '../';
+            location.href = '/admin/app/';
           }, 2000);
         } else if (data.error == true) toastr.error(data.message);
       },

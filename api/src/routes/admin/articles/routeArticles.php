@@ -21,12 +21,12 @@ $app->get('/article/{id_article}', function (Request $request, Response $respons
 
 /* Cargar articulos*/
 $app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao, $publicateArticleDao) {
+    $publicateArticleDao->activeArticle();
+    $publicateArticleDao->desactivateArticle();
+
     $allArticles = $articlesDao->findAllArticles();
     $recentArticles = $articlesDao->findRecentArticles();
     $popularArticles = $articlesDao->findPopularArticles();
-
-    $publicateArticleDao->activeArticle();
-    $publicateArticleDao->desactivateArticle();
 
     $articles['allArticles'] = $allArticles;
     $articles['recentArticles'] = $recentArticles;

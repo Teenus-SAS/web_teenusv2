@@ -3,10 +3,20 @@ $(document).ready(function () {
 
   /* Modificar Fecha de publicación */
   updatePublication = (id_article, publication_date) => {
+    var date = new Date();
+    var dateString;
+    date.setDate(date.getDate());
+    dateString =
+      date.getFullYear() +
+      '-' +
+      ('0' + (date.getMonth() + 1)).slice(-2) +
+      '-' +
+      ('0' + date.getDate()).slice(-2);
+
     bootbox.confirm({
       title: 'Modificación de Articulo',
       message: `<p>Ingrese fecha de publicación:</p>
-            <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" value="${publication_date}">`,
+            <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" min="${dateString}" value="${publication_date}">`,
       buttons: {
         confirm: {
           label: 'Guardar',
@@ -41,7 +51,7 @@ $(document).ready(function () {
   /* Visualizar Articulo */
   viewArticle = (id) => {
     localStorage.setItem('id_article', id);
-    window.open('http://webteenus/', '_blank');
+    window.open('../../', '_blank');
   };
 
   /* Actualizar Articulos */

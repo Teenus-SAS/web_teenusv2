@@ -48,7 +48,7 @@ class PassUserDao
 
             /* actualizar $pass en la DB */
             $pass = password_hash($new_pass, PASSWORD_DEFAULT);
-            $stmt = $connection->prepare("UPDATE users SET pass = :pass WHERE email = :email");
+            $stmt = $connection->prepare("UPDATE users SET password = :pass WHERE email = :email");
             $stmt->execute(['email' => $email, 'pass' => $pass]);
 
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));

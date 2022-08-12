@@ -19,31 +19,23 @@ class PublicateArticleDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        @session_start();
-        if (empty($_SESSION['active']) || time() - $_SESSION['time'] > 100) {
-            $stmt = $connection->prepare("UPDATE articles a
+        $stmt = $connection->prepare("UPDATE articles a
                                             JOIN publications p
                                             ON a.id_article = p.id_article
-                                            SET a.active = 1 WHERE p.publication_date = CURRENT_DATE()");
-            $stmt->execute();
-            $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-        } else
-            @session_start();
+                                            SET a.active = 1 WHERE p.publication_date <= CURRENT_DATE()");
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     }
 
     public function desactivateArticle()
     {
         $connection = Connection::getInstance()->getConnection();
 
-        @session_start();
-        if (empty($_SESSION['active']) || time() - $_SESSION['time'] > 100) {
-            $stmt = $connection->prepare("UPDATE articles a
+        $stmt = $connection->prepare("UPDATE articles a
                                       JOIN publications p
                                       ON a.id_article = p.id_article
                                       SET a.active = 0 WHERE p.publication_date > CURRENT_DATE()");
-            $stmt->execute();
-            $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
-        } else
-            @session_start();
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     }
 }
