@@ -51,7 +51,7 @@ $(document).ready(function() {
     /* Visualizar Articulo */
     viewArticle = (id) => {
         localStorage.setItem('id_article', id);
-        window.open('/', '_blank');
+        window.open('/blog-single/index.php', '_blank');
     };
 
     /* Actualizar Articulos */
