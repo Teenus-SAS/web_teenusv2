@@ -23,7 +23,7 @@ class ArticlesDao
         $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
-                                      ORDER BY `p`.`publication_date` ASC;");
+                                      ORDER BY `p`.`publication_date` DESC;");
         $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
