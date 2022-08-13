@@ -1,2 +1,0 @@
-[2022-04-24T02:10:36.653224+02:00] tezlik_web\Dao\Connection.INFO: Connection SuccesFully DB {"pdo":{"PDO":[]}} []
-[2022-04-24T02:10:38.724196+02:00] tezlik_web\dao\ContactDao.INFO: insertContact {"query":"INSERT INTO contacts (names, email, subject, message) \r\n                                    VALUE(:names, :email, :subject, :message)","errors":["00000",null,null]} []
