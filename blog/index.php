@@ -75,8 +75,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
+					<div class="row articles">
+						<!-- <div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-1">
 								<div class="blog-image">
 									<a href="javascript:;" class="image-1">
@@ -263,15 +263,15 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-12 col-md-12">
-							<div class="pagination-area"> <a href="javascript:;" class="prev page-numbers"><i class="fas fa-angle-double-left"></i></a>
-								<a href="javascript:;" class="page-numbers">1</a>
-								<span class="page-numbers current" aria-current="page">2</span>
-								<a href="javascript:;" class="page-numbers">3</a>
-								<a href="javascript:;" class="page-numbers">4</a>
-								<a href="javascript:;" class="next page-numbers"><i class="fas fa-angle-double-right"></i></a>
-							</div>
+						</div> -->
+					</div>
+					<div class="col-lg-12 col-md-12">
+						<div class="pagination-area"> <a href="javascript:;" class="prev page-numbers"><i class="fas fa-angle-double-left"></i></a>
+							<a href="javascript:;" class="page-numbers">1</a>
+							<span class="page-numbers current" aria-current="page">2</span>
+							<a href="javascript:;" class="page-numbers">3</a>
+							<a href="javascript:;" class="page-numbers">4</a>
+							<a href="javascript:;" class="next page-numbers"><i class="fas fa-angle-double-right"></i></a>
 						</div>
 					</div>
 				</div>
