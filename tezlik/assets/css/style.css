@@ -41,7 +41,7 @@ body {
     display: block;
     width: 80px;
     height: 80px;
-    background: #dc3545;
+    background: #0b5884;
     cursor: pointer;
     box-shadow: 0 0 0 rgb(138 31 230);
     animation: pulse 2s infinite;
@@ -182,7 +182,7 @@ body {
     display: block;
     width: 80px;
     height: 80px;
-    background: #dc3545;
+    background: #0b5884;
     cursor: pointer;
     box-shadow: 0 0 0 rgb(138 31 230);
     animation: pulse 2s infinite;
@@ -229,7 +229,7 @@ body {
     display: block;
     width: 80px;
     height: 80px;
-    background: #dc3545;
+    background: #0b5884;
     cursor: pointer;
     box-shadow: 0 0 0 rgb(253 40 112);
     animation: pulse-p 2s infinite;
@@ -338,7 +338,7 @@ h6 {
 }
 
 a {
-    color: #dc3545;
+    color: #0b5884;
     text-decoration: none !important;
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
@@ -352,7 +352,7 @@ img {
 }
 
 a:hover {
-    color: #dc3545;
+    color: #0b5884;
     -moz-transition: all 0.4s ease-in-out 0s;
     -ms-transition: all 0.4s ease-in-out 0s;
     -o-transition: all 0.4s ease-in-out 0s;
@@ -362,7 +362,7 @@ a:hover {
 
 a:hover,
 a:focus {
-    color: #dc3545;
+    color: #0b5884;
     text-decoration: none;
 }
 
@@ -386,7 +386,7 @@ p {
 .form-control:focus {
     box-shadow: none;
     outline: 0 none;
-    border-bottom: 1px solid #dc3545;
+    border-bottom: 1px solid #0b5884;
 }
 
 .btn:focus {
@@ -418,7 +418,7 @@ button:focus {
     letter-spacing: 0.7px;
     font-weight: 600;
     border: 2px solid transparent;
-    background: #dc3545;
+    background: #bb612e;
     transition: all 500ms ease;
     cursor: pointer;
     color: #fff;
@@ -428,9 +428,9 @@ button:focus {
 }
 
 .button:hover {
-    color: #000;
+    color: #0b5884;
     background: transparent;
-    border: 2px solid #dc3545;
+    border: 2px solid #bb612e;
 }
 
 .top-button:focus {
@@ -461,7 +461,7 @@ button:focus {
 }
 
 .navbar-reduce .top-button {
-    background: #dc3545;
+    background: #bb612e;
 }
 
 .navbar-reduce .top-button a {
@@ -469,9 +469,9 @@ button:focus {
 }
 
 .top-button:hover {
-    color: #000;
+    color: #0b5884;
     background: transparent;
-    border: 2px solid #dc3545;
+    border: 2px solid #bb612e;
 }
 
 dl,
@@ -517,7 +517,7 @@ ul {
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    border-bottom: 1px dashed #dc3545;
+    border-bottom: 1px dashed #0b5884;
 }
 
 .display-table {
@@ -546,7 +546,7 @@ ul {
     right: 25px;
     bottom: 20px;
     text-align: center;
-    background: #dc3545;
+    background: #0b5884;
     transition: background 0.5s;
     z-index: 11;
 }
@@ -586,7 +586,7 @@ ul {
     width: 35px;
     height: 8px;
     margin: 0 8px;
-    background: #dc3545;
+    background: #0b5884;
     border-radius: 30px;
 }
 
@@ -822,26 +822,26 @@ ul {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-    color: #000000;
+    color: #0b5884;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-    color: #000;
+    color: #0b5884;
 }
 
 .navbar-b.navbar-reduce .show>.nav-link,
 .navbar-b.navbar-reduce .active>.nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-    color: #000;
+    color: #0b5884;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-    color: #000;
+    color: #0b5884;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-    background-color: #1B1B1B;
+    background-color: #0b5884;
 }
 
 .navbar-b .navbar-brand {
@@ -878,13 +878,13 @@ ul {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-    background-color: #dc3545;
+    background-color: #0b5884;
     color: #fff;
     transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-    background-color: #dc3545;
+    background-color: #0b5884;
 }
 
 .navbar-toggler {
@@ -969,9 +969,9 @@ ul {
     width: 100%;
     opacity: .8;
     z-index: -1;
-    background: #f8b973;
-    background: -webkit-linear-gradient(to right, #f8b973, #f8b973);
-    background: linear-gradient(to right, #f8b973, #f8b973);
+    background: #0b5884;
+    background: -webkit-linear-gradient(to right, #0b5884, #0b5884);
+    background: linear-gradient(to right, #0b5884, #0b5884);
 }
 
 .svg-shape-bottom .bottom-shape {
@@ -1047,7 +1047,7 @@ ul {
     text-align: center;
     border: 1px solid rgb(0, 0, 0, 0.05);
     transition: .3s;
-    /* border-bottom: 4px solid #dc3545; */
+    /* border-bottom: 4px solid #0b5884; */
 }
 
 .works-item:hover {
@@ -1091,7 +1091,7 @@ ul {
     content: " ";
     display: block;
     width: 70%;
-    background: #dc3545;
+    background: #0b5884;
     height: 1px;
     margin: 0 auto;
     text-align: center;
@@ -1363,7 +1363,7 @@ ul {
     height: 65px;
     width: 65px;
     line-height: 65px;
-    color: #dc3545;
+    color: #0b5884;
     text-align: center;
     border-radius: 3px;
     background: #fff;
@@ -1375,7 +1375,7 @@ ul {
 }
 
 .counter-area {
-    background: #dc3545;
+    background: #0b5884;
 }
 
 
@@ -1448,7 +1448,7 @@ ul {
     line-height: 70px;
     border-radius: 50%;
     display: block;
-    color: #dc3545;
+    color: #0b5884;
     background: #fff;
     margin: auto;
     font-size: 30px;
@@ -1582,7 +1582,7 @@ ul {
     -webkit-transform: translate3d(0, -5px, 0);
     -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
-    border-bottom: 3px solid #dc3545;
+    border-bottom: 3px solid #0b5884;
     transition: .3s;
 }
 
@@ -1599,9 +1599,9 @@ ul {
     left: 0px;
     right: 0px;
     margin: auto;
-    background: #dc3545;
-    background: -webkit-linear-gradient(to right, #dc3545, #d3003a);
-    background: linear-gradient(to right, #dc3545, #d3003a);
+    background: #0b5884;
+    background: -webkit-linear-gradient(to right, #0b5884, #d3003a);
+    background: linear-gradient(to right, #0b5884, #d3003a);
 }
 
 .single-price-item.active .pricing-header .pricing-title {
@@ -1682,7 +1682,7 @@ ul {
     height: 47px;
     font-weight: 600;
     font-size: 18px;
-    color: #dc3545;
+    color: #0b5884;
     position: relative;
     top: -15px;
 }
@@ -1690,7 +1690,7 @@ ul {
 .single-price-item .pricing-body .price-wrapper .price {
     font-weight: 700;
     font-size: 34px;
-    color: #dc3545;
+    color: #0b5884;
     letter-spacing: 1px;
 }
 
@@ -1895,9 +1895,9 @@ ul {
 
 .faq-area .faq-item .accordion .active .title {
     color: #fff;
-    background: #dc3545;
-    background: -webkit-linear-gradient(to right, #dc3545, #d3003a);
-    background: linear-gradient(to right, #dc3545, #d3003a);
+    background: #0b5884;
+    background: -webkit-linear-gradient(to right, #0b5884, #d3003a);
+    background: linear-gradient(to right, #0b5884, #d3003a);
 }
 
 .faq-area .faq-item .accordion .active .title:after {
@@ -1944,7 +1944,7 @@ ul {
 .team-image {
     position: relative;
     overflow: hidden;
-    border-bottom: 5px solid #dc354530;
+    border-bottom: 5px solid #0b588430;
 }
 
 .single-team-box:hover .team-image img {
@@ -1990,7 +1990,7 @@ ul {
 
 .single-team-box .team-image .team-social-icon a:hover {
     color: #fff;
-    background: #dc3545;
+    background: #0b5884;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
 }
@@ -2020,11 +2020,11 @@ ul {
 }
 
 .single-team-box:hover .team-info h3 {
-    color: #dc3545;
+    color: #0b5884;
 }
 
 .team-info span {
-    color: #dc3545;
+    color: #0b5884;
     font-size: 14px;
     font-weight: 500;
 }
@@ -2059,9 +2059,9 @@ ul {
     width: 100%;
     opacity: .7;
     z-index: -1;
-    background: #dc3545;
-    background: -webkit-linear-gradient(to right, #dc3545, #d3003a);
-    background: linear-gradient(to right, #dc3545, #d3003a);
+    background: #0b5884;
+    background: -webkit-linear-gradient(to right, #0b5884, #0b5884);
+    background: linear-gradient(to right, #0b5884, #0b5884);
 }
 
 .download-app-text {
@@ -2321,7 +2321,7 @@ textarea:focus {
 
 .footer-colm-4 .footer-social-icon li a {
     color: #fff;
-    background: #dc3545;
+    background: #0b5884;
     border-radius: 50%;
     width: 30px;
     font-size: 13px;
@@ -2385,7 +2385,7 @@ ul.footer-nav li a {
     width: 120px;
     text-align: center;
     line-height: 40px;
-    background: #dc3545;
+    background: #0b5884;
     border: none;
     cursor: pointer;
     color: #fff;
@@ -2411,7 +2411,7 @@ ul.footer-nav li a {
 }
 
 .copyright-area p a {
-    color: #dc3545;
+    color: #0b5884;
 }
 
 .hidden {
@@ -2427,5 +2427,5 @@ ul.footer-nav li a {
 }
 
 .with-errors {
-    color: #dc3545;
+    color: #0b5884;
 }

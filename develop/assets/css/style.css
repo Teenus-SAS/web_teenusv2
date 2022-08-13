@@ -2,6 +2,7 @@
 Project     :   Proda - Product Selling Landing Page Template
 -------------------------------------------------------------------------------------*/
 
+
 /*------------------------------------------------------------------------------------
 
 [Table of contents]
@@ -26,19 +27,18 @@ footer area
 
 --------------------------------------------------------------------------------------*/
 
+
 /*-------------------------------------------------------------------------------------
     default css
 ---------------------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700');
-
 html,
 body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -201,7 +201,6 @@ p {
     0% {
         -webkit-transform: scale(0)
     }
-
     100% {
         -webkit-transform: scale(1.0);
         opacity: 0;
@@ -213,13 +212,13 @@ p {
         -webkit-transform: scale(0);
         transform: scale(0);
     }
-
     100% {
         -webkit-transform: scale(1.0);
         transform: scale(1.0);
         opacity: 0;
     }
 }
+
 
 /*-------------------------------------------------------------------------------------
     header area
@@ -240,7 +239,7 @@ p {
     padding: 0 8px;
 }
 
-.sticky .navbar-nav .nav-item .nav-link{
+.sticky .navbar-nav .nav-item .nav-link {
     color: #000;
 }
 
@@ -254,7 +253,6 @@ p {
     color: #3f7db9;
     border-bottom: 2px solid #3f7db9;
 }
-
 
 .navbar-nav .nav-item .nav-link.active {
     color: #ffffff;
@@ -271,6 +269,7 @@ p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 22px 0
 }
+
 
 /*-------------------------------------------------------------------------------------
     home area
@@ -330,6 +329,7 @@ p {
     max-width: 350px;
 }
 
+
 /*-------------------------------------------------------------------------------------
     home slider
 ---------------------------------------------------------------------------------------*/
@@ -364,7 +364,7 @@ p {
     animation: 1s .8s fadeInUp both;
 }
 
-.home-carousel .owl-nav > div {
+.home-carousel .owl-nav>div {
     position: absolute;
     left: 20px;
     top: 40%;
@@ -389,11 +389,11 @@ p {
     right: 20px
 }
 
-.home-carousel .owl-nav > div:hover {
+.home-carousel .owl-nav>div:hover {
     background-color: rgba(255, 77, 28);
 }
 
-#home-area:hover .owl-nav > div {
+#home-area:hover .owl-nav>div {
     visibility: visible;
     opacity: 1;
 }
@@ -418,6 +418,7 @@ p {
 .home-carousel .owl-dot.active {
     background-color: #3f7db9;
 }
+
 
 /*-------------------------------------------------------------------------------------
     home newsletter
@@ -463,6 +464,7 @@ p {
     margin-top: 34px;
 }
 
+
 /*-------------------------------------------------------------------------------------
     section heading
 ---------------------------------------------------------------------------------------*/
@@ -474,6 +476,7 @@ p {
 .section-heading h2 {
     font-weight: 700;
 }
+
 
 /*-------------------------------------------------------------------------------------
     feature area
@@ -495,14 +498,15 @@ p {
     display: block;
 }
 
-.feature-single{
+.feature-single {
     background: #fafafa;
     padding: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     margin-bottom: 30px;
 }
-.feature-single:hover{
+
+.feature-single:hover {
     -webkit-box-shadow: 0 4px 15px 0 #ccc;
     box-shadow: 0 4px 15px 0 #ccc;
 }
@@ -530,6 +534,7 @@ p {
     background-color: #f8f9fa;
     color: #000000;
 }
+
 
 /*-------------------------------------------------------------------------------------
     about area
@@ -576,6 +581,7 @@ p {
 .about-img img {
     max-width: 350px;
 }
+
 
 /*-------------------------------------------------------------------------------------
     video area
@@ -663,25 +669,21 @@ p {
         transform: scale(0.85);
         opacity: 1;
     }
-
     25% {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
         opacity: 0.8;
     }
-
     50% {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
         opacity: 0.55;
     }
-
     75% {
         -webkit-transform: scale(1.32);
         transform: scale(1.32);
         opacity: 0.3;
     }
-
     100% {
         -webkit-transform: scale(1.4);
         transform: scale(1.4);
@@ -695,31 +697,28 @@ p {
         transform: scale(0.85);
         opacity: 1;
     }
-
     25% {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
         opacity: 0.8;
     }
-
     50% {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
         opacity: 0.55;
     }
-
     75% {
         -webkit-transform: scale(1.32);
         transform: scale(1.32);
         opacity: 0.3;
     }
-
     100% {
         -webkit-transform: scale(1.4);
         transform: scale(1.4);
         opacity: 0;
     }
 }
+
 
 /*-------------------------------------------------------------------------------------
     why choose area
@@ -789,7 +788,7 @@ p {
     right: 0
 }
 
-.product-gallery.owl-carousel .owl-nav > div {
+.product-gallery.owl-carousel .owl-nav>div {
     position: absolute;
     left: 0;
     bottom: -65px;
@@ -806,7 +805,7 @@ p {
     border-radius: 4px
 }
 
-.product-gallery.owl-carousel .owl-nav > div:hover {
+.product-gallery.owl-carousel .owl-nav>div:hover {
     background-color: #3f7db9;
 }
 
@@ -814,6 +813,7 @@ p {
     left: auto;
     right: 0
 }
+
 
 /*-------------------------------------------------------------------------------------
     product area
@@ -836,7 +836,7 @@ p {
     height: 100%
 }
 
-.product-img{
+.product-img {
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -906,6 +906,7 @@ p {
     background-color: #161616;
 }
 
+
 /*-------------------------------------------------------------------------------------
     newsletter area
 ---------------------------------------------------------------------------------------*/
@@ -958,6 +959,7 @@ p {
     background-color: #161616;
 }
 
+
 /*-------------------------------------------------------------------------------------
     faq area
 ---------------------------------------------------------------------------------------*/
@@ -972,7 +974,7 @@ p {
     background-color: #f9f9f9;
 }
 
-.faq-image{
+.faq-image {
     border: 1px solid #f9f9f9;
     border-radius: 30px;
     overflow: hidden;
@@ -1023,6 +1025,7 @@ p {
     color: #fff
 }
 
+
 /*-------------------------------------------------------------------------------------
     testimonial area
 ---------------------------------------------------------------------------------------*/
@@ -1066,7 +1069,7 @@ p {
     margin: 8px 0 0;
 }
 
-.client-comment-quotes{
+.client-comment-quotes {
     color: #3f7db9;
     font-size: 40px;
     display: inline-block;
@@ -1078,7 +1081,7 @@ p {
     position: relative
 }
 
-.testi-carousel.owl-carousel .owl-nav > div {
+.testi-carousel.owl-carousel .owl-nav>div {
     position: absolute;
     left: 0;
     width: 40px;
@@ -1099,10 +1102,11 @@ p {
     left: 60px;
 }
 
-.testi-carousel.owl-carousel .owl-nav > div:hover {
+.testi-carousel.owl-carousel .owl-nav>div:hover {
     background-color: #092EED;
     color: #fff
 }
+
 
 /*-------------------------------------------------------------------------------------
     contact area
@@ -1178,9 +1182,10 @@ p {
     background-color: transparent
 }
 
-.hidden{
+.hidden {
     display: none;
 }
+
 
 /*-------------------------------------------------------------------------------------
     footer area
@@ -1219,6 +1224,7 @@ p {
 .copyright-text a:hover {
     color: #161616;
 }
+
 
 /*-------------------------------------------------------------------------------------
     demo area
