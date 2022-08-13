@@ -631,7 +631,7 @@ ul {
     color: #fff;
     padding: 10px;
     height: 100%;
-    background: #dc3545;
+    background: #0b5884;
     border: 5px dashed #fff;
     -webkit-animation: animate .5s linear infinite;
     animation: animate .5s linear infinite;
@@ -663,7 +663,7 @@ ul {
     width: 60%;
     height: 100%;
     z-index: -1;
-    background: #dc3545;
+    background: #0b5884;
     -webkit-transition: .9s;
     transition: .9s;
 }
@@ -969,9 +969,9 @@ ul {
     width: 100%;
     opacity: .8;
     z-index: -1;
-    background: #dc3545;
-    background: -webkit-linear-gradient(to right, #dc3545, #d3003a);
-    background: linear-gradient(to right, #dc3545, #d3003a);
+    background: #f8b973;
+    background: -webkit-linear-gradient(to right, #f8b973, #f8b973);
+    background: linear-gradient(to right, #f8b973, #f8b973);
 }
 
 .svg-shape-bottom .bottom-shape {

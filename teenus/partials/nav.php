@@ -17,7 +17,7 @@
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="/">
                     <img src="/assets/images/teenus/logo_white.png" style="width: 120px;" class="white-logo" alt="logo">
-                    <img src="/assets/images/teenus/logo.jpg" style="width: 120px;" class="black-logo" alt="logo">
+                    <img src="/assets/images/teenus/logo.png" style="width: 120px;" class="black-logo" alt="logo">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
