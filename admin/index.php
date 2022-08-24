@@ -41,7 +41,7 @@
                                 <div class="card-body">
                                     <div class="border p-4 rounded">
                                         <div class="mb-4 text-center">
-                                            <img src="/assets/images/teenus/logo-Teenus.png" width="180" alt="" />
+                                            <img src="/assets/images/teenus/logo.png" width="180" alt="" />
                                         </div>
                                         <div class="text-center">
                                             <h3 class="">Iniciar Sesión</h3>

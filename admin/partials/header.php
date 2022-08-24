@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand">
         <div class="topbar-logo-header">
             <div class="">
-                <img src="/assets/images/teenus/logo-Teenus.png" class="logo-icon" width="100%" alt="logo icon">
+                <img src="/assets/images/teenus/logo.png" class="logo-icon" width="100%" alt="logo icon">
             </div>
             <!-- <div class="">
                 <h4 class="logo-text">Admin</h4>

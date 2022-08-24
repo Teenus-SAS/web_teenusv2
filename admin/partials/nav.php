@@ -1,7 +1,7 @@
 <div class="nav-container">
     <div class="mobile-topbar-header">
         <div>
-            <img src="/assets/images/teenus/logo-Teenus.png" class="logo-icon" alt="logo icon">
+            <img src="/assets/images/teenus/logo.png" class="logo-icon" alt="logo icon">
         </div>
         <!-- <div>
             <h4 class="logo-text">Teenus</h4>
