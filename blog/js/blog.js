@@ -3,7 +3,6 @@ $(document).ready(function () {
     data = await getArticles();
     loadArticles(data.recentArticles);
     loadPopularArticles(data.popularArticles);
-    // loadRecentArticles(data.recentArticles);
   };
 
   fetchindata();

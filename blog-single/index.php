@@ -37,12 +37,6 @@
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
-<?php
-$dom = $_SERVER['HTTP_HOST'];
-$rest = $_SERVER['REQUEST_URI'];
-$url = "http://" . $dom . $rest;
-?>
-
 <body>
 
 	<!-- Start Preloader Area -->
@@ -270,15 +264,15 @@ $url = "http://" . $dom . $rest;
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="javascript: void(0);" onclick="window.open('https://www.facebook.com/sharer/sharer.php?url=<?php echo $url; ?>')"><i class="fab fa-facebook-f"></i>
+										<a href="javascript: void(0);" class="share" onclick="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="javascript: void(0);" onclick="window.open('https://twitter.com/intent/tweet?url=<?php echo $url; ?>')"><i class="fab fa-twitter"></i>
+										<a href="javascript: void(0);" class="share" onclick="https://twitter.com/intent/tweet?url=https://teenus.com.co"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="javascript: void(0);" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $url; ?>')"><i class="fab fa-linkedin"></i>
+										<a href="javascript: void(0);" class="share" onclick="https://www.linkedin.com/sharing/share-offsite/?url=https://teenus.com.co"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>

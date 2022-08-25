@@ -24,7 +24,6 @@ $(document).ready(function () {
     $('#author').html(` ${data.author}`);
 
     // Fecha Publicación
-    // Fecha Publicación
     months = [
       '',
       'January',
@@ -86,6 +85,11 @@ $(document).ready(function () {
     }
     $(`#${idArticle}`).css('pointer-events', 'none');
   };
+
+  /* Compartir articulo */
+  $(document).on('click', '.share', function () {
+    localStorage.setItem('id_article', idArticle);
+  });
 
   localStorage.removeItem('id_article');
 });
