@@ -264,15 +264,15 @@
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="javascript: void(0);" class="share" onclick="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co"><i class="fab fa-facebook-f"></i>
+										<a href="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co" class="share"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="javascript: void(0);" class="share" onclick="https://twitter.com/intent/tweet?url=https://teenus.com.co"><i class="fab fa-twitter"></i>
+										<a href="https://twitter.com/intent/tweet?url=https://teenus.com.co" class="share"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="javascript: void(0);" class="share" onclick="https://www.linkedin.com/sharing/share-offsite/?url=https://teenus.com.co"><i class="fab fa-linkedin"></i>
+										<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://teenus.com.co" class="share"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>
