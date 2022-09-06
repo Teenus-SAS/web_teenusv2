@@ -86,10 +86,10 @@ $(document).ready(function () {
     $(`#${idArticle}`).css('pointer-events', 'none');
   };
 
-  /* Compartir articulo */
+  /* Compartir articulo
   $(document).on('click', '.share', function () {
     localStorage.setItem('id_article', idArticle);
   });
 
-  localStorage.removeItem('id_article');
+  localStorage.removeItem('id_article'); */
 });

@@ -5,7 +5,7 @@
                 <div class="logo">
                     <a href="/">
                         <img src="/assets/images/teenus/logo_white.png" class="white-logo" alt="logo">
-                        <img src="/assets/images/teenus/logo.jpg" class="black-logo" alt="logo">
+                        <img src="/assets/images/teenus/logo.png" class="black-logo" alt="logo">
                     </a>
                 </div>
             </div>
@@ -22,9 +22,9 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="/develop/index.php" class="nav-link">Desarrollo de Software</a></li>
-                        <li class="nav-item"><a href="/tezlik/index.php" class="nav-link">Automatice sus costos y precios</a></li>
-                        <li class="nav-item"><a href="javascript:;" onclick="loadContent('page-content','../../blog/index.php')" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li>
+                        <li class="nav-item"><a href="/tezlik" class="nav-link">Automatice sus costos y precios</a></li>
+                        <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
                     </ul>
                     <div class="other-option">
                         <a class="default-btn" href="#contact">Contactenos <span></span></a>

@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title -->
-	<title>Techvio - IT Solutions & Business Services Website Template</title>
+	<title>Teenus - Articulo</title>
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
 	<!-- Animate Min CSS -->
 	<!-- <link rel="stylesheet" href="/teenus/assets/css/animate.min.css"> -->
 	<!-- FlatIcon CSS -->
-	<link rel="stylesheet" href="/teenus/assets/css/flaticon.css">
+	<!-- <link rel="stylesheet" href="/teenus/assets/css/flaticon.css"> -->
 	<!-- Font Awesome Min CSS -->
-	<link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css">
+	<!-- <link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css"> -->
 	<!-- Mran Menu CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/meanmenu.css">
 	<!-- Magnific Popup Min CSS -->
@@ -264,15 +264,15 @@
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co" class="share"><i class="fab fa-facebook-f"></i>
+										<a href="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co/articulo" class="share"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://twitter.com/intent/tweet?url=https://teenus.com.co" class="share"><i class="fab fa-twitter"></i>
+										<a href="https://twitter.com/intent/tweet?url=<?php echo "https://" . $host . $url; ?>" class="share"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://teenus.com.co" class="share"><i class="fab fa-linkedin"></i>
+										<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo "https://" . $host . $url; ?>" class="share"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>
@@ -427,6 +427,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<!-- Bootstrap Min JS -->
 	<script src="/teenus/assets/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/169f3bd126.js" crossorigin="anonymous"></script>
 	<!-- MeanMenu JS  -->
 	<script src="/teenus/assets/js/jquery.meanmenu.js"></script>
 	<!-- Appear Min JS -->

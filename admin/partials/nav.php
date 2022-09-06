@@ -20,14 +20,14 @@
                 </li>
             <?php } ?>
             <li>
-                <a href="javascript:;" id="blog" onclick="loadContent('page-content','../views/blog/details.php')" class="has-arrow">
+                <a href="javascript:;" id="blog" onclick="loadContent('page-content','/admin/blogs-detalles')" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
-                    <a href="javascript:;" id="user" onclick="loadContent('page-content','../views/users/users.php')">
+                    <a href="javascript:;" id="user" onclick="loadContent('page-content','/admin/usuarios')">
                         <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                         <div class="menu-title">Usuarios</div>
                     </a>

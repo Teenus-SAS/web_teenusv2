@@ -68,7 +68,8 @@ $(document).ready(function () {
       return false;
     } else {
       localStorage.setItem('id_article', id_article);
-      loadContent('page-content', '../blog-single/index.php');
+      location.href = 'articulo';
+      // loadContent('page-content', '/articulo');
     }
   });
 });

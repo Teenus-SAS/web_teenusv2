@@ -332,9 +332,12 @@
         </div>
         <div class="user-box dropdown">
             <a class="d-flex align-items-center nav-link dropdown-toggle" href="#" id="topnav-component" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="/admin/assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">
+                <img src="/admin/assets/images/avatars/empty-avatar.png" class="user-img" alt="user avatar">
                 <div class="user-info ps-3">
-                    <p class="user-name mb-0">Pauline Seitz</p>
+                    <p class="user-name mb-0">
+                        <?php $name = $_SESSION['name'];
+                        echo $name; ?>
+                    </p>
                     <p class="designattion mb-0">Web Designer</p>
                 </div>
             </a>

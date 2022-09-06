@@ -10,7 +10,7 @@
                                     <h1>Desarrollamos Software a su Medida</h1>
                                     <h5 class="mb-3">¿Le gustaria ahorrar costos, tiempos, agilizar procesos y mejorar las ventas? <br><br> El desarrollo de software es en definitiva la inversión en este momento para tener un retorno de gran impacto en las utilidades y rendimiento de su empresa</h5>
                                     <div class="banner-btn home-slider-btn">
-                                        <a href="/develop/index.php" class="default-btn-one">Conoce más<span></span></a>
+                                        <a href="/desarrollo-de-software" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactenos<span></span></a>
                                     </div>
                                 </div>
@@ -26,11 +26,11 @@
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
                                     <h1>Tezlik - Costos/Precios</h1>
-                                    <h5 class="mb-3">En tres clicks genere los precios y costos de todos sus productos, fácil, rápido y sin esfuerzo.<br><br> 
-                                                    ¿Cuál es su producto más rentable? ¿Cuánto cuesta la nómina para producirlo? 
-                                                    ¿Qué precio debería tener? ¿Cuáles son sus costos?</h5>
+                                    <h5 class="mb-3">En tres clicks genere los precios y costos de todos sus productos, fácil, rápido y sin esfuerzo.<br><br>
+                                        ¿Cuál es su producto más rentable? ¿Cuánto cuesta la nómina para producirlo?
+                                        ¿Qué precio debería tener? ¿Cuáles son sus costos?</h5>
                                     <div class="banner-btn home-slider-btn">
-                                        <a href="/tezlik/index.php" class="default-btn-one">Conoce más<span></span></a>
+                                        <a href="/tezlik" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactenos<span></span></a>
                                     </div>
                                 </div>

@@ -9,9 +9,25 @@ require_once("{$_SERVER['DOCUMENT_ROOT']}/router.php");
 // Static GET
 // In the URL -> http://localhost
 // The output -> Index
+/* Admin */
+// Login
+get('/admin', '/admin/index.php');
+get('/admin/olvido-contrasena', '/admin/views/password/auth-forgot-password.php');
+get('/admin/restablecer-contrasena', '/admin/views/password/auth-reset-password.php');
+
+// App
+get('/admin/app', '/admin/views/template.php');
+get('/admin/blogs-detalles', '/admin/views/blog/details.php');
+get('/admin/editar-blog', '/admin/views/blog/edit.php');
+get('/admin/usuarios', '/admin/views/users/users.php');
+
+
+// Teenus
 get('/', '/teenus/index.php');
 get('/desarrollo-de-software', '/develop/index.php');
 get('/tezlik', '/tezlik/index.php');
+get('/blogs', '/blog/index.php');
+get('/articulo', '/blog-single/index.php');
 
 // Dynamic GET. Example with 1 variable
 // The $id will be available in user.php

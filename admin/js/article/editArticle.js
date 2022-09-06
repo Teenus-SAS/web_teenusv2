@@ -39,7 +39,7 @@ $(document).ready(function () {
             '/api/updatePublication',
             data,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '/admin/views/blog/details.php');
+              loadContent('page-content', '/admin/blogs-detalles');
               message(data);
             }
           );
@@ -51,7 +51,7 @@ $(document).ready(function () {
   /* Visualizar Articulo */
   viewArticle = (id) => {
     localStorage.setItem('id_article', id);
-    window.open('https://teenus.com.co', '_blank');
+    window.open('/articulo', '_blank');
   };
 
   /* Actualizar Articulos */
@@ -92,7 +92,7 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '/admin/views/blog/details.php');
+              loadContent('page-content', '/admin/blogs-detalles');
               message(data);
             }
           );

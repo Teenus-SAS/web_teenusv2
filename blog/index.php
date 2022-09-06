@@ -11,16 +11,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="/teenus/assets/img/favicon.png">
 	<!-- Bootstrap Min CSS -->
 	<!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<!-- Animate Min CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/animate.min.css">
 	<!-- FlatIcon CSS -->
-	<link rel="stylesheet" href="/teenus/assets/css/flaticon.css">
+	<!-- <link rel="stylesheet" href="/teenus/assets/css/flaticon.css"> -->
 	<!-- Font Awesome Min CSS -->
-	<link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css">
+	<!-- <link rel="stylesheet" href="/teenus/assets/css/fontawesome.min.css"> -->
 	<!-- Mran Menu CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/meanmenu.css">
 	<!-- Magnific Popup Min CSS -->
@@ -311,6 +311,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<!-- Bootstrap Min JS -->
 	<script src="/teenus/assets/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/169f3bd126.js" crossorigin="anonymous"></script>
 	<!-- MeanMenu JS  -->
 	<script src="/teenus/assets/js/jquery.meanmenu.js"></script>
 	<!-- Appear Min JS -->

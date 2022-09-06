@@ -576,7 +576,7 @@
 	<?php
 	$rol = $_SESSION['rol'];
 
-	if ($rol == 1) echo '<script>', "loadContent('page-content','/admin/views/blog/details.php')", '</script>';
+	if ($rol == 1) echo '<script>', "loadContent('page-content','/admin/blogs-detalles')", '</script>';
 	?>
 	<script src="/admin/js/global/logout.js"></script>
 </body>

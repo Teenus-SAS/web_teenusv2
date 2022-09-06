@@ -44,8 +44,8 @@
                             <h3>¿Qué puede hacer?</h3>
                         </div>
                         <ul class="footer-quick-links">
-                            <li> <a href="/develop/index.php">Desarrollo a la medida</a></li>
-                            <li> <a href="/tezlik/index.php">Costee sus productos y fije sus precios</a></li>
+                            <li> <a href="/desarrollo-de-software">Desarrollo a la medida</a></li>
+                            <li> <a href="/tezlik">Costee sus productos y fije sus precios</a></li>
                         </ul>
                     </div>
                 </div>

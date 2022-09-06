@@ -1,19 +1,19 @@
 <!-- JQuery -->
-<script src="../assets/js/jquery.min.js"></script>
+<script src="/admin/assets/js/jquery.min.js"></script>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <!--plugins-->
-<script src="../assets/plugins/simplebar/js/simplebar.min.js"></script>
+<script src="/admin/assets/plugins/simplebar/js/simplebar.min.js"></script>
 <script src="/admin/assets/plugins/metismenu/js/metisMenu.min.js"></script>
 <script src="https://kit.fontawesome.com/169f3bd126.js" crossorigin="anonymous"></script>
-<script src="../assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-<script src="../assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
-<script src="../assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="../assets/plugins/chartjs/js/Chart.min.js"></script>
-<script src="../assets/plugins/chartjs/js/Chart.extension.js"></script>
-<script src="../assets/js/index.js"></script>
+<script src="/admin/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+<script src="/admin/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+<script src="/admin/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="/admin/assets/plugins/chartjs/js/Chart.min.js"></script>
+<script src="/admin/assets/plugins/chartjs/js/Chart.extension.js"></script>
+<script src="/admin/assets/js/index.js"></script>
 <!-- page JS -->
-<script src="../assets/js/app.js"></script>
+<script src="/admin/assets/js/app.js"></script>
 <!-- Datatables -->
 <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
