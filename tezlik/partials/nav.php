@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll" href="#about">Acerca de </a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#screenshort">Interfaces</a></li> -->
                 <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll" href="/develop/">Desarrollo de software</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll" href="/desarrollo-de-software">Desarrollo de software</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#review">Review</a></li> -->
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#team">Equipo</a></li> -->
                 <li class="nav-item top-button"><a class="nav-link js-scroll" href="#contact">Contactenos</a></li>
