@@ -69,7 +69,6 @@ $(document).ready(function () {
     } else {
       localStorage.setItem('id_article', id_article);
       location.href = 'articulo';
-      // loadContent('page-content', '/articulo');
     }
   });
 });
