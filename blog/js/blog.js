@@ -96,4 +96,17 @@ $(document).ready(function () {
       $(`#p-title-${i + 1}`).html(title);
     }
   };
+
+  $(document).on('click', '.blog-item', function (e) {
+    id_article = this.id;
+
+    if (id_article.includes('idArticle')) {
+      toastr.error('No es posible acceder a este articulo');
+      return false;
+    } else {
+      localStorage.setItem('id_article', id_article);
+      location.href = 'articulo';
+      // loadContent('page-content', '/articulo');
+    }
+  });
 });

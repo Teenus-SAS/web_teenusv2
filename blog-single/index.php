@@ -37,6 +37,10 @@
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
+<?php
+$link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+?>
+
 <body>
 
 	<!-- Start Preloader Area -->
@@ -264,15 +268,15 @@
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/sharer/sharer.php?u=https://teenus.com.co/articulo" class="share"><i class="fab fa-facebook-f"></i>
+										<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $link ?>" class="share"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://twitter.com/intent/tweet?url=<?php echo "https://" . $host . $url; ?>" class="share"><i class="fab fa-twitter"></i>
+										<a href="https://twitter.com/intent/tweet?url=<?php echo $link ?>" class="share"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo "https://" . $host . $url; ?>" class="share"><i class="fab fa-linkedin"></i>
+										<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $link ?>" class="share"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>

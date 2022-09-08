@@ -139,7 +139,7 @@ class ArticlesDao
     public function imageArticle($id_article)
     {
         $connection = Connection::getInstance()->getConnection();
-        $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/images/teenus/articles/';
+        $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/images/teenus/articles';
         $allowTypes = array('jpg', 'jpeg', 'png');
 
         $image_name = $_FILES['img']['name'];
@@ -152,7 +152,7 @@ class ArticlesDao
         if (!is_dir($targetDir))
             mkdir($targetDir, 0777, true);
 
-        $targetDir = '/assets/images/teenus/articles/';
+        $targetDir = '/assets/images/teenus/articles';
         $targetFilePath = $targetDir . '/' . $image_name;
 
         $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
@@ -165,7 +165,7 @@ class ArticlesDao
                 'id_article' => $id_article
             ]);
 
-            $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/images/teenus/articles/';
+            $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/images/teenus/articles';
             $targetFilePath = $targetDir . '/' . $image_name;
 
             move_uploaded_file($tmp_name, $targetFilePath);
