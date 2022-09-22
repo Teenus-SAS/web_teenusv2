@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#" class="button btnPlan js-scroll" id="Premium" >Seleccionar Plan</a>
+                        <a href="#" class="button btnPlan js-scroll" id="Premium">Seleccionar Plan</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
-                        <p class="pricing-description">Pago anual - 15% de descuento</p>
+                        <p class="pricing-description">Pago anual - 10% de descuento</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -52,7 +52,7 @@
                             <li class="active">Calculo de Precios</li>
                             <li class="active">Analisis de Costos por producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
-                            <li class="active">Usuarios 3</li>
+                            <li class="active">Usuarios 2</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -67,7 +67,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
-                        <p class="pricing-description">Pago anual - 15% de descuento </p>
+                        <p class="pricing-description">Pago anual - 8% de descuento </p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -95,7 +95,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Emprendedor</h3>
-                        <p class="pricing-description">Pago anual - 15% de descuento</p>
+                        <p class="pricing-description">Pago anual - 4% de descuento</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
