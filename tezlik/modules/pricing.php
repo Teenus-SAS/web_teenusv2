@@ -20,16 +20,17 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Análisis de Productos Ilimitados</li>
-                            <li class="active">Calculo de Precios</li>
-                            <li class="active">Analisis de Costos por producto</li>
+                            <li class="active">Creación de Productos Ilimitados</li>
+                            <li class="active">Lista de Precios</li>
+                            <li class="active">Analisis de Costos y Precio por Producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Usuarios 5</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#" class="button btnPlan js-scroll" id="Premium">Seleccionar Plan</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="Premium">Contactenos</a>
                     </div>
                 </div>
             </div>
@@ -48,16 +49,17 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Análisis de Productos Ilimitados</li>
-                            <li class="active">Calculo de Precios</li>
-                            <li class="active">Analisis de Costos por producto</li>
+                            <li class="active">Creación de Productos Ilimitados</li>
+                            <li class="active">Lista de Precios</li>
+                            <li class="active">Analisis de Costos y Precio por Producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#" class="button btnPlan js-scroll" id="Pro">Seleccionar Plan</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="Pro">Contactenos</a>
                     </div>
                 </div>
             </div>
@@ -76,16 +78,17 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Análisis de Productos Ilimitados</li>
-                            <li class="active">Calculo de Precios</li>
-                            <li class="active">Analisis de Costos por producto</li>
-                            <li>Analisis Materia Prima por Producto</li>
+                            <li class="active">Creación de Productos Ilimitados</li>
+                            <li class="active">Lista de Precios</li>
+                            <li class="active">Analisis de Costos y Precio por producto</li>
+                            <li class="inactive">Analisis Materia Prima por Producto</li>
+                            <li class="inactive">Cotizador</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#" class="button btnPlan js-scroll" id="pyme">Seleccionar Plan</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="pyme">Contactenos</a>
                     </div>
                 </div>
             </div>
@@ -104,16 +107,17 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Análisis de Productos 10</li>
-                            <li class="active">Calculo de Precios</li>
-                            <li>Analisis de Costos por producto</li>
-                            <li>Analisis Materia Prima por Producto</li>
+                            <li class="active">Creación de Productos 10</li>
+                            <li class="active">Lista de Precios</li>
+                            <li class="inactive">Analisis de Costos y Precio por Producto</li>
+                            <li class="inactive">Analisis Materia Prima por Producto</li>
+                            <li class="inactive">Cotizador</li>
                             <li class="active">Usuarios 1</li>
-                            <li>Soporte</li>
+                            <li class="active">Soporte</li>
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#" class="button btnPlan js-scroll" id="emprendedor">Seleccionar Plan</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Contactenos</a>
                     </div>
                 </div>
             </div>

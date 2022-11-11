@@ -1716,6 +1716,12 @@ ul {
     border-bottom: 1px dashed #d1d1d1;
 }
 
+.single-price-item .pricing-body .list li.inactive {
+    color: #CCDCEA;
+    text-decoration: line-through;
+    border-bottom: 1px dashed #d1d1d1;
+}
+
 .single-price-item .pricing-footer {
     text-align: center;
     background: #f9fafa;
