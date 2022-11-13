@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                 <div class="download-app-text text-center">
-                    <h2>Únete a las muchas empresas que ya estan optimizando los costos y precios de las materias primas para generar ventajas competitivas con los precios de tus productos</h2>
+                    <h2>Únete a las muchas empresas que ya estan generando ventajas competitivas con los precios y costos de sus productos</h2>
 
                     <!-- <div class="download-app-button">
                                 <a href="#" class="download-btn">
