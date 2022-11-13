@@ -6,7 +6,7 @@
     <title>Precios, Costos y Rentabilidad | Tezlik</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="keywords" content="tezlik, precios, costos, manufactura, fabricacion, aplicaciones, software" />
-    <meta name="description" content="Tezlik-C es una plataforma para generar y analizar los precios de los productos a partir de los costos de fabricacion" />
+    <meta name="description" content="Tezlik es una plataforma para generar y analizar los precios de los productos a partir de los costos de fabricacion" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 

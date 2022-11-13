@@ -4,10 +4,15 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
+                    <h1 style="color:white">El Software inteligente para pequeñas fabricas</h1>
+                    <h4 style="color:white">Tezlik es la herramienta en la nube que tiene todo lo que necesitas para costear y fijar precios desde donde quieras y cuando quieras.</h4>
+                    <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro
-                    </h4>
+                    </h4> -->
+                    <div class="pricing-footer">
+                        <a href="#javascript:;" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll" id="emprendedor">Conversemos</a>
+                    </div>
 
                 </div>
             </div>

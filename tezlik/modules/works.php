@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="section-title">
-                    <h6 class="small-title">Como funciona</h6>
-                    <h2>Soluciones reales</h2>
+                    <h2>¿Cambiarias horas de trabajo por unos simples clics?</h2>
+                    <h6>Tezlik simplifica la gestión de tu fábrica, automatizando tareas y agilizando todos tus procesos de costos y fijación de precios.</h6>
                 </div>
             </div>
         </div>

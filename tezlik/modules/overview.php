@@ -9,8 +9,8 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
-                    <h6 class="small-title">La mejor aplicación</h6>
-                    <h2>Construido con las mejores caraterísticas</h2>
+                    <h6 class="small-title">Todos los costos de tu empresa en una plataforma de gestión.</h6>
+                    <h2>Disfruta de otras caracteristicas para potenciar tu negocio</h2>
                     <p>Con Tezlik obtiene una plataforma</p>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
@@ -66,8 +66,8 @@
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
                     <h6 class="small-title">Análisis de Datos</h6>
-                    <h2>Para su negocio.</h2>
-                    <p>El poder esta en los datos y en la disponibilidad de su información</p>
+                    <h2>Para tu fábrica.</h2>
+                    <p>El poder esta en los datos y en la disponibilidad de tu información</p>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="#contact" class="button">Hablemos</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -119,7 +119,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info-2">
                     <h6 class="small-title">Información Disponible</h6>
-                    <h2>Conecte con los datos y la información</h2>
+                    <h2>Toda la fábrica habla el mismo idioma de costos y precios de todos nuestros productos gracias a Tezlik.</h2>
                     <!-- <ul>
                         <li>
                             <div class="overview-share-icon">
@@ -142,8 +142,8 @@
                             </div>
                         </li>
                     </ul> -->
-                    <p class="mt-20">Competencia y Agilidad. Objetivos comunes en muchas empresas. Transforme cómo su empresa toma decisiones. </p>
-                    <p>Incorpore datos y análisis en los ciclos de toma de decisiones para lograr el mayor impacto en su organización.</p>
+                    <p class="mt-20">Tu tiempo es importante</p>
+                    <p>Ahorra horas de trabajo automatizando la lista de precios, los costos y analísis de materias primas de tus productos, tareas cotidianas.</p>
 
                 </div>
             </div>
