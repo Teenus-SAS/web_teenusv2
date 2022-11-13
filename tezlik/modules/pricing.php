@@ -49,7 +49,7 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Creación de Productos Ilimitados</li>
+                            <li class="active">Creación de Productos 1000</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Analisis de Costos y Precio por Producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
@@ -78,7 +78,7 @@
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Creación de Productos Ilimitados</li>
+                            <li class="active">Creación de Productos 100</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Analisis de Costos y Precio por producto</li>
                             <li class="inactive">Analisis Materia Prima por Producto</li>
