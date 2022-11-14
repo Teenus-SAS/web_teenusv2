@@ -22,9 +22,9 @@
                         <ul class="list">
                             <li class="active">Creación de Productos Ilimitados</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Analisis de Costos y Precio por Producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
-                            <li class="active">Cotizador</li>
                             <li class="active">Usuarios 5</li>
                             <li class="active">Soporte</li>
                         </ul>
@@ -51,9 +51,9 @@
                         <ul class="list">
                             <li class="active">Creación de Productos 1000</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Analisis de Costos y Precio por Producto</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
-                            <li class="active">Cotizador</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Soporte</li>
                         </ul>
@@ -80,9 +80,9 @@
                         <ul class="list">
                             <li class="active">Creación de Productos 100</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Analisis de Costos y Precio por producto</li>
                             <li class="inactive">Analisis Materia Prima por Producto</li>
-                            <li class="inactive">Cotizador</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Soporte</li>
                         </ul>
@@ -109,9 +109,9 @@
                         <ul class="list">
                             <li class="active">Creación de Productos 10</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Cotizador</li>
                             <li class="inactive">Analisis de Costos y Precio por Producto</li>
                             <li class="inactive">Analisis Materia Prima por Producto</li>
-                            <li class="inactive">Cotizador</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Soporte</li>
                         </ul>
