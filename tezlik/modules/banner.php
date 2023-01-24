@@ -4,8 +4,8 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h1 style="color:white">El Software inteligente para pequeñas fabricas</h1>
-                    <h4 style="color:white">Tezlik es la herramienta en la nube que tiene todo lo que necesitas para costear y fijar precios desde donde quieras y cuando quieras.</h4>
+                    <h1 style="color:white">El Software inteligente para fabricas</h1>
+                    <h4 style="color:white">Tezlik tiene todo lo que necesita para fijar precios, vender más con precios competitivos, cotizar y conocer que precios negociar con sus proveedores. Todo desde una misma aplicación. <strong>¿Qué esperas?</strong></h4>
                     <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro

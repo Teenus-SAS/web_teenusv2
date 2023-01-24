@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-title">
-                    <h6 class="small-title">Client Love Us</h6>
-                    <h2>Reviews Our Apps</h2>
+                    <h6 class="small-title">Que dicen nuestros clientes</h6>
+                    <h2>Testimonios</h2>
                 </div>
             </div>
         </div>
@@ -17,11 +17,11 @@
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
-                                    <img src="/tezlik/assets/img/testimonial-1.jpg" alt="testimonial" />
+                                    <!-- <img src="/tezlik/assets/img/testimonial-1.jpg" alt="testimonial" /> -->
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="name">Akbar Khan</h3>
-                                    <span>Business Man</span>
+                                    <h3 class="name">Adriana Lucia Martinez</h3>
+                                    <span>Administradora Proyecformas (Mobiliario Hospitalario y Farmaceutico)</span>
                                 </div>
                             </div>
                             <div class="testimonial-rating">
@@ -30,11 +30,11 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-o"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Trabajar en Excel es muy bueno, porque permite hacer muchas cosas, pero se puede modificar fácilmente, susceptible a cambios. Tener Tezlik, es un cambio total. Nos permite tener indicadores, mayor control, manejar la información, ahorros, que puedo mejorar, lo que con Excel no es tan fácil de hacer. </p>
                             </div>
                         </div>
                     </div>
@@ -43,11 +43,11 @@
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
-                                    <img src="/tezlik/assets/img/testimonial-2.jpg" alt="testimonial" />
+                                    <!-- <img src="/tezlik/assets/img/testimonial-2.jpg" alt="testimonial" /> -->
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="name">Rose Theso</h3>
-                                    <span>Founder of Neti</span>
+                                    <h3 class="name">Rosalba Peña Rodriguez</h3>
+                                    <!-- <span>Founder of Neti</span> -->
                                 </div>
                             </div>
                             <div class="testimonial-rating">
@@ -60,12 +60,12 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Tener Tezlik nos ha permitido cotizar de manera más rápida y capturar clientes en muchisimo menos tiempo.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="single-testimonial">
+                    <!-- <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
@@ -89,9 +89,9 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="single-testimonial">
+                    <!-- <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
@@ -115,7 +115,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
