@@ -28,7 +28,7 @@
 	<!-- meta-tag code -->
 	<meta name="facebook-domain-verification" content="aet8ulin5sinz6k5do4rkp31bk4syq" />
 	<!-- Meta Pixel Code -->
-	<script>
+	<!-- <script>
 		! function(f, b, e, v, n, t, s) {
 			if (f.fbq) return;
 			n = f.fbq = function() {
@@ -50,7 +50,7 @@
 		fbq('init', '488699820106746');
 		fbq('track', 'PageView');
 	</script>
-	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=488699820106746&ev=PageView&noscript=1" /></noscript>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=488699820106746&ev=PageView&noscript=1" /></noscript> -->
 	<!-- End Meta Pixel Code -->
 
 </head>
