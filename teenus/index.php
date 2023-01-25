@@ -25,6 +25,8 @@
 		gtag('config', 'UA-50746429-1');
 	</script>
 
+	<!-- meta-tag code -->
+	<meta name="facebook-domain-verification" content="aet8ulin5sinz6k5do4rkp31bk4syq" />
 	<!-- Meta Pixel Code -->
 	<script>
 		! function(f, b, e, v, n, t, s) {
