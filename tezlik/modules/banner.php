@@ -4,8 +4,8 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h1 style="color:white">El Software inteligente para fabricas</h1>
-                    <h4 style="color:white">Tezlik tiene todo lo que necesita para fijar precios, vender más con precios competitivos, cotizar y conocer que precios negociar con sus proveedores. Todo desde una misma aplicación. <strong>¿Qué esperas?</strong></h4>
+                    <h1 class="text-uppercase" style="color:white">¿Cómo calculas el precio de tus productos?</h1>
+                    <h4 style="color:white">Hazlo con todos los costos de tus productos, que no se te quede ninguno por fuera.</br></br> Son la base más importante para la toma de decisiones y vender mucho más. <strong>¿Qué esperas?</strong></h4>
                     <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro
@@ -18,7 +18,7 @@
             </div>
             <div class="col-12 col-md-5 col-lg-6">
                 <div class="text-center z-index position-relative home-image">
-                    <img src="/tezlik/assets/img/hero-mockup.png" class="img-fluid" alt="" />
+                    <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
