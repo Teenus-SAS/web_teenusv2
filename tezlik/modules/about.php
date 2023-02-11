@@ -6,13 +6,13 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
                     <h6 class="small-title">Acerca de Tezlik</h6>
-                    <h2>Lo que puede hacer!</h2>
+                    <h2>Que puedes hacer!</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Tezlik se ocupa de calcular el precio de tus productos.</h3>
+                                    <h3>Calcular el precio de tus productos.</h3>
                                 </div>
                             </div>
                         </div>
@@ -20,7 +20,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-r"></div>
                                 <div class="features-info">
-                                    <h3>En un vistazo conoces los costos de tus productos</h3>
+                                    <h3>Analizar las materias primas</h3>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-b"></div>
                                 <div class="features-info">
-                                    <h3>Actualiza el precio de una materia prima y se actualizaran todos sus productos</h3>
+                                    <h3>Crear tus cotizaciones</h3>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-o"></div>
                                 <div class="features-info">
-                                    <h3>En un vistazo conoces los costos generales de todos tus productos</h3>
+                                    <h3>Analizar tus costos</h3>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-g"></div>
                                 <div class="features-info">
-                                    <h3>Negocia con tus proveedores, ten a tu favor tu información.</h3>
+                                    <h3>Saber cuanto debes ganar realmente</h3>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Procesos automaticos en cualquier lugar.</h3>
+                                    <h3>Vende al por mayor</h3>
                                 </div>
                             </div>
                         </div>

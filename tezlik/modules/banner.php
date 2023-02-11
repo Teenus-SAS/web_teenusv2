@@ -5,7 +5,7 @@
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
                     <h1 class="text-uppercase" style="color:white">¿Cómo calculas el precio de tus productos?</h1>
-                    <h4 style="color:white">Hazlo con todos los costos de tus productos, que no se te quede ninguno por fuera.</br></br> Son la base más importante para la toma de decisiones y vender mucho más. <strong>¿Qué esperas?</strong></h4>
+                    <h4 style="color:white">Hazlo con todos los <b style="color:greenyellow">costos</b> de tus productos, <b style="color:greenyellow">que no se te quede ninguno por fuera</b>.</br></br> Son la base más importante para la toma de decisiones y vender mucho más. <strong>¿Qué esperas?</strong></h4>
                     <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro

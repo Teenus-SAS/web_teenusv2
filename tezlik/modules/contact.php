@@ -5,7 +5,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12 section-title">
-                        <h6 class="small-title">No lo dude este el momento</h6>
+                        <h6 class="small-title">No lo dude... Este el momento</h6>
                         <h2>Contactenos</h2>
                     </div>
                 </div>

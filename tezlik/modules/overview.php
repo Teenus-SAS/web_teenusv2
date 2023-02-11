@@ -10,47 +10,47 @@
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
                     <h6 class="small-title">Todos los costos de tu empresa en una plataforma de gestión.</h6>
-                    <h2>Disfruta de otras caracteristicas para potenciar tu negocio</h2>
-                    <p>Con Tezlik obtiene una plataforma</p>
+                    <h2>¿Fabricaste un muy buen producto?</h2>
+                    <h5 style="color:steelblue"><b>Un muy buen producto necesita un muy buen precio</b></h5><br>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>100% responsive - Desde su computador o Celular</span>
+                                <span>Genera Confianza</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Intuitivo - Fácil de manejar </span>
+                                <span>Muestrate profesional</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Diseño Agradable</span>
+                                <span>Compite de igual a igual</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>En la Nube - Acceso desde cualquier lugar</span>
+                                <span>Genera mayores ingresos</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Alto desempeño y funcionalidad</span>
+                                <span>Enfocate en tu producto y tu cliente</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Soporte 7*24</span>
+                                <span>Obten tranquilidad</span>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="button">Learn More</a>
+                    <!--  <a href="#" class="button">Learn More</a> -->
                 </div>
             </div>
 
@@ -65,32 +65,32 @@
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
-                    <h6 class="small-title">Análisis de Datos</h6>
-                    <h2>Para tu fábrica.</h2>
-                    <p>El poder esta en los datos y en la disponibilidad de tu información</p>
+                    <h6 class="small-title">Más ventas</h6>
+                    <h2>Cotiza más rápido</h2>
+                    <p>Aumenta la velocidad de respuesta y vende más</p>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Dashboards General de Costos</span>
+                                <span> Si envías tu cotización en menos de 60 minutos tu probabilidad de ventas será de 10%</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Dashboards de Costos por producto</span>
+                                <span>Si envías tu cotización en menos de 25 minutos tu probabilidad de ventas será de 13%</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Modificaciones en tiempo real y en segundos</span>
+                                <span style="color:cornflowerblue">Si envías tu cotización en menos de 10 minutos tu probabilidad de ventas será del 25%</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Accesiblidad desde cualquier dispositivo</span>
+                                <span> No dejes para mañana lo que puedes enviar hoy</span>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="overview-img text-center">
-                    <img src="/tezlik/assets/img/overview-3.png" class="img-fluid" alt="" />
+                    <img src="/tezlik/assets/img/cotizar-rapido.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -113,13 +113,13 @@
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="overview-img-2 text-center">
-                    <img src="/tezlik/assets/img/overview-2.png" class="img-fluid" alt="" />
+                    <img src="/tezlik/assets/img/economias-escala.png" class="img-fluid" alt="" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info-2">
-                    <h6 class="small-title">Información Disponible</h6>
-                    <h2>Toda la fábrica habla el mismo idioma de costos y precios de todos nuestros productos gracias a Tezlik.</h2>
+                    <h6 class="small-title">Vende al por mayor</h6>
+                    <h2>Cuando tu cliente te pida un descuento.</h2>
                     <!-- <ul>
                         <li>
                             <div class="overview-share-icon">
@@ -142,9 +142,8 @@
                             </div>
                         </li>
                     </ul> -->
-                    <p class="mt-20">Tu tiempo es importante</p>
-                    <p>Ahorra horas de trabajo automatizando la lista de precios, los costos y analísis de materias primas de tus productos, tareas cotidianas.</p>
-
+                    <h3 class="mt-20">¡Daselo...!</h3><br>
+                    <p>pero, como en toda negociación debe haber un gana-gana entonces pídele que te compre más unidades... </p>
                 </div>
             </div>
         </div>
