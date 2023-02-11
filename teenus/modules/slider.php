@@ -25,8 +25,8 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>Tezlik - Costos/Precios</h1>
-                                    <h5 class="mb-3">En tres clicks genere los precios y costos de todos sus productos, fácil, rápido y sin esfuerzo.<br><br>
+                                    <h1>No desarrolles tus costos como si estuvieras en el colegio</h1>
+                                    <h5 class="mb-3">No necesitas conocimientos técnicos, ni conocimientos previos<br><br>
                                         ¿Cuál es su producto más rentable? ¿Cuánto cuesta la nómina para producirlo?
                                         ¿Qué precio debería tener? ¿Cuáles son sus costos?</h5>
                                     <div class="banner-btn home-slider-btn">
