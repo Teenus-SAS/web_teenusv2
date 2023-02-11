@@ -1207,9 +1207,10 @@ p:last-child {
 
 .slider .parallax-slider .swiper-slide-active .caption h1 {
     opacity: 1;
-    animation: fadeInLeft 0.8s;
+    animation: fadeInLeft 3s;
     -webkit-animation-delay: 1s;
-    animation-delay: 0.3s;
+    animation-delay: 3s;
+    -webkit-animation: fadeInLeft 3s;
 }
 
 .slider .parallax-slider .caption {
@@ -1237,16 +1238,18 @@ p:last-child {
     color: #fff;
     font-weight: 500;
     opacity: 1;
-    animation: fadeInRight 0.8s;
+    animation: fadeInRight 3s;
+    -webkit-animation: fadeInRight 3s;
 }
 
 .slider .parallax-slider .swiper-slide-active .caption .home-slider-btn {
     position: relative;
     opacity: 1;
-    animation: fadeInLeft 1s;
+    animation: fadeInLeft 3s;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
+    -webkit-animation: fadeInLeft 3s;
 }
 
 .slider .control-text {

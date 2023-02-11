@@ -2,7 +2,7 @@
     <div class="swiper-container parallax-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="/teenus/assets/img/slider-2.jpg" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="/teenus/assets/img/slider-2.jpg" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
