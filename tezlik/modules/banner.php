@@ -11,7 +11,7 @@
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro
                     </h4> -->
                     <div class="pricing-footer">
-                        <a href="#javascript:;" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll" id="emprendedor">Conversemos</a>
+                        <a href="#javascript:;" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll" id="emprendedor">¡Te llamamos!. Registrate ahora...</a>
                     </div>
 
                 </div>

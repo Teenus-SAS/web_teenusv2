@@ -59,12 +59,18 @@
                     </div>
                     <div class="apps-store-btn">
                         <p class="mb-20">Siempre usamos las mejores prácticas reconocidas en la industria manufacturera para el desarrollo de Tezlik.</p>
+                        <a href="#javascript:;" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor">
+                            No lo pienses más... Solicita tu Demo gratis
+                        </a>
                         <!-- <a href="#" class="apps-store-btn-1">
-                                    <img src="/tezlik/assets/img/app-store-1.png" alt="" />
-                                </a>
-                                <a href="#">
-                                    <img src="/tezlik/assets/img/app-store-2.png" alt="" />
-                                </a> -->
+                            <img src="/tezlik/assets/img/app-store-1.png" alt="accede-tezlik" width="50%" />
+                        </a> -->
+                        <!-- <a href="#" class="apps-store-btn-1">
+                            <img src="/tezlik/assets/img/app-store-1.png" alt="" />
+                        </a>
+                        <a href="#">
+                            <img src="/tezlik/assets/img/app-store-2.png" alt="" />
+                        </a> -->
                     </div>
                 </div>
             </div>

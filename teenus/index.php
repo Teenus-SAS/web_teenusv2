@@ -77,7 +77,8 @@
 			<!-- End Slider Area -->
 
 			<!-- Start About Section -->
-			<?php include_once __DIR__ . '/modules/about.php' ?>
+			<?php //include_once __DIR__ . '/modules/about.php' 
+			?>
 			<!-- End About Section -->
 
 			<!-- Start Services Section -->
@@ -91,11 +92,13 @@
 			<!-- End Project Section -->
 
 			<!-- Start Counter Section -->
-			<?php include_once __DIR__ . '/modules/counter.php' ?>
+			<?php //include_once __DIR__ . '/modules/counter.php' 
+			?>
 			<!-- End Counter Section -->
 
 			<!-- Start Overview Section -->
-			<?php include_once __DIR__ . '/modules/about2.php' ?>
+			<?php //include_once __DIR__ . '/modules/about2.php' 
+			?>
 			<!-- End Overview Section -->
 
 			<!-- Start Team Section -->
@@ -105,7 +108,8 @@
 			<!-- End Team Section -->
 
 			<!-- Start Hire Section -->
-			<?php include_once __DIR__ . '/modules/banner.php' ?>
+			<?php //include_once __DIR__ . '/modules/banner.php' 
+			?>
 			<!-- End Hire Section -->
 
 			<!-- Start Testimonial Section -->
@@ -114,7 +118,8 @@
 			<!-- End Testimonial Section -->
 
 			<!-- Start Partner section -->
-			<?php include_once __DIR__ . '/modules/partners.php' ?>
+			<?php //include_once __DIR__ . '/modules/partners.php' 
+			?>
 			<!-- End Partner section -->
 
 			<!-- Start Blog Section -->
@@ -123,7 +128,8 @@
 			<!-- End Blog Section -->
 
 			<!-- Start Contact Section -->
-			<?php include_once __DIR__ . '/modules/contact.php' ?>
+			<?php //include_once __DIR__ . '/modules/contact.php' 
+			?>
 			<!-- End Contact Section -->
 
 			<!-- Start Footer & Subscribe Section -->
