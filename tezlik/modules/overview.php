@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#contact" class="button">¡Hablemos! Te sorprenderas</a>
+                    <a href="#contact" class="button">¡Te llamamos!. Registrate ahora... Te sorprenderas</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
