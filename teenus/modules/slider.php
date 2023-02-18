@@ -7,12 +7,11 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>No desarrolles tus costos como si estuvieras en el colegio</h1>
-                                    <h5 class="mb-3">No necesitas conocimientos técnicos, ni conocimientos previos<br><br>
-                                        ¿Cuál es su producto más rentable? ¿Cuánto cuesta la nómina para producirlo?
-                                        ¿Qué precio debería tener? ¿Cuáles son sus costos?</h5>
+                                    <h1>¿Sientes que cada vez tus clientes son menos?</h1>
+                                    <h5 class="mb-3">Dejame contarte que existe una solución…<br><br>
+                                        Quiero que descubras <a href="/tezliksoftware" style="color:green">TezliSoftware.<span></span></a> Y con su ayuda vas a realizar una estrategia de precios para vender más. 🟢 puedes hacerlo tú mismo(a). 🟢 No necesitas de conocimientos técnicos ni de contadores.😁</h5>
                                     <div class="banner-btn home-slider-btn">
-                                        <a href="/tezlik" class="default-btn-one">Conoce más<span></span></a>
+                                        <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactenos<span></span></a>
                                     </div>
                                 </div>
@@ -27,10 +26,10 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>Desarrollamos Software a su Medida</h1>
-                                    <h5 class="mb-3">¿Le gustaria ahorrar costos, tiempos, agilizar procesos y mejorar las ventas? <br><br> El desarrollo de software es en definitiva la inversión en este momento para tener un retorno de gran impacto en las utilidades y rendimiento de su empresa</h5>
+                                    <h1>¿Te gusto el descuento que te dieron en la materias primas que compras?</h1>
+                                    <h5 class="mb-3">Dejame contarte que existe una solución<br><br> Negocia tranquilo con tus proveedores, ahora vas a usar <a href="/tezlik" style="color:green">TezliSoftware<span></span></a>, una solución que tiene más de 8 años en la industria y pueden ayudarte a obtener mejores precios y condiciones en tus compras de materias primas.</h5>
                                     <div class="banner-btn home-slider-btn">
-                                        <a href="/desarrollo-de-software" class="default-btn-one">Conoce más<span></span></a>
+                                        <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactenos<span></span></a>
                                     </div>
                                 </div>

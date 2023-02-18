@@ -58,8 +58,8 @@
                             <!-- <li><a href="about.html">Quienes Somos</a></li>
                             <li><a href="projects.html">Casos de Estudio</a></li> -->
                             <li><a href="https://wa.me/573214989109?text=Hola! Me gustaría que hablaramos y saber más" target="_blank">Hablemos</a></li>
-                            <li><a href="privacy-policy.html">Politica de Privacidad</a></li>
-                            <li><a href="terms-condition.html">Terminos y Condiciones</a></li>
+                            <li><a href="/policy/index.php">Politica de Privacidad</a></li>
+                            <!-- <li><a href="javascript:;">Terminos y Condiciones</a></li> -->
                         </ul>
                     </div>
                 </div>

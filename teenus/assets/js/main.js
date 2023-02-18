@@ -4,7 +4,7 @@
     var wind = $(window);
     var parallaxSlider;
     var parallaxSliderOptions = {
-      speed: 1000,
+      speed: 3000,
       autoplay: true,
       parallax: true,
       loop: true,

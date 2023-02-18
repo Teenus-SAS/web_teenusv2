@@ -25,7 +25,7 @@ get('/admin/usuarios', '/admin/views/users/users.php');
 // Teenus
 get('/', '/teenus/index.php');
 get('/desarrollo-de-software', '/develop/index.php');
-get('/tezlik', '/tezlik/index.php');
+get('/tezliksoftware', '/tezlik/index.php');
 get('/blogs', '/blog/index.php');
 get('/articulo', '/blog-single/index.php');
 

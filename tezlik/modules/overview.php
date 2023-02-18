@@ -143,7 +143,7 @@
                         </li>
                     </ul> -->
                     <h3 class="mt-20">¡Daselo...!</h3><br>
-                    <p>pero, como en toda negociación debe haber un gana-gana entonces pídele que te compre más unidades... </p>
+                    <p>pero, como en toda negociación debe haber un gana-gana entonces pídele que te compre más unidades... ¿Sabes cuantas? Con TezlikSoftware sabes exactamente que hacer... </p>
                 </div>
             </div>
         </div>

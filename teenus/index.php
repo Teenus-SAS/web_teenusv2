@@ -132,6 +132,10 @@
 			?>
 			<!-- End Contact Section -->
 
+			<!-- Start policy -->
+			<?php include_once __DIR__ . '/modals/policy.php' ?>
+			<!-- End policy -->
+
 			<!-- Start Footer & Subscribe Section -->
 			<?php include_once __DIR__ . '/modules/footerSubscribe.php' ?>
 			<!-- End Footer & Subscribe Section -->
