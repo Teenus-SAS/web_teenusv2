@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-content contact-box">
                     <div class="footer-colm-4">
-                        <h5 class="footer-colm-title">Contactanos</h5>
+                        <h5 class="footer-colm-title">Contactanos Ya</h5>
                         <!-- <p>Phone: <a href="tel:1234-12345">+601 3586996</a></p> -->
                         <p>CellPhone: <a href="tel:573214989109">3214989109</a></p>
                         <p>Email: <a href="mailto:martha.olmos@teenus.com.co">martha.olmos@teenus.com.co</a></p>

@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="button btnPlan js-scroll" id="Premium">Contactanos</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="Premium">Contactanos Ya</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="button btnPlan js-scroll" id="Pro">Contactanos</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="Pro">Contactanos Ya</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="button btnPlan js-scroll" id="pyme">Contactanos</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="pyme">Contactanos Ya</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                         </ul>
                     </div>
                     <div class="pricing-footer">
-                        <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Contactanos</a>
+                        <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Contactanos Ya</a>
                     </div>
                 </div>
             </div>

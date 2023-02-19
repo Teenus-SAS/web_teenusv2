@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-title">
             <h6>Cargar los costos de tus productos para fijar los precios y saber cuánto dinero ganas...<br> puede ser complicado</h6>
-            <h2>! Contactanos ¡</h2>
+            <h2>! Contactanos Ya¡</h2>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
