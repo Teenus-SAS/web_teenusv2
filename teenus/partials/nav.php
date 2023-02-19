@@ -27,7 +27,7 @@
                         <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
                     </ul>
                     <div class="other-option">
-                        <a class="default-btn" href="#contact">Contactenos <span></span></a>
+                        <a class="default-btn" href="#contact">Contactanos <span></span></a>
                     </div>
                 </div>
             </nav>
