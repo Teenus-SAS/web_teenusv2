@@ -7,12 +7,12 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>¿Sientes que cada vez tus clientes son menos?</h1>
-                                    <h5 class="mb-3">Dejame contarte que existe una solución…<br><br>
-                                        Quiero que descubras <a href="/tezliksoftware" style="color:steelblue">TezlikSoftware,<span></span></a> con su ayuda vas a poder realizar estrategias de precios para vender más 😁. 🔵 No vas a necesitar de conocimientos técnicos ni de contadores.😊. ¡Contactanos Ya!</h5>
+                                    <h1> ¿Sientes que cada vez tus clientes son menos? </h1>
+                                    <h5 class="mb-3">Déjame contarte que existe una solución…<br><br>
+                                        Quiero que descubras <a href="/tezliksoftware" style="color:steelblue">TezlikSoftware,<span></span></a> con su ayuda vas a poder realizar estrategias de precios para vender más 😁. 🔵 No vas a necesitar de conocimientos técnicos ni de contadores.😊. ¡Contáctanos Ya! </h5>
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
-                                        <a class="default-btn" href="#contact">Contactanos Ya<span></span></a>
+                                        <a class="default-btn" href="#contact">Contáctanos Ya<span></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -26,8 +26,8 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>¿Te gusto el descuento que te dieron en la materias primas que compraste?</h1>
-                                    <h5 class="mb-3">Dejame contarte que existe una solución...<br><br> Quiero que Descubras <a href="/tezlik" style="color:yellow">TezlikSoftware,<span></span></a> una solución que tiene más de 8 años en la industria y que puede ayudarte a obtener mejores precios y condiciones en tus compras de materias primas 😊. 🔵 Negocia tranquilo con tus proveedores, 🔵 No vas a necesitar de conocimientos técnicos ni de contadores.😁 ¡Contantanos Ya!</h5>
+                                    <h1>¿Te gusto el descuento que te dieron en las materias primas que compraste?</h1>
+                                    <h5 class="mb-3">Déjame contarte que existe una solución...<br><br> Quiero que Descubras <a href="/tezlik" style="color:yellow">TezlikSoftware,<span></span></a> una solución que tiene más de 8 años en la industria y que puede ayudarte a obtener mejores precios y condiciones en tus compras de materias primas 😊. 🔵 Negocia tranquilo con tus proveedores, 🔵 No vas a necesitar de conocimientos técnicos ni de contadores. 😁 ¡Contáctanos Ya! </h5>
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactanos Ya<span></span></a>

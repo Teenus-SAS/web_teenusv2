@@ -57,7 +57,7 @@
                         <ul class="footer-quick-links">
                             <!-- <li><a href="about.html">Quienes Somos</a></li>
                             <li><a href="projects.html">Casos de Estudio</a></li> -->
-                            <li><a href="https://wa.me/573214989109?text=Hola! Me gustaría que hablaramos y saber más" target="_blank">Hablemos</a></li>
+                            <li><a href="https://wa.me/573002983150?text=Hola! Me gustaría que hablaramos y saber más" target="_blank">Hablemos</a></li>
                             <li><a href="/policy/index.php">Politica de Privacidad</a></li>
                             <!-- <li><a href="javascript:;">Terminos y Condiciones</a></li> -->
                         </ul>
@@ -70,11 +70,11 @@
                         </div>
                         <div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
                             <h3>Teléfono móvil</h3>
-                            <span><a href="tel:573214989109">3214989109</a></span>
+                            <span><a href="tel:573002983150">3002983150</a></span>
                         </div>
                         <div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
                             <h3>Chat</h3>
-                            <span><a href="https://wa.me/573214989109/?text=Hablemos">WhatsApp</a></span>
+                            <span><a href="https://wa.me/573002983150/?text=Hola! Me gustaría ver un Demo">WhatsApp</a></span>
                         </div>
                         <div class="footer-info-contact"> <i class="flaticon-envelope"></i>
                             <h3>Email</h3>

@@ -6,7 +6,7 @@
                     <div class="about-content-text">
                         <h6>¿Pensando en llevar su empresa al siguiente nivel?</h6>
                         <h2>Desarrollar software es la solución</h2>
-                        <p>Obtenga beneficios tangibles rapidos, duraderos y con mayor rentabilidad.
+                        <p>Obtenga beneficios tangibles rápidos, duraderos y con mayor rentabilidad.
                             Optimice su recurso más preciado <b>"El Tiempo"</b> y la manera es enfocar ese recurso en:</p>
                         <div class="skills">
                             <div class="skill-item">

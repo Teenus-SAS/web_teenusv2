@@ -12,15 +12,15 @@
         <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll active" href="#home">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll" href="#about">Acerca de </a></li>
+                <li class="nav-item"><a class="nav-link js-scroll" href="#about">¿Qué puede hacer? </a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#screenshort">Interfaces</a></li> -->
                 <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll" href="/desarrollo-de-software">Desarrollo de software</a></li> -->
+                <li class="nav-item"><a class="nav-link js-scroll" href="#video">Aumenta tus ventas</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#review">Review</a></li> -->
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#team">Equipo</a></li> -->
                 <li class="nav-item">
                     <!-- <a class="nav-link js-scroll" href="#contact">¡Solicita tu Demo Gratis!</a> -->
-                    <a href="#javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573214989109?text=Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor" style="margin-top:0px">
+                    <a href="#javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor" style="margin-top:0px">
                         ¡Solicita Ya tu Demo Gratis!
                     </a>
                 </li>

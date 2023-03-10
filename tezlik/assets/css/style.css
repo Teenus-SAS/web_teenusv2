@@ -1390,7 +1390,7 @@ ul {
     z-index: 1;
     padding: 70px 0;
     padding-top: 0;
-    background: url(../img/video-bg.jpg);
+    background: url(../img/vende-mejor.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-box-shadow: 0 1px 15px 0 rgba(113, 87, 228, 0.08);
@@ -1405,7 +1405,7 @@ ul {
     padding: 0;
     height: 100%;
     width: 100%;
-    opacity: .6;
+    opacity: 0.3;
     z-index: -1;
     border-radius: 10px;
     background: #8E2DE2;
@@ -1427,7 +1427,7 @@ ul {
 .video-content {
     position: relative;
     z-index: 1;
-    padding: 150px 0;
+    padding: 250px 0;
 }
 
 .video-content:after {
@@ -1453,6 +1453,10 @@ ul {
     margin: auto;
     font-size: 30px;
     margin-top: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .video-content h5 {
@@ -1468,6 +1472,10 @@ ul {
     -webkit-animation: ripple-white 1s linear infinite;
     animation: ripple-white 1s linear infinite;
     -webkit-transition: .5s;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 @-webkit-keyframes ripple-white {
