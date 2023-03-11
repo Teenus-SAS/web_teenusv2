@@ -77,7 +77,7 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/overview.php' ?>
         <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' 
         ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/video.php' 
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php' 
         ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php'
