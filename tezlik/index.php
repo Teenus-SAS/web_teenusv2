@@ -7,6 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="keywords" content="tezlik, precios, costos, manufactura, fabricacion, aplicaciones, software" />
     <meta name="description" content="Tezlik es una plataforma para generar y analizar los precios de los productos a partir de los costos de fabricacion" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
@@ -77,7 +78,7 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/overview.php' ?>
         <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' 
         ?>
-        <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php' 
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php'
         ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php'
