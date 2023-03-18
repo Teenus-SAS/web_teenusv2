@@ -11,7 +11,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Premium</h3>
-                        <p class="pricing-description">Pago anual - 15% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 15% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -42,7 +42,7 @@
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
-                        <p class="pricing-description">Pago anual - 10% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 10% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -73,7 +73,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
-                        <p class="pricing-description">Pago anual - 8% de descuento </p>
+                        <!-- <p class="pricing-description">Pago anual - 8% de descuento </p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -104,7 +104,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Emprendedor</h3>
-                        <p class="pricing-description">Pago anual - 4% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 4% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
