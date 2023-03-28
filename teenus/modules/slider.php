@@ -7,9 +7,11 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1> ¿Sientes que cada vez tus clientes son menos? </h1>
-                                    <h5 class="mb-3">Déjame contarte que existe una solución…<br><br>
-                                        Quiero que descubras <a href="/tezliksoftware" style="color:steelblue">TezlikSoftware,<span></span></a> con su ayuda vas a poder realizar estrategias de precios para vender más 😁. 🔵 No vas a necesitar de conocimientos técnicos ni de contadores.😊. ¡Contáctanos Ya! </h5>
+                                    <h1>¿Sientes que cada vez tus clientes son menos? </h1>
+                                    <h2>¡No permitas que tu precio espante a tus clientes!</h2>
+                                    <h5 class="mb-3"><!-- Déjame contarte que existe una solución…<br><br> -->
+                                        <a href="/tezliksoftware" style="color:yellow">TezlikSoftware<span></span></a> te ayuda a realizar estrategias de precios, negociación de Materias Primas y verdaderos descuentos para vender y ganar más 😁. 🔵 No vas a necesitar de conocimientos técnicos ni contables.😊. ¡Contáctanos Ya!
+                                    </h5>
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contáctanos Ya<span></span></a>
@@ -26,8 +28,9 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>Se que quieres vender más. ¡El problema no es tu producto es el precio!</h1>
-                                    <h5 class="mb-3">Déjame contarte que existe una solución...<br><br> Quiero que Descubras <a href="/tezlik" style="color:yellow">TezlikSoftware,<span></span></a> una solución que tiene más de 8 años en la industria y que puede ayudarte a obtener mejores precios y condiciones en tus compras de materias primas 😊. 🔵 Negocia tranquilo con tus proveedores, 🔵 No vas a necesitar de conocimientos técnicos ni de contadores. 😁 ¡Contáctanos Ya! </h5>
+                                    <h1>¿Quieres vender más?</h1> <br>
+                                    <h2>¡El problema no es tu producto es el precio!</h2>
+                                    <h5 class="mb-3"><!-- Déjame contarte que existe una solución...<br><br> --><a href="/tezlik" style="color:yellow">TezlikSoftware <span></span></a>es una solución de bajo costo que tiene más de 8 años en la industria y que puede ayudarte a fijar los precios y crear estrategias para vender más 😊. 🔵 No necesitas de conocimientos técnicos ni de contables. 😁 ¡Contáctanos Ya! </h5>
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contactanos Ya<span></span></a>
