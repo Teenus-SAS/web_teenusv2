@@ -4,8 +4,8 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h1 class="text-uppercase" style="color:white">¿Quieres atraer a más clientes potenciales y aumentar tus ventas? y no sabes cómo...</h1>
-                    <h4 style="color:white">Los precios justos mejoran la percepción de los clientes sobre la calidad de tus productos, tus clientes sienten que están obteniendo una buena oferta y los motiva a realizar más compras en el futuro, evitando que se vayan a la competencia.</h4>
+                    <h1 class="text-uppercase" style="color:white">¿Quieres atraer a más clientes y aumentar tus ventas? y no sabes cómo...</h1>
+                    <h4 style="color:white">Los precios justos mejoran la percepción de los clientes sobre tus productos, sienten que están obteniendo una buena oferta y los motiva a realizar más compras en el futuro, evitando que se vayan a la competencia.</h4>
                     <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro
