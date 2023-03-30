@@ -44,7 +44,7 @@
                                         </div>
                                         <div class="c-area">
                                             <span>Phone</span>
-                                            <p><a href="#">57 3214989109</a><br />
+                                            <p><a href="#">57 3002983150</a><br />
                                                 <a href="#">57 3175125191</a>
                                             </p>
                                         </div>
