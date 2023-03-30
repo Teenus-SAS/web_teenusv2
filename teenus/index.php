@@ -56,6 +56,17 @@
 </head>
 
 <body>
+
+	<!-- Social Bar -->
+	<div class="social-bar">
+		<a href="https://www.facebook.com/teenus.com.co" class="icon icon-facebook" target="_blank"></a>
+		<a href="https://www.instagram.com/teenussas/" class="icon icon-instagram" target="_blank"></a>
+		<a href="https://www.tiktok.com/@teenussas" class="icon icon-tiktok" target="_blank"></a>
+		<a href="https://www.linkedin.com/company/teenus/" class="icon icon-linkedin" target="_blank"></a>
+		<a href="https://www.youtube.com/@teenuss.a.s4396" class="icon icon-youtube" target="_blank"></a>
+		<a href="https://twitter.com/teenus_sas" class="icon icon-twitter" target="_blank"></a>
+	</div>
+
 	<!--wrapper-->
 	<div class="wrapper">
 		<div class="page-content">

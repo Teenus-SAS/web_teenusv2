@@ -2,6 +2,11 @@
 <link rel="shortcut icon" type="image/png" href="/develop/assets/images/favicon.png" />
 <!--bootstrap css-->
 <link rel="stylesheet" type="text/css" href="/develop/assets/css/bootstrap.min.css">
+
+<!-- Redes sociales -->
+<link rel="stylesheet" href="/assets/font.css">
+<link rel="stylesheet" href="/assets/main.css">
+
 <!--owl carousel css-->
 <link rel="stylesheet" type="text/css" href="/develop/assets/css/owl.carousel.min.css">
 <!--magnific popup css-->

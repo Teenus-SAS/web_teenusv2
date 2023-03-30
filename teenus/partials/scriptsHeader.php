@@ -9,6 +9,11 @@
 <link rel="stylesheet" href="teenus/assets/css/flaticon.css">
 <!-- Font Awesome Min CSS -->
 <link rel="stylesheet" href="teenus/assets/css/fontawesome.min.css">
+
+<!-- Redes sociales -->
+<link rel="stylesheet" href="/assets/font.css">
+<link rel="stylesheet" href="/assets/main.css">
+
 <!-- Mran Menu CSS -->
 <link rel="stylesheet" href="teenus/assets/css/meanmenu.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
