@@ -24,7 +24,7 @@
                         <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
                         <li class="nav-item"><a href="/tezliksoftware" class="nav-link">Fije el precio de sus productos</a></li>
                         <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li>
-                        <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
+                        <!-- <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li> -->
                     </ul>
                     <div class="other-option">
                         <a class="default-btn" href="#contact">Contactanos Ya<span></span></a>
