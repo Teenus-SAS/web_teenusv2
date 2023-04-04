@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="/tezliksoftware" class="nav-link">Vender Más</a></li>
+                        <li class="nav-item"><a href="/tezliksoftware" class="nav-link">TezlikSoftware</a></li>
                         <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li>
                         <!-- <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li> -->
                     </ul>
