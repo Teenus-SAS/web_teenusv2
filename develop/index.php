@@ -99,7 +99,7 @@
     <!--start footer-->
     <?php require_once dirname(__DIR__) . '/develop/modules/footer.php'; ?>
     <!--end footer-->
-    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría ver un Demo'">
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría que hablaramos para mejorar mis procesos y ser mas productivo'">
 
     <?php require_once dirname(__DIR__) . '/develop/partials/scriptsJS.php'; ?>
     <script>

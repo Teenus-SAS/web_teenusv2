@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll" href="#about">¿Qué puede hacer? </a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#screenshort">Interfaces</a></li> -->
                 <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll" href="#video">Aumenta tus ventas</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll" href="#video">TezlikSoftware</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#review">Review</a></li> -->
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#team">Equipo</a></li> -->
                 <li class="nav-item">
