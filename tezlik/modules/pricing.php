@@ -16,7 +16,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">325.738</span>
+                            <span class="price">325.900</span>
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
@@ -47,7 +47,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">260.590</span>
+                            <span class="price">260.900</span>
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
@@ -78,7 +78,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">162.869</span>
+                            <span class="price">162.900</span>
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
@@ -109,7 +109,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">52.118</span>
+                            <span class="price">52.900</span>
                             <span class="period">Mensual</span>
                         </div>
                         <ul class="list">
