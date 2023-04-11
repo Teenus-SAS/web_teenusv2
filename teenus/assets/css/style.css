@@ -2400,7 +2400,7 @@ p:last-child {
 .page-title-area {
     position: relative;
     z-index: 1;
-    background-image: url(../img/page-title-bg.jpg);
+    background-image: url(../img/ebook/page-title-bg-1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2478,9 +2478,9 @@ p:last-child {
     background-image: url(../img/page-title-bg-2.jpg);
 }
 
-.item-bg2 {
+/* .item-bg2 {
     background-image: url(../img/page-title-bg-3.jpg);
-}
+} */
 
 
 /************************************************

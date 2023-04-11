@@ -26,8 +26,11 @@ get('/admin/usuarios', '/admin/views/users/users.php');
 get('/', '/teenus/index.php');
 get('/desarrollo-de-software', '/develop/index.php');
 get('/tezliksoftware', '/tezlik/index.php');
+
 get('/blogs', '/blog/index.php');
 get('/articulo', '/blog-single/index.php');
+
+get('/ebooks', '/ebooks/index.php');
 
 // Dynamic GET. Example with 1 variable
 // The $id will be available in user.php
