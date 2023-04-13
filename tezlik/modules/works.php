@@ -17,7 +17,7 @@
                     <div class="works-icon"><span class="pulse-p"><i class="ti-money"></i></span></div>
                     <div class="works-info">
                         <h3>Fijación de precios basada en costos</h3>
-                        <p>ezlikSoftware te ayuda a establecer precios competitivos basados en los costos de producción reales, lo que te permite maximizar tus ganancias.</p>
+                        <p>TezlikSoftware te ayuda a establecer precios competitivos basados en los costos de producción reales, lo que te permite maximizar tus ganancias.</p>
                     </div>
                     <span class="work-count">1</span>
                 </div>
@@ -28,7 +28,7 @@
                     <!-- <div class="works-icon icon-bg-2"><i class="ti-pulse"></i></div> -->
                     <div class="works-info">
                         <h3>Análisis de materia prima</h3>
-                        <p>Nuestra plataforma analiza la materia prima utilizada en tu proceso de producción y te ayuda a encontrar mejores precios en la negociación con proveedores.</p>
+                        <p>Nuestra solución analiza la materia prima utilizada en tu proceso de producción y te ayuda a encontrar mejores precios en la negociación con proveedores.</p>
                     </div>
                     <span class="work-count">2</span>
                     <!--  <div class="works-info-bottom"><i class="ti-angle-double-down"></i></div> -->
@@ -51,7 +51,7 @@
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
                         <h3>Mejora de la rentabilidad</h3>
-                        <p>Al utilizar nuestra plataforma para la fijación de precios, análisis de materia prima, economías de escala y puntos de equilibrio, puedes mejorar significativamente la rentabilidad de tu empresa manufacturera</p>
+                        <p>Al utilizar nuestra plataforma para la fijación de precios, análisis de materia prima, economías de escala y puntos de equilibrio, puedes mejorar significativamente la rentabilidad de tu empresa</p>
                     </div>
                     <span class="work-count">4</span>
                 </div>
