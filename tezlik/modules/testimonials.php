@@ -34,7 +34,7 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Trabajar en Excel es muy bueno, porque permite hacer muchas cosas, pero se puede modificar fácilmente, susceptible a cambios. Tener Tezlik, es un cambio total. Nos permite tener indicadores, mayor control, manejar la información, ahorros, que puedo mejorar, lo que con Excel no es tan fácil de hacer. </p>
+                                <h5>Trabajar en Excel es muy bueno, porque permite hacer muchas cosas, pero se puede modificar fácilmente, susceptible a cambios. Tener Tezlik, es un cambio total. Nos permite tener indicadores, mayor control, manejar la información, ahorros, que puedo mejorar, lo que con Excel no es tan fácil de hacer. </h5>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Desde que empezamos a utilizar TezlikSoftware, nuestras ganancias han aumentado significativamente. Es una herramienta imprescindible para cualquier empresa manufacturera que quiera mantenerse competitiva en el mercado</p>
+                                <h5>Desde que empezamos a utilizar TezlikSoftware, nuestras ganancias han aumentado significativamente. Es una herramienta imprescindible para cualquier empresa manufacturera que quiera mantenerse competitiva en el mercado</h5>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>TezlikSoftware nos ha permitido reducir nuestros costos de producción en un 20%. Estamos muy satisfechos con los resultados y lo recomendamos ampliamente.</p>
+                                <h5>TezlikSoftware nos ha permitido reducir nuestros costos de producción en un 20%. Estamos muy satisfechos con los resultados y lo recomendamos ampliamente.</h5>
                             </div>
                         </div>
                     </div>
