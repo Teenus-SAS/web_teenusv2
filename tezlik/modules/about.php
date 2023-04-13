@@ -8,15 +8,15 @@
                     <h6 class="small-title">¡TezlikSoftware es muy fácil de usar!. Simplemente ingresa la información necesaria</h6>
                     <h2>Cómo funciona</h2>
                     <div class="row d-flex align-items-center">
-                        <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Ingresa tus datos: Registra todos los costos de producción.</h3>
+                                    <h3>Ingresa tus datos: Registra todos los costos de producción (Materias primas, mano de obra, costos indirectos, rentabilidad y todo lo que necesites).</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-r"></div>
                                 <div class="features-info">
@@ -24,15 +24,15 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-b"></div>
                                 <div class="features-info">
-                                    <h3>Ingresa la rentabilidad que esperas por cada producto que fabriques.</h3>
+                                    <h3>Toma decisiones informadas: Toma decisiones informadas basadas en datos precisos y confiables gracias a nuestra plataforma.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <!--<div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-o"></div>
                                 <div class="features-info">
