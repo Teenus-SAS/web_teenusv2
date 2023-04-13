@@ -13,7 +13,7 @@
                                 <!-- <div class="features-icon pulse-p"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">1</div>
                                 <div class="features-info">
-                                    <h3>Registra todos los costos de producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites).</h3>
+                                    <span>Registra todos los costos de producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites).</span>
                                 </div>
                             </div>
                         </div>
@@ -23,16 +23,16 @@
                                 <!-- <div class="features-icon pulse-r"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">2</div>
                                 <div class="features-info">
-                                    <h3>TezlikSoftware de manera rápida y sencilla te calcula exactamente cuánto te cuesta producir cada unidad de tus productos.</h3>
+                                    <span>TezlikSoftware de manera rápida y sencilla te calcula exactamente cuánto te cuesta producir cada unidad de tus productos.</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <!-- <div class="features-icon pulse-b"></div> -->
-                                <div class="features-icon" style="font-size:xx-large;color:crimson">3</div>
+                                <div class="features-icon" style="font-size:xx-large;color:darkorange">3</div>
                                 <div class="features-info">
-                                    <h3>Toma decisiones informadas basadas en datos precisos y confiables gracias a nuestra solución.</h3>
+                                    <span>Toma decisiones informadas basadas en datos precisos y confiables gracias a nuestra solución.</span>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <!-- <div class="features-icon pulse-o"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">4</div>
                                 <div class="features-info">
-                                    <h3>La solución te proporcionará un desglose detallado de los costos de producción y te permitirá fijar precios basados en los costos reales, asegurando que tus productos sean rentables y competitivos.</h3>
+                                    <span>La solución te proporcionará un desglose detallado de los costos de producción y te permitirá fijar precios basados en los costos reales, asegurando que tus productos sean rentables y competitivos.</span>
                                 </div>
                             </div>
                         </div>
