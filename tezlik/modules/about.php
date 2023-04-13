@@ -6,13 +6,13 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
                     <h6 class="small-title">¡TezlikSoftware es muy fácil de usar!. Simplemente ingresa la información necesaria</h6>
-                    <h2>¿Cómo funciona?</h2>
+                    <h2>Cómo funciona</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Ingresa todos los costos de producción.</h3>
+                                    <h3>Ingresa tus datos: Registra todos los costos de producción.</h3>
                                 </div>
                             </div>
                         </div>
@@ -20,11 +20,11 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-r"></div>
                                 <div class="features-info">
-                                    <h3>Ingresa todos tus gastos</h3>
+                                    <h3>Calcula los costos de producción: Con nuestra solución, te mostramos de manera rápida y sencilla exactamente cuánto te cuesta producir cada unidad de tus productos.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <!-- <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-b"></div>
                                 <div class="features-info">
@@ -39,7 +39,7 @@
                                     <h3>Nuestra solucion te guia paso a paso.</h3>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-g"></div>
