@@ -20,7 +20,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-r"></div>
                                 <div class="features-info">
-                                    <h3>Calcula los costos de producción: Con nuestra solución, te mostramos de manera rápida y sencilla exactamente cuánto te cuesta producir cada unidad de tus productos.</h3>
+                                    <h3>TezlikSoftware de manera rápida y sencilla calcula exactamente cuánto te cuesta producir cada unidad de tus productos.</h3>
                                 </div>
                             </div>
                         </div>
@@ -32,14 +32,14 @@
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
+                        <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-o"></div>
                                 <div class="features-info">
-                                    <h3>Nuestra solucion te guia paso a paso.</h3>
+                                    <h3>La plataforma te proporcionará un desglose detallado de los costos de producción y te permitirá fijar precios basados en los costos reales, asegurando que tus productos sean rentables y competitivos.</h3>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-g"></div>
@@ -57,21 +57,21 @@
                             </div>
                         </div> -->
                     </div>
-                    <div class="apps-store-btn">
+                    <!-- <div class="apps-store-btn">
                         <p class="mb-20"> La plataforma te proporcionará un desglose detallado de los costos de producción y te permitirá fijar precios basados en los costos reales, asegurando que tus productos sean rentables y competitivos.</p>
                         <a href="#javascript:;" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor">
                             No lo pienses más... Solicita tu Demo gratis
                         </a>
-                        <!-- <a href="#" class="apps-store-btn-1">
+                        <a href="#" class="apps-store-btn-1">
                             <img src="/tezlik/assets/img/app-store-1.png" alt="accede-tezlik" width="50%" />
-                        </a> -->
-                        <!-- <a href="#" class="apps-store-btn-1">
+                        </a>
+                        <a href="#" class="apps-store-btn-1">
                             <img src="/tezlik/assets/img/app-store-1.png" alt="" />
                         </a>
                         <a href="#">
                             <img src="/tezlik/assets/img/app-store-2.png" alt="" />
-                        </a> -->
-                    </div>
+                        </a>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
