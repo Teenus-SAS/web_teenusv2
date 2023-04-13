@@ -10,7 +10,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
                     <h6 class="small-title">¿Por qué elegir TezlikSoftware?</h6>
-                    <h2>En TezlikSoftware, nos preocupamos por ofrecerte la mejor experiencia posible.</h2>
+                    <h2>Nos preocupamos por ofrecerte la mejor experiencia posible.</h2>
                     <h5 style="color:steelblue"><b>Por eso, además de una plataforma fácil de usar, te ofrecemos:</b></h5><br>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
@@ -60,7 +60,7 @@
 <!-- Apps Overview Section End -->
 
 <!-- Apps Analytics Section Start -->
-<section class="overview-area section-padding">
+<!-- <section class="overview-area section-padding">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
@@ -104,11 +104,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Apps Analytics Section End -->
 
 <!-- Apps Overview-2 Section Start -->
-<section class="overview-area-2 section-padding">
+<!-- <section class="overview-area-2 section-padding">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
@@ -120,7 +120,7 @@
                 <div class="overview-info-2">
                     <h6 class="small-title">Vende al por mayor</h6>
                     <h2>Cuando tu cliente te pida un descuento.</h2>
-                    <!-- <ul>
+                     <ul>
                         <li>
                             <div class="overview-share-icon">
                                 <i class="ti-facebook"></i>
@@ -141,12 +141,12 @@
                                 <i class="ti-google"></i>
                             </div>
                         </li>
-                    </ul> -->
-                    <h3 class="mt-20">¡Daselo...!</h3><br>
-                    <p>pero, como en toda negociación debe haber un gana-gana entonces pídele que te compre más unidades... ¿Sabes cuantas? Con TezlikSoftware sabes exactamente que hacer... </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                    </ul>
+<h3 class="mt-20">¡Daselo...!</h3><br>
+<p>pero, como en toda negociación debe haber un gana-gana entonces pídele que te compre más unidades... ¿Sabes cuantas? Con TezlikSoftware sabes exactamente que hacer... </p>
+</div>
+</div>
+</div>
+</div>
+</section> -->
 <!-- Apps Overview-2 Section End -->
