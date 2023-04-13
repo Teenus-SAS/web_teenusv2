@@ -28,7 +28,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-b"></div>
                                 <div class="features-info">
-                                    <h3>Toma decisiones informadas: Toma decisiones informadas basadas en datos precisos y confiables gracias a nuestra plataforma.</h3>
+                                    <h3>Toma decisiones informadas: Toma decisiones informadas basadas en datos precisos y confiables gracias a nuestra solución.</h3>
                                 </div>
                             </div>
                         </div>

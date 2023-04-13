@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-title">
-                    <h6 class="small-title">Que dicen nuestros clientes</h6>
+                    <h6 class="small-title">Que dicen algunos de nuestros clientes</h6>
                     <h2>Testimonios</h2>
                 </div>
             </div>
