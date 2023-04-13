@@ -60,20 +60,20 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Tener Tezlik nos ha permitido cotizar de manera más rápida y capturar clientes en muchisimo menos tiempo.</p>
+                                <p>Desde que empezamos a utilizar TezlikSoftware, nuestras ganancias han aumentado significativamente. Es una herramienta imprescindible para cualquier empresa manufacturera que quiera mantenerse competitiva en el mercado</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- <div class="single-testimonial">
+                    <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
                                     <img src="/tezlik/assets/img/testimonial-3.jpg" alt="testimonial" />
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="name">William Riz</h3>
-                                    <span>CEO of Thesoft</span>
+                                    <h3 class="name">Maria Obando</h3>
+                                    <span>Directora General de Confecciones del Sur</span>
                                 </div>
                             </div>
                             <div class="testimonial-rating">
@@ -86,10 +86,10 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>TezlikSoftware nos ha permitido reducir nuestros costos de producción en un 20%. Estamos muy satisfechos con los resultados y lo recomendamos ampliamente.</p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
                     <!-- <div class="single-testimonial">
                         <div class="testi-content-inner">
