@@ -69,7 +69,7 @@
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
-                                    <img src="/tezlik/assets/img/testimonial-3.jpg" alt="testimonial" />
+                                    <!-- <img src="/tezlik/assets/img/testimonial-3.jpg" alt="testimonial" /> -->
                                 </div>
                                 <div class="bio-info">
                                     <h3 class="name">Maria Obando</h3>

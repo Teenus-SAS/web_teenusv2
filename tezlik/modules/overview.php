@@ -1,5 +1,5 @@
 <!-- Apps Overview Section Start -->
-<section class="overview-area section-padding">
+<section class="overview-area section-padding" style="padding-bottom: 100px;">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
