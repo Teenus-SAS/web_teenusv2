@@ -5,7 +5,7 @@
             <div class="col-md-8 offset-md-2">
                 <div class="section-title">
                     <h2>Encuentra el equilibrio perfecto para tu negocio con TezlikSoftware</h2>
-                    <h6>¿Estás cansado de trabajar duro sin ver los resultados que esperas en tu negocio? ¿Te gustaría tener un mayor control sobre tus costos y ganancias? Si es así, estás en el lugar correcto.</h6>
+                    <h6 class="mt-3">¿Estás cansado de trabajar duro sin ver los resultados que esperas en tu negocio? ¿Te gustaría tener un mayor control sobre tus costos y ganancias? Si es así, estás en el lugar correcto.</h6>
                 </div>
             </div>
         </div>
