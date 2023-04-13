@@ -12,7 +12,7 @@
                             <div class="features-item">
                                 <div class="features-icon pulse-p"></div>
                                 <div class="features-info">
-                                    <h3>Ingresa tus datos: Registra todos los costos de producción (Materias primas, mano de obra, costos indirectos, rentabilidad y todo lo que necesites).</h3>
+                                    <h3>Ingresa tus datos: Registra todos los costos de producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites).</h3>
                                 </div>
                             </div>
                         </div>
