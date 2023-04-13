@@ -72,7 +72,7 @@
                                     <!-- <img src="/tezlik/assets/img/testimonial-3.jpg" alt="testimonial" /> -->
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="name">Maria Obando</h3>
+                                    <h3 class="name">Maria Paz Nieto</h3>
                                     <span>Directora General de Confecciones del Sur</span>
                                 </div>
                             </div>
