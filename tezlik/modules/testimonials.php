@@ -82,7 +82,7 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-o"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
                                 </ul>
                             </div>
                             <div class="testimonial-content">
