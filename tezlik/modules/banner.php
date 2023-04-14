@@ -5,7 +5,7 @@
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
                     <h1 class="text-uppercase" style="color:white">Optimiza tus costos de producción y maximiza tus ganancias con TezlikSoftware</h1>
-                    <h4 style="color:white">Descubre cómo nuestra solución para costear y fijar precios puede ayudarte a alcanzar el éxito en tu empresa, y lo mejor de todo es que te brindamos consultoría totalmente gratis.</h4>
+                    <h4 style="color:white">Descubre cómo nuestra solución para costear y fijar precios puede ayudarte a alcanzar el éxito en tu empresa, y lo mejor de todo es que te brindamos consultoría personalizada.</h4>
                     <!-- <h4 style="color:white">En todo lo que hacemos creemos que perder dinero no debe ser un habito.
                         <br /><br /> Creemos que mejorar la rentabilidad de su empresa se puede hacer
                         <br /><br />Y la manera en cómo lo hacemos y lo desafiamos es calculando los costos, rentabilidad y precios de sus productos fácil, rápido y seguro
