@@ -16,7 +16,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">325.999 COP</span>
+                            <span class="price">325.999 COP</span><br>
                             <span class="currency">$</span>
                             <span class="price">98.99 USD</span><br>
                             <span class="period">Mensual</span>
@@ -49,7 +49,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">260.999 COP</span>
+                            <span class="price">260.999 COP</span><br>
                             <span class="currency">$</span>
                             <span class="price">79.99 USD</span><br>
                             <span class="period">Mensual</span>
@@ -82,7 +82,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">162.999 COP</span>
+                            <span class="price">162.999 COP</span><br>
                             <span class="currency">$</span>
                             <span class="price">49.99 USD</span><br>
                             <span class="period">Mensual</span>
@@ -115,7 +115,7 @@
                     <div class="pricing-body">
                         <div class="price-wrapper">
                             <span class="currency">$</span>
-                            <span class="price">52.999 COP</span>
+                            <span class="price">52.999 COP</span><br>
                             <span class="currency">$</span>
                             <span class="price">15.99 USD</span><br>
                             <span class="period">Mensual</span>
