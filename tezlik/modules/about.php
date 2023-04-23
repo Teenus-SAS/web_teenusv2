@@ -30,7 +30,7 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <!-- <div class="features-icon pulse-b"></div> -->
-                                <div class="features-icon" style="font-size:xx-large;color:darkorange">3</div>
+                                <div class="features-icon" style="font-size:xx-large;color:crimson">3</div>
                                 <div class="features-info">
                                     <span>Toma decisiones estratégicas basadas en datos precisos y confiables que te ofrece nuestra solución.</span>
                                 </div>

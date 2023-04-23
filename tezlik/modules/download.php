@@ -4,7 +4,9 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                 <div class="download-app-text text-center">
-                    <h2 class="text-uppercase">No necesitas de conocimientos técnicos, ni contables...<br><br> Nosotros te guiamos para que puedas aprovechar todo el potencial de TezlikSoftware</h2>
+                    <h2 class="text-uppercase">TEZLIKSOFTWARE ES LA SOLUCIÓN MÁS FÁCIL Y EFECTIVA PARA COSTEAR Y FIJAR PRECIOS…<br>
+                        <br>NO IMPORTA SI NO TIENES EXPERIENCIA EN CONTABILIDAD O TECNOLOGÍA, NOSOTROS TE GUIAMOS EN CADA PASO PARA QUE PUEDAS AUMENTAR TUS GANANCIAS CON NUESTRA PLATAFORMA
+                    </h2>
                     <a href="#javascript:;" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor">
                         ¡Solicita Ya tu Demostración Gratuita!
                     </a>

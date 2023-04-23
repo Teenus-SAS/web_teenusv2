@@ -10,25 +10,25 @@
             <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
                     <h6 class="small-title">¿Por qué elegir TezlikSoftware?</h6>
-                    <h2>Nos preocupamos por ofrecerte la mejor experiencia posible.</h2>
-                    <h5 style="color:steelblue"><b>Por eso, además de una plataforma fácil de usar, te ofrecemos:</b></h5><br>
+                    <h2>TezlikSoftware es más que una plataforma para costear y fijar precios.</h2>
+                    <h5 style="color:steelblue"><b>Es una solución integral que te brinda:</b></h5><br>
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Soporte técnico personalizado, para que puedas resolver cualquier duda o problema que surja</span>
+                                <span>Soporte técnico personalizado, para que puedas resolver cualquier duda o problema que surja con rapidez y eficacia.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Actualizaciones regulares, para que siempre estés al día con las últimas herramientas y funcionalidades</span>
+                                <span>Actualizaciones regulares, para que siempre estés al día con las últimas herramientas y funcionalidades que te ayudarán a optimizar tus costos y ganancias.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Precios competitivos y flexibles, adaptados a las necesidades de tu negocio</span>
+                                <span>Precios competitivos y flexibles, adaptados a las necesidades de tu negocio y a tu presupuesto.</span>
                             </div>
                         </div>
                         <!-- <div class="col-lg-12 col-md-6 col-sm-12">
