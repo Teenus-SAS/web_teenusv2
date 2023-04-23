@@ -86,20 +86,20 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <h5>TezlikSoftware nos ha permitido reducir nuestros costos de producción en un 20%. Estamos muy satisfechos con los resultados y lo recomendamos ampliamente.</h5>
+                                <h5>Hola, soy María Paz Nieto, dueña de una empresa de confección. Quiero contarles que desde que uso TezlikSoftware, he mejorado mucho mi proceso de cotización y fijación de precios. Antes me demoraba mucho y me equivocaba con los cálculos, pero ahora lo hago en minutos y con total confianza. Además, he logrado negociar mejores precios con mis proveedores y aumentar mis ventas en un 30%. TezlikSoftware es una solución increíble que me ha cambiado la vida.</h5>
                             </div>
                         </div>
                     </div>
 
-                    <!-- <div class="single-testimonial">
+                    <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
                                 <div class="avatar">
                                     <img src="/tezlik/assets/img/testimonial-4.jpg" alt="testimonial" />
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="name">Jona Lala</h3>
-                                    <span>MD LinkedIn</span>
+                                    <h3 class="name">Gabriel Ramirez</h3>
+                                    <span>Gerente Fabrica de Muebles</span>
                                 </div>
                             </div>
                             <div class="testimonial-rating">
@@ -112,10 +112,10 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Gracias a TezlikSoftware, he podido reducir mis costos de producción en un 25% y aumentar mis ganancias en un 40%. Es una herramienta muy fácil de usar y muy precisa. La recomiendo a todos los empresarios que quieran optimizar sus precios y rentabilidad.”</p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
