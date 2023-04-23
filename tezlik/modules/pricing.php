@@ -66,9 +66,9 @@
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
-                    <div class="pricing-footer">
+                    <!-- <div class="pricing-footer">
                         <a href="#contact" class="button btnPlan js-scroll" id="Pro">Contactanos Ya</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- pricing item end -->
@@ -99,9 +99,9 @@
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
-                    <div class="pricing-footer">
+                    <!--  <div class="pricing-footer">
                         <a href="#contact" class="button btnPlan js-scroll" id="pyme">Contactanos Ya</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- pricing item end -->
@@ -132,9 +132,9 @@
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
-                    <div class="pricing-footer">
+                    <!-- <div class="pricing-footer">
                         <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Contactanos Ya</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- pricing item end -->
