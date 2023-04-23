@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <title>Precios, Costos y Rentabilidad | Tezlik</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="keywords" content="tezlik, precios, costos, manufactura, fabricacion, aplicaciones, software" />
-    <meta name="description" content="Tezlik es una plataforma para generar y analizar los precios de los productos a partir de los costos de fabricacion" />
+    <meta name="keywords" content="tezliksoftware, precios, costos, manufactura, fabricacion, aplicaciones, software" />
+    <meta name="description" content="Tecnología para transformar tu negocio. TezlikSoftware es una aplicación web que ofrece soluciones de software personalizadas para pequeñas y medianas empresas. Nuestros servicios incluyen el análisis de materias primas, la fijación de precios, el costeo y el manejo de economías de escala para optimizar la rentabilidad de tu negocio. Contáctanos para obtener una consulta gratuita y descubre cómo nuestra aplicación web puede ayudarte a aumentar tu eficiencia y rentabilidad." />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />

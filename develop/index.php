@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="desarrollo de aplicaciones, software, costos, planeacion, produccion, cotizador">
-    <meta name="description" content="Desarrollar softeare a la medida siempre sera una muy buena inversión, la utilidad al mediano y largo plazo es 10X mayor a si inversión inicial">
+    <meta name="keywords" content="Teenus - Desarrollo de software a medida">
+    <meta name="description" content="En Teenus nos especializamos en el desarrollo de software a medida para pymes y emprendedores. Ofrecemos soluciones innovadoras, personalizadas y asequibles para tus necesidades tecnológicas">
     <title>Desarrollo de Software a la Medida</title>
     <?php include_once __DIR__ . '/partials/scriptsCSS.php' ?>
 

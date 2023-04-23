@@ -6,6 +6,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="Soluciones de software personalizadas, Desarrollo web a medida, Tecnología empresarial, Consultoría de TI,Servicios de desarrollo de software,Soluciones de negocio en línea,Eficiencia empresarial,Rentabilidad empresarial,Diseño web,Optimización SEO" />
+	<meta name="description" content="Teenus es una empresa de tecnología especializada en soluciones de software y desarrollo web personalizadas para pequeñas y medianas empresas. Ofrecemos servicios de alta calidad para mejorar la eficiencia y la rentabilidad de tu negocio. Contáctanos para obtener una consulta gratuita." />
 	<!-- Title -->
 	<title>Teenus - Aplicaciones web</title>
 	<?php include_once __DIR__ . '/partials/scriptsHeader.php' ?>
