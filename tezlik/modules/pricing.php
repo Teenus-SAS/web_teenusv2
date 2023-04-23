@@ -34,9 +34,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="pricing-footer">
-                    <a href="#contact" class="button btnPlan js-scroll" id="Premium">Solicita tu Demostración Gratuita</a>
-                </div>
+            </div>
+            <div class="pricing-footer">
+                <a href="#contact" class="button btnPlan js-scroll" id="Premium">Solicita tu Demostración Gratuita</a>
             </div>
             <!-- pricing item end -->
             <!-- pricing item -->
