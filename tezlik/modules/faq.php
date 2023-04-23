@@ -42,37 +42,36 @@
                             <p>Puedes costear y fijar precios de cualquier tipo de producto que tenga un proceso de producción definido y que utilice materias primas, mano de obra y costos indirectos. TezlikSoftware se adapta a las necesidades de tu negocio y te permite crear productos personalizados según tus características y requerimientos.</p>
                         </div>
                     </div>
-
-                    <div class="accordion-item-2">
-                        <div class="title">
-                            <h6><span>05. </span>¿Qué diferencia a TezlikSoftware de otras soluciones similares?</h6>
-                        </div>
-                        <div class="accordion-info-2">
-                            <p>TezlikSoftware se diferencia de otras soluciones similares por su facilidad de uso, su soporte personalizado, su actualización constante y su precio competitivo. Con TezlikSoftware, no necesitas tener conocimientos técnicos ni contables para costear y fijar precios de tus productos. Además, cuentas con el apoyo de un equipo de expertos que te asesoran y te ayudan a resolver cualquier duda o problema que tengas. También, te garantizamos que siempre tendrás acceso a las últimas herramientas y funcionalidades que te permitirán mejorar tu negocio. Y lo mejor de todo, es que te ofrecemos planes flexibles y asequibles que se adaptan a tus necesidades y presupuesto.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item-2">
-                        <div class="title">
-                            <h6><span>06. </span>¿Qué garantía tengo al usar TezlikSoftware?</h6>
-                        </div>
-                        <div class="accordion-info-2">
-                            <p>Al usar TezlikSoftware, tienes la garantía de que tu información está segura y protegida, ya que usamos los más altos estándares de seguridad y encriptación. Además, tienes la garantía de que recibirás una solución de calidad, actualizada y confiable, que te ayudará a mejorar tu negocio y a alcanzar tus objetivos. Si no quedas satisfecho con la solución, puedes cancelar tu plan en cualquier momento sin ningún costo adicional.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-item-1">
-                        <div class="title">
-                            <h6><span>07. </span>¿Cómo puedo contactar al soporte técnico si tengo algún problema o duda?</h6>
-                        </div>
-                        <div class="accordion-info-1">
-                            <p>Si tienes algún problema o duda con la plataforma, puedes contactar al soporte técnico a través del correo electrónico soporte@teenus.com.co o del número de WhatsApp +(57)3002983150. Te atenderemos lo más pronto posible y te ayudaremos a resolver cualquier inconveniente que tengas.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 faq-item">
                 <div class="accordion accordion-2">
                     <div class="accordion-item-2">
+                        <div class="accordion-item-2">
+                            <div class="title">
+                                <h6><span>05. </span>¿Qué diferencia a TezlikSoftware de otras soluciones similares?</h6>
+                            </div>
+                            <div class="accordion-info-2">
+                                <p>TezlikSoftware se diferencia de otras soluciones similares por su facilidad de uso, su soporte personalizado, su actualización constante y su precio competitivo. Con TezlikSoftware, no necesitas tener conocimientos técnicos ni contables para costear y fijar precios de tus productos. Además, cuentas con el apoyo de un equipo de expertos que te asesoran y te ayudan a resolver cualquier duda o problema que tengas. También, te garantizamos que siempre tendrás acceso a las últimas herramientas y funcionalidades que te permitirán mejorar tu negocio. Y lo mejor de todo, es que te ofrecemos planes flexibles y asequibles que se adaptan a tus necesidades y presupuesto.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item-2">
+                            <div class="title">
+                                <h6><span>06. </span>¿Qué garantía tengo al usar TezlikSoftware?</h6>
+                            </div>
+                            <div class="accordion-info-2">
+                                <p>Al usar TezlikSoftware, tienes la garantía de que tu información está segura y protegida, ya que usamos los más altos estándares de seguridad y encriptación. Además, tienes la garantía de que recibirás una solución de calidad, actualizada y confiable, que te ayudará a mejorar tu negocio y a alcanzar tus objetivos. Si no quedas satisfecho con la solución, puedes cancelar tu plan en cualquier momento sin ningún costo adicional.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item-1">
+                            <div class="title">
+                                <h6><span>07. </span>¿Cómo puedo contactar al soporte técnico si tengo algún problema o duda?</h6>
+                            </div>
+                            <div class="accordion-info-1">
+                                <p>Si tienes algún problema o duda con la plataforma, puedes contactar al soporte técnico a través del correo electrónico soporte@teenus.com.co o del número de WhatsApp +(57)3002983150. Te atenderemos lo más pronto posible y te ayudaremos a resolver cualquier inconveniente que tengas.</p>
+                            </div>
+                        </div>
                         <div class="title">
                             <h6><span>08. </span>¿Cómo puedo actualizar o cancelar mi plan?</h6>
                         </div>
