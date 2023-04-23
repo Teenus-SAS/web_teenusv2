@@ -93,7 +93,7 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php'
         ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/faq.php' 
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/faq.php'
         ?>
         <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' 
         ?>
