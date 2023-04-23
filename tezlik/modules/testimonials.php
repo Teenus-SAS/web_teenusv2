@@ -94,9 +94,9 @@
                     <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">
-                                <div class="avatar">
+                                <!-- <div class="avatar">
                                     <img src="/tezlik/assets/img/testimonial-4.jpg" alt="testimonial" />
-                                </div>
+                                </div> -->
                                 <div class="bio-info">
                                     <h3 class="name">Gabriel Ramirez</h3>
                                     <span>Gerente Fabrica de Muebles</span>
@@ -112,7 +112,7 @@
                                 </ul>
                             </div>
                             <div class="testimonial-content">
-                                <p>Gracias a TezlikSoftware, he podido reducir mis costos de producción en un 25% y aumentar mis ganancias en un 40%. Es una herramienta muy fácil de usar y muy precisa. La recomiendo a todos los empresarios que quieran optimizar sus precios y rentabilidad.”</p>
+                                <h5>Gracias a TezlikSoftware, he podido reducir mis costos de producción en un 25% y aumentar mis ganancias en un 40%. Es una herramienta muy fácil de usar y muy precisa. La recomiendo a todos los empresarios que quieran optimizar sus precios y rentabilidad.”</h5>
                             </div>
                         </div>
                     </div>
