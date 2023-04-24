@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title -->
-	<title>Teenus - Ebooks</title>
+	<title>Teenus - Blog</title>
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -59,9 +59,9 @@
 			<div class="d-table-cell">
 				<div class="container">
 					<div class="page-title-content">
-						<h2><input type="text" class="form-control" placeholder="Buscar"></h2>
+						<input type="Buscar">
 						<ul>
-							<li><a href="/">Todos los Ebooks</a></li>
+							<li><a href="/">Home</a></li>
 						</ul>
 					</div>
 				</div>
@@ -337,8 +337,8 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-	<!-- <script src="/global/js/loadArticles.js"></script> -->
-	<script src="/ebooks/js/ebook.js"></script>
+	<script src="/global/js/loadArticles.js"></script>
+	<script src="/blog/js/blog.js"></script>
 </body>
 
 </html>
