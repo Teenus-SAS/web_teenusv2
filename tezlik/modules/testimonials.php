@@ -12,7 +12,6 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div id="testimonial-slide" class="owl-carousel owl-theme owl-loaded owl-drag">
-
                     <div class="single-testimonial">
                         <div class="testi-content-inner">
                             <div class="testimonial-bio">

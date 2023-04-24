@@ -3,11 +3,6 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-12">
-                <div class="overview-img text-center">
-                    <img src="/tezlik/assets/img/overview.png" class="img-fluid" alt="" />
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
                 <div class="overview-info">
                     <h6 class="small-title">¿Por qué elegir TezlikSoftware?</h6>
                     <h2>TezlikSoftware es más que una plataforma para costear y fijar precios.</h2>
@@ -53,7 +48,11 @@
                     <!--  <a href="#" class="button">Learn More</a> -->
                 </div>
             </div>
-
+            <div class="col-lg-6 col-md-12">
+                <div class="overview-img text-center">
+                    <img src="/tezlik/assets/img/overview.png" class="img-fluid" alt="" />
+                </div>
+            </div>
         </div>
     </div>
 </section>

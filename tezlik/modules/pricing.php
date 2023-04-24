@@ -134,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pricing-footer">
+            <div class="pricing-footer" style="margin: auto;">
                 <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Solicita Ya tu Demo Gratis</a>
             </div>
             <!-- pricing item end -->

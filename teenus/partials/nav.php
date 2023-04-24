@@ -2,10 +2,16 @@
     <div class="techvio-responsive-nav">
         <div class="container">
             <div class="techvio-responsive-menu">
-                <div class="logo">
+                <div class="d-lg-none logo">
                     <a href="/">
-                        <img src="/assets/images/teenus/logo_white.png" class="white-logo" alt="logo">
-                        <img src="/assets/images/teenus/logo.png" class="black-logo" alt="logo">
+                        <span class="logo-sm"><img src="/assets/images/teenus/icono_teenus_white.png" style="width: 50px" class="white-logo" alt="icon tezlik"></span>
+                        <span class="logo-sm"><img src="/assets/images/teenus/icono_teenus.png" style="width: 50px" class="black-logo" alt="Lettstart Admin"></span>
+                    </a>
+                </div>
+                <div class="d-none d-lg-block logo">
+                    <a href="/">
+                        <span class="logo-lg"><img src="/assets/images/teenus/logo_white.png" style="width: 50px" class="white-logo" alt="Logo tezlik"></span>
+                        <span class="logo-lg"><img src="/assets/images/teenus/logo.png" style="width: 50px" class="black-logo" alt="Lettstart Admin"></span>
                     </a>
                 </div>
             </div>

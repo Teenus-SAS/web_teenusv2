@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Precios, Costos y Rentabilidad | Tezlik</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="keywords" content="tezliksoftware, precios, costos, manufactura, fabricacion, aplicaciones, software" />
     <meta name="description" content="Tecnología para transformar tu negocio. TezlikSoftware es una aplicación web que ofrece soluciones de software personalizadas para pequeñas y medianas empresas. Nuestros servicios incluyen el análisis de materias primas, la fijación de precios, el costeo y el manejo de economías de escala para optimizar la rentabilidad de tu negocio. Contáctanos para obtener una consulta gratuita y descubre cómo nuestra aplicación web puede ayudarte a aumentar tu eficiencia y rentabilidad." />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+    <title>Precios, Costos y Rentabilidad | Tezlik</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-    <?php include_once dirname(__DIR__) . '/tezlik/partials/scriptsCSS.php' ?>
+    <?php include_once __DIR__ . '/partials/scriptsCSS.php' ?>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
@@ -337,7 +337,7 @@
 <a href="#" class="back-to-top back-to-top-pulse"><i class="fa fa-caret-up"></i></a>
 <!-- <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría que hablaramos y saber más sobre como podemos desarrollar un proyecto que tengo en mente'"> -->
 <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría hace un demo para conocer su solucion TezlikSoftware'">
-<?php include_once dirname(__DIR__) . '/tezlik/partials/scriptsJS.php' ?>
+<?php include_once __DIR__ . '/partials/scriptsJS.php' ?>
 
 </body>
 

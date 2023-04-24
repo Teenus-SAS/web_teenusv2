@@ -1,9 +1,17 @@
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll" href="/">
-            <img class="navbar-brand-regular" src="/assets/images/teenus/logo_white.png" alt="brand-logo-tezlik" style="width: 50%;" />
-            <img class="navbar-brand-dark" src="/assets/images/tezlik/logo-tezlik2.png" alt="brand-logo-tezlik" style="width: 50%;" />
-        </a>
+        <div class="d-lg-none logo">
+            <a href="/">
+                <span class="logo-sm"><img src="/assets/images/teenus/icono_teenus_white.png" style="width: 50px" class="navbar-brand-regular" alt="icon tezlik"></span>
+                <span class="logo-sm"><img src="/assets/images/teenus/icono_teenus.png" style="width: 50px" class="navbar-brand-dark" alt="Lettstart Admin"></span>
+            </a>
+        </div>
+        <div class="d-none d-lg-block logo">
+            <a href="/">
+                <span class="logo-lg"><img src="/assets/images/teenus/logo_white.png" style="width: 120px" class="navbar-brand-regular" alt="Logo tezlik"></span>
+                <span class="logo-lg"><img src="/assets/images/teenus/logo.png" style="width: 120px" class="navbar-brand-dark" alt="Lettstart Admin"></span>
+            </a>
+        </div>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span></span>
             <span></span>
