@@ -22,5 +22,7 @@ require_once('../api/src/routes/admin/users/routeUsers.php');
 require_once('../api/src/routes/admin/articles/routeArticles.php');
 // Publications
 require_once('../api/src/routes/admin/publications/routePublications.php');
+// Ebooks
+require_once('../api/src/routes/admin/ebooks/routeEbooks.php');
 
 $app->run();

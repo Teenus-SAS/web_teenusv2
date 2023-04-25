@@ -31,9 +31,10 @@
                         <li class="nav-item"><a href="/tezliksoftware" class="nav-link">TezlikSoftware</a></li>
                         <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li>
                         <!-- <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li> -->
-                        <!-- <li class="nav-item"><a href="/ebooks" class="nav-link">Ebooks</a></li> -->
+                        <li class="nav-item"><a href="/ebooks" class="nav-link">Ebooks</a></li>
                     </ul>
                     <div class="other-option">
+                        <a class="default-btn mr-4" href="javascript:;" id="login">Ingresar<span></span></a>
                         <a class="default-btn" href="#contact">Contactanos Ya<span></span></a>
                     </div>
                 </div>

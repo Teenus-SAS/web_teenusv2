@@ -5,6 +5,9 @@
             <div class="col-md-12 section-title">
                 <h6 class="small-title">No te cuesta una fortuna</h6>
                 <h2>Potencia tu empresa</h2>
+                <label class="checkbox-inline mt-2">
+                    <input id="typePrice" type="checkbox" checked data-toggle="toggle" data-on="COP" data-off="USD">
+                </label>
             </div>
             <!-- pricing item -->
             <div class="col-lg-3 col-md-6 col-sm-12 price-item">

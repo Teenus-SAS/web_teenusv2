@@ -14,3 +14,4 @@
 <script src="/assets/js/contacts.js"></script>
 <!-- toastr -->
 <script src="/assets/plugins/toast/toastr.min.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>

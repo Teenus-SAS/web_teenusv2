@@ -1,3 +1,5 @@
+<?php include_once dirname(__DIR__) . '/teenus/modals/login.php' ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -338,7 +340,7 @@
 <!-- <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría que hablaramos y saber más sobre como podemos desarrollar un proyecto que tengo en mente'"> -->
 <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría hace un demo para conocer su solucion TezlikSoftware'">
 <?php include_once __DIR__ . '/partials/scriptsJS.php' ?>
-
+<script src="/tezlik/js/prices.js"></script>
 </body>
 
 </html>

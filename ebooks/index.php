@@ -1,3 +1,4 @@
+<?php include_once dirname(__DIR__) . '/teenus/modals/login.php' ?>
 <!doctype html>
 <html lang="es">
 
@@ -58,11 +59,16 @@
 		<div class="d-table">
 			<div class="d-table-cell">
 				<div class="container">
-					<div class="page-title-content">
-						<h2><input type="text" class="form-control" placeholder="Buscar"></h2>
-						<ul>
-							<li><a href="/">Todos los Ebooks</a></li>
-						</ul>
+					<div style="color:white" class="mb-4">
+						<h3>Todos los Ebooks</h3>
+					</div>
+					<div class="input-group col-md-6" style="margin:auto">
+						<input class="form-control py-2 border-right-0 border" type="search" id="example-search-input" placeholder="Buscar" style="height: 50px">
+						<span class="input-group-append" style="height: 50px">
+							<button class="btn btn-outline-secondary border-left-0 border" type="button">
+								<i class="fa fa-search mt-1" aria-hidden="true"></i>
+							</button>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -75,8 +81,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
-					<div class="row articles">
-						<!-- <div class="col-lg-6 col-md-6">
+					<div class="row ebooks">
+						<div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="idArticle-1">
 								<div class="blog-image">
 									<a href="javascript:;" class="image-1">
@@ -263,9 +269,9 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
-					<div class="col-lg-12 col-md-12">
+					<!-- <div class="col-lg-12 col-md-12">
 						<div class="pagination-area"> <a href="javascript:;" class="prev page-numbers"><i class="fas fa-angle-double-left"></i></a>
 							<a href="javascript:;" class="page-numbers">1</a>
 							<span class="page-numbers current" aria-current="page">2</span>
@@ -273,9 +279,56 @@
 							<a href="javascript:;" class="page-numbers">4</a>
 							<a href="javascript:;" class="next page-numbers"><i class="fas fa-angle-double-right"></i></a>
 						</div>
-					</div>
+					</div> -->
 				</div>
-				<?php include_once dirname(__DIR__) . '/teenus/modules/secondary_widget_area.php' ?>
+				<div class="col-lg-4 col-md-12">
+					<aside class="widget-area" id="secondary">
+						<section class="widget widget_search">
+							<form class="search-form search-top mb-0">
+								<div class="nice-select form-control" tabindex="0" style="height: 50px;"><span class="current">Categoria</span>
+									<ul class="list">
+										<li data-value="0" class="option selected disabled">Categoria</li>
+										<li data-value="1" class="option">Desarrollo</li>
+										<li data-value="2" class="option">Tezlik</li>
+									</ul>
+								</div>
+							</form>
+						</section>
+						<section class="widget widget_techvio_posts_thumb">
+							<h3 class="widget-title">Popular Posts</h3>
+							<article class="item" id="item-1">
+								<a href="javascript:;" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
+								</a>
+								<div class="info">
+									<span class="bi bi-eye-fill" id="p-view-1"></span>
+									<h4 class="title usmall">
+										<a href="javascript:;" id="p-title-1">5 Technology Considerations for Office Relocations</a>
+									</h4>
+								</div>
+							</article>
+							<article class="item" id="item-2">
+								<a href="javascript:;" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
+								</a>
+								<div class="info">
+									<span class="bi bi-eye-fill" id="p-view-2"></span>
+									<h4 class="title usmall">
+										<a href="javascript:;" id="p-title-2">Everything you need to know about geo-blocking</a>
+									</h4>
+								</div>
+							</article>
+							<article class="item" id="item-3">
+								<a href="javascript:;" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
+								</a>
+								<div class="info">
+									<span class="bi bi-eye-fill" id="p-view-3"></span>
+									<h4 class="title usmall">
+										<a href="javascript:;" id="p-title-3">Machine Learning Applications for Every Industry</a>
+									</h4>
+								</div>
+							</article>
+						</section>
+					</aside>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -337,7 +390,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-	<!-- <script src="/global/js/loadArticles.js"></script> -->
+	<script src="/global/js/login.js"></script>
 	<script src="/ebooks/js/ebook.js"></script>
 </body>
 
