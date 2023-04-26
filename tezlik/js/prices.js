@@ -11,5 +11,12 @@ $(document).ready(function () {
 
   $('#typePrice').change(function (e) {
     e.preventDefault();
+    if ($('#typePrice').is(':checked')) {
+      $('.usd').hide(400);
+      $('.cop').show(400);
+    } else {
+      $('.cop').hide(400);
+      $('.usd').show(400);
+    }
   });
 });
