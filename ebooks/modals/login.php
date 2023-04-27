@@ -1,4 +1,4 @@
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header border-bottom-0">
@@ -13,10 +13,10 @@
                 <div class="d-flex flex-column text-center">
                     <form id="formLogin">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
                         <button type="button" class="btn btn-info btn-block btn-round" id="btnLogin">Ingresar</button>
                     </form>

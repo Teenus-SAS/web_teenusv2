@@ -19,13 +19,13 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 
 /* Consulta todos */
 
-$app->get('/users', function (Request $request, Response $response, $args) use ($usersDao) {
+$app->get('/usersEbooks', function (Request $request, Response $response, $args) use ($usersDao) {
     $users = $usersDao->findAllUsers();
     $response->getBody()->write(json_encode($users, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-$app->post('/addUser', function (Request $request, Response $response, $args) use (
+$app->post('/addUserEbook', function (Request $request, Response $response, $args) use (
     $usersDao,
     $codeDao,
     $makeEmailDao,
@@ -72,8 +72,8 @@ $app->post('/userEbooksAutentication', function (Request $request, Response $res
 ) {
     $parsedBody = $request->getParsedBody();
 
-    $user = $parsedBody["validation-email"];
-    $password = $parsedBody["validation-password"];
+    $user = $parsedBody["email"];
+    $password = $parsedBody["password"];
     $user = $usersDao->findUser($user);
 
     $resp = array();
