@@ -13,7 +13,7 @@ $(document).ready(function () {
 
   fetchindata();
 
-  /* Cargar todos los articulos */
+  /* Cargar todos los ebooks */
   loadEbooks = (data) => {
     for (i = 0; i < data.length; i++) {
       // Fecha Publicación
@@ -44,7 +44,7 @@ $(document).ready(function () {
       content = data[i].content;
       content.length > 86 ? (content = `${content.substr(0, 86)}...`) : content;
 
-      $('.articles').append(`
+      $('.ebooks').append(`
       <div class="col-lg-6 col-md-6">
 							<div class="blog-item" id="${data[i].id_ebook}">
 								<div class="blog-image">
@@ -61,9 +61,9 @@ $(document).ready(function () {
                       i + 1
                     }">${creation_date}</i></a></li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-${i + 1}">${data[
-        i
-      ].views.toLocaleString()}</i></a>
+											<a href="javascript:;"> <i class="bi bi bi-download" id="download-${
+                        i + 1
+                      }">${data[i].downloads.toLocaleString()}</i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -71,8 +71,6 @@ $(document).ready(function () {
 											<a href="javascript:;" id="title-${i + 1}">${data[i].tittle}</a>
 										</h3>
 										<p id="content-${i + 1}">${content}</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Leer Mas</a>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -80,11 +78,11 @@ $(document).ready(function () {
     }
   };
 
-  /* Cargar articulos populares */
+  /* Cargar ebooks populares */
   loadPopularEbooks = (data) => {
     data.length > 3 ? (count = 3) : (count = data.length);
     for (i = 0; i < count; i++) {
-      // Id articulo
+      // Id ebook
       var ebook = document.getElementById(`item-${i + 1}`);
       ebook.id = data[i].id_ebook;
 
@@ -93,8 +91,8 @@ $(document).ready(function () {
         <img src="${data[i].img}" style="width:80px;height:80px"/>
         `);
 
-      // Vista
-      $(`#p-view-${i + 1}`).html(data[i].views.toLocaleString());
+      // Descargas
+      $(`#p-downloads-${i + 1}`).html(data[i].downloads.toLocaleString());
 
       // Titulo
       title = data[i].title;
@@ -107,11 +105,26 @@ $(document).ready(function () {
     id_ebook = this.id;
 
     if (id_ebook.includes('idEbook')) {
-      toastr.error('No es posible acceder a este articulo');
+      toastr.error('No es posible acceder a este Ebook');
       return false;
     } else {
-      // localStorage.setItem('id_ebook', id_ebook);
-      // location.href = '/ebooks';
+      for (let i = 0; i < data.length; i++) {
+        if (data[i].id_ebook == id_ebook) {
+          url = data[i].url;
+          break;
+        }
+      }
+
+      let link = document.createElement('a');
+
+      link.target = '_blank';
+
+      link.href = url;
+      document.body.appendChild(link);
+      link.click();
+
+      document.body.removeChild(link);
+      delete link;
     }
   });
 });

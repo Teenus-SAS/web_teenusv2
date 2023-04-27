@@ -6,7 +6,7 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="downloadsport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title -->
 	<title>Teenus - Ebooks</title>
 	<!-- Google Fonts -->
@@ -39,6 +39,7 @@
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -89,19 +90,19 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="row ebooks">
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-1">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-1">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-1">
-										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-1.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-1"></i></a></li>
 										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-1"></i></a></li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-1"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-1"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -109,20 +110,18 @@
 											<a href="javascript:;" id="title-1">Planning for a Safe Return to the Workplace IT Solutions</a>
 										</h3>
 										<p id="content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-2">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-2">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-2">
-										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-2.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li>
 											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-2"></i></a>
@@ -131,7 +130,7 @@
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-2"></i></a>
 										</li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-2"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-2"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -141,21 +140,18 @@
 											</a>
 										</h3>
 										<p id="content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn">
-											<a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-3">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-3">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-3">
-										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-3.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li>
 											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-3"></i></a>
@@ -164,7 +160,7 @@
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-3"></i></a>
 										</li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-3"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-3"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -174,20 +170,18 @@
 											</a>
 										</h3>
 										<p id="content-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-4">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-4">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-4">
-										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-4.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li>
 											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-4"></i></a>
@@ -196,7 +190,7 @@
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-4"></i></a>
 										</li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-4"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-4"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -206,20 +200,18 @@
 											</a>
 										</h3>
 										<p id="content-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-5">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-5">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-5">
-										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-5.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li>
 											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-5"></i></a>
@@ -228,7 +220,7 @@
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-5"></i></a>
 										</li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-5"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-5"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -238,21 +230,18 @@
 											</a>
 										</h3>
 										<p id="content-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn">
-											<a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="idArticle-6">
-								<div class="blog-image">
+						<div class="col-lg-12 col-md-12">
+							<div class="blog-item" id="idEbook-6">
+								<div class="blog-image" style="float:left">
 									<a href="javascript:;" class="image-6">
-										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image">
+										<img src="/teenus/assets/img/blog/blog-6.jpg" alt="image" width="100px" class="img-fluid rounded-pill">
 									</a>
 								</div>
-								<div class="single-blog-item">
+								<div class="single-blog-item" style="overflow: hidden">
 									<ul class="blog-list">
 										<li>
 											<a href="javascript:;"> <i class="fa fa-user-alt" id="author-6"></i></a>
@@ -261,7 +250,7 @@
 											<a href="javascript:;"> <i class="fas fa-calendar-week" id="date-6"></i></a>
 										</li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-6"> </i></a>
+											<a href="javascript:;"> <i class="bi bi-download" id="downloads-6"> </i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -271,8 +260,6 @@
 											</a>
 										</h3>
 										<p id="content-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
-										<div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Read More</a>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -307,7 +294,7 @@
 								<a href="javascript:;" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
-									<span class="bi bi-eye-fill" id="p-view-1"></span>
+									<span class="bi bi-download" id="p-downloads-1"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-1">5 Technology Considerations for Office Relocations</a>
 									</h4>
@@ -317,7 +304,7 @@
 								<a href="javascript:;" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
-									<span class="bi bi-eye-fill" id="p-view-2"></span>
+									<span class="bi bi-download" id="p-downloads-2"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-2">Everything you need to know about geo-blocking</a>
 									</h4>
@@ -327,7 +314,7 @@
 								<a href="javascript:;" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
-									<span class="bi bi-eye-fill" id="p-view-3"></span>
+									<span class="bi bi-download" id="p-downloads-3"></span>
 									<h4 class="title usmall">
 										<a href="javascript:;" id="p-title-3">Machine Learning Applications for Every Industry</a>
 									</h4>
