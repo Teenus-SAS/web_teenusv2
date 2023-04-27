@@ -11,14 +11,14 @@
                     <h4>Login</h4>
                 </div>
                 <div class="d-flex flex-column text-center">
-                    <form>
+                    <form id="formLogin">
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
-                        <button type="button" class="btn btn-info btn-block btn-round" id="">Ingresar</button>
+                        <button type="button" class="btn btn-info btn-block btn-round" id="btnLogin">Ingresar</button>
                     </form>
                 </div>
             </div>

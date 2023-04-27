@@ -32,4 +32,20 @@ class LastLoginDao
             return $error;
         }
     }
+
+    public function findLastLoginUserEbook()
+    {
+        $connection = Connection::getInstance()->getConnection();
+        $id_user = $_SESSION['idUserEbook'];
+
+        try {
+            $stmt = $connection->prepare("UPDATE users_ebooks SET last_login = now() WHERE id_user_ebook = :id_user_ebook");
+            $stmt->execute(['id_user' => $id_user]);
+            $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            $error = array('info' => true, 'message' => $message);
+            return $error;
+        }
+    }
 }

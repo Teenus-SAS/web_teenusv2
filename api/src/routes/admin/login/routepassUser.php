@@ -1,12 +1,10 @@
 <?php
 
-use tezlik_web\dao\EmailDao;
 use tezlik_web\dao\LastLoginDao;
 use tezlik_web\dao\AutenticationUserDao;
 use tezlik_web\dao\PassUserDao;
 
 $passUserDao = new PassUserDao();
-$sendEmailDao = new EmailDao();
 $autenticationUserDao = new AutenticationUserDao();
 $lastLoginDao = new LastLoginDao();
 
@@ -44,7 +42,7 @@ $app->post('/changePassword', function (Request $request, Response $response, $a
 
 /* Forgot Password */
 
-$app->post('/forgotPassword', function (Request $request, Response $response, $args) use ($passUserDao, $sendEmailDao, $autenticationUserDao, $lastLoginDao) {
+$app->post('/forgotPassword', function (Request $request, Response $response, $args) use ($passUserDao, $autenticationUserDao, $lastLoginDao) {
     $parsedBody = $request->getParsedBody();
     $email = trim($parsedBody["data"]);
 

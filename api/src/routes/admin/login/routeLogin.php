@@ -1,7 +1,6 @@
 <?php
 
 use tezlik_web\dao\AutenticationUserDao;
-use tezlik_web\dao\EmailDao;
 use tezlik_web\dao\GenerateCodeDao;
 use tezlik_web\dao\LastLoginDao;
 use tezlik_web\dao\StatusActiveUserDao;
@@ -9,7 +8,6 @@ use tezlik_web\dao\StatusActiveUserDao;
 $autenticationDao = new AutenticationUserDao();
 $statusActiveUserDao = new StatusActiveUserDao();
 $generateCodeDao = new GenerateCodeDao();
-$sendEmailDao = new EmailDao();
 $lastLoginDao = new LastLoginDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
@@ -17,7 +15,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 
 /* Autenticación */
 
-$app->post('/userAutentication', function (Request $request, Response $response, $args) use ($autenticationDao, $statusActiveUserDao, $generateCodeDao, $sendEmailDao, $lastLoginDao) {
+$app->post('/userAutentication', function (Request $request, Response $response, $args) use ($autenticationDao, $statusActiveUserDao, $generateCodeDao, $lastLoginDao) {
     $parsedBody = $request->getParsedBody();
 
     $user = $parsedBody["validation-email"];

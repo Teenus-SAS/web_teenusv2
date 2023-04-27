@@ -107,13 +107,19 @@ $(document).ready(function () {
     if (id_ebook.includes('idEbook')) {
       toastr.error('No es posible acceder a este Ebook');
       return false;
+    } else if (active == false) {
+      toastr.error('Ingresar sesion antes de descargar Ebook');
+      return false;
     } else {
       for (let i = 0; i < data.length; i++) {
         if (data[i].id_ebook == id_ebook) {
           url = data[i].url;
+
           break;
         }
       }
+
+      url = url.replace('../../../', '');
 
       let link = document.createElement('a');
 
