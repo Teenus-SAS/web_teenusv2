@@ -1,4 +1,5 @@
 <?php include_once dirname(__DIR__) . '/teenus/modals/login.php' ?>
+<?php include_once dirname(__DIR__) . '/teenus/modals/register.php' ?>
 <!doctype html>
 <html lang="es">
 
@@ -59,8 +60,14 @@
 		<div class="d-table">
 			<div class="d-table-cell">
 				<div class="container">
-					<div style="color:white" class="mb-4">
-						<h3>Todos los Ebooks</h3>
+					<div class="row mb-5">
+						<div class="col-sm-9" style="color:white">
+							<h3>Todos los Ebooks</h3>
+						</div>
+						<div class="col-sm-3">
+							<button type="button" class="btn btn-secondary mr-4" id="login">Ingresar</button>
+							<button type="button" class="btn btn-secondary register">Registrarse</button>
+						</div>
 					</div>
 					<div class="input-group col-md-6" style="margin:auto">
 						<input class="form-control py-2 border-right-0 border" type="search" id="example-search-input" placeholder="Buscar" style="height: 50px">
@@ -390,7 +397,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-	<script src="/global/js/login.js"></script>
+	<script src="/ebooks/js/login.js"></script>
 	<script src="/ebooks/js/ebook.js"></script>
 </body>
 

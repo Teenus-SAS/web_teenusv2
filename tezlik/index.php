@@ -1,5 +1,3 @@
-<?php include_once dirname(__DIR__) . '/teenus/modals/login.php' ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
