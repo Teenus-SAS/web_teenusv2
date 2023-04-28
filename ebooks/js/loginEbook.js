@@ -3,11 +3,13 @@ $(document).ready(function () {
     e.preventDefault();
 
     $('#loginModal').modal('show');
+    $('#formLogin').trigger('reset');
   });
 
   $('.register').click(function (e) {
     e.preventDefault();
 
+    $('#formRegister').trigger('reset');
     $('#loginModal').modal('hide');
     $('#registerModal').modal('show');
   });
@@ -38,5 +40,33 @@ $(document).ready(function () {
         else if (data.info == true) toastr.info(data.message);
       }
     );
+  });
+
+  /* Register */
+  $('#btnRegister').click(function (e) {
+    e.preventDefault();
+
+    let user = $('#user').val();
+    let email = $('#registerEmail').val();
+    let sector = $('#sector').val();
+    let numEmployees = $('#numEmployees').val();
+
+    if (user == '' || email == '' || sector == '' || numEmployees == '') {
+      toastr.error('Ingrese todos los campos');
+      return false;
+    }
+
+    let data = $('#formRegister').serialize();
+
+    $.post('/api/addUserEbook', data, function (data, textStatus, jqXHR) {
+      if (data.success == true) {
+        $('#registerModal').modal('hide');
+
+        toastr.success(data.message);
+        console.log(data.pass);
+        return false;
+      } else if (data.error == true) toastr.error(data.message);
+      else if (data.info == true) toastr.info(data.message);
+    });
   });
 });

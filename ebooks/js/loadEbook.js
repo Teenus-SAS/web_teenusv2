@@ -7,6 +7,9 @@ $(document).ready(function () {
     const text = await response.text();
 
     data = JSON.parse(text);
+
+    recentEbooks = data.recentEbooks;
+
     loadEbooks(data.recentEbooks);
     loadPopularEbooks(data.popularEbooks);
   };
@@ -43,6 +46,8 @@ $(document).ready(function () {
       // // Contenido
       content = data[i].content;
       content.length > 86 ? (content = `${content.substr(0, 86)}...`) : content;
+
+      $('.ebooks').empty();
 
       $('.ebooks').append(`
       <div class="col-lg-6 col-md-6">
@@ -100,37 +105,4 @@ $(document).ready(function () {
       $(`#p-title-${i + 1}`).html(title);
     }
   };
-
-  $(document).on('click', '.blog-item', function (e) {
-    id_ebook = this.id;
-
-    if (id_ebook.includes('idEbook')) {
-      toastr.error('No es posible acceder a este Ebook');
-      return false;
-    } else if (active == false) {
-      toastr.error('Ingresar sesion antes de descargar Ebook');
-      return false;
-    } else {
-      for (let i = 0; i < data.length; i++) {
-        if (data[i].id_ebook == id_ebook) {
-          url = data[i].url;
-
-          break;
-        }
-      }
-
-      url = url.replace('../../../', '');
-
-      let link = document.createElement('a');
-
-      link.target = '_blank';
-
-      link.href = url;
-      document.body.appendChild(link);
-      link.click();
-
-      document.body.removeChild(link);
-      delete link;
-    }
-  });
 });

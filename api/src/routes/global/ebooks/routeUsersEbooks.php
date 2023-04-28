@@ -33,33 +33,27 @@ $app->post('/addUserEbook', function (Request $request, Response $response, $arg
 ) {
     $dataUser = $request->getParsedBody();
 
-    if (
-        empty($dataUser['nameUser']) && empty($dataUser['email'])
-        && empty($dataUser['sector']) && empty($dataUser['numEmployees'])
-    ) {
-        $resp = array('error' => true, 'message' => 'Complete todos los datos');
+    $user = $usersDao->findUser($dataUser['email']);
+
+    if (is_array($user)) {
+        $resp = array('error' => true, 'message' => 'El email ya se encuentra registrado. Intente con uno nuevo');
     } else {
-        $user = $usersDao->findUser($dataUser['email']);
+        $pass = $codeDao->GenerateCode();
 
-        if (is_array($user)) {
-            $resp = array('error' => true, 'message' => 'El email ya se encuentra registrado. Intente con uno nuevo');
-        } else {
-            $pass = $codeDao->GenerateCode();
+        // $dataEmail = $makeEmailDao->SendEmailPassword($dataUser['email'], $pass);
 
-            $dataEmail = $makeEmailDao->SendEmailPassword($dataUser['email'], $pass);
+        // $email = $sendEmailDao->sendEmail($dataEmail, 'soporteTezlik@tezliksoftware.com.co', 'SoporteTezlik');
 
-            $email = $sendEmailDao->sendEmail($dataEmail, 'soporteTezlik@tezliksoftware.com.co', 'SoporteTezlik');
+        // if ($email == null)
+        /* Almacena el usuario */
+        $user = $usersDao->addUser($dataUser, $pass);
 
-            // if ($email == null)
-            /* Almacena el usuario */
-            $user = $usersDao->addUser($dataUser, $pass);
-
-            if ($user == null)
-                $resp = array('success' => true, 'message' => 'Usuario creado correctamente');
-            else
-                $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
-        }
+        if ($user == null)
+            $resp = array('success' => true, 'message' => 'Usuario creado correctamente', 'pass' => $pass);
+        else
+            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
     }
+
 
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
@@ -110,10 +104,9 @@ $app->post('/userEbooksAutentication', function (Request $request, Response $res
 
     /* Nueva session user */
     session_start();
-    $_SESSION['active'] = true;
-    $_SESSION['idUser'] = $user['id_user_ebook'];
-    $_SESSION['case'] = 1;
-    $_SESSION['email'] = $user['email'];
+    $_SESSION['idUserEbook'] = $user['id_user_ebook'];
+    $_SESSION['username'] = $user['user'];
+    $_SESSION['emailEbook'] = $user['email'];
 
     /* Actualizar metodo ultimo logueo */
     $lastLoginDao->findLastLoginUserEbook();

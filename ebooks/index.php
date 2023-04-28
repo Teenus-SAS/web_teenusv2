@@ -1,8 +1,11 @@
 <?php include_once dirname(__DIR__) . '/ebooks/modals/login.php' ?>
 <?php include_once dirname(__DIR__) . '/ebooks/modals/register.php' ?>
 
-<?php if (!isset($_SESSION))
-	session_start(); ?>
+<?php
+if (!isset($_SESSION)) {
+	session_start();
+}
+?>
 
 <!doctype html>
 <html lang="es">
@@ -44,6 +47,15 @@
 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<style>
+		.header-item:hover,
+		.header-item:focus,
+		.header-item:active,
+		.header-item.active,
+		.open>.dropdown-toggle.header-item {
+			border: 1px solid white;
+		}
+	</style>
 </head>
 
 <body>
@@ -69,17 +81,33 @@
 						<div class="col-sm-9" style="color:white">
 							<h3>Todos los Ebooks</h3>
 						</div>
-						<?php if (sizeof($_SESSION) == 0) { ?>
-							<div class="col-sm-3">
+						<div class="col-sm-3">
+							<?php if (sizeof($_SESSION) == 0) { ?>
 								<button type="button" class="btn btn-secondary mr-4" id="btnShowModalLogin">Ingresar</button>
 								<button type="button" class="btn btn-secondary register">Registrarse</button>
-							</div>
-						<?php } ?>
+							<?php } else { ?>
+								<button data-toggle="dropdown" aria-haspopup="true" type="button" id="page-header-profile-dropdown" aria-expanded="false" class="btn header-item">
+									<?php
+									if (empty($_SESSION['avatar']))
+										$avatar = "/assets/images/users/empty_user.png";
+									else
+										$avatar = $_SESSION['avatar'];
+									?>
+									<img id="hAvatar" src="<?php echo $avatar; ?>" alt="Header Avatar" style="width:50px; float:left" class="img-fluid rounded-pill">
+									<span class="d-none font-weight-bold d-xl-inline-block ml-2 mt-2 userName" style="color:white"><?php if (!empty($_SESSION)) echo  $_SESSION['username']; ?> </span>
+								</button>
+								<div aria-labelledby="page-header-profile-dropdown" class="dropdown-menu-right dropdown-menu">
+									<a href="javascript: void(0);" class="text-danger dropdown-item logout">
+										<i class="bx bx-log-in mr-1 text-danger"></i> Salir
+									</a>
+								</div>
+							<?php } ?>
+						</div>
 					</div>
 					<div class="input-group col-md-6" style="margin:auto">
-						<input class="form-control py-2 border-right-0 border" type="search" id="example-search-input" placeholder="Buscar" style="height: 50px">
+						<input class="form-control py-2 border-right-0 border" type="search" id="inputSearchEbook" placeholder="Buscar" style="height: 50px">
 						<span class="input-group-append" style="height: 50px">
-							<button class="btn btn-outline-secondary border-left-0 border" type="button">
+							<button class="btn btn-outline-secondary border-left-0 border" type="button" id="btnSearchEbooks">
 								<i class="fa fa-search mt-1" aria-hidden="true"></i>
 							</button>
 						</span>
@@ -285,11 +313,11 @@
 					<aside class="widget-area" id="secondary">
 						<section class="widget widget_search">
 							<form class="search-form search-top mb-0">
-								<div class="nice-select form-control" tabindex="0" style="height: 50px;"><span class="current">Categoria</span>
+								<div class="nice-select form-control" tabindex="0" id="categoryEbook" style="height: 50px;"><span class="current">Categoria</span>
 									<ul class="list">
 										<li data-value="0" class="option selected disabled">Categoria</li>
-										<li data-value="1" class="option">Desarrollo</li>
-										<li data-value="2" class="option">Tezlik</li>
+										<li data-value="1" class="option" id="1">Desarrollo</li>
+										<li data-value="2" class="option" id="2">Tezlik</li>
 									</ul>
 								</div>
 							</form>
@@ -359,6 +387,8 @@
 			1000
 		);
 	</script>
+	<script src="/global/js/sessionUser.js"></script>
+	<script src="/global/js/inactiveUsers.js"></script>
 	<!-- Popper Min JS -->
 	<!-- <script src="/teenus/assets/js/popper.min.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -398,8 +428,10 @@
 					?>";
 	</script>
 
-	<script src="/ebooks/js/login.js"></script>
-	<script src="/ebooks/js/ebook.js"></script>
+	<script src="/ebooks/js/loginEbook.js"></script>
+	<script src="/ebooks/js/loadEbook.js"></script>
+	<script src="/ebooks/js/generalEbooks.js"></script>
+	<script src="/global/js/logout.js"></script>
 </body>
 
 </html>

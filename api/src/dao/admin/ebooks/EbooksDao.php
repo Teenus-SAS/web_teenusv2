@@ -67,4 +67,21 @@ class EbooksDao
         $this->logger->notice("Ebooks Obtenidos", array('Ebooks' => $ebooks));
         return $ebooks;
     }
+
+    public function updateContDownloads($id_ebook)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        try {
+            $stmt = $connection->prepare("UPDATE ebooks SET downloads = downloads + 1 WHERE id_ebook = :id_ebook");
+            $stmt->execute([
+                'id_ebook' => $id_ebook
+            ]);
+            $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            $error = array('info' => true, 'message' => $message);
+            return $error;
+        }
+    }
 }

@@ -24,6 +24,7 @@ require_once('../api/src/routes/admin/articles/routeArticles.php');
 require_once('../api/src/routes/admin/publications/routePublications.php');
 // Ebooks
 require_once('../api/src/routes/admin/ebooks/routeEbooks.php');
-require_once('../api/src/routes/global/routeUsersEbooks.php');
+require_once('../api/src/routes/global/ebooks/routeUsersEbooks.php');
+require_once('../api/src/routes/global/ebooks/routeInactiveUser.php');
 
 $app->run();

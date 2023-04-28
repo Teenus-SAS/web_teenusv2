@@ -52,15 +52,15 @@ class SendMakeEmailDao
     public function SendEmailPassword($email, $password)
     {
         // the message
-        $msg = 'Hola,\n
+        $msg = "Hola,\n
         Recientemente solicitó crear un nuevo usuario, por lo que para mayor seguridad creamos una contraseña. Para ingresar a Ebook puede hacerlo con:\n
-        · Nombre de usuario:' . $email . '\n
-        · Contraseña:' . $password . '\n
+        · Nombre de usuario: $email \n
+        · Contraseña: $password \n
         Las contraseñas generadas a través de nuestra plataforma son muy seguras solo se envían al correo electrónico del contacto de la cuenta.
         Si le preocupa la seguridad de la cuenta o sospecha que alguien está intentando obtener acceso no autorizado, puede estar 
         seguro que las contraseñas son generadas aleatoriamente.
         Saludos,\n\n
-        Equipo de Soporte Teenus';
+        Equipo de Soporte Teenus";
 
         $resp = array('to' => array($email), 'subject' => 'Nuevo Password', 'body' => $msg, 'ccHeader' => null);
         return $resp;

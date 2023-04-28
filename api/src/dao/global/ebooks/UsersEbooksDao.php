@@ -44,19 +44,22 @@ class UsersEbooksDao
         return $user;
     }
 
-    public function addUser($dataUser, $pass)
+    public function addUser($dataUser, $newPass)
     {
         $connection = Connection::getInstance()->getConnection();
 
         try {
-            $stmt = $connection->prepare("INSERT INTO users_ebooks (user, email, password, sector, employees) 
-                                          VALUES (:user, :email, :password, :sector, :employees)");
+            $pass = password_hash($newPass, PASSWORD_DEFAULT);
+
+            $stmt = $connection->prepare("INSERT INTO users_ebooks (user, email, password, sector, employees, active) 
+                                          VALUES (:user, :email, :password, :sector, :employees, :active)");
             $stmt->execute([
                 'user' => $dataUser['nameUser'],
                 'email' => $dataUser['email'],
                 'password' => $pass,
                 'sector' => $dataUser['sector'],
-                'employees' => $dataUser['numEmployees']
+                'employees' => $dataUser['numEmployees'],
+                'active' => 1
             ]);
 
             $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));

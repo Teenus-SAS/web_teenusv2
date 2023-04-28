@@ -48,4 +48,19 @@ class LastLoginDao
             return $error;
         }
     }
+
+    public function FindTimeActiveUsers()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        try {
+            $stmt = $connection->prepare("UPDATE users_ebooks SET session_active = 0 
+                                          WHERE session_active = 1 AND TIMESTAMPDIFF(MINUTE, last_login, NOW()) > 30");
+            $stmt->execute();
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            $error = array('info' => true, 'message' => $message);
+            return $error;
+        }
+    }
 }
