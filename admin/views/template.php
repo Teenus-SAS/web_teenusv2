@@ -571,14 +571,11 @@
 	<!--start switcher-->
 	<?php include_once dirname(__DIR__) . '/partials/swicher.php' ?>
 	<!--end switcher-->
-
-	<script src="/global/js/loadContent.js"></script>
 	<?php
 	$rol = $_SESSION['rol'];
 
-	if ($rol == 1) echo '<script>', "loadContent('page-content','/admin/blogs-detalles')", '</script>';
+	if ($rol == 1) echo "<script> location.hreff = '/admin/blogs-detalles' </script>";
 	?>
-	<script src="/admin/js/global/logout.js"></script>
 </body>
 
 </html>

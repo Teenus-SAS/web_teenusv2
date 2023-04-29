@@ -1,5 +1,7 @@
 <!-- JQuery -->
-<script src="/admin/assets/js/jquery.min.js"></script>
+<!-- <script src="/admin/assets/js/jquery.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <!--plugins-->
@@ -14,6 +16,8 @@
 <script src="/admin/assets/js/index.js"></script>
 <!-- page JS -->
 <script src="/admin/assets/js/app.js"></script>
+<script src="/admin/js/global/logout.js"></script>
+
 <!-- Datatables -->
 <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>

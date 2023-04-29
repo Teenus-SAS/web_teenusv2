@@ -13,21 +13,21 @@
         <ul class="metismenu" id="menu">
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
-                    <a href="javascript:history.go(0)" id="dashboard">
+                    <a href="/admin/app" id="dashboard">
                         <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
             <?php } ?>
             <li>
-                <a href="javascript:;" id="blog" onclick="loadContent('page-content','/admin/blogs-detalles')" class="has-arrow">
+                <a href="/admin/blogs-detalles" id="blog" class="has-arrow">
                     <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
-                    <a href="javascript:;" id="user" onclick="loadContent('page-content','/admin/usuarios')">
+                    <a href="/admin/usuarios" id="user">
                         <div class="parent-icon"><i class='bx bx-line-chart bx-burst-hover'></i></div>
                         <div class="menu-title">Usuarios</div>
                     </a>
