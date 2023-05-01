@@ -59,16 +59,13 @@ $(document).ready(function () {
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${
-        data[i].author
-      }</i></a></li>
-										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${
-                      i + 1
-                    }">${creation_date}</i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${data[i].author
+        }</i></a></li>
+										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${i + 1
+        }">${creation_date}</i></a></li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi bi-download" id="download-${
-                        i + 1
-                      }">${data[i].downloads.toLocaleString()}</i></a>
+											<a href="javascript:;"> <i class="bi bi bi-download" id="download-${i + 1
+        }">${data[i].downloads.toLocaleString()}</i></a>
 										</li>
 									</ul>
 									<div class="blog-content">
@@ -85,7 +82,7 @@ $(document).ready(function () {
 
   /* Cargar ebooks populares */
   loadPopularEbooks = (data) => {
-    data.length > 3 ? (count = 3) : (count = data.length);
+    data.length >= 3 ? (count = 3) : (count = data.length);
     for (i = 0; i < count; i++) {
       // Id ebook
       var ebook = document.getElementById(`item-${i + 1}`);
