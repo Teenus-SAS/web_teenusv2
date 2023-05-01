@@ -6,11 +6,11 @@ use tezlik_web\Constants\Constants;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;
 
-use PHPMailer\PHPMailer\PHPMailer;
+/* use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\Exception; */
 
-class SendEmailDao extends PHPMailer
+class SendEmailDao /* extends PHPMailer */
 {
     private $logger;
 
@@ -25,7 +25,7 @@ class SendEmailDao extends PHPMailer
         require_once dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/env.php';
 
         try {
-            $mail = new PHPMailer(true);
+            //$mail = new PHPMailer(true);
 
             //Server settings
             $mail->isSMTP();
@@ -34,7 +34,7 @@ class SendEmailDao extends PHPMailer
             $mail->SMTPAuth      = true;
             $mail->Username     = $_ENV["smtpEmail"];
             $mail->Password     = $_ENV["smtpPass"];
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            //$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             //$mail->SMTPSecure = "tls";
             $mail->Port          = $_ENV["smtpPort"];
 

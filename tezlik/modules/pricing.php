@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-title">
-                <h6 class="small-title">No te cuesta una fortuna</h6>
+                <h6 class="small-title">Totalmente a tu alcance</h6>
                 <h2>Potencia tu empresa</h2>
                 <label class="checkbox-inline mt-2">
                     <input id="typePrice" type="checkbox" checked data-toggle="toggle" data-on="COP" data-off="USD">

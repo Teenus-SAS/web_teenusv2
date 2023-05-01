@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ee04fd8a74ac50531f8a732c77e43a58f3711c0f',
+        'reference' => 'f935aec460324925af5bd1d69a8d46202a3603a2',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ee04fd8a74ac50531f8a732c77e43a58f3711c0f',
+            'reference' => 'f935aec460324925af5bd1d69a8d46202a3603a2',
             'dev_requirement' => false,
         ),
         'facebook/php-business-sdk' => array(
@@ -80,6 +80,15 @@
             'install_path' => __DIR__ . '/../nikic/fast-route',
             'aliases' => array(),
             'reference' => '181d480e08d9476e61381e04a71b34dc0432e812',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.8.0',
+            'version' => '6.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'df16b615e371d81fb79e506277faea67a1be18f1',
             'dev_requirement' => false,
         ),
         'psr/container' => array(

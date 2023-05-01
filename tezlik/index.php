@@ -1,3 +1,5 @@
+<?php require_once __DIR__ . '/modals/modalRegister.php' ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -115,7 +117,13 @@
         let zone = 'Tezlik'
     </script>
     <!--Jquery js-->
+    <!--  <script>
+        $('#btnRegistration').click(function(e) {
+            e.preventDefault();
+            $('#modalRegistration').modal('show');
 
+        });
+    </script> -->
     <!-- <script src="/tezlik/assets/js/jquery-3.5.1.min.js"></script>
     <script src="/tezlik/assets/js/bootstrap.min.js"></script>
     <script src="/tezlik/assets/js/plugins.js"></script> -->

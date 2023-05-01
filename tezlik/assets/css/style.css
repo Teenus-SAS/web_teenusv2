@@ -414,6 +414,16 @@ button:focus {
   overflow: hidden;
 }
 
+.buttonContact{
+  background:#ef9f00;
+}
+
+.buttonLogin{
+  background: #ffffff;
+  color:#000;
+}
+
+
 .button:hover {
   color: white;
   background: steelblue;
@@ -2427,3 +2437,86 @@ ul.footer-nav li a {
 .with-errors {
   color: #0b5884;
 }
+
+/*Modal registration*/
+
+.modalReg{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+
+}
+
+.one {
+  grid-column: 1 / 4;
+  }
+
+  .two {
+    grid-column: 1 / 3;
+    border-radius: 10px;
+    padding: 10px;
+        width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 13.373px 75.66px rgba(38, 33, 75, 0.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 800px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	/* border-radius: 10px; */
+	/* background: #fff; */
+	/* background: -moz-linear-gradient(#fff, #bc1717);
+	background: -webkit-linear-gradient(#fff, #bc1717);
+	background: -o-linear-gradient(#fff, #bc1717); */
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+.close {
+	background: transparent;
+	color: #ff0000;
+	line-height: 30px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+  font-size: xx-large;
+	top: -10px;
+	width: 44px;
+	text-decoration: none;
+	font-weight: bold;
+  opacity: 1;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #ffffff;
+	-webkit-box-shadow: 1px 1px 3px #ffffff;
+	box-shadow: 1px 1px 3px #ffffff;
+}
+.close:hover { background: #ff0000; color: white; }
