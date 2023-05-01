@@ -47,7 +47,7 @@ $(document).ready(function () {
       content = data[i].content;
       content.length > 86 ? (content = `${content.substr(0, 86)}...`) : content;
 
-      $('.ebooks').empty();
+      //$('.ebooks').empty();
 
       $('.ebooks').append(`
       <div class="col-lg-6 col-md-6">
