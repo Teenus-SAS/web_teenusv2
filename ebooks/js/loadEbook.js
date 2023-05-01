@@ -70,7 +70,7 @@ $(document).ready(function () {
 									</ul>
 									<div class="blog-content">
 										<h3>
-											<a href="javascript:;" id="title-${i + 1}">${data[i].tittle}</a>
+											<a href="javascript:;" id="title-${i + 1}">${data[i].title}</a>
 										</h3>
 										<p id="content-${i + 1}">${content}</p>
 									</div>
