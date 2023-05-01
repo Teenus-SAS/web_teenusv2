@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     recentEbooks = data.recentEbooks;
 
-    loadEbooks(data.recentEbooks);
+    loadEbooks(data.allEbooks);
     loadPopularEbooks(data.popularEbooks);
   };
 
