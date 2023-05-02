@@ -12,18 +12,18 @@
                 </div>
                 <div class="d-flex flex-column text-center">
                     <form id="formRegister">
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <input type="text" class="form-control" id="user" name="nameUser" placeholder="User">
-                        </div>
+                        </div> -->
                         <div class="form-group">
                             <input type="email" class="form-control" id="registerEmail" name="email" placeholder="Email">
                         </div>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <input type="text" class="form-control" id="sector" name="sector" placeholder="Sector">
                         </div>
                         <div class="form-group">
                             <input type="number" class="form-control" id="numEmployees" name="numEmployees" placeholder="Employees">
-                        </div>
+                        </div> -->
                         <button type="button" class="btn btn-info btn-block btn-round" id="btnRegister">Registrarse</button>
                     </form>
                 </div>

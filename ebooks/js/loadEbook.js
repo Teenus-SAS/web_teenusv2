@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  $('#registerEbook').show();
+
   fetchindata = async () => {
     const response = await fetch(`/api/ebooks`);
 
@@ -59,13 +61,16 @@ $(document).ready(function () {
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${data[i].author
-        }</i></a></li>
-										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${i + 1
-        }">${creation_date}</i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${
+        data[i].author
+      }</i></a></li>
+										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${
+                      i + 1
+                    }">${creation_date}</i></a></li>
 										<li>
-											<a href="javascript:;"> <i class="bi bi bi-download" id="download-${i + 1
-        }">${data[i].downloads.toLocaleString()}</i></a>
+											<a href="javascript:;"> <i class="bi bi bi-download" id="download-${
+                        i + 1
+                      }">${data[i].downloads.toLocaleString()}</i></a>
 										</li>
 									</ul>
 									<div class="blog-content">

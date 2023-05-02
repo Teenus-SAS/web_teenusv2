@@ -51,14 +51,11 @@ class UsersEbooksDao
         try {
             $pass = password_hash($newPass, PASSWORD_DEFAULT);
 
-            $stmt = $connection->prepare("INSERT INTO users_ebooks (user, email, password, sector, employees, active) 
-                                          VALUES (:user, :email, :password, :sector, :employees, :active)");
+            $stmt = $connection->prepare("INSERT INTO users_ebooks (email, password, active) 
+                                          VALUES (:email, :password, :active)");
             $stmt->execute([
-                'user' => $dataUser['nameUser'],
                 'email' => $dataUser['email'],
                 'password' => $pass,
-                'sector' => $dataUser['sector'],
-                'employees' => $dataUser['numEmployees'],
                 'active' => 1
             ]);
 

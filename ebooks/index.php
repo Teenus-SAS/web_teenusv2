@@ -84,7 +84,6 @@ if (!isset($_SESSION)) {
 						<div class="col-sm-3">
 							<?php if (sizeof($_SESSION) == 0) { ?>
 								<button type="button" class="btn btn-secondary mr-4" id="btnShowModalLogin">Ingresar</button>
-								<button type="button" class="btn btn-secondary register">Registrarse</button>
 							<?php } else { ?>
 								<button data-toggle="dropdown" aria-haspopup="true" type="button" id="page-header-profile-dropdown" aria-expanded="false" class="btn header-item">
 									<?php

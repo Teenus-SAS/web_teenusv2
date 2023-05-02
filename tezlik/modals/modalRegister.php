@@ -9,7 +9,7 @@
             <input type="email" class="form-control two" name="emailUser" id="emailUser" placeholder="Ingresa tu email">
         </div>
         <div>
-            <button class="btn btn-primary ml-3" style="padding:15px">Obten TezlikSoftware</button>
+            <button class="btn btn-primary ml-3" style="padding:15px" id="btnRegister">Obten TezlikSoftware</button>
         </div>
     </div>
 </div>

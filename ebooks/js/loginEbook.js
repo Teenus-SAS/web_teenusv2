@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('#formLogin').trigger('reset');
   });
 
-  $('.register').click(function (e) {
+  $('#registerEbook').click(function (e) {
     e.preventDefault();
 
     $('#formRegister').trigger('reset');
@@ -46,12 +46,9 @@ $(document).ready(function () {
   $('#btnRegister').click(function (e) {
     e.preventDefault();
 
-    let user = $('#user').val();
     let email = $('#registerEmail').val();
-    let sector = $('#sector').val();
-    let numEmployees = $('#numEmployees').val();
 
-    if (user == '' || email == '' || sector == '' || numEmployees == '') {
+    if (email == '') {
       toastr.error('Ingrese todos los campos');
       return false;
     }

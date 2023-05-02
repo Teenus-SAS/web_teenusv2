@@ -25,9 +25,8 @@
                 <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll mr-5" href="#video">Beneficios</a></li>
                 <li class="nav-item"><a href="#javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan buttonContact js-scroll apps-store-btn-1" id="contactUs" style="margin-top:0px;border-radius: 10px;">Contactanos</a></li>
-                <li class="nav-item"><a href="#openModal" class="button apps-store-btn-1" id="btnRegistration" style="margin-top:0px;border-radius: 10px;">Registrate</a></li>
+                <li class="nav-item"><a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="margin-top:0px;border-radius: 10px;">Registrate</a></li>
                 <li class="nav-item"><a href="#javascript:;" target="_blank" onclick="window.location.href='https://demo.tezliksoftware.com.co'" class="button btnPlan buttonLogin js-scroll apps-store-btn-1" id="login" style="margin-top:0px;border-radius: 10px;">Log in</a></li>
-
             </ul>
         </div>
     </div>

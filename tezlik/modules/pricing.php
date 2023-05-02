@@ -5,9 +5,14 @@
             <div class="col-md-12 section-title">
                 <h6 class="small-title">Totalmente a tu alcance</h6>
                 <h2>Potencia tu empresa</h2>
-                <label class="checkbox-inline mt-2">
-                    <input id="typePrice" type="checkbox" checked data-toggle="toggle" data-on="COP" data-off="USD">
-                </label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input typePrice" type="checkbox" id="COP" value="1" checked>
+                    <label class="form-check-label" for="COP">COP</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input typePrice" type="checkbox" id="USD" value="2">
+                    <label class="form-check-label" for="USD">USD</label>
+                </div>
             </div>
             <!-- pricing item -->
             <div class="col-lg-3 col-md-6 col-sm-12 price-item">
