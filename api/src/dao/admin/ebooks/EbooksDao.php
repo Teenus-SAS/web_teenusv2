@@ -20,7 +20,9 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT * FROM ebooks");
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+                                             reading_time, DATE(creation_date) AS creation_date, author
+                                      FROM ebooks");
         $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
@@ -33,7 +35,9 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT * FROM ebooks WHERE id_ebook = :id_ebook");
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+                                             reading_time, DATE(creation_date) AS creation_date, author 
+                                      FROM ebooks WHERE id_ebook = :id_ebook");
         $stmt->execute(['id_ebook' => $id_ebook]);
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
@@ -46,7 +50,9 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT * FROM ebooks ORDER BY downloads DESC");
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+                                             reading_time, DATE(creation_date) AS creation_date, author
+                                      FROM ebooks ORDER BY downloads DESC");
         $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
@@ -59,7 +65,9 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT * FROM ebooks ORDER BY creation_date DESC");
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+                                             reading_time, DATE(creation_date) AS creation_date, author
+                                      FROM ebooks ORDER BY creation_date DESC");
         $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 

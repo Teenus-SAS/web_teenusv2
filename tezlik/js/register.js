@@ -15,7 +15,7 @@ $(document).ready(function () {
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then((resp) => {
         if (resp.success == true) {
-          setTimeout(reloadPage, 2000);
+          setTimeout(reloadPage, 5000);
 
           toastr.success(resp.message);
           console.log(resp.pass);

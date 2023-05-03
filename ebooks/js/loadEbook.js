@@ -20,23 +20,25 @@ $(document).ready(function () {
 
   /* Cargar todos los ebooks */
   loadEbooks = (data) => {
+    // Fecha Publicación
+    let months = [
+      '',
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'Octuber',
+      'November',
+      'December',
+    ];
+    $('.ebooks').empty();
+
     for (i = 0; i < data.length; i++) {
-      // Fecha Publicación
-      months = [
-        '',
-        'January',
-        'February',
-        'March',
-        'April',
-        'May',
-        'June',
-        'July',
-        'August',
-        'September',
-        'Octuber',
-        'November',
-        'December',
-      ];
       date = new Date(data[i].creation_date);
       day = data[i].creation_date.substr(8, 8);
       month = date.getMonth() + 1;
@@ -48,8 +50,6 @@ $(document).ready(function () {
       // // Contenido
       content = data[i].content;
       content.length > 86 ? (content = `${content.substr(0, 86)}...`) : content;
-
-      $('.ebooks').empty();
 
       $('.ebooks').append(`
       <div class="col-lg-6 col-md-6">
@@ -87,24 +87,31 @@ $(document).ready(function () {
 
   /* Cargar ebooks populares */
   loadPopularEbooks = (data) => {
+    $('.popularEbooks').empty();
+    $('.popularEbooks').append('<h3 class="widget-title">Popular Posts</h3>');
+
     data.length >= 3 ? (count = 3) : (count = data.length);
     for (i = 0; i < count; i++) {
-      // Id ebook
-      var ebook = document.getElementById(`item-${i + 1}`);
-      ebook.id = data[i].id_ebook;
-
-      // Imagen
-      $(`.p-image-${i + 1}`).html(`
-        <img src="${data[i].img}" style="width:80px;height:80px"/>
-        `);
-
-      // Descargas
-      $(`#p-downloads-${i + 1}`).html(data[i].downloads.toLocaleString());
-
-      // Titulo
       title = data[i].title;
       title.length > 50 ? (title = `${title.substr(0, 50)}...`) : title;
-      $(`#p-title-${i + 1}`).html(title);
+
+      $('.popularEbooks').append(`
+      <article class="item blog-item" id="${(data[i], id_ebook)}">
+        <a href="javascript:;" class="thumb">
+          <img src="${
+            data[i].img
+          }" style="width:80px;height:80px"/><span class="fullimage cover bg1" role="img"></span>
+        </a>
+        <div class="info">
+          <span class="bi bi-download">${data[
+            i
+          ].downloads.toLocaleString()}</span>
+          <h4 class="title usmall">
+            <a href="javascript:;">${title}</a>
+          </h4>
+        </div>
+      </article>
+      `);
     }
   };
 });

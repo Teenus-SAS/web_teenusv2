@@ -321,9 +321,9 @@ if (!isset($_SESSION)) {
 								</div>
 							</form>
 						</section>
-						<section class="widget widget_techvio_posts_thumb">
+						<section class="widget widget_techvio_posts_thumb popularEbooks">
 							<h3 class="widget-title">Popular Posts</h3>
-							<article class="item" id="item-1">
+							<article class="item blog-item" id="item-1">
 								<a href="javascript:;" class="thumb p-image-1"> <span class="fullimage cover bg1" role="img"></span>
 								</a>
 								<div class="info">
@@ -333,7 +333,7 @@ if (!isset($_SESSION)) {
 									</h4>
 								</div>
 							</article>
-							<article class="item" id="item-2">
+							<article class="item blog-item" id="item-2">
 								<a href="javascript:;" class="thumb p-image-2"> <span class="fullimage cover bg2" role="img"></span>
 								</a>
 								<div class="info">
@@ -343,7 +343,7 @@ if (!isset($_SESSION)) {
 									</h4>
 								</div>
 							</article>
-							<article class="item" id="item-3">
+							<article class="item blog-item" id="item-3">
 								<a href="javascript:;" class="thumb p-image-3"> <span class="fullimage cover bg3" role="img"></span>
 								</a>
 								<div class="info">
