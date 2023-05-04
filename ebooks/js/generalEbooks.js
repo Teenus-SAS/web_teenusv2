@@ -8,7 +8,7 @@ $(document).ready(function () {
     for (let i = 0; i < recentEbooks.length; i++) {
       let search = false;
       if (
-        recentEbooks[i].tittle.includes(txt) ||
+        recentEbooks[i].title.includes(txt) ||
         recentEbooks[i].contet.includes(txt) ||
         recentEbooks[i].author.includes(txt)
       )

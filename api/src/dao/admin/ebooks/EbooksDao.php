@@ -20,7 +20,7 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, title, content, url, downloads, 
                                              reading_time, DATE(creation_date) AS creation_date, author
                                       FROM ebooks");
         $stmt->execute();
@@ -35,7 +35,7 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, title, content, url, downloads, 
                                              reading_time, DATE(creation_date) AS creation_date, author 
                                       FROM ebooks WHERE id_ebook = :id_ebook");
         $stmt->execute(['id_ebook' => $id_ebook]);
@@ -50,7 +50,7 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, title, content, url, downloads, 
                                              reading_time, DATE(creation_date) AS creation_date, author
                                       FROM ebooks ORDER BY downloads DESC");
         $stmt->execute();
@@ -65,7 +65,7 @@ class EbooksDao
     {
         $connection = Connection::getInstance()->getConnection();
 
-        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, tittle, content, url, downloads, 
+        $stmt = $connection->prepare("SELECT id_ebook, id_category, img, title, content, url, downloads, 
                                              reading_time, DATE(creation_date) AS creation_date, author
                                       FROM ebooks ORDER BY creation_date DESC");
         $stmt->execute();
