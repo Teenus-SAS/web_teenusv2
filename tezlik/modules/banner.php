@@ -10,7 +10,8 @@
                     </div>
 
                     <div class="pricing-footer">
-                        <a href="javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll" id="emprendedor">Solicita tu Demostración Gratuita</a>
+                        <!-- <a href="javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll" id="emprendedor">Registrate Gratis</a> -->
+                        <a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="margin-top:0px;border-radius: 10px;">Registrate Gratis</a>
                     </div>
                 </div>
             </div>

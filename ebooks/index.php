@@ -82,25 +82,28 @@ if (!isset($_SESSION)) {
 							<h3>Todos los Ebooks</h3>
 						</div>
 						<div class="col-sm-3">
-							<?php if (sizeof($_SESSION) == 0) { ?>
-								<button type="button" class="btn btn-secondary mr-4" id="btnShowModalLogin">Ingresar</button>
-							<?php } else { ?>
-								<button data-toggle="dropdown" aria-haspopup="true" type="button" id="page-header-profile-dropdown" aria-expanded="false" class="btn header-item">
-									<?php
-									if (empty($_SESSION['avatar']))
-										$avatar = "/assets/images/users/empty_user.png";
-									else
-										$avatar = $_SESSION['avatar'];
-									?>
-									<img id="hAvatar" src="<?php echo $avatar; ?>" alt="Header Avatar" style="width:50px; float:left" class="img-fluid rounded-pill">
-									<span class="d-none font-weight-bold d-xl-inline-block ml-2 mt-2 userName" style="color:white"><?php if (!empty($_SESSION)) echo  $_SESSION['username']; ?> </span>
-								</button>
-								<div aria-labelledby="page-header-profile-dropdown" class="dropdown-menu-right dropdown-menu">
-									<a href="javascript: void(0);" class="text-danger dropdown-item logout">
-										<i class="bx bx-log-in mr-1 text-danger"></i> Salir
-									</a>
-								</div>
-							<?php } ?>
+							<?php //if (sizeof($_SESSION) == 0) { 
+							?>
+							<!-- <button type="button" class="btn btn-secondary mr-4" id="btnShowModalLogin">Ingresar</button> -->
+							<?php //} else { 
+							?>
+							<button data-toggle="dropdown" aria-haspopup="true" type="button" id="page-header-profile-dropdown" aria-expanded="false" class="btn header-item">
+								<?php
+								if (empty($_SESSION['avatar']))
+									$avatar = "/assets/images/users/empty_user.png";
+								else
+									$avatar = $_SESSION['avatar'];
+								?>
+								<img id="hAvatar" src="<?php echo $avatar; ?>" alt="Header Avatar" style="width:50px; float:left" class="img-fluid rounded-pill">
+								<span class="d-none font-weight-bold d-xl-inline-block ml-2 mt-2 userName" style="color:white"><?php if (!empty($_SESSION)) echo  $_SESSION['username']; ?> </span>
+							</button>
+							<div aria-labelledby="page-header-profile-dropdown" class="dropdown-menu-right dropdown-menu">
+								<a href="javascript: void(0);" class="text-danger dropdown-item logout">
+									<i class="bx bx-log-in mr-1 text-danger"></i> Salir
+								</a>
+							</div>
+							<?php //} 
+							?>
 						</div>
 					</div>
 					<div class="input-group col-md-6" style="margin:auto">

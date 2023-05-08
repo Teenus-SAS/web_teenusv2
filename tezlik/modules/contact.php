@@ -116,7 +116,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button type="submit" class="button" data-text="Send Message" id="btnSendContact">Solicita tu Demostración Gratuita</button>
+                                            <button type="submit" class="button" data-text="Send Message" id="btnSendContact">Enviar</button>
                                         </div>
                                         <!-- <div class="messages">
                                             <div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Thank You! your message has been sent. </div>
