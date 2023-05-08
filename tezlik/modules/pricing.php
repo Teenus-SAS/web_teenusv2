@@ -144,7 +144,7 @@
             </div>
             <div class="pricing-footer" style="margin: auto;">
                 <!-- <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Solicita Ya tu Demo Gratis</a> -->
-                <a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="margin-top:0px;border-radius: 10px;">Registrate Gratis</a>
+                <a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="border-radius: 10px;">Registrate Gratis</a>
             </div>
             <!-- pricing item end -->
         </div>
