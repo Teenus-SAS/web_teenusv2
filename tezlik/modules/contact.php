@@ -80,7 +80,7 @@
                                 <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
                                     <use xlink:href="#exclamation-triangle-fill" />
                                 </svg>
-                                <div class="message"> Ingrese todos los datos</div>
+                                <div class="message"> Ingresa todos los datos</div>
                             </div>
 
                             <form class="contact-form form" id="contact-form">
