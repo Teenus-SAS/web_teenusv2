@@ -45,6 +45,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="pricing-footer">
+                            <a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="margin-top:0px;border-radius: 10px;">Registrate Gratis</a>
+                        </div>
                         <!-- <div class="col-lg-6 col-md-6 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <div class="features-icon pulse-g"></div>
