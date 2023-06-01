@@ -19,7 +19,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Premium</h3>
-                        <p class="pricing-description">Pago anual - 15% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 15% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -52,7 +52,7 @@
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
-                        <p class="pricing-description">Pago anual - 10% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 10% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -85,7 +85,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
-                        <p class="pricing-description">Pago anual - 8% de descuento </p>
+                        <!-- <p class="pricing-description">Pago anual - 8% de descuento </p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -118,7 +118,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Emprendedor</h3>
-                        <p class="pricing-description">Pago anual - 4% de descuento</p>
+                        <!-- <p class="pricing-description">Pago anual - 4% de descuento</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -142,12 +142,37 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 price-item">
+                <div class="single-price-item">
+                    <div class="pricing-header" style="height: 65px !important">
+                        <h3 class="pricing-title">Módulo Exportaciones</h3>
+                    </div>
+                    <div class="pricing-body mt-1">
+                        <div class="price-wrapper">
+                            <!-- <span class=""><b>Cree precios competitivos y rentables que le ayuden a vender más.</b></span> <br>
+                            <span><b>La cobertura cambiaria lo protege contra el riesgo de las fluctuaciónes del tipo de cambio.</b></span><br> -->
+                            <span class="price cop" style="font-size: 24px;">Preguntale a tu asesor Comercial</span>
+                        </div>
+                        <ul class="list">
+                            <li class="active">Calculo del precio en USD</li>
+                            <li class="active">Calculo Cobertura Cambiaria</li>
+                            <li class="active">Correción TRM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pricing item end -->
+
             <div class="pricing-footer" style="margin: auto;">
                 <!-- <a href="#contact" class="button btnPlan js-scroll" id="emprendedor">Solicita Ya tu Demo Gratis</a> -->
                 <a href="#openModal" class="button apps-store-btn-1" id="registerTezlik" style="border-radius: 10px;">Registrate Gratis</a>
             </div>
-            <!-- pricing item end -->
         </div>
     </div>
 </section>
 <!-- Pricing Section End -->
+<!-- <section class="section-padding">
+    
+</section> -->

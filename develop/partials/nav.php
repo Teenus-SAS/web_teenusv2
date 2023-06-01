@@ -11,30 +11,15 @@
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/" data-scroll-nav="0"></i>Inicio</a>
-                    </li>
-                    <!--  <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="1">Caracteristicas</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="1">¿Por qué Desarrollar Software?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="3">Hagamos Equipo</a>
-                    </li>
-                    <!--  <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="3">Casos de Éxito</a>
-                    </li> -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="5">Testimonial</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="4">¿Dudas?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="6">Contactanos Ya</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="/" data-scroll-nav="0"></i>Inicio</a></li>
+                    <!--  <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">Caracteristicas</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">¿Por qué Desarrollar Software?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">Hagamos Equipo</a></li>
+                    <!--  <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">Casos de Éxito</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Testimonial</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="/ebooks" data-scroll-nav="5">Ebooks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">¿Dudas?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Contactanos Ya</a></li>
                 </ul>
             </div>
         </nav>
