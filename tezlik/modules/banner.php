@@ -4,7 +4,7 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h1 class="text-uppercase" style="color:white">¿Quieres saber cómo fijar precios competitivos y rentables para tus productos?</h1>
+                    <h1 class="text-uppercase" style="color:white">¿Quieres saber cómo controlar los costos y fijar precios competitivos y rentables para tus productos?</h1>
                     <div class="d-lg-none text-center z-index position-relative home-image">
                         <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                     </div>
