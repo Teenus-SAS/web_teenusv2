@@ -25,6 +25,12 @@
                     <div class="menu-title">Blog</div>
                 </a>
             </li>
+            <li>
+                <a href="/admin/ebooks" id="ebook" class="has-arrow">
+                    <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
+                    <div class="menu-title">Ebook</div>
+                </a>
+            </li>
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
                     <a href="/admin/usuarios" id="user">
