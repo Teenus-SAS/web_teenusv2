@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="/admin/assets/css/app.css" rel="stylesheet">
     <link href="/admin/assets/css/icons.css" rel="stylesheet">
-    <title>admin</title>
+    <title>Teenus - Admin</title>
 
     <!-- ================== BEGIN APP CSS  ================== -->
     <link rel="stylesheet" href="/admin/assets/css/bootstrap.min.css" />

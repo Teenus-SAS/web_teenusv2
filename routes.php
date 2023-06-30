@@ -19,6 +19,7 @@ get('/admin/restablecer-contrasena', '/admin/views/password/auth-reset-password.
 get('/admin/app', '/admin/views/template.php');
 get('/admin/blogs-detalles', '/admin/views/blog/details.php');
 get('/admin/ebooks', '/admin/views/ebooks/ebooks.php');
+get('/admin/editar-ebook', '/admin/views/ebooks/edit.php');
 get('/admin/editar-blog', '/admin/views/blog/edit.php');
 get('/admin/usuarios', '/admin/views/users/users.php');
 

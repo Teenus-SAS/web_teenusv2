@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  localStorage.removeItem('id_article');
+  localStorage.removeItem('id_ebook');
 
-  /* Modificar Fecha de publicación */
-  updatePublication = (id_article, publication_date) => {
+  /* Modificar Fecha de publicación 
+  updatePublication = (id_ebook, publication_date) => {
     var date = new Date();
     var dateString;
     date.setDate(date.getDate());
@@ -14,7 +14,7 @@ $(document).ready(function () {
       ('0' + date.getDate()).slice(-2);
 
     bootbox.confirm({
-      title: 'Modificación de Articulo',
+      title: 'Modificación de Ebook',
       message: `<p>Ingrese fecha de publicación:</p>
             <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" min="${dateString}" value="${publication_date}">`,
       buttons: {
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
           data = {};
           data['publicationDate'] = publication_date;
-          data['idArticle'] = id_article;
+          data['idEbook'] = id_ebook;
 
           $.post(
             '/api/updatePublication',
@@ -46,37 +46,37 @@ $(document).ready(function () {
         }
       },
     });
+  }; */
+
+  /* Visualizar Ebook */
+  viewEbook = (id) => {
+    localStorage.setItem('id_ebook', id);
+    window.open('/ebook', '_blank');
   };
 
-  /* Visualizar Articulo */
-  viewArticle = (id) => {
-    localStorage.setItem('id_article', id);
-    window.open('/articulo', '_blank');
-  };
-
-  /* Actualizar Articulos */
-  $(document).on('click', '.updateArticles', function (e) {
-    idArticle = this.id;
-    sessionStorage.setItem('id_article', idArticle);
+  /* Actualizar Ebook */
+  $(document).on('click', '.updateEbook', function (e) {
+    idEbook = this.id;
+    sessionStorage.setItem('id_ebook', idEbook);
 
     let row = $(this).parent().parent()[0];
-    let data = tblArticles.fnGetData(row);
+    let data = tblEbooks.fnGetData(row);
 
     sessionStorage.setItem('data', JSON.stringify(data));
   });
 
-  /* Eliminar Articulos */
+  /* Eliminar Ebook */
 
   deleteFunction = () => {
     let row = $(this.activeElement).parent().parent()[0];
-    let data = tblArticles.fnGetData(row);
+    let data = tblEbooks.fnGetData(row);
 
-    let idArticle = data.id_article;
+    let idEbook = data.id_ebook;
 
     bootbox.confirm({
       title: 'Eliminar',
       message:
-        'Está seguro de eliminar este articulo? Esta acción no se puede reversar.',
+        'Está seguro de eliminar este Ebook? Esta acción no se puede reversar.',
       buttons: {
         confirm: {
           label: 'Si',
@@ -90,9 +90,10 @@ $(document).ready(function () {
       callback: function (result) {
         if (result == true) {
           $.get(
-            `/api/deleteArticle/${idArticle}`,
+            `/api/deleteEbook/${idEbook}`,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '/admin/blogs-detalles');
+              location.href = '/admin/ebooks';
+
               message(data);
             }
           );

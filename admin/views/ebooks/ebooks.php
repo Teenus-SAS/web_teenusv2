@@ -101,7 +101,7 @@
     <!--start switcher-->
     <?php include_once dirname(dirname(__DIR__)) . '/partials/swicher.php' ?>
     <!--end switcher-->
-    <!-- <script src="/global/js/loadEbooks.js"></script> -->
+    <script src="/global/js/loadEbooks.js"></script>
     <script src="/admin/js/ebook/tblEbooks.js"></script>
     <script src="/admin/js/ebook/editEbook.js"></script>
 </body>

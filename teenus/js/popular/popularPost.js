@@ -7,7 +7,7 @@ $(document).ready(function () {
       return false;
     } else {
       localStorage.setItem('id_article', id_article);
-      loadContent('page-content', '../articulo');
+      location.href = '/articulo';
     }
   });
 });

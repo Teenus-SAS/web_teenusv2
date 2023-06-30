@@ -39,7 +39,7 @@ $(document).ready(function () {
             '/api/updatePublication',
             data,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '/admin/blogs-detalles');
+              location.href = '/admin/blogs-detalles';
               message(data);
             }
           );
@@ -92,7 +92,8 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
-              loadContent('page-content', '/admin/blogs-detalles');
+              location.href = '/admin/blogs-detalles';
+
               message(data);
             }
           );

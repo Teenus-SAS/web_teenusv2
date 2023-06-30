@@ -3,10 +3,14 @@
 use tezlik_web\dao\LastLoginDao;
 use tezlik_web\dao\AutenticationUserDao;
 use tezlik_web\dao\PassUserDao;
+use tezlik_web\dao\SendEmailDao;
+use tezlik_web\dao\SendMakeEmailDao;
 
 $passUserDao = new PassUserDao();
 $autenticationUserDao = new AutenticationUserDao();
 $lastLoginDao = new LastLoginDao();
+$sendMakeEmailDao = new SendMakeEmailDao();
+$sendEmailDao = new SendEmailDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -42,7 +46,11 @@ $app->post('/changePassword', function (Request $request, Response $response, $a
 
 /* Forgot Password */
 
-$app->post('/forgotPassword', function (Request $request, Response $response, $args) use ($passUserDao, $autenticationUserDao, $lastLoginDao) {
+$app->post('/forgotPassword', function (Request $request, Response $response, $args) use (
+    $passUserDao,
+    $sendEmailDao,
+    $sendMakeEmailDao
+) {
     $parsedBody = $request->getParsedBody();
     $email = trim($parsedBody["data"]);
 
@@ -51,24 +59,15 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
     if ($passwordTemp == null)
         $resp = array('error' => true, 'message' => 'Correo electronico no se encuentra en registrado. Valide nuevamente');
     else {
-        $user = $autenticationUserDao->findByEmail($email);
+        $dataEmail = $sendMakeEmailDao->SendEmailForgotPassword($email, $passwordTemp);
+        $email =  $sendEmailDao->SendEmail($dataEmail, 'soporteTezlik@tezliksoftware.com.co', 'SoporteTennus');
 
-        /* Nueva session */
-        session_start();
-        $_SESSION['active'] = true;
-        $_SESSION['idUser'] = $user['id_user'];
-        $_SESSION['name'] = $user['firstname'];
-        $_SESSION['lastname'] = $user['lastname'];
-        $_SESSION['email'] = $user['email'];
-        $_SESSION['rol'] = $user["id_rols"];
-        $_SESSION["time"] = time();
-
-        /* Actualizar metodo ultimo logueo */
-        $lastLoginDao->findLastLogin();
-
-        /* Enviar email */
-        // $sendEmailDao->SendEmailPassword($email, $passwordTemp);
-        $resp = array('success' => true, 'message' => 'La contraseña fue enviada al email suministrado exitosamente');
+        if ($email == null)
+            $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
+        else if (isset($email['info']))
+            $resp = array('info' => true, 'message' => $email['message']);
+        else
+            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras enviaba la información. Intente nuevamente');
     }
 
     $response->getBody()->write(json_encode($resp));

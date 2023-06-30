@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="/teenus/assets/img/favicon.png">
     <!-- <link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" /> -->
     <title>Teenus</title>
-    <?php include_once dirname(__DIR__) . '/partials/scriptsCSS.php'; ?>
+    <?php include_once dirname(dirname((__DIR__))) . '/partials/scriptsCSS.php'; ?>
     <style>
         .image-upload>input {
             display: none;
@@ -29,12 +29,12 @@
         <div class="header-wrapper">
             <!--start header -->
             <header>
-                <?php include_once dirname(__DIR__) . '/partials/header.php' ?>
+                <?php include_once dirname(dirname(__DIR__)) . '/partials/header.php' ?>
             </header>
             <!--end header -->
 
             <!--navigation-->
-            <?php include_once dirname(__DIR__) . '/partials/nav.php' ?>
+            <?php include_once dirname(dirname(__DIR__)) . '/partials/nav.php' ?>
             <!--end navigation-->
 
         </div>
@@ -87,8 +87,14 @@
                                                 </div>
                                             </div>
                                             <div class="form-group pt-4">
+                                                <div class="mb-3">
+                                                    <label for="pdf" class="form-label">Documento PDF</label>
+                                                    <input class="form-control" type="file" id="pdf">
+                                                </div>
+                                            </div>
+                                            <div class="form-group pt-4">
                                                 <div class="text-right">
-                                                    <button class="btn btn-primary chat-send-btn" data-effect="wave" id="btnCreateEbooks">
+                                                    <button class="btn btn-primary chat-send-btn" data-effect="wave" id="btnCreateEbook">
                                                         <span class="d-none d-sm-inline-block mr-2 align-middle">Crear</span>
                                                         <i class="bx bxs-send fs-sm align-middle"></i>
                                                     </button>
@@ -112,12 +118,12 @@
         <!--Start Back To Top Button-->
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
-        <?php include_once dirname(__DIR__) . '/partials/footer.php' ?>
+        <?php include_once dirname(dirname(__DIR__)) . '/partials/footer.php' ?>
     </div>
     <!--end wrapper-->
-    <?php include_once dirname(__DIR__) . '/partials/scriptsJS.php'; ?>
+    <?php include_once dirname(dirname(__DIR__)) . '/partials/scriptsJS.php'; ?>
     <!--start switcher-->
-    <?php include_once dirname(__DIR__) . '/partials/swicher.php' ?>
+    <?php include_once dirname(dirname(__DIR__)) . '/partials/swicher.php' ?>
     <!--end switcher-->
 
     <script src="/admin/js/ebook/compose-editor.js"></script>

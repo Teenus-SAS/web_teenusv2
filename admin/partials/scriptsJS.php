@@ -1,9 +1,10 @@
-<!-- JQuery -->
-<!-- <script src="/admin/assets/js/jquery.min.js"></script> -->
+<!-- jquery -->
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alchemyjs/0.4.2/scripts/vendor.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<!-- ================== END BASE JS ================== -->
 <!--plugins-->
 <script src="/admin/assets/plugins/simplebar/js/simplebar.min.js"></script>
 <script src="/admin/assets/plugins/metismenu/js/metisMenu.min.js"></script>
@@ -13,7 +14,7 @@
 <script src="/admin/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
 <script src="/admin/assets/plugins/chartjs/js/Chart.min.js"></script>
 <script src="/admin/assets/plugins/chartjs/js/Chart.extension.js"></script>
-<script src="/admin/assets/js/index.js"></script>
+<!-- <script src="/admin/assets/js/index.js"></script> -->
 <!-- page JS -->
 <script src="/admin/assets/js/app.js"></script>
 <script src="/admin/js/global/logout.js"></script>

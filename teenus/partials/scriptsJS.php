@@ -35,7 +35,7 @@
 <!-- toastr -->
 <!-- <script src="/assets/plugins/toast/toastr.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="/global/js/loadContent.js"></script>
+<!-- <script src="/global/js/loadContent.js"></script> -->
 <!-- Blog -->
 <script src="/global/js/loadArticles.js"></script>
 <!-- <script src="/teenus/js/blog/blog.js"></script> -->
