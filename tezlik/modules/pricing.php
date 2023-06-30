@@ -28,6 +28,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">98.99 USD</span>
                             <span class="period">Mensual</span>
+                            <span class="period">Pago Anual</span>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos Ilimitados</li>
@@ -61,6 +62,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">79.99 USD</span>
                             <span class="period">Mensual</span>
+                            <span class="period">Pago Anual</span>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 1000</li>
@@ -94,6 +96,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">49.99 USD</span>
                             <span class="period">Mensual</span>
+                            <span class="period">Pago Anual</span>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 100</li>
@@ -127,6 +130,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">15.99 USD</span>
                             <span class="period">Mensual</span>
+                            <span class="period">Pago Anual</span>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 10</li>
