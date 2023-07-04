@@ -1,4 +1,4 @@
-getEbook = async () => {
+getEbooks = async () => {
   const response = await fetch(`/api/ebooks`);
 
   response.ok;

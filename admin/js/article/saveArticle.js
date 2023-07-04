@@ -112,7 +112,8 @@ $(document).ready(function () {
 
       success: function (resp) {
         $('#formCreateArticles').trigger('reset');
-        loadContent('page-content', '/admin/blogs-detalles');
+        location.href = '/admin/blogs-detalles';
+
         message(resp);
       },
     });

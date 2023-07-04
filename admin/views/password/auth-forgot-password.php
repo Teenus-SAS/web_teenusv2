@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link href="/admin/assets/css/app.css" rel="stylesheet">
 	<link href="/admin/assets/css/icons.css" rel="stylesheet">
-	<title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+	<title>Teenus - Olvido Contraseña</title>
 	<!-- Notifications -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
 </head>
@@ -31,14 +31,14 @@
 							<div class="text-center">
 								<img src="/admin/assets/images/icons/forgot-2.png" width="120" alt="" />
 							</div>
-							<h4 class="mt-5 font-weight-bold">Forgot Password?</h4>
-							<p class="text-muted">Enter your registered email ID to reset the password</p>
+							<h4 class="mt-5 font-weight-bold">Restablecer Contraseña</h4>
+							<p class="text-muted">Ingrese su dirección de email y le enviaremos un correo electrónico con instrucciones para restablecer su contraseña.</p>
 							<div class="my-4">
-								<label class="form-label">Email id</label>
+								<label class="form-label">Email</label>
 								<input type="text" id="email" class="form-control form-control-lg" placeholder="example@user.com" />
 							</div>
 							<div class="d-grid gap-2">
-								<button type="button" id="btnForgotPass" class="btn btn-primary btn-lg">Send</button> <a href="javascript:history.go(0)" class="btn btn-light btn-lg"><i class='bx bx-arrow-back me-1'></i>Back to Login</a>
+								<button type="button" id="btnForgotPass" class="btn btn-primary btn-lg">Enviar</button> <a href="/admin" class="btn btn-light btn-lg"><i class='bx bx-arrow-back me-1'></i>Volver al Login</a>
 							</div>
 						</div>
 					</div>

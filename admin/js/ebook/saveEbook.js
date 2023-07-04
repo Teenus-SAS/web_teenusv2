@@ -8,12 +8,12 @@ $(document).ready(function () {
     };
   };
 
-  /* Crear articulo */
-  $('#btnCreateArticles').click(function (e) {
+  /* Crear Ebook */
+  $('#btnCreateEbook').click(function (e) {
     e.preventDefault();
-    let idArticle = sessionStorage.getItem('id_article');
+    let idEbook = sessionStorage.getItem('id_ebook');
 
-    if (idArticle == '' || idArticle == null) {
+    if (idEbook == '' || idEbook == null) {
       title = $('#title').val();
       author = $('#author').val();
       content = $('#compose-editor').html();
@@ -30,11 +30,11 @@ $(document).ready(function () {
         return false;
       }
 
-      let imageArticle = $('#file')[0].files[0];
+      let imageEbook = $('#file')[0].files[0];
 
-      dataArticles = new FormData(formCreateArticles);
-      dataArticles.append('img', imageArticle);
-      dataArticles.append('description', content);
+      dataEbooks = new FormData(formCreateEbooks);
+      dataEbooks.append('img', imageEbook);
+      dataEbooks.append('description', content);
 
       date = new Date();
       month = date.getMonth() + 1;
@@ -42,10 +42,11 @@ $(document).ready(function () {
       month > 10 ? month : (month = `0${month}`);
       day > 10 ? day : (day = `0${day}`);
       now = `${date.getFullYear()}-${month}-${day}`;
+      saveEbook(dataEbooks, '/api/addEbook');
 
-      /* Guardar fecha de publicación */
+      /* Guardar fecha de publicación 
       bootbox.prompt({
-        title: 'Creación de Articulo',
+        title: 'Creación de Ebook',
         message: '<p>Ingrese fecha de publicación:</p>',
         inputType: 'date',
         min: now,
@@ -55,25 +56,24 @@ $(document).ready(function () {
               toastr.error('Ingrese fecha de publicación');
               return false;
             }
-            dataArticles.append('publicationDate', result);
-            saveArticle(dataArticles, '/api/addArticle');
+            dataEbooks.append('publicationDate', result);
           }
         },
-      });
+      }); */
     } else {
-      updateArticles();
+      updateEbooks();
     }
   });
 
-  /* Actualizar articulo */
+  /* Actualizar Ebook */
   data = sessionStorage.getItem('data');
 
-  !data ? data : setArticle(data);
+  !data ? data : setEbook(data);
 
-  function setArticle(data) {
+  function setEbook(data) {
     data = JSON.parse(data);
 
-    $('#btnCreateArticles').html('Actualizar');
+    $('#btnCreateEbook').html('Actualizar');
 
     $('#title').val(data.title);
     $('#author').val(data.author);
@@ -87,21 +87,21 @@ $(document).ready(function () {
     $('html, body').animate({ scrollTop: 0 }, 1000);
   }
 
-  updateArticles = () => {
-    let idArticle = sessionStorage.getItem('id_article');
+  updateEbooks = () => {
+    let idEbook = sessionStorage.getItem('id_ebook');
     content = $('#compose-editor').html();
-    let imageArticle = $('#file')[0].files[0];
+    let imageEbook = $('#file')[0].files[0];
 
-    dataArticles = new FormData(formCreateArticles);
-    dataArticles.append('idArticle', idArticle);
-    dataArticles.append('description', content);
-    dataArticles.append('img', imageArticle);
+    dataEbooks = new FormData(formCreateEbooks);
+    dataEbooks.append('idEbook', idEbook);
+    dataEbooks.append('description', content);
+    dataEbooks.append('img', imageEbook);
 
-    saveArticle(dataArticles, '/api/updateArticle');
+    saveEbook(dataEbooks, '/api/updateEbook');
   };
 
-  /* Guardar articulo */
-  saveArticle = (data, url) => {
+  /* Guardar Ebook */
+  saveEbook = (data, url) => {
     $.ajax({
       type: 'POST',
       url: url,
@@ -111,8 +111,9 @@ $(document).ready(function () {
       processData: false,
 
       success: function (resp) {
-        $('#formCreateArticles').trigger('reset');
-        loadContent('page-content', '/admin/blogs-detalles');
+        $('#formCreateEbooks').trigger('reset');
+        location.href = '/admin/ebooks';
+
         message(resp);
       },
     });

@@ -16,7 +16,7 @@ class ebooksDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAllebooks()
+    public function findAllEbooks()
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -46,7 +46,7 @@ class ebooksDao
         return $ebook;
     }
 
-    public function findAllPopularebooks()
+    public function findAllPopularEbooks()
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -61,7 +61,7 @@ class ebooksDao
         return $ebooks;
     }
 
-    public function findAllRecentebooks()
+    public function findAllRecentEbooks()
     {
         $connection = Connection::getInstance()->getConnection();
 
@@ -73,6 +73,18 @@ class ebooksDao
 
         $ebooks = $stmt->fetchAll($connection::FETCH_ASSOC);
         $this->logger->notice("ebooks Obtenidos", array('ebooks' => $ebooks));
+        return $ebooks;
+    }
+
+    public function findLastEbook()
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        $stmt = $connection->prepare("SELECT MAX(id_ebook) AS id_ebook FROM ebooks");
+        $stmt->execute();
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $ebooks = $stmt->fetch($connection::FETCH_ASSOC);
         return $ebooks;
     }
 

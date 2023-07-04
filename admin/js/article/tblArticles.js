@@ -82,7 +82,7 @@ $(document).ready(function () {
           data: 'id_article',
           className: 'classCenter',
           render: function (data) {
-            return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;" onclick="loadContent('page-content', '/admin/editar-blog')"></i></a>`;
+            return `<a href="/admin/editar-blog" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;"></i></a>`;
           },
         },
         {
@@ -101,7 +101,8 @@ $(document).ready(function () {
   /* Abrir vista crear articulo */
   $('#btnNewArticles').click(function (e) {
     e.preventDefault();
-    loadContent('page-content', '/admin/editar-blog');
+    location.href = '/admin/editar-blog';
+
     $('#btnCreateArticles').html('Crear');
     sessionStorage.removeItem('id_article');
     sessionStorage.removeItem('data');
