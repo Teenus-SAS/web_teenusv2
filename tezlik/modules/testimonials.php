@@ -45,6 +45,37 @@
                                     <!-- <img src="/tezlik/assets/img/testimonial-2.jpg" alt="testimonial" /> -->
                                 </div>
                                 <div class="bio-info">
+                                    <h3 class="name">Edgar Moreno</h3>
+                                    <span>Gerente General Proyecformas</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-rating">
+                                <ul class="rating text-center">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-content">
+                                <h5>confiamos en Teenus SAS pues desde el año 2021 y
+hasta la fecha ha sido un excelente proveedor. En todo momento responden a nuestras
+inquietudes y la entrega del servicio se hace a tiempo.  
+La alta calidad de sus productos y servicio nos ha hecho confiar ampliamente en ellos.
+Además, exceden nuestras expectativas y cumplen a cabalidad las condiciones establecidas
+en los contratos</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="single-testimonial">
+                        <div class="testi-content-inner">
+                            <div class="testimonial-bio">
+                                <div class="avatar">
+                                    <!-- <img src="/tezlik/assets/img/testimonial-2.jpg" alt="testimonial" /> -->
+                                </div>
+                                <div class="bio-info">
                                     <h3 class="name">Rosalba Peña Rodriguez</h3>
                                     <!-- <span>Founder of Neti</span> -->
                                 </div>
