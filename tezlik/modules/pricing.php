@@ -15,7 +15,7 @@
                 </div>
             </div>
             <!-- pricing item -->
-            <div class="col-lg-3 col-md-6 col-sm-12 price-item">
+            <div class="col-lg-4 col-md-6 col-sm-12 price-item">
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Premium</h3>
@@ -49,7 +49,7 @@
             </div>
             <!-- pricing item end -->
             <!-- pricing item -->
-            <div class="col-lg-3 col-md-6 col-sm-12 price-item">
+            <div class="col-lg-4 col-md-6 col-sm-12 price-item">
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
@@ -83,7 +83,7 @@
             </div>
             <!-- pricing item end -->
             <!-- pricing item -->
-            <div class="col-lg-3 col-md-6 col-sm-12 price-item">
+            <div class="col-lg-4 col-md-6 col-sm-12 price-item">
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
@@ -117,11 +117,11 @@
             </div>
             <!-- pricing item end -->
             <!-- pricing item -->
-            <div class="col-lg-3 col-md-6 col-sm-12 price-item">
+            <!-- <div class="col-lg-3 col-md-6 col-sm-12 price-item">
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Emprendedor</h3>
-                        <!-- <p class="pricing-description">Pago anual - 4% de descuento</p> -->
+                        <p class="pricing-description">Pago anual - 4% de descuento</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -145,7 +145,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-12 col-md-12 col-sm-12 price-item">
                 <div class="single-price-item">
