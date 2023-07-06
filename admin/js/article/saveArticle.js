@@ -112,9 +112,12 @@ $(document).ready(function () {
 
       success: function (resp) {
         $('#formCreateArticles').trigger('reset');
-        location.href = '/admin/blogs-detalles';
 
         message(resp);
+
+        setTimeout(() => {
+          location.href = '/admin/blogs-detalles';
+        }, 2000);
       },
     });
   };

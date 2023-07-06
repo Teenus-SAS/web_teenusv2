@@ -96,7 +96,7 @@ $(document).ready(function () {
       title.length > 50 ? (title = `${title.substr(0, 50)}...`) : title;
 
       $('.popularEbooks').append(`
-      <article class="item blog-item" id="${(data[i], id_ebook)}">
+      <article class="item blog-item" id="${data[i].id_ebook}">
         <a href="javascript:;" class="thumb">
           <img src="${
             data[i].img

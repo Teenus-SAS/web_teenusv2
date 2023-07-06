@@ -39,8 +39,10 @@ $(document).ready(function () {
             '/api/updatePublication',
             data,
             function (data, textStatus, jqXHR) {
-              location.href = '/admin/blogs-detalles';
               message(data);
+              setTimeout(() => {
+                location.href = '/admin/blogs-detalles';
+              }, 2000);
             }
           );
         }
@@ -92,9 +94,11 @@ $(document).ready(function () {
           $.get(
             `/api/deleteArticle/${idArticle}`,
             function (data, textStatus, jqXHR) {
-              location.href = '/admin/blogs-detalles';
-
               message(data);
+
+              setTimeout(() => {
+                location.href = '/admin/blogs-detalles';
+              }, 2000);
             }
           );
         }
@@ -105,7 +109,6 @@ $(document).ready(function () {
   /* Mensaje de exito */
   message = (data) => {
     if (data.success == true) {
-      // updateTable();
       toastr.success(data.message);
       return false;
     } else if (data.error == true) toastr.error(data.message);

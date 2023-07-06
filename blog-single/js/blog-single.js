@@ -14,6 +14,11 @@ $(document).ready(function () {
     });
 
   loadArticle = (data) => {
+    let ruta = window.location.href;
+    let title = data.title.replace(/ /g, '-').toLowerCase();
+    let nuevaRuta = ruta.replace('articulo', title);
+    window.history.pushState({}, '', nuevaRuta);
+
     // Imagen
     $('.image').html(`
         <img src="${data.img}" style="width:100%;

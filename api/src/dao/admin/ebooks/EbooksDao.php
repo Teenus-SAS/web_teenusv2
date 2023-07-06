@@ -183,6 +183,42 @@ class ebooksDao
         }
     }
 
+    public function pdfEbook($id_ebook)
+    {
+        $connection = Connection::getInstance()->getConnection();
+        $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/pdf/teenus/ebooks';
+        $allowTypes = array('pdf');
+
+        $pdf_name = $_FILES['pdf']['name'];
+        $tmp_name   = $_FILES['pdf']['tmp_name'];
+        $size       = $_FILES['pdf']['size'];
+        $type       = $_FILES['pdf']['type'];
+        $error      = $_FILES['pdf']['error'];
+
+        /* Verifica si directorio esta creado y lo crea */
+        if (!is_dir($targetDir))
+            mkdir($targetDir, 0777, true);
+
+        $targetDir = '/assets/pdf/teenus/ebooks';
+        $targetFilePath = $targetDir . '/' . $pdf_name;
+
+        $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
+
+        if (in_array($fileType, $allowTypes)) {
+            $sql = "UPDATE ebooks SET url = :url WHERE id_ebook = :id_ebook";
+            $query = $connection->prepare($sql);
+            $query->execute([
+                'url' => $targetFilePath,
+                'id_ebook' => $id_ebook
+            ]);
+
+            $targetDir = dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/assets/pdf/teenus/ebooks';
+            $targetFilePath = $targetDir . '/' . $pdf_name;
+
+            move_uploaded_file($tmp_name, $targetFilePath);
+        }
+    }
+
     public function deleteEbook($id_ebook)
     {
         $connection = Connection::getInstance()->getConnection();

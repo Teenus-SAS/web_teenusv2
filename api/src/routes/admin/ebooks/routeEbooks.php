@@ -31,8 +31,10 @@ $app->post('/addEbook', function (Request $request, Response $response, $args) u
         // Obtener ultimo Ebook ingresado
         $lastEbook = $ebooksDao->findLastEbook();
 
-        if (sizeof($_FILES) > 0)
+        if (sizeof($_FILES) > 0) {
             $ebooksDao->imageEbook($lastEbook['id_ebook']);
+            $ebooksDao->pdfEbook($lastEbook['id_ebook']);
+        }
 
         if ($ebooks == null)
             $resp = array('success' => true, 'message' => 'Ebook creado correctamente');
@@ -51,8 +53,10 @@ $app->post('/updateEbook', function (Request $request, Response $response, $args
     } else {
         $ebooks = $ebooksDao->updateEbook($dataEbook);
 
-        if (sizeof($_FILES) > 0)
+        if (sizeof($_FILES) > 0) {
             $ebooksDao->imageEbook($dataEbook['idEbook']);
+            $ebooksDao->pdfEbook($dataEbook['idEbook']);
+        }
 
         if ($ebooks == null)
             $resp = array('success' => true, 'message' => 'Ebook modificado correctamente');

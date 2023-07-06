@@ -42,7 +42,9 @@ $(document).ready(function () {
       toastr.error('Ingresar sesion antes de descargar Ebook');
       return false;
     } else {
-      await $.get(`/api/updateDownloads/${id}`);
+      await $.get(`/api/updateDownloads/${id_ebook}`);
+
+      data = data.allEbooks;
 
       for (let i = 0; i < data.length; i++) {
         if (data[i].id_ebook == id_ebook) {

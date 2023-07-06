@@ -47,8 +47,8 @@ $(document).ready(function () {
           },
         },
         {
-          title: 'Visitas',
-          data: 'views',
+          title: 'Descargas',
+          data: 'downloads',
           className: 'classCenter',
           render: $.fn.dataTable.render.number('.', ',', 0),
         },
@@ -70,11 +70,11 @@ $(document).ready(function () {
         // },
         {
           title: 'Visualizar',
-          data: 'id_ebook',
+          data: 'url',
           className: 'classCenter',
           render: function (data) {
             return `
-                  <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue" onclick="viewArticle(${data})"></i></a>`;
+                  <a href="javascript:;" <i class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Articulo' style="font-size: 30px;color:blue" onclick="viewEbook('${data}')"></i></a>`;
           },
         },
         {
@@ -82,7 +82,7 @@ $(document).ready(function () {
           data: 'id_ebook',
           className: 'classCenter',
           render: function (data) {
-            return `<a href="/admin/editar-ebook" <i id="${data}" class="fa-solid fa-pencil updateEbooks" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;"></i></a>`;
+            return `<a href="/admin/editar-ebook" <i id="${data}" class="fa-solid fa-pencil updateEbook" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;"></i></a>`;
           },
         },
         {

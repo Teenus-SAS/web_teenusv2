@@ -49,9 +49,19 @@ $(document).ready(function () {
   }; */
 
   /* Visualizar Ebook */
-  viewEbook = (id) => {
-    localStorage.setItem('id_ebook', id);
-    window.open('/ebook', '_blank');
+  viewEbook = (url) => {
+    url = url.replace('../../../', '');
+
+    let link = document.createElement('a');
+
+    link.target = '_blank';
+
+    link.href = url;
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+    delete link;
   };
 
   /* Actualizar Ebook */
@@ -92,9 +102,11 @@ $(document).ready(function () {
           $.get(
             `/api/deleteEbook/${idEbook}`,
             function (data, textStatus, jqXHR) {
-              location.href = '/admin/ebooks';
-
               message(data);
+
+              setTimeout(() => {
+                location.href = '/admin/ebooks';
+              }, 2000);
             }
           );
         }

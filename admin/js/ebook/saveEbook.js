@@ -17,6 +17,7 @@ $(document).ready(function () {
       title = $('#title').val();
       author = $('#author').val();
       content = $('#compose-editor').html();
+      let pdfEbook = $('#pdf')[0].files[0];
 
       if (
         !title ||
@@ -24,7 +25,9 @@ $(document).ready(function () {
         !author ||
         author == '' ||
         !content ||
-        content == ''
+        content == '' ||
+        pdfEbook == '' ||
+        !pdfEbook
       ) {
         toastr.error('Ingrese todos los campos');
         return false;
@@ -34,14 +37,15 @@ $(document).ready(function () {
 
       dataEbooks = new FormData(formCreateEbooks);
       dataEbooks.append('img', imageEbook);
+      dataEbooks.append('pdf', pdfEbook);
       dataEbooks.append('description', content);
 
-      date = new Date();
-      month = date.getMonth() + 1;
-      day = date.getDate();
-      month > 10 ? month : (month = `0${month}`);
-      day > 10 ? day : (day = `0${day}`);
-      now = `${date.getFullYear()}-${month}-${day}`;
+      // date = new Date();
+      // month = date.getMonth() + 1;
+      // day = date.getDate();
+      // month > 10 ? month : (month = `0${month}`);
+      // day > 10 ? day : (day = `0${day}`);
+      // now = `${date.getFullYear()}-${month}-${day}`;
       saveEbook(dataEbooks, '/api/addEbook');
 
       /* Guardar fecha de publicación 
@@ -91,11 +95,13 @@ $(document).ready(function () {
     let idEbook = sessionStorage.getItem('id_ebook');
     content = $('#compose-editor').html();
     let imageEbook = $('#file')[0].files[0];
+    let pdfEbook = $('#pdf')[0].files[0];
 
     dataEbooks = new FormData(formCreateEbooks);
     dataEbooks.append('idEbook', idEbook);
     dataEbooks.append('description', content);
     dataEbooks.append('img', imageEbook);
+    dataEbooks.append('pdf', pdfEbook);
 
     saveEbook(dataEbooks, '/api/updateEbook');
   };
@@ -112,9 +118,12 @@ $(document).ready(function () {
 
       success: function (resp) {
         $('#formCreateEbooks').trigger('reset');
-        location.href = '/admin/ebooks';
 
         message(resp);
+
+        setTimeout(() => {
+          location.href = '/admin/ebooks';
+        }, 2000);
       },
     });
   };
