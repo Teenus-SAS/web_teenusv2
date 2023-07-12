@@ -46,11 +46,24 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<script src="/admin/assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="/admin/assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="/admin/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="/admin/assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
+	<script src="/admin/assets/libs/jquery-validation/js/additional-methods.min.js"></script>
+	<!-- ================== BEGIN PAGE JS ================== -->
+	<script src="/admin/assets/js/app.js"></script>
 	<!-- end wrapper -->
 	<!-- Bootstrap JS -->
-	<script src="/admin/assets/js/bootstrap.bundle.min.js"></script>
-	<!--plugins-->
-	<script src="/admin/assets/js/jquery.min.js"></script>
+	<!-- <script src="/admin/assets/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="/admin/assets/js/app.js"></script> -->
+
+	<!-- <script src="/admin/assets/js/jquery.min.js"></script> -->
 
 	<script src="/admin/js/login/forgot-password.js"></script>
 

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+    <link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" />
     <!--plugins-->
     <link href="/admin/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
     <link href="/admin/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
@@ -86,11 +86,13 @@
     </div>
     <!--end wrapper-->
     <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="/admin/assets/js/bootstrap.bundle.min.js"></script> -->
     <!--plugins-->
-    <script src="/admin/assets/js/jquery.min.js"></script>
-    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
-    <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- <script src="/admin/assets/js/jquery.min.js"></script> -->
+    <script src="/admin/assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="/admin/assets/plugins/metismenu/js/metisMenu.min.js"></script>
     <script src="/admin/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
     <!--Password show & hide js -->
     <script>
@@ -111,11 +113,11 @@
     </script>
 
     <!-- ================== BEGIN PAGE LEVEL JS ================== -->
-    <script src="assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
-    <script src="assets/libs/jquery-validation/js/additional-methods.min.js"></script>
+    <script src="/admin/assets/libs/jquery-validation/js/jquery.validate.min.js"></script>
+    <script src="/admin/assets/libs/jquery-validation/js/additional-methods.min.js"></script>
     <!-- ================== BEGIN PAGE JS ================== -->
-    <script src="assets/js/app.js"></script>
-    <script src="js/login/autentication.js"></script>
+    <script src="/admin/assets/js/app.js"></script>
+    <script src="/admin/js/login/autentication.js"></script>
     <!-- Notifications -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </body>
