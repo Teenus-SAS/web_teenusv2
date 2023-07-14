@@ -2,6 +2,11 @@ $(document).ready(function () {
   $('#btnForgotPass').on('click', function (e) {
     let email = $('#email').val();
 
+    if (!email || email == '') {
+      toastr.error('Ingrese email');
+      return false;
+    }
+
     $.ajax({
       type: 'POST',
       url: '/api/forgotPassword',
