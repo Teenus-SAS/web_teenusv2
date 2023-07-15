@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="section-title">
-                    <h2>ADEMAS, LO QUE LOGRARAS CON TELIKSOFTWARE EN TU EMPRESA</h2>
-                    <h6 class="mt-3"><b>Ahorra hasta un 90% de tiempo para cotizar.</b> Costea y calcula tus precios de forma automática, sin necesidad de hacer cálculos manuales o contratar a expertos. Así podrás reducir tus gastos operativos y dedicar tu tiempo a otras actividades más productivas. TezlikSoftware te acompaña en todo momento.</h6>
+                    <h2>Ahorra hasta un 90% de tu tiempo para costear y cotizar.</h2>
+                    <h6 class="mt-3"><b></b> Costea y calcula tus precios de forma automática, sin necesidad de hacer cálculos manuales o contratar a expertos. Así podrás reducir tus gastos operativos y dedicar tu tiempo a otras actividades más productivas. TezlikSoftware te acompaña en todo momento.</h6>
                 </div>
             </div>
         </div>
