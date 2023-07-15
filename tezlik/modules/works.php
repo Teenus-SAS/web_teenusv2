@@ -38,8 +38,8 @@
                     <div class="works-icon"><span class="pulse-o"><i class="ti-control-shuffle"></i></span></div>
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
-                        <h3>Encuentra el punto óptimo para tu producción:</h3>
-                        <p>Ahora vas a saber cuánto debes vender y lo más importante cuando llegas a tu punto de equilibrio para empezar a ganar. Con tezlikSoftware es como si tuvieras una balanza perfecta.</p>
+                        <h3>Encuentra el punto óptimo para tu producción</h3>
+                        <p>Ahora vas a saber cuánto debes vender y lo más importante cuando llegas a tu punto de equilibrio para empezar a ganar. Con TezlikSoftware es como si tuvieras una balanza perfecta.</p>
                     </div>
                     <span class="work-count">3</span>
                 </div>
