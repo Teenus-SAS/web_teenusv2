@@ -15,7 +15,7 @@ $(document).ready(function () {
         if (data.success == true) {
           toastr.success(data.message);
           setTimeout(() => {
-            location.href = '/admin/app/';
+            location.href = '/admin/dashboard/';
           }, 2000);
         } else if (data.error == true) toastr.error(data.message);
       },

@@ -16,7 +16,7 @@ get('/admin/olvido-contrasena', '/admin/views/password/auth-forgot-password.php'
 get('/admin/restablecer-contrasena', '/admin/views/password/auth-reset-password.php');
 
 // App
-get('/admin/app', '/admin/views/template.php');
+get('/admin/dashboard', '/admin/views/template.php');
 get('/admin/blogs-detalles', '/admin/views/blog/details.php');
 get('/admin/ebooks', '/admin/views/ebooks/ebooks.php');
 get('/admin/editar-ebook', '/admin/views/ebooks/edit.php');
