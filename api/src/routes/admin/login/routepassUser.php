@@ -49,7 +49,7 @@ $app->post('/changePassword', function (Request $request, Response $response, $a
 $app->post('/forgotPassword', function (Request $request, Response $response, $args) use (
     $passUserDao,
     $sendEmailDao,
-    $sendMakeEmailDao
+    $sendMakeEmailDao,
 ) {
     $parsedBody = $request->getParsedBody();
     $email = trim($parsedBody["data"]);
