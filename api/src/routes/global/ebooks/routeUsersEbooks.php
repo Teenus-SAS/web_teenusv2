@@ -29,7 +29,7 @@ $app->post('/addUserEbook', function (Request $request, Response $response, $arg
     $usersDao,
     $codeDao,
     $makeEmailDao,
-    $sendEmailDao
+    $sendEmailDao,
 ) {
     $dataUser = $request->getParsedBody();
 
@@ -53,7 +53,7 @@ $app->post('/addUserEbook', function (Request $request, Response $response, $arg
         else
             $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
     }
-
+ 
 
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
