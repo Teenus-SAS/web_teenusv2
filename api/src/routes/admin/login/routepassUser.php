@@ -3,14 +3,14 @@
 use tezlik_web\dao\LastLoginDao;
 use tezlik_web\dao\AutenticationUserDao;
 use tezlik_web\dao\PassUserDao;
-use tezlik_web\dao\SendEmailDao;
+//use tezlik_web\dao\SendEmailDao;
 use tezlik_web\dao\SendMakeEmailDao;
 
 $passUserDao = new PassUserDao();
 $autenticationUserDao = new AutenticationUserDao();
 $lastLoginDao = new LastLoginDao();
 $sendMakeEmailDao = new SendMakeEmailDao();
-$sendEmailDao = new SendEmailDao();
+//$sendEmailDao = new SendEmailDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
