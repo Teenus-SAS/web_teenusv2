@@ -46,7 +46,7 @@ $app->post('/changePassword', function (Request $request, Response $response, $a
 
 /* Forgot Password */
 
-$app->post('/forgotPassword', function (Request $request, Response $response, $args) use (
+/* $app->post('/forgotPassword', function (Request $request, Response $response, $args) use (
     $passUserDao,
     $sendEmailDao,
     $sendMakeEmailDao
@@ -72,4 +72,4 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
 
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
-});
+}); */
