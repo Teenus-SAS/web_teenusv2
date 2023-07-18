@@ -2,7 +2,7 @@
 
 use tezlik_web\dao\GenerateCodeDao;
 use tezlik_web\dao\LastLoginDao;
-//use tezlik_web\dao\SendEmailDao;
+use tezlik_web\dao\SendEmailDao;
 use tezlik_web\dao\UsersEbooksDao;
 use tezlik_web\dao\SendMakeEmailDao;
 use tezlik_web\dao\StatusActiveUserDao;
@@ -10,7 +10,7 @@ use tezlik_web\dao\StatusActiveUserDao;
 $usersDao = new UsersEbooksDao();
 $codeDao = new GenerateCodeDao();
 $makeEmailDao = new SendMakeEmailDao();
-//$sendEmailDao = new SendEmailDao();
+$sendEmailDao = new SendEmailDao();
 $statusActiveUserDao = new StatusActiveUserDao();
 $lastLoginDao = new LastLoginDao();
 
@@ -25,11 +25,11 @@ $app->get('/usersEbooks', function (Request $request, Response $response, $args)
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-/* $app->post('/addUserEbook', function (Request $request, Response $response, $args) use (
+$app->post('/addUserEbook', function (Request $request, Response $response, $args) use (
     $usersDao,
     $codeDao,
     $makeEmailDao,
-    $sendEmailDao
+    $sendEmailDao,
 ) {
     $dataUser = $request->getParsedBody();
 
@@ -38,7 +38,7 @@ $app->get('/usersEbooks', function (Request $request, Response $response, $args)
     if (is_array($user)) {
         $resp = array('error' => true, 'message' => 'El email ya se encuentra registrado. Intente con uno nuevo');
     } else {
-        $pass = $codeDao->GenerateCode(); */
+        $pass = $codeDao->GenerateCode();
 
         // $dataEmail = $makeEmailDao->SendEmailPassword($dataUser['email'], $pass);
 
@@ -46,7 +46,7 @@ $app->get('/usersEbooks', function (Request $request, Response $response, $args)
 
         // if ($email == null)
         /* Almacena el usuario */
-      /*   $user = $usersDao->addUser($dataUser, $pass);
+        $user = $usersDao->addUser($dataUser, $pass);
 
         if ($user == null)
             $resp = array('success' => true, 'message' => 'Usuario creado correctamente', 'pass' => $pass);
@@ -57,7 +57,7 @@ $app->get('/usersEbooks', function (Request $request, Response $response, $args)
 
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
-});*/
+});
 
 $app->post('/userEbooksAutentication', function (Request $request, Response $response, $args) use (
     $usersDao,
