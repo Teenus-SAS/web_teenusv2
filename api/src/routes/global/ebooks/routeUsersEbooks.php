@@ -10,7 +10,7 @@ use tezlik_web\dao\StatusActiveUserDao;
 $usersDao = new UsersEbooksDao();
 $codeDao = new GenerateCodeDao();
 $makeEmailDao = new SendMakeEmailDao();
-$sendEmailDao = new SendEmailDao();
+//$sendEmailDao = new SendEmailDao();
 $statusActiveUserDao = new StatusActiveUserDao();
 $lastLoginDao = new LastLoginDao();
 
@@ -25,12 +25,7 @@ $app->get('/usersEbooks', function (Request $request, Response $response, $args)
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-$app->post('/addUserEbook', function (Request $request, Response $response, $args) use (
-    $usersDao,
-    $codeDao,
-    $makeEmailDao,
-    $sendEmailDao,
-) {
+$app->post('/addUserEbook', function (Request $request, Response $response, $args) use ($usersDao, $codeDao,) {
     $dataUser = $request->getParsedBody();
 
     $user = $usersDao->findUser($dataUser['email']);
@@ -53,7 +48,7 @@ $app->post('/addUserEbook', function (Request $request, Response $response, $arg
         else
             $resp = array('error' => true, 'message' => 'Ocurrio un error mientras almacenaba la información. Intente nuevamente');
     }
- 
+
 
     $response->getBody()->write(json_encode($resp));
     return $response->withStatus(200)->withHeader('Content-Type', 'application/json');
