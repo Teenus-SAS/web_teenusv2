@@ -67,13 +67,12 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
         // Enviarlo
         mail($email, "recuperacion password", $mensaje, $headers);
 
-
-        if ($email == null)
-            $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
-        else if (isset($email['info']))
+        /* if ($email == null) */
+        $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
+        /* else if (isset($email['info']))
             $resp = array('info' => true, 'message' => $email['message']);
         else
-            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras enviaba la información. Intente nuevamente');
+            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras enviaba la información. Intente nuevamente'); */
     }
 
     $response->getBody()->write(json_encode($resp));
