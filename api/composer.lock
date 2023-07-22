@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a867c9174dc6bf23b26ed3c7b5f087b",
+    "content-hash": "9c7494c72bbefe4ecd6a0e2afcd99b2a",
     "packages": [
         {
             "name": "facebook/php-business-sdk",
