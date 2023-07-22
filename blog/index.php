@@ -59,10 +59,10 @@
 			<div class="d-table-cell">
 				<div class="container">
 					<div class="page-title-content">
-						<h2>Todas las publicaciones</h2>
-						<ul>
+						<h2>¿Cómo estar más tranquilo y seguro sin trabajar tanto?</h2>
+						<!-- <ul>
 							<li><a href="/">Home</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</div>
