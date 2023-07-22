@@ -60,7 +60,7 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
         $resp = array('error' => true, 'message' => 'Correo electronico no se encuentra en registrado. Valide nuevamente');
     else {
         $dataEmail = $sendMakeEmailDao->SendEmailForgotPassword($email, $passwordTemp);
-        $email =  $sendEmailDao->SendEmail($dataEmail, 'soporteTezlik@tezliksoftware.com.co', 'SoporteTennus');
+        $email =  $sendEmailDao->SendEmail($dataEmail, 'soporte_teenus@teenus.com.co', 'soporte_teenus');
 
         if ($email == null)
             $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
