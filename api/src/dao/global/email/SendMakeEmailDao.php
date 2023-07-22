@@ -45,8 +45,9 @@ class SendMakeEmailDao
         Saludos,\n\n
         Equipo de Soporte Teenus';
 
-        $resp = array('to' => array($email), 'subject' => 'Nuevo Password', 'body' => $msg, 'ccHeader' => null);
-        return $resp;
+        //$resp = array('to' => array($email), 'subject' => 'Nuevo Password', 'body' => $msg, 'ccHeader' => null);
+        //return $resp;
+        return $msg;
     }
 
     public function SendEmailPassword($email, $password)

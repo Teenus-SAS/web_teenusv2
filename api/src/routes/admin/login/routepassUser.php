@@ -59,8 +59,18 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
     if ($passwordTemp == null)
         $resp = array('error' => true, 'message' => 'Correo electronico no se encuentra en registrado. Valide nuevamente');
     else {
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
         $dataEmail = $sendMakeEmailDao->SendEmailForgotPassword($email, $passwordTemp);
-        $email =  $sendEmailDao->SendEmail($dataEmail, 'soporte_teenus@teenus.com.co', 'soporte_teenus');
+        //$email =  $sendEmailDao->SendEmail($dataEmail, 'soporte_teenus@teenus.com.co', 'soporte_teenus');
+
+        // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
+        $mensaje = wordwrap($dataEmail, 70, "\r\n");
+
+        // Enviarlo
+        mail($email, "recuperacion password", $mensaje, $headers);
+
 
         if ($email == null)
             $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
