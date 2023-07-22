@@ -10,7 +10,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require dirname(dirname(dirname(dirname(__DIR__)))) . 'vendor/autoload.php';
+require dirname(dirname(dirname(__DIR__))) . 'vendor/autoload.php';
 
 class SendEmailDao extends PHPMailer
 {
