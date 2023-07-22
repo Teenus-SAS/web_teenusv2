@@ -1,6 +1,6 @@
 <?php
 
-namespace tezlik_web\dao;
+/*namespace tezlik_web\dao;
 
 use tezlik_web\Constants\Constants;
 use Monolog\Handler\RotatingFileHandler;
@@ -77,4 +77,4 @@ class SendEmailDao extends PHPMailer
             return $error;
         }
     } 
-}
+}*/
