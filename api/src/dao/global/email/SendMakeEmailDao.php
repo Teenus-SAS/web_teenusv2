@@ -65,38 +65,4 @@ class SendMakeEmailDao
         $resp = array('to' => array($email), 'subject' => 'Nuevo Password', 'body' => $msg, 'ccHeader' => null);
         return $resp;
     }
-
-    public function SendEmailSupport($dataSupport, $email)
-    {
-        if (isset($dataSupport['ccHeader']))
-            $ccHeader = $dataSupport['ccHeader'];
-        else $ccHeader = '';
-        // the message
-        $msg = $dataSupport['message'];
-
-        $subject = 'Soporte' . "\r\n";
-        $subject .= $dataSupport['subject'];
-
-        $resp = array('to' => array($email), 'subject' => $subject, 'body' => $msg, 'ccHeader' => $ccHeader);
-
-        return $resp;
-    }
-
-    public function SendEmailQuote($dataQuote, $email, $file)
-    {
-        $to = array($dataQuote['header'], $email);;
-        if (isset($dataQuote['ccHeader']))
-            $ccHeader = $dataQuote['ccHeader'];
-        else $ccHeader = '';
-
-        // the message
-        $msg = $dataQuote['message'];
-
-        //subject
-        $subject = $dataQuote['subject'];
-
-        $resp = array('to' => $to, 'pdf' => $file, 'subject' => $subject, 'body' => $msg, 'ccHeader' => $ccHeader);
-
-        return $resp;
-    }
 }
