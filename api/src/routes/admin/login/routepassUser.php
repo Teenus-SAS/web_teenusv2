@@ -3,14 +3,14 @@
 use tezlik_web\dao\LastLoginDao;
 use tezlik_web\dao\AutenticationUserDao;
 use tezlik_web\dao\PassUserDao;
-use tezlik_web\dao\SendEmailDao;
+//use tezlik_web\dao\SendEmailDao;
 use tezlik_web\dao\SendMakeEmailDao;
 
 $passUserDao = new PassUserDao();
 $autenticationUserDao = new AutenticationUserDao();
 $lastLoginDao = new LastLoginDao();
 $sendMakeEmailDao = new SendMakeEmailDao();
-$sendEmailDao = new SendEmailDao();
+//$sendEmailDao = new SendEmailDao();
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -46,11 +46,7 @@ $app->post('/changePassword', function (Request $request, Response $response, $a
 
 /* Forgot Password */
 
-$app->post('/forgotPassword', function (Request $request, Response $response, $args) use (
-    $passUserDao,
-    $sendEmailDao,
-    $sendMakeEmailDao,
-) {
+$app->post('/forgotPassword', function (Request $request, Response $response, $args) use ($passUserDao, $sendMakeEmailDao,) {
     $parsedBody = $request->getParsedBody();
     $email = trim($parsedBody["data"]);
 
@@ -59,15 +55,24 @@ $app->post('/forgotPassword', function (Request $request, Response $response, $a
     if ($passwordTemp == null)
         $resp = array('error' => true, 'message' => 'Correo electronico no se encuentra en registrado. Valide nuevamente');
     else {
-        $dataEmail = $sendMakeEmailDao->SendEmailForgotPassword($email, $passwordTemp);
-        $email =  $sendEmailDao->SendEmail($dataEmail, 'soporteTezlik@tezliksoftware.com.co', 'SoporteTennus');
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-        if ($email == null)
-            $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
-        else if (isset($email['info']))
+        $dataEmail = $sendMakeEmailDao->SendEmailForgotPassword($email, $passwordTemp);
+        //$email =  $sendEmailDao->SendEmail($dataEmail, 'soporte_teenus@teenus.com.co', 'soporte_teenus');
+
+        // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
+        $mensaje = wordwrap($dataEmail, 70, "\r\n");
+
+        // Enviarlo
+        mail($email, "recuperacion password", $mensaje, $headers);
+
+        /* if ($email == null) */
+        $resp = array('success' => true, 'message' => "La contraseña fue enviada al email suministrado exitosamente.");
+        /* else if (isset($email['info']))
             $resp = array('info' => true, 'message' => $email['message']);
         else
-            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras enviaba la información. Intente nuevamente');
+            $resp = array('error' => true, 'message' => 'Ocurrio un error mientras enviaba la información. Intente nuevamente'); */
     }
 
     $response->getBody()->write(json_encode($resp));

@@ -2400,11 +2400,11 @@ p:last-child {
 .page-title-area {
     position: relative;
     z-index: 1;
-    background-image: url(../img/ebook/page-title-bg-1.jpg);
+    background-image: url(../img/ebook/banner_blog_teenus.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 300px;
 }
 
 .page-title-area::before {

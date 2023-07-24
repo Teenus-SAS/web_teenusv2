@@ -1,6 +1,6 @@
 <?php
 
-namespace tezlik_web\dao;
+/*namespace tezlik_web\dao;
 
 use tezlik_web\Constants\Constants;
 use Monolog\Handler\RotatingFileHandler;
@@ -9,6 +9,8 @@ use Monolog\Logger;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+
+require dirname(dirname(dirname(dirname(__DIR__)))) . '/vendor/autoload.php';
 
 class SendEmailDao extends PHPMailer
 {
@@ -22,7 +24,7 @@ class SendEmailDao extends PHPMailer
 
     public function sendEmail($dataEmail, $email, $name)
     {
-        require_once dirname(dirname(dirname(dirname(dirname(dirname(__DIR__)))))) . '/env.php';
+        require_once dirname(dirname(dirname(dirname(dirname(__DIR__))))) . '/env.php';
 
         try {
             $mail = new PHPMailer(true);
@@ -74,5 +76,5 @@ class SendEmailDao extends PHPMailer
             $error = array('info' => true, 'message' => $message);
             return $error;
         }
-    }
-}
+    } 
+}*/

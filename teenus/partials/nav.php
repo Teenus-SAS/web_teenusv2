@@ -30,8 +30,8 @@
                         <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
                         <li class="nav-item"><a href="/tezliksoftware" class="nav-link">TezlikSoftware</a></li>
                         <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li>
-                        <!-- <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li> -->
-                        <li class="nav-item"><a href="/ebooks" class="nav-link">Ebooks</a></li>
+                        <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
+                        <!-- <li class="nav-item"><a href="/ebooks" class="nav-link">Ebooks</a></li> -->
                     </ul>
                     <div class="other-option">
                         <a class="default-btn register" href="javascript:;" id="btnShowModalLogin" style="display:none;">Login<span></span></a>
