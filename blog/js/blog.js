@@ -2,7 +2,7 @@ $(document).ready(function () {
   fetchindata = async () => {
     data = await getArticles();
     loadArticles(data.recentArticles);
-    loadPopularArticles(data.popularArticles);
+    loadPopularArticles(data.recentArticles);
   };
 
   fetchindata();
@@ -53,7 +53,7 @@ $(document).ready(function () {
       }</i></a></li>
 										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${
                       i + 1
-                    }">${publication_date}</i></a></li>
+                    }"> ${publication_date}</i></a></li>
 										<li>
 											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-${i + 1}">${data[
         i
@@ -106,7 +106,7 @@ $(document).ready(function () {
     } else {
       localStorage.setItem('id_article', id_article);
 
-      location.href = 'articulo';
+      location.href = '/articulo';
     }
   });
 });

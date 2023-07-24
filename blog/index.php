@@ -35,6 +35,7 @@
 	<link rel="stylesheet" href="/teenus/assets/css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet">
 </head>

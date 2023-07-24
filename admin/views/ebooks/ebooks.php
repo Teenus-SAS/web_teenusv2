@@ -1,3 +1,13 @@
+<?php
+if (!isset($_SESSION)) {
+    session_start();
+    if (sizeof($_SESSION) == 0)
+        header('location: /admin');
+}
+if (sizeof($_SESSION) == 0)
+    header('location: /admin');
+?>
+
 <!doctype html>
 <html lang="en">
 

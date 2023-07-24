@@ -19,6 +19,12 @@ $app->get('/article/{id_article}', function (Request $request, Response $respons
     return $response->withHeader('Content-Type', 'application/json');
 });
 
+$app->get('/navigationArticle/{id_article}/{op}', function (Request $request, Response $response, $args) use ($articlesDao) {
+    $article = $articlesDao->findNextOrPrevArticle($args['id_article'], $args['op']);
+    $response->getBody()->write(json_encode($article, JSON_NUMERIC_CHECK));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
 /* Cargar articulos*/
 $app->get('/articles', function (Request $request, Response $response, $args) use ($articlesDao, $publicateArticleDao) {
     $publicateArticleDao->activeArticle();

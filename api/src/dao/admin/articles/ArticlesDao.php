@@ -47,6 +47,27 @@ class ArticlesDao
         return $article;
     }
 
+    public function findNextOrPrevArticle($id_article, $op)
+    {
+        $connection = Connection::getInstance()->getConnection();
+
+        if ($op == 'previous')
+            $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.id_article < :id_article");
+        else
+            $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
+                                      FROM articles a
+                                      INNER JOIN publications p ON p.id_article = a.id_article
+                                      WHERE a.id_article > :id_article");
+        $stmt->execute(['id_article' => $id_article]);
+        $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
+
+        $article = $stmt->fetch($connection::FETCH_ASSOC);
+        return $article;
+    }
+
     public function findRecentArticles()
     {
         $connection = Connection::getInstance()->getConnection();

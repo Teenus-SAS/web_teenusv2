@@ -5,7 +5,7 @@ $(document).ready(function () {
     $.ajax({
       url: '/api/logout',
       success: function (data, textStatus, xhr) {
-        location.href = '../';
+        location.href = '/admin';
       },
     });
   });

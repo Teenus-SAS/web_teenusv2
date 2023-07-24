@@ -33,13 +33,14 @@
 	<link rel="stylesheet" href="/teenus/assets/css/owl.carousel.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css">
+
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
-<?php
-$link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-?>
 
 <body>
 
@@ -268,15 +269,15 @@ $link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['R
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $link ?>" class="share"><i class="fab fa-facebook-f"></i>
+										<a href="https://www.facebook.com/sharer/sharer.php?u=" class="share"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://twitter.com/intent/tweet?url=<?php echo $link ?>" class="share"><i class="fab fa-twitter"></i>
+										<a href="https://twitter.com/intent/tweet?url=" class="share"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $link ?>" class="share"><i class="fab fa-linkedin"></i>
+										<a href="https://www.linkedin.com/sharing/share-offsite/?url=" class="share"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>
@@ -284,10 +285,11 @@ $link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['R
 						</div>
 						<div class="post-navigation">
 							<div class="navigation-links">
-								<div class="nav-previous">
-									<a href="#"> <i class="fa fa-arrow-left"></i> Prev Post</a>
+								<div class="nav-previous nav-links" id="previous">
+									<a href="javascript:;"> <i class="fa fa-arrow-left "></i> Prev Post</a>
 								</div>
-								<div class="nav-next"> <a href="#">
+								<div class="nav-next nav-links" id="next">
+									<a href="javascript:;">
 										Next Post
 										<i class="fa fa-arrow-right"></i>
 									</a>
@@ -449,6 +451,7 @@ $link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['R
 	<script src="/teenus/assets/js/isotope.pkgd.min.js"></script>
 	<!-- Swiper Min JS -->
 	<!-- <script src="/teenus/assets/js/swiper.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<!-- WOW Min JS -->
 	<script src="/teenus/assets/js/wow.min.js"></script>

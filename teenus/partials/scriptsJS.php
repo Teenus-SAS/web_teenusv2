@@ -38,4 +38,4 @@
 <!-- <script src="/global/js/loadContent.js"></script> -->
 <!-- Blog -->
 <script src="/global/js/loadArticles.js"></script>
-<!-- <script src="/teenus/js/blog/blog.js"></script> -->
+<script src="/teenus/js/blog/blog.js"></script>

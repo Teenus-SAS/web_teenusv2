@@ -65,7 +65,7 @@ $(document).ready(function () {
     .then((response) => response.text())
     .then((data) => {
       data = JSON.parse(data);
-      loadPopularArticles(data.popularArticles);
+      loadPopularArticles(data.recentArticles);
     });
 
   loadPopularArticles = (data) => {
@@ -91,10 +91,31 @@ $(document).ready(function () {
     $(`#${idArticle}`).css('pointer-events', 'none');
   };
 
-  /* Compartir articulo
+  /* Compartir articulo */
   $(document).on('click', '.share', function () {
     localStorage.setItem('id_article', idArticle);
+    let share = `${this.href}${location.href}`;
+    location.href = share;
   });
+  
+  $(document).on('click', '.nav-links', function () {
+    let id = this.id
 
-  localStorage.removeItem('id_article'); */
+    $.ajax({ 
+      url: `/api/navigationArticle/${idArticle}/${id}`, 
+      success: function (response) {
+        if (response == false) {
+          if (id == 'previous')            
+            toastr.error('No existe articulo anterior a este');
+          else
+            toastr.error('No existe articulo posterior a este');
+          
+          return false;
+        }
+
+        localStorage.setItem('id_article', response.id_article);
+        location.href = '/articulo'
+      }
+    });
+  });
 });
