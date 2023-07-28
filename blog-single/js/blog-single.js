@@ -22,7 +22,7 @@ $(document).ready(function () {
     // Imagen
     $('.image').html(`
         <img src="${data.img}" style="width:100%;
-        height:500px; margin: auto;
+        height:350px; margin: auto;
          display: block;"/>
     `);
     // Autor
@@ -94,7 +94,7 @@ $(document).ready(function () {
   /* Compartir articulo */
   $(document).on('click', '.share', function () {
     localStorage.setItem('id_article', idArticle);
-    let share = `${this.href}${location.href}`;
+    let share = `${this.id}${location.href}`;
     location.href = share;
   });
   
