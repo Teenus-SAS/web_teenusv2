@@ -269,15 +269,15 @@
 									<li><span>Share:</span>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/sharer/sharer.php?u=" class="share"><i class="fab fa-facebook-f"></i>
+										<a href="javascript:;" id="https://www.facebook.com/sharer/sharer.php?u=" class="share"><i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://twitter.com/intent/tweet?url=" class="share"><i class="fab fa-twitter"></i>
+										<a href="javascript:;" id="https://twitter.com/intent/tweet?url=" class="share"><i class="fab fa-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/sharing/share-offsite/?url=" class="share"><i class="fab fa-linkedin"></i>
+										<a href="javascript:;" id="https://www.linkedin.com/sharing/share-offsite/?url=" class="share"><i class="fab fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>
