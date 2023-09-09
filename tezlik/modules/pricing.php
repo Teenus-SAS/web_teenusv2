@@ -34,7 +34,7 @@
                             <li class="active">Creación de Productos Ilimitados</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Cotizador</li>
-                            <li class="active">Analisis de Costos y Precio por Producto</li>
+                            <li class="active">Detalle de Costos y Precio por Producto</li>
                             <li class="active">Punto de Equilibrio</li>
                             <li class="active">Analisis Materia Prima por Producto</li>
                             <li class="active">Economias de Escala</li>
@@ -68,7 +68,7 @@
                             <li class="active">Creación de Productos 1000</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Cotizador</li>
-                            <li class="active">Analisis de Costos y Precio por Producto</li>
+                            <li class="active">Detalle de Costos y Precio por Producto</li>
                             <li class="active">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima por Producto</li>
                             <li class="inactive">Economias de Escala</li>
@@ -102,7 +102,7 @@
                             <li class="active">Creación de Productos 100</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Cotizador</li>
-                            <li class="active">Analisis de Costos y Precio por producto</li>
+                            <li class="active">Detalle de Costos y Precio por producto</li>
                             <li class="inactive">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima por Producto</li>
                             <li class="inactive">Economias de Escala</li>
