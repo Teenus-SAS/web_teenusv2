@@ -88,21 +88,16 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/works.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/about.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/overview.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' 
-        ?>
-        <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php'
-        ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/interfaces.php' ?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php'?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
-        <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php'
-        ?>
-        <?php include_once dirname(__DIR__) . '/tezlik/modules/faq.php'
-        ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' 
-        ?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/clients.php' ?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php'?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/faq.php'?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/download.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/contact.php' ?>
-        <?php //include_once dirname(__DIR__) . '/tezlik/modules/map.php' 
-        ?>
+        <?php //include_once dirname(__DIR__) . '/tezlik/modules/map.php' ?>
 
     </div>
     <!-- Page Wrapper End -->
