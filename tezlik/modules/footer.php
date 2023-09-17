@@ -67,14 +67,14 @@
                 </div>
             </div>
             <hr />
-            <div class="row justify-content-md-center mt-20">
+            <!-- <div class="row justify-content-md-center mt-20">
                 <div class="col-lg-6 col-md-6 col-sm-12 footer-subscribe">
                     <form>
                         <input type="Email" name="email" placeholder="Ingrese su Email" />
                         <a href="#" class="subscribe-btn" id="btnSubscribe">Subscribete</a>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="copyright-area text-center">
