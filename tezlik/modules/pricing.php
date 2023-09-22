@@ -19,7 +19,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Premium</h3>
-                        <p class="pricing-description">Facturación Anual</p>
+                        <!-- <p class="pricing-description">Facturación Anual</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -29,6 +29,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">98.99 USD</span>
                             <span class="period">Mes</span><br>
+                            <span class="period">Facturación Anual</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos Ilimitados</li>
@@ -55,7 +56,7 @@
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
-                        <p class="pricing-description">Facturación Anual</p>
+                        <!-- <p class="pricing-description">Facturación Anual</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -65,6 +66,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">79.99 USD</span>
                             <span class="period">Mes</span><br>
+                            <span class="period">Facturación Anual</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 1000</li>
@@ -91,7 +93,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
-                        <p class="pricing-description">Facturación Anual</p>
+                        <!-- <p class="pricing-description">Facturación Anual</p> -->
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -101,6 +103,7 @@
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">49.99 USD</span>
                             <span class="period">Mes</span><br>
+                            <span class="period">Facturación Anual</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 100</li>
