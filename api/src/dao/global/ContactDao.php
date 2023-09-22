@@ -61,7 +61,7 @@ class ContactDao
                 Email:$email\r\n
                 Telefono:$phone\r\n
                 Company:$company\r\n
-                Mensaje:$subject\r\n";
+                Mensaje:$message\r\n";
                 
       // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
       $mensaje = wordwrap($msg, 70, "\r\n");
