@@ -57,11 +57,11 @@ class ContactDao
       
       $msg = "Hola, Martha Lucia\r\n
               Tienes un nuevo prospecto que acaba de enviarte un mensaje por la pagina web. con la sigueinte información: \r\n
-                Nombres:$nameUser\r\n
-                Email:$email\r\n
-                Telefono:$phone\r\n
-                Company:$company\r\n
-                Mensaje:$message\r\n";
+                Nombres: $nameUser\r\n
+                Email: $email\r\n
+                Telefono: $phone\r\n
+                Company: $company\r\n
+                Mensaje: $message\r\n";
                 
       // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
       $mensaje = wordwrap($msg, 70, "\r\n");
