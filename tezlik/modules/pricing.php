@@ -5,21 +5,21 @@
             <div class="col-md-12 section-title">
                 <h6 class="small-title">Totalmente a tu alcance</h6>
                 <h2>Potencia tu empresa</h2>
-                <div class="form-check form-check-inline">
+                <!-- <div class="form-check form-check-inline">
                     <input class="form-check-input typePrice" type="checkbox" id="COP" value="1" checked>
                     <label class="form-check-label" for="COP">COP</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input typePrice" type="checkbox" id="USD" value="2">
                     <label class="form-check-label" for="USD">USD</label>
-                </div>
+                </div> -->
             </div>
             <!-- pricing item -->
             <div class="col-lg-4 col-md-6 col-sm-12 price-item">
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Premium</h3>
-                        <!-- <p class="pricing-description">Pago anual - 15% de descuento</p> -->
+                        <p class="pricing-description">Facturación Anual</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -28,16 +28,16 @@
                             <span class="price cop">383.999 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">98.99 USD</span>
-                            <span class="period">Mensual</span><br>
-                            <span class="period">Pago Anual</span>
+                            <span class="period">Mes</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos Ilimitados</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
-                            <li class="active">Detalle de Costos y Precio por Producto</li>
+                            <li class="active">Detalle de Costos y Precio</li>
                             <li class="active">Punto de Equilibrio</li>
-                            <li class="active">Analisis Materia Prima por Producto</li>
+                            <li class="active">Analisis Materia Prima</li>
                             <li class="active">Economias de Escala</li>
                             <li class="active">Usuarios 5</li>
                             <li class="active">Capacitación</li>
@@ -55,7 +55,7 @@
                 <div class="single-price-item active">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pro</h3>
-                        <!-- <p class="pricing-description">Pago anual - 10% de descuento</p> -->
+                        <p class="pricing-description">Facturación Anual</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -64,16 +64,16 @@
                             <span class="price cop">319.999 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">79.99 USD</span>
-                            <span class="period">Mensual</span><br>
-                            <span class="period">Pago Anual</span>
+                            <span class="period">Mes</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 1000</li>
                             <li class="active">Lista de Precios</li>
+                            <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
-                            <li class="active">Detalle de Costos y Precio por Producto</li>
+                            <li class="active">Detalle de Costos y Precio</li>
                             <li class="active">Punto de Equilibrio</li>
-                            <li class="inactive">Analisis Materia Prima por Producto</li>
+                            <li class="inactive">Analisis Materia Prima</li>
                             <li class="inactive">Economias de Escala</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Capacitación</li>
@@ -91,7 +91,7 @@
                 <div class="single-price-item">
                     <div class="pricing-header">
                         <h3 class="pricing-title">Pyme</h3>
-                        <!-- <p class="pricing-description">Pago anual - 8% de descuento </p> -->
+                        <p class="pricing-description">Facturación Anual</p>
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
@@ -100,16 +100,16 @@
                             <span class="price cop">220.999 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">49.99 USD</span>
-                            <span class="period">Mensual</span><br>
-                            <span class="period">Pago Anual</span>
+                            <span class="period">Mes</span><br>
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 100</li>
                             <li class="active">Lista de Precios</li>
-                            <li class="active">Cotizador</li>
-                            <li class="active">Detalle de Costos y Precio por producto</li>
+                            <li class="inactive">Lista de Precios Personalizado</li>
+                            <li class="inactive">Cotizador</li>
+                            <li class="active">Detalle de Costos y Precio</li>
                             <li class="inactive">Punto de Equilibrio</li>
-                            <li class="inactive">Analisis Materia Prima por Producto</li>
+                            <li class="inactive">Analisis Materia Prima</li>
                             <li class="inactive">Economias de Escala</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Capacitación</li>
