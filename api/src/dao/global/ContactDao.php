@@ -45,8 +45,30 @@ class ContactDao
         'message' => $dataContact['message'],
       ]);
 
-      $emailDao = new EmailDao;
-      $emailDao->sendEmail($dataContact);
+      $nameUser = $dataContact['name'];
+      $email = $dataContact['email'];
+      $phone = $dataContact['phone'];
+      $company = $dataContact['company'];
+      $subject = $dataContact['subject'];
+      $message = $dataContact['message'];
+
+      //$emailDao = new EmailDao;
+      //$emailDao->sendEmail($dataContact);
+      
+      $msg = "Hola, Martha Lucia\r\n
+              Tienes un nuevo prospecto que acaba de enviarte un mensaje por la pagina web. con la sigueinte información: \r\n
+                Nombres:$nameUser\r\n
+                Email:$email\r\n
+                Telefono:$phone\r\n
+                Company:$company\r\n
+                Mensaje:$subject\r\n";
+                
+      // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
+      $mensaje = wordwrap($msg, 70, "\r\n");
+
+      // Enviarlo
+      mail('martha.olmos@teenus.com.co', '!Tienes un nuevo prospecto!', $mensaje);
+
 
       $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
     } catch (\Exception $e) {
