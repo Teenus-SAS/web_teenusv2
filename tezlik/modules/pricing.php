@@ -69,7 +69,7 @@
                             <span class="period">Facturación Anual</span><br>
                         </div>
                         <ul class="list">
-                            <li class="active">Creación de Productos 1000</li>
+                            <li class="active">Creación de Productos 100</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
@@ -106,10 +106,10 @@
                             <span class="period">Facturación Anual</span><br>
                         </div>
                         <ul class="list">
-                            <li class="active">Creación de Productos 100</li>
+                            <li class="active">Creación de Productos 10</li>
                             <li class="active">Lista de Precios</li>
                             <li class="inactive">Lista de Precios Personalizado</li>
-                            <li class="inactive">Cotizador</li>
+                            <li class="active">Cotizador</li>
                             <li class="active">Detalle de Costos y Precio</li>
                             <li class="inactive">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima</li>
