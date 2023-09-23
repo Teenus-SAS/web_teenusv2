@@ -2624,3 +2624,142 @@ ul.footer-nav li a {
   margin-top: -40px;
   transition-delay: 0.3s;
 }
+
+
+.slider {
+  background: white;
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 1340px;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  animation: scroll 80s linear infinite;
+  display: flex;
+  width: calc(250px * 18);
+
+}
+
+.slider .slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slider .slide {
+  height: 250px;
+  width: 250px;
+}
+
+
+.slide:nth-child(1),
+.slide:nth-child(10) {
+  background-image: url("/tezlik/assets/img/clients/Proyecformas.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.slide:nth-child(2),
+.slide:nth-child(11) {
+  background-image: url("/tezlik/assets/img/clients/Blomer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.slide:nth-child(3),
+.slide:nth-child(12) {
+  background-image: url("/tezlik/assets/img/clients/artepack.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.slide:nth-child(4),
+.slide:nth-child(13) {
+  background-image: url("/tezlik/assets/img/clients/gblab.png");
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+
+.slide:nth-child(5),
+.slide:nth-child(14) {
+  background-image: url("/tezlik/assets/img/clients/micromotores.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  
+}
+
+.slide:nth-child(6),
+.slide:nth-child(15) {
+  background-image: url("/tezlik/assets/img/clients/siloscem.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  
+}
+
+.slide:nth-child(7),
+.slide:nth-child(16) {
+  background-image: url("/tezlik/assets/img/clients/Inversiones\ J&I.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 150px;
+  margin-top: 60px;
+  
+}
+
+.slide:nth-child(8),
+.slide:nth-child(17) {
+  background-image: url("/tezlik/assets/img/clients/villa\ del\ rosario.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.slide:nth-child(9),
+.slide:nth-child(18) {
+  background-image: url("/tezlik/assets/img/clients/pet\ gourmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 50px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
