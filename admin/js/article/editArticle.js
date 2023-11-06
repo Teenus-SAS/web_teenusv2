@@ -13,10 +13,13 @@ $(document).ready(function () {
       "-" +
       ("0" + date.getDate()).slice(-2);
 
+//<input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" min="${dateString}" value="${publication_date}">
+
     bootbox.confirm({
       title: "Modificación de Articulo",
       message: `<p>Ingrese fecha de publicación:</p>
-            <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" min="${dateString}" value="${publication_date}">`,
+            <input id="publicationDate" class="bootbox-input bootbox-input-date form-control" autocomplete="off" type="date" value="${publication_date}">`,
+            
       buttons: {
         confirm: {
           label: "Guardar",
