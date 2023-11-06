@@ -198,7 +198,7 @@
 	<!-- End Navbar Area -->
 
 	<!-- Start Page Title Area -->
-	<div class="page-title-area item-bg1">
+	<div class="page-title-area item-bg1" style="height: 100px;">
 		<div class="image">
 			<div class="d-table">
 				<div class="d-table-cell">
