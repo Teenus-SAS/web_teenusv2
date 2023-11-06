@@ -32,18 +32,10 @@
                     <div class="footer-colm-2">
                         <h5 class="footer-colm-title">Quick Link</h5>
                         <ul class="footer-nav">
-                            <li>
-                                <a href="#">Acerca de</a>
-                            </li>
-                            <li>
-                                <a href="#">Precios</a>
-                            </li>
-                            <li>
-                                <a href="#">Contactanos</a>
-                            </li>
-                            <!-- <li>
-                                    <a href="#">Article</a>
-                                </li> -->
+                            <li>Acerca de</li>
+                            <li>Precios</li>
+                            <li>Contactanos</li>
+
                         </ul>
                     </div>
                 </div>
@@ -51,17 +43,17 @@
                     <div class="footer-colm-3">
                         <h5 class="footer-colm-title">Soporte</h5>
                         <ul class="footer-nav">
-                            <li><a href="#">Terminos Servicio</a></li>
-                            <li><a href="#">Politica de datos</a></li>
-                            <li><a href="#">Preguntas Frecuentes</a></li>
-                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li>Terminos Servicio</li>
+                            <li>Politica de datos</li>
+                            <li>Preguntas Frecuentes</li>
+                            <li>Centro de Ayuda</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-content contact-box">
                     <div class="footer-colm-4">
                         <h5 class="footer-colm-title">Contactanos Ya</h5>
-                        <p>CellPhone: <a href="tel:573002983150">3002983150</a></p>
+                        <p>CellPhone: 3002983150</p>
                         <p>Email: <a href="mailto:martha.olmos@teenus.com.co">martha.olmos@teenus.com.co</a></p>
                     </div>
                 </div>
@@ -81,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Copyright &copy; 2022 - Todos los derechos reservados - Teenus SAS.</p>
+                    <p>Copyright &copy; 2023 - Todos los derechos reservados - Teenus SAS.</p>
                 </div>
             </div>
         </div>

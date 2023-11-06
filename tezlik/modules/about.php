@@ -13,7 +13,7 @@
                                 <!-- <div class="features-icon pulse-p"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">1</div>
                                 <div class="features-info">
-                                    <span>Registra todos los costos de producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites) en nuestra plataforma.</span>
+                                    <span>Registra todos los costos de tu producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites)</span>
                                 </div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                                 <!-- <div class="features-icon pulse-r"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">2</div>
                                 <div class="features-info">
-                                    <span>TezlikSoftware te calcula de forma rápida y sencilla el costo exacto de producir cada unidad de tus productos.</span>
+                                    <span>TezlikSoftware calcula de forma rápida y sencilla el costo exacto de producir cada unidad de tus productos.</span>
                                 </div>
                             </div>
                         </div>

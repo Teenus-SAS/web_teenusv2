@@ -31,9 +31,10 @@
                                         </div>
                                         <div class="c-area">
                                             <span>Email</span>
-                                            <p><a href="#">info@teenus.com.co</a><br />
-                                                <a href="#">ventas@teenus.com.co</a>
-                                            </p>
+                                            <div class="c-area">
+                                                info@teenus.com.co
+                                                ventas@teenus.com.co
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -44,9 +45,10 @@
                                         </div>
                                         <div class="c-area">
                                             <span>Phone</span>
-                                            <p><a href="#">57 3002983150</a><br />
-                                                <a href="#">57 3175125191</a>
-                                            </p>
+                                            <div class="c-area">
+                                                3002983150<br />
+                                                3175125191
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

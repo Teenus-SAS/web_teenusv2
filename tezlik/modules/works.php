@@ -5,7 +5,7 @@
             <div class="col-md-8 offset-md-2">
                 <div class="section-title">
                     <h2>Ahorra hasta un 90% de tu tiempo para costear y cotizar.</h2>
-                    <h6 class="mt-3"><b></b> Costea y calcula tus precios de forma automática, sin necesidad de hacer cálculos manuales o contratar a expertos. Así podrás reducir tus gastos operativos y dedicar tu tiempo a otras actividades más productivas. TezlikSoftware te acompaña en todo momento.</h6>
+                    <h6 class="mt-3"><b></b>Costea y calcula tus precios de forma automática, sin necesidad de hacer cálculos manuales o contratar a expertos. Reduce tus gastos operativos y enfoca tu tiempo en lo que deseas. TezlikSoftware te acompaña en todo momento.</h6>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                     <div class="works-icon"><span class="pulse-p"><i class="ti-money"></i></span></div>
                     <div class="works-info">
                         <h3>Fija los precios de tus productos como un experto</h3>
-                        <p>Establece el precio adecuado de tu producto, basándote en tus costos de producción y en el margen de utilidad que deseas obtener. TezlikSoftware te ayuda a maximizar tus ganancias y diferenciarte de la competencia</p>
+                        <p>Establece el precio adecuado para tu producto, basándote en tus costos de producción y en el margen de utilidad que deseas obtener. TezlikSoftware te ayuda a maximizar tus ganancias y diferenciarte de la competencia</p>
                     </div>
                     <span class="work-count">1</span>
                 </div>

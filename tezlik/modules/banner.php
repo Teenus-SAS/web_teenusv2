@@ -16,6 +16,9 @@
                 </div>
             </div>
             <div class="d-none d-lg-block col-12 col-md-5 col-lg-6">
+                <div class="text-center z-index position-relative home-image contenedor-image">
+                    <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
+                </div>
                 <div class="text-center z-index position-relative home-image">
                     <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                 </div>
