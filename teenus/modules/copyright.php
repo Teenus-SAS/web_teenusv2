@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
-                <p> <i class="far fa-copyright"></i> 2022 Teenus - Todos los derechos reservados.</p>
+                <p> <i class="far fa-copyright"></i> 2023 Teenus - Todos los derechos reservados.</p>
             </div>
             <div class="col-lg-6 col-md-6">
                 <ul>
