@@ -1,7 +1,7 @@
 $(document).ready(function () {
   /* Mostrar imagen */
   loadFile = (data) => {
-    var output = document.getElementById('img');
+    var output = document.getElementById("img");
     output.src = URL.createObjectURL(data.target.files[0]);
     output.onload = function () {
       URL.revokeObjectURL(output.src);
@@ -9,32 +9,32 @@ $(document).ready(function () {
   };
 
   /* Crear articulo */
-  $('#btnCreateArticles').click(function (e) {
+  $("#btnCreateArticles").click(function (e) {
     e.preventDefault();
-    let idArticle = sessionStorage.getItem('id_article');
+    let idArticle = sessionStorage.getItem("id_article");
 
-    if (idArticle == '' || idArticle == null) {
-      title = $('#title').val();
-      author = $('#author').val();
-      content = $('#compose-editor').html();
+    if (idArticle == "" || idArticle == null) {
+      title = $("#title").val();
+      author = $("#author").val();
+      content = $("#compose-editor").html();
 
       if (
         !title ||
-        title == '' ||
+        title == "" ||
         !author ||
-        author == '' ||
+        author == "" ||
         !content ||
-        content == ''
+        content == ""
       ) {
-        toastr.error('Ingrese todos los campos');
+        toastr.error("Ingrese todos los campos");
         return false;
       }
 
-      let imageArticle = $('#file')[0].files[0];
+      let imageArticle = $("#file")[0].files[0];
 
       dataArticles = new FormData(formCreateArticles);
-      dataArticles.append('img', imageArticle);
-      dataArticles.append('description', content);
+      dataArticles.append("img", imageArticle);
+      dataArticles.append("description", content);
 
       date = new Date();
       month = date.getMonth() + 1;
@@ -45,18 +45,18 @@ $(document).ready(function () {
 
       /* Guardar fecha de publicación */
       bootbox.prompt({
-        title: 'Creación de Articulo',
-        message: '<p>Ingrese fecha de publicación:</p>',
-        inputType: 'date',
-        min: now,
+        title: "Creación de Articulo",
+        message: "<p>Ingrese fecha de publicación:</p>",
+        inputType: "date",
+        //min: now,
         callback: function (result) {
           if (result != null) {
-            if (!result || result == '') {
-              toastr.error('Ingrese fecha de publicación');
+            if (!result || result == "") {
+              toastr.error("Ingrese fecha de publicación");
               return false;
             }
-            dataArticles.append('publicationDate', result);
-            saveArticle(dataArticles, '/api/addArticle');
+            dataArticles.append("publicationDate", result);
+            saveArticle(dataArticles, "/api/addArticle");
           }
         },
       });
@@ -66,44 +66,44 @@ $(document).ready(function () {
   });
 
   /* Actualizar articulo */
-  data = sessionStorage.getItem('data');
+  data = sessionStorage.getItem("data");
 
   !data ? data : setArticle(data);
 
   function setArticle(data) {
     data = JSON.parse(data);
 
-    $('#btnCreateArticles').html('Actualizar');
+    $("#btnCreateArticles").html("Actualizar");
 
-    $('#title').val(data.title);
-    $('#author').val(data.author);
+    $("#title").val(data.title);
+    $("#author").val(data.author);
 
-    $('#compose-editor').html(data.content);
+    $("#compose-editor").html(data.content);
 
-    $('.img').html(
+    $(".img").html(
       `<img id="img" src="${data.img}" style="width:200px;height:180px"/>`
     );
 
-    $('html, body').animate({ scrollTop: 0 }, 1000);
+    $("html, body").animate({ scrollTop: 0 }, 1000);
   }
 
   updateArticles = () => {
-    let idArticle = sessionStorage.getItem('id_article');
-    content = $('#compose-editor').html();
-    let imageArticle = $('#file')[0].files[0];
+    let idArticle = sessionStorage.getItem("id_article");
+    content = $("#compose-editor").html();
+    let imageArticle = $("#file")[0].files[0];
 
     dataArticles = new FormData(formCreateArticles);
-    dataArticles.append('idArticle', idArticle);
-    dataArticles.append('description', content);
-    dataArticles.append('img', imageArticle);
+    dataArticles.append("idArticle", idArticle);
+    dataArticles.append("description", content);
+    dataArticles.append("img", imageArticle);
 
-    saveArticle(dataArticles, '/api/updateArticle');
+    saveArticle(dataArticles, "/api/updateArticle");
   };
 
   /* Guardar articulo */
   saveArticle = (data, url) => {
     $.ajax({
-      type: 'POST',
+      type: "POST",
       url: url,
       data: data,
       contentType: false,
@@ -111,12 +111,12 @@ $(document).ready(function () {
       processData: false,
 
       success: function (resp) {
-        $('#formCreateArticles').trigger('reset');
+        $("#formCreateArticles").trigger("reset");
 
         message(resp);
 
         setTimeout(() => {
-          location.href = '/admin/blogs-detalles';
+          location.href = "/admin/blogs-detalles";
         }, 2000);
       },
     });
