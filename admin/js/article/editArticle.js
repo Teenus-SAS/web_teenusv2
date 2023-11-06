@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   /* Modificar Fecha de publicación */
   updatePublication = (id_article, publication_date) => {
-    var date = new Date();
+   /*  var date = new Date();
     var dateString;
     date.setDate(date.getDate());
     dateString =
@@ -11,7 +11,7 @@ $(document).ready(function () {
       '-' +
       ('0' + (date.getMonth() + 1)).slice(-2) +
       '-' +
-      ('0' + date.getDate()).slice(-2);
+      ('0' + date.getDate()).slice(-2); */
 
     bootbox.confirm({
       title: 'Modificación de Articulo',

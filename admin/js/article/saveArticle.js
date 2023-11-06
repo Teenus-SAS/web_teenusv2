@@ -36,19 +36,19 @@ $(document).ready(function () {
       dataArticles.append("img", imageArticle);
       dataArticles.append("description", content);
 
-      /* date = new Date();
+      date = new Date();
       month = date.getMonth() + 1;
       day = date.getDate();
       month > 10 ? month : (month = `0${month}`);
       day > 10 ? day : (day = `0${day}`);
-      now = `${date.getFullYear()}-${month}-${day}`; */
+      now = `${date.getFullYear()}-${month}-${day}`;
 
       /* Guardar fecha de publicación */
       bootbox.prompt({
         title: "Creación de Articulo",
         message: "<p>Ingrese fecha de publicación:</p>",
         inputType: "date",
-        //min: now,
+        min: now,
         callback: function (result) {
           if (result != null) {
             if (!result || result == "") {
