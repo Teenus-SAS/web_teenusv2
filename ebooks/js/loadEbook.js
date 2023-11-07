@@ -56,7 +56,7 @@ $(document).ready(function () {
 							<div class="blog-item" id="${data[i].id_ebook}">
 								<div class="blog-image">
 									<a href="javascript:;">
-										<img src="${data[i].img}" style="width:350px;height:287.77px" alt="image">
+										<img src="${data[i].img}" alt="image">
 									</a>
 								</div>
 								<div class="single-blog-item">

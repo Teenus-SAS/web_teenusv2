@@ -14,21 +14,14 @@
                     </div>
                     <div class="single-blog-item">
                         <ul class="blog-list">
-                            <li>
-                                <a href="javascript:;"> <i class="fa fa-user-alt" id="author-1"> </i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:;"> <i class="fas fa-calendar-week" id="date-1"> </i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:;"> <i class="bi bi-eye-fill" id="view-1"> </i></a>
-                            </li>
+                            <li><a href="javascript:;"> <i class="fa fa-user-alt" id="author-1"> </i></a></li>
+                            <li><a href="javascript:;"> <i class="fas fa-calendar-week" id="date-1"> </i></a></li>
+                            <li><a href="javascript:;"> <i class="bi bi-eye-fill" id="view-1"> </i></a></li>
                         </ul>
                         <div class="blog-content">
                             <h3><a href="javascript:;" id="title-1"></a></h3>
                             <p id="content-1"></p>
-                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Leer más</a>
-                            </div>
+                            <div class="blog-btn"> <a href="javascript:;" class="blog-btn-one">Leer más</a></div>
                         </div>
                     </div>
                 </div>
