@@ -43,22 +43,14 @@ $(document).ready(function () {
 							<div class="blog-item" id="${data[i].id_article}">
 								<div class="blog-image">
 									<a href="javascript:;">
-										<img src="${data[i].img}" style="width:350px;height:287.77px" alt="image">
+										<img src="${data[i].img}" alt="${data[i].title}">
 									</a>
 								</div>
 								<div class="single-blog-item">
 									<ul class="blog-list">
-										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${
-        data[i].author
-      }</i></a></li>
-										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${
-                      i + 1
-                    }"> ${publication_date}</i></a></li>
-										<li>
-											<a href="javascript:;"> <i class="bi bi-eye-fill" id="view-${i + 1}">${data[
-        i
-      ].views.toLocaleString()}</i></a>
-										</li>
+										<li><a href="javascript:;"><i class="fa fa-user-alt" id="author-${i + 1}">${data[i].author}</i></a></li>
+										<li><a href="javascript:;"><i class="fas fa-calendar-week" id="date-${i + 1}"> ${publication_date}</i></a></li>
+										<li><a href="javascript:;"> <i class="bi bi-eye-fill" id="view-${i + 1}">${data[i].views.toLocaleString()}</i></a></li>
 									</ul>
 									<div class="blog-content">
 										<h3>
