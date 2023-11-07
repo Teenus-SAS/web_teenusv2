@@ -60,7 +60,7 @@
 			<div class="d-table-cell">
 				<div class="container">
 					<div class="page-title-content">
-						<h2>¿Cómo estar más tranquilo y seguro sin trabajar tanto?</h2>
+						<h2>«La innovación es lo que distingue al líder de los seguidores». – Steve Jobs</h2>
 						<!-- <ul>
 							<li><a href="/">Home</a></li>
 						</ul> -->
