@@ -17,7 +17,7 @@ $(document).ready(function () {
 
       // Imagen
       $(`.blog-image-${i + 1}`).html(`
-          <img src="${data[i].img}" style="width:350px;height:287.77px" alt="image"/>
+          <img src="${data[i].img}" alt="image"/>
       `);
       // Autor
       $(`#author-${i + 1}`).html(` ${data[i].author}`);
