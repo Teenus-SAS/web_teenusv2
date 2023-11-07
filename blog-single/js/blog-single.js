@@ -20,11 +20,9 @@ $(document).ready(function () {
     window.history.pushState({}, '', nuevaRuta);
 
     // Imagen
-    /* $('.image').html(`
-        <img src="${data.img}" style="width:100%;
-        height:350px; margin: auto;
-         display: block;"/>
-    `); */
+     $('.image').html(`
+        <img src="${data.img}" alt="image"/>
+    `); 
     // Autor
     $('#author').html(` ${data.author}`);
 
