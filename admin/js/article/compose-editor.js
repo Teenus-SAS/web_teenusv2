@@ -8,7 +8,7 @@ $(document).ready(function () {
       ['fontfamily', 'fontsize'],
       ['strong', 'em', 'del'],
       ['link'],
-      ['base64', 'noembed', 'table'],
+      ['insertImage', 'table'],
       ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
       ['unorderedList', 'orderedList'],
       ['horizontalRule'],
@@ -21,4 +21,5 @@ $(document).ready(function () {
       },
     },
   });
+  // $('#compose-editor').trumbowyg();
 });
