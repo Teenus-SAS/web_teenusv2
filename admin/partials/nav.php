@@ -23,6 +23,12 @@
                     <div class="menu-title">Ebook</div>
                 </a>
             </li>
+            <li>
+                <a href="/admin/lead-magnet" id="" class="has-arrow">
+                    <div class="parent-icon"><i class='bx bx-home-circle'></i></div>
+                    <div class="menu-title">LeadMagnet</div>
+                </a>
+            </li>
             <?php if ($_SESSION['rol'] == 2) {  ?>
                 <li>
                     <a href="/admin/usuarios" id="user">

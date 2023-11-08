@@ -18,6 +18,7 @@ get('/admin/restablecer-contrasena', '/admin/views/password/auth-reset-password.
 // App
 // get('/admin/dashboard', '/admin/views/template.php');
 get('/admin/blogs-detalles', '/admin/views/blog/details.php');
+get('/admin/lead-magnet', '/admin/views/leadMagnet/leadMagnet.php');
 get('/admin/ebooks', '/admin/views/ebooks/ebooks.php');
 get('/admin/editar-ebook', '/admin/views/ebooks/edit.php');
 get('/admin/editar-blog', '/admin/views/blog/edit.php');
@@ -28,6 +29,7 @@ get('/admin/usuarios', '/admin/views/users/users.php');
 get('/', '/teenus/index.php');
 get('/desarrollo-de-software', '/develop/index.php');
 get('/tezliksoftware', '/tezlik/index.php');
+get('/lead-magnets', '/leadMagnet/index.php');
 
 get('/blogs', '/blog/index.php');
 get('/articulo', '/blog-single/index.php');
