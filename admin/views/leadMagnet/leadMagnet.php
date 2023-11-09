@@ -91,8 +91,12 @@ if (sizeof($_SESSION) == 0)
                                                     <label for="">Descripción</label>
                                                     <textarea class="form-control" id="descLeadMagnets" name="descLeadMagnets" rows="3"></textarea>
                                                 </div>
-                                                <div class="col-sm-10 floating-label enable-floating-label show-label" style="margin-bottom:5px">
-                                                    <!-- <label for="formFile" class="form-label">Seleccione Archivo</label> -->
+                                                <div class="col-sm-6 floating-label enable-floating-label show-label" style="margin-bottom:5px">
+                                                    <label for="image" class="form-label">Imagen</label>
+                                                    <input class="form-control" type="file" id="image">
+                                                </div>
+                                                <div class="col-sm-6 floating-label enable-floating-label show-label" style="margin-bottom:5px">
+                                                    <label for="formFile" class="form-label">Seleccione Archivo</label>
                                                     <input class="form-control" type="file" id="formFile">
                                                 </div>
                                                 <div class="col-xs-2 d-flex flex-row justify-content-end p-1" style="margin-bottom:0px;margin-top:4px">
@@ -148,7 +152,7 @@ if (sizeof($_SESSION) == 0)
     <?php include_once dirname(dirname(__DIR__)) . '/partials/swicher.php' ?>
     <!--end switcher-->
     <!-- <script src="/global/js/loadLeadMagnets.js"></script> -->
-    <!-- <script src="/admin/js/leadMagnet/tblLeadMagnets.js"></script> -->
+    <script src="/admin/js/leadMagnet/tblLeadMagnet.js"></script>
     <script src="/admin/js/leadMagnet/leadMagnet.js"></script>
 </body>
 

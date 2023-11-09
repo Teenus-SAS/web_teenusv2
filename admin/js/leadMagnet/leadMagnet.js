@@ -21,15 +21,15 @@ $(document).ready(function () {
         let idLeadMagnet = sessionStorage.getItem('id_lead_magnet');
 
         if (idLeadMagnet == '' || idLeadMagnet == null) {
-            checkDataLeadMagnets('/api/addLeadMagnets', idLeadMagnet);
+            checkDataLeadMagnets('/api/addLeadMagnet', idLeadMagnet);
         } else {
-            checkDataLeadMagnets('/api/updateLeadMagnets', idLeadMagnet);
+            checkDataLeadMagnets('/api/updateLeadMagnet', idLeadMagnet);
         }
     });
 
     /* Actualizar LeadMagnetss */
 
-    $(document).on('click', '.updateLeadMagnets', function (e) { 
+    $(document).on('click', '.updateLeadMagnet', function (e) { 
         $('.cardCreateLeadMagnets').show(800);
         $('#btnCreateLeadMagnets').html('Actualizar LeadMagnets');
 
@@ -39,9 +39,9 @@ $(document).ready(function () {
         let row = $(this).parent().parent()[0];
         let data = tblLeadMagnets.fnGetData(row);
 
-        $('#titleLeadMagnets').val(data.reference);
-        $('#dateLeadMagnets').val(data.product);
-        $('#descLeadMagnets').val(data.profitability);
+        $('#titleLeadMagnets').val(data.title);
+        $('#dateLeadMagnets').val(data.date_lead_magnet);
+        $('#descLeadMagnets').val(data.description);
 
         $('html, body').animate({ scrollTop: 0 }, 1000);
     });
@@ -50,7 +50,7 @@ $(document).ready(function () {
     checkDataLeadMagnets = async (url, idLeadMagnet) => {
         let titleLeadMagnets = $('#titleLeadMagnets').val();
         let dateLeadMagnets = $('#dateLeadMagnets').val();
-        let descLeadMagnets = parseFloat($('#descLeadMagnets').val());
+        let descLeadMagnets = $('#descLeadMagnets').val();
 
         if (titleLeadMagnets.trim() == '' || !titleLeadMagnets.trim() || dateLeadMagnets.trim() == '' ||
             !dateLeadMagnets.trim() || descLeadMagnets.trim() == '' || !descLeadMagnets.trim()) {
@@ -58,10 +58,12 @@ $(document).ready(function () {
             return false;
         }
 
-        let image = $('#formFile')[0].files[0];
+        let img = $('#image')[0].files[0];
+        let file = $('#formFile')[0].files[0];
 
         let data = new FormData(formCreateLeadMagnets);
-        data.append('img', image);
+        data.append('img', img);
+        data.append('file', file);
 
         if (idLeadMagnet != '' || idLeadMagnet != null) {
             data.append('idLeadMagnet', idLeadMagnet);
@@ -83,9 +85,8 @@ $(document).ready(function () {
     };
 
     /* Eliminar LeadMagnet */
-    $(document).on('click', '.deleteLeadMagnet', function () {
-        let data = {};
-        data['idLeadMagnet'] = this.id;
+    $(document).on('click', '.deleteLeadMagnet', function () { 
+        let id = this.id;
 
         bootbox.confirm({
             title: 'Eliminar',
@@ -103,9 +104,8 @@ $(document).ready(function () {
             },
             callback: function (result) {
                 if (result == true) {
-                    $.post(
-                        '/api/deleteLeadMagnet',
-                        data,
+                    $.get(
+                        `/api/deleteLeadMagnet/${id}`,
                         function (data, textStatus, jqXHR) {
                             message(data);
                         }
@@ -114,6 +114,11 @@ $(document).ready(function () {
             },
         });
     }); 
+
+    viewLeadMagnet = (id) => {
+        localStorage.setItem("id_lead_magnet", id);
+        window.open("/lead-magnets", "_blank");
+    };
 
     /* Mensaje de exito */
 

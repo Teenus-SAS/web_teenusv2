@@ -26,7 +26,7 @@ $(document).ready(function () {
       },
       {
         title: 'Titulo',
-        data: 'tittle',
+        data: 'title',
         className: 'uniqueClassName',
       },
       {
@@ -40,15 +40,23 @@ $(document).ready(function () {
         className: 'uniqueClassName',
       },
       {
+        title: 'Visualizar',
+        data: 'id_lead_magnet',
+        className: 'classCenter',
+        render: function (data) {
+          return ` <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Lead Magnet' style="font-size: 30px;color:blue" onclick="viewLeadMagnet(${data})"></i></a>`;
+        },
+      },
+      {
         width: '150px',
         title: 'Acciones',
         data: 'id_lead_magnet',
         className: 'uniqueClassName',
         render: function (data) {
-          return `<a href="javascript:;" <i id="${data}" class="bx bx-edit-alt updateLeadMagnets" data-toggle='tooltip' title='Actualizar lead Magnet' style="font-size: 30px;"></i></a>
-                <a href="javascript:;" <i id="${data}" class="mdi mdi-delete-forever deleteLeadMagnet" data-toggle='tooltip' title='Eliminar lead Magnet' style="font-size: 30px;color:red"></i></a>`;
+          return `<a href="javascript:;" <i id="${data}" class="bx bx-edit-alt updateLeadMagnet" data-toggle='tooltip' title='Actualizar lead Magnet' style="font-size: 30px;"></i></a>
+                <a href="javascript:;" <i id="${data}" class="fa-solid fa-trash-can deleteLeadMagnet" data-toggle='tooltip' title='Eliminar lead Magnet' style="font-size: 25px;color:red"></i></a>`;
         },
       },
     ],
-  }); 
+  });
 });
