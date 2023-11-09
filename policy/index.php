@@ -133,7 +133,6 @@
     <!-- End Go Top Section -->
     <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573002983150?text=Hola! Me gustaría ver un Demo'">
     <?php include_once __DIR__ . '/scripts/scriptsJS.php' ?>
-    <!-- <script src="/teenus/js/validate/validate.js"></script> -->
 
 </body>
 

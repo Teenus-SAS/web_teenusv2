@@ -54,9 +54,9 @@ $(document).ready(function () {
   };
 
   /* Visualizar Articulo */
-  viewArticle = (id) => {
-    localStorage.setItem("id_article", id);
-    window.open("/articulo", "_blank");
+  viewArticle = (title) => {
+    // localStorage.setItem("id_article", id);
+    window.open(`/articulo/${title.replace(/ /g, '-').toLowerCase()}`, "_blank");
   };
 
   /* Actualizar Articulos */

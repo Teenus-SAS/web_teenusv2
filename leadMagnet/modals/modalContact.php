@@ -110,12 +110,6 @@
                                                 <input type="text" class="form-control" name="company" id="company" placeholder="Empresa" required="required">
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="message" name="message" id="message" rows="3" placeholder="Mensaje*" required="required" data-error="Please, leave us a message."></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </form>

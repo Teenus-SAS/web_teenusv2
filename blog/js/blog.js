@@ -40,7 +40,7 @@ $(document).ready(function () {
 
       $('.articles').append(`
       <div class="col-lg-6 col-md-6">
-							<div class="blog-item" id="${data[i].id_article}">
+							<div class="blog-item" id="${data[i].id_article}_${data[i].title.replace(/ /g, '-').toLowerCase()}">
 								<div class="blog-image">
 									<a href="javascript:;">
 										<img src="${data[i].img}" alt="${data[i].title}">
@@ -72,7 +72,7 @@ $(document).ready(function () {
     for (i = 0; i < count; i++) {
       // Id articulo
       var article = document.getElementById(`item-${i + 1}`);
-      article.id = data[i].id_article;
+      article.id = `${data[i].id_article}_${data[i].title.replace(/ /g, '-').toLowerCase()}`;
 
       // Imagen
       $(`.p-image-${i + 1}`).html(`
@@ -90,15 +90,19 @@ $(document).ready(function () {
   };
 
   $(document).on('click', '.blog-item', function (e) {
-    id_article = this.id;
+    let id = this.id;
+
+    let partes = id.split("_");
+    let id_article = partes[0];
+    let title = partes[1];
 
     if (id_article.includes('idArticle')) {
       toastr.error('No es posible acceder a este articulo');
       return false;
     } else {
-      localStorage.setItem('id_article', id_article);
+      // localStorage.setItem('id_article', id_article);
 
-      location.href = '/articulo';
+      location.href = `/articulo/${title}`;
     }
   });
 });

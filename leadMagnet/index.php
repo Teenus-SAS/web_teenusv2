@@ -118,6 +118,9 @@
 
     <?php include_once dirname(__DIR__) . '/leadMagnet/partials/scriptsJS.php' ?>
     <script src="/leadMagnet/js/contact.js"></script>
+    <script>
+        title = "<?= $_GET['url'] ?>";
+    </script>
     <script src="/leadMagnet/js/leadMagnet.js"></script>
     <script>
         let zone = 'Tezlik'

@@ -9,8 +9,8 @@ $contactDao = new ContactDao();
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
-$app->get('/leadMagnet/{id_lead_magnet}', function (Request $request, Response $response, $args) use ($leadMagnetsDao) {
-    $leadMagnet = $leadMagnetsDao->findLeadMagnet($args['id_lead_magnet']);
+$app->get('/leadMagnet/{title}', function (Request $request, Response $response, $args) use ($leadMagnetsDao) {
+    $leadMagnet = $leadMagnetsDao->findLeadMagnet($args['title']);
     $response->getBody()->write(json_encode($leadMagnet, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });

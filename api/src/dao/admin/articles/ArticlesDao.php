@@ -32,15 +32,16 @@ class ArticlesDao
         return $articles;
     }
 
-    public function findArticle($id_article)
+    public function findArticle($title)
     {
         $connection = Connection::getInstance()->getConnection();
 
+        $title = strtoupper($title);
         $stmt = $connection->prepare("SELECT p.id_publication, a.id_article, a.title, a.content, a.img, a.author, a.views, a.active, p.publication_date
                                       FROM articles a
                                       INNER JOIN publications p ON p.id_article = a.id_article
-                                      WHERE a.id_article = :id_article");
-        $stmt->execute(['id_article' => $id_article]);
+                                      WHERE a.title LIKE '$title%'");
+        $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
         $article = $stmt->fetch($connection::FETCH_ASSOC);

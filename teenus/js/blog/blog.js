@@ -13,7 +13,7 @@ $(document).ready(function () {
     for (i = 0; i < count; i++) {
       // Id articulo
       var article = document.getElementById(`idArticle-${i + 1}`);
-      article.id = data[i].id_article;
+      article.id = `${data[i].id_article}_${data[i].title.replace(/ /g, '-').toLowerCase()}`;
 
       // Imagen
       $(`.blog-image-${i + 1}`).html(`
@@ -67,8 +67,10 @@ $(document).ready(function () {
       toastr.error('No es posible acceder a este articulo');
       return false;
     } else {
-      localStorage.setItem('id_article', id_article);
-      location.href = 'articulo';
+      let partes = id_article.split("_"); 
+      let title = partes[1];
+      // localStorage.setItem('id_article', id_article);
+      location.href = `/articulo/${title}`;
     }
   });
 });

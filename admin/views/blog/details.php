@@ -114,7 +114,6 @@ if (sizeof($_SESSION) == 0)
     <script src="/global/js/loadArticles.js"></script>
     <script src="/admin/js/article/tblArticles.js"></script>
     <script src="/admin/js/article/editArticle.js"></script>
-    <script src="/teenus/js/validate/validate.js"></script>
 </body>
 
 </html>

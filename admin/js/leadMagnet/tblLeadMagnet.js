@@ -41,10 +41,10 @@ $(document).ready(function () {
       },
       {
         title: 'Visualizar',
-        data: 'id_lead_magnet',
+        data: 'title',
         className: 'classCenter',
         render: function (data) {
-          return ` <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Lead Magnet' style="font-size: 30px;color:blue" onclick="viewLeadMagnet(${data})"></i></a>`;
+          return ` <a href="javascript:;" <i id="${data}" class="fa-solid fa-eye" data-toggle='tooltip' title='Ver Lead Magnet' style="font-size: 30px;color:blue" onclick="viewLeadMagnet('${data}')"></i></a>`;
         },
       },
       {

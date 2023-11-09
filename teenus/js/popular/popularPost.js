@@ -6,8 +6,8 @@ $(document).ready(function () {
       toastr.error('No es posible acceder a este articulo');
       return false;
     } else {
-      localStorage.setItem('id_article', id_article);
-      location.href = '/articulo';
+      // localStorage.setItem('id_article', id_article);
+      location.href = `/articulo/${title}`;
     }
   });
 });

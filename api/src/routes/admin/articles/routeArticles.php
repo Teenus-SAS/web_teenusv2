@@ -13,8 +13,8 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 
 /* Cargar articulo */
 
-$app->get('/article/{id_article}', function (Request $request, Response $response, $args) use ($articlesDao) {
-    $article = $articlesDao->findArticle($args['id_article']);
+$app->get('/article/{title}', function (Request $request, Response $response, $args) use ($articlesDao) {
+    $article = $articlesDao->findArticle($args['title']);
     $response->getBody()->write(json_encode($article, JSON_NUMERIC_CHECK));
     return $response->withHeader('Content-Type', 'application/json');
 });

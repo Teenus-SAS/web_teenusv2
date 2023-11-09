@@ -1,12 +1,14 @@
 $(document).ready(function () {
     loadDataLeadMagnet = async () => {
-        try {
-            let id = localStorage.getItem('id_lead_magnet');
-            dataLeadMagnet = await $.ajax({ url: `/api/leadMagnet/${id}` });
-            let ruta = window.location.href;
-            let title = dataLeadMagnet.title.replace(/ /g, '-').toLowerCase();
-            let nuevaRuta = ruta.replace('lead-magnets', title);
-            window.history.pushState({}, '', nuevaRuta);
+        try { 
+            dataLeadMagnet = await $.ajax({ url: `/api/leadMagnet/${title}` });
+
+            if (!dataLeadMagnet) {
+                toastr.error('Lead Magnet no existe en la base de datos');
+                setTimeout(() => {
+                    window.close();
+                }, 1000);
+            }
 
             $('#titleLeadMagnet').html(dataLeadMagnet.title);
             $('#imgLeadMagnet').empty();

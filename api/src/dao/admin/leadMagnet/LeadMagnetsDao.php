@@ -29,12 +29,13 @@ class LeadMagnetsDao
         return $LeadMagnets;
     }
 
-    public function findLeadMagnet($id_lead_magnet)
+    public function findLeadMagnet($title)
     {
         $connection = Connection::getInstance()->getConnection();
+        $title = strtoupper($title);
 
-        $stmt = $connection->prepare("SELECT * FROM lead_magnets WHERE id_lead_magnet = :id_lead_magnet");
-        $stmt->execute(['id_lead_magnet' => $id_lead_magnet]);
+        $stmt = $connection->prepare("SELECT * FROM lead_magnets WHERE title LIKE '$title%'");
+        $stmt->execute();
         $this->logger->info(__FUNCTION__, array('query' => $stmt->queryString, 'errors' => $stmt->errorInfo()));
 
         $leadMagnet = $stmt->fetch($connection::FETCH_ASSOC);

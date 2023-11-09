@@ -115,9 +115,9 @@ $(document).ready(function () {
         });
     }); 
 
-    viewLeadMagnet = (id) => {
-        localStorage.setItem("id_lead_magnet", id);
-        window.open("/lead-magnets", "_blank");
+    viewLeadMagnet = (title) => {
+        // localStorage.setItem("id_lead_magnet", id);
+        window.open(`/lead-magnets/${title.replace(/ /g, '-').toLowerCase()}`, "_blank");
     };
 
     /* Mensaje de exito */

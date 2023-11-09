@@ -41,9 +41,7 @@
 	<link rel="stylesheet" href="/teenus/assets/css/responsive.css">
 </head>
 
-
 <body>
-
 	<!-- Start Preloader Area -->
 	<div class="preloader">
 		<div class="loader">
@@ -448,6 +446,9 @@
 	<!-- Main JS -->
 	<script src="/teenus/assets/js/main.js"></script>
 
+	<script>
+		titleArticle = "<?= $_GET['url'] ?>";
+	</script>
 	<script src="/blog-single/js/blog-single.js"></script>
 </body>
 

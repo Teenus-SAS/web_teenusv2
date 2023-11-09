@@ -39,6 +39,29 @@ function any($route, $path_to_include)
 function route($route, $path_to_include)
 {
   $ROOT = $_SERVER['DOCUMENT_ROOT'];
+
+  if ($route == "/articulo/([^/]+)") {
+    // Capturar el título de la URL
+    $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
+    $titleArticle = end($url_parts);
+    $_GET['url'] = $titleArticle;
+
+    // Incluir el archivo correspondiente
+    include_once("$ROOT/blog-single/index.php");
+    exit();
+  }
+
+  // if ($route == "/lead-magnets/([^/]+)") {
+  //   // Capturar el título de la URL
+  //   $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
+  //   $title = end($url_parts);
+  //   $_GET['url'] = $title;
+
+  //   // Incluir el archivo correspondiente
+  //   include_once("$ROOT/blog-single/index.php");
+  //   exit();
+  // }
+
   if ($route == "/404") {
     include_once("$ROOT/$path_to_include");
     exit();
@@ -73,6 +96,7 @@ function route($route, $path_to_include)
     call_user_func($path_to_include);
     exit();
   }
+
   include_once("$ROOT/$path_to_include");
   exit();
 }
