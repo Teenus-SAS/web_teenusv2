@@ -40,28 +40,6 @@ function route($route, $path_to_include)
 {
   $ROOT = $_SERVER['DOCUMENT_ROOT'];
 
-  if ($route == "/articulo/([^/]+)") {
-    // Capturar el título de la URL
-    $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
-    $titleArticle = end($url_parts);
-    $_GET['url'] = $titleArticle;
-
-    // Incluir el archivo correspondiente
-    include_once("$ROOT/blog-single/index.php");
-    exit();
-  }
-
-  // if ($route == "/lead-magnets/([^/]+)") {
-  //   // Capturar el título de la URL
-  //   $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
-  //   $title = end($url_parts);
-  //   $_GET['url'] = $title;
-
-  //   // Incluir el archivo correspondiente
-  //   include_once("$ROOT/blog-single/index.php");
-  //   exit();
-  // }
-
   if ($route == "/404") {
     include_once("$ROOT/$path_to_include");
     exit();
@@ -73,6 +51,29 @@ function route($route, $path_to_include)
   $request_url_parts = explode('/', $request_url);
   array_shift($route_parts);
   array_shift($request_url_parts);
+
+  if (str_contains($request_url, '/articulo')) {
+    // Capturar el título de la URL
+    $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
+    $titleArticle = end($url_parts);
+    $_GET['url'] = $titleArticle;
+
+    // Incluir el archivo correspondiente
+    include_once("$ROOT/blog-single/index.php");
+    exit();
+  }
+
+  if (str_contains($request_url, '/lead-magnets')) {
+    // Capturar el título de la URL
+    $url_parts = explode('/', $_SERVER['REDIRECT_URL']);
+    $title = end($url_parts);
+    $_GET['url'] = $title;
+
+    // Incluir el archivo correspondiente
+    include_once("$ROOT/leadMagnet/index.php");
+    exit();
+  }
+
   if ($route_parts[0] == '' && count($request_url_parts) == 0) {
     include_once("$ROOT/$path_to_include");
     exit();

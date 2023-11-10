@@ -23,7 +23,6 @@
 </head>
 
 <body>
-
     <!-- Social Bar -->
     <div class="social-bar">
         <a href="https://www.facebook.com/profile.php?id=100089428009182" class="icon icon-facebook" target="_blank"></a>
@@ -33,7 +32,6 @@
         <a href="https://www.youtube.com/@teenuss.a.s4396" class="icon icon-youtube" target="_blank"></a>
         <a href="https://twitter.com/teenus_sas" class="icon icon-twitter" target="_blank"></a>
     </div>
-
     <!-- Preloader -->
     <div class="preloader">
         <div class="loader">
@@ -42,7 +40,6 @@
         </div>
     </div>
     <!-- End Preloader -->
-
     <!-- Page Wrapper Start -->
     <div class="page-wrapper">
         <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
@@ -111,7 +108,6 @@
     </div>
     <!-- Page Wrapper End -->
     <?php include_once dirname(__DIR__) . '/leadMagnet/modules/footer.php' ?>
-
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top back-to-top-pulse"><i class="fa fa-caret-up"></i></a>

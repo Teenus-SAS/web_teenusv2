@@ -19,15 +19,12 @@ $(document).ready(function () {
     let email = $('#email').val();
     let phone = $('#phone').val();
     let company = $('#company').val();
-    let message = $('#message').val();
     
-
     if (
       name.trim() == '' || !name.trim() ||
       email.trim() == '' || !email.trim() ||
       phone.trim() == '' || !phone.trim() ||
-      company.trim() == '' || !company.trim() ||
-      message.trim() == '' || !message.trim()
+      company.trim() == '' || !company.trim()
     ) {
       toastr.error('Ingrese todos los campos');
       return false;
@@ -50,11 +47,21 @@ $(document).ready(function () {
         const a = document.createElement('a');
         a.style.display = 'none';
         a.href = dataLeadMagnet.file;
+ 
         const partes = dataLeadMagnet.file.split("/");
         const name = partes[partes.length - 1];
-        a.download = `${name}`;
-        document.body.appendChild(a);
-        a.click();
+        const extension = name.split('.').pop();
+ 
+        const allowedTypes = ['pdf', 'doc', 'docx', 'txt', 'xls', 'xlsx', 'ppt', 'pptx'];
+
+        if (allowedTypes.includes(extension.toLowerCase())) { 
+          a.download = `${name}`;
+          document.body.appendChild(a);
+          a.click();
+        } else { 
+          console.log('Tipo de archivo no permitido.');
+        }
+
         $('#modalContact').modal('hide');
 
         return false;
