@@ -1,7 +1,7 @@
 $(document).ready(function () {
     loadDataLeadMagnet = async () => {
         try { 
-            dataLeadMagnet = await $.ajax({ url: `/api/leadMagnet/${title}` });
+            dataLeadMagnet = await $.ajax({ url: `/api/leadMagnet/${title.replace(/-/g, ' ')}` });
 
             if (!dataLeadMagnet) {
                 toastr.error('Lead Magnet no existe en la base de datos');
