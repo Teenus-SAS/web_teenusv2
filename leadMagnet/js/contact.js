@@ -44,6 +44,11 @@ $(document).ready(function () {
       if (resp.success == true) {
         toastr.success(resp.message);
 
+        if (dataLeadMagnet.file == '' || !dataLeadMagnet.file) {
+          toastr.info('No hay ningun archivo para descargar');
+          return false;
+        }
+
         const a = document.createElement('a');
         a.style.display = 'none';
         a.href = dataLeadMagnet.file;
