@@ -5,8 +5,8 @@
 
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
-                    <h6 class="small-title">¡TezlikSoftware es muy fácil de usar!. Simplemente ingresa la información necesaria y sigue estos pasos:</h6>
-                    <h2>Cómo funciona</h2>
+                    <h6 class="small-title">Cómo funciona. Simplemente ingresa la información necesaria y sigue estos pasos:</h6>
+                    <h2>¡TezlikSoftware es muy fácil de usar!</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
@@ -23,7 +23,7 @@
                                 <!-- <div class="features-icon pulse-r"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">2</div>
                                 <div class="features-info">
-                                    <span>TezlikSoftware calcula de forma rápida y sencilla el costo exacto de producir cada unidad de tus productos.</span>
+                                    <span>TezlikSoftware te calcula de forma rápida y sencilla el costo exacto de producir una unidad de tus productos.</span>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                 <!-- <div class="features-icon pulse-b"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">3</div>
                                 <div class="features-info">
-                                    <span>Toma decisiones estratégicas basadas en datos precisos y confiables que te ofrece nuestra solución.</span>
+                                    <span>Comienza y mejora la toma de decisiones: TezlikSoftware te Proporciona información en tiempo real de la rentabilidad y costos de tus para tomar decisiones informadas.</span>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <!-- <div class="features-icon pulse-o"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">4</div>
                                 <div class="features-info">
-                                    <span>La solución te proporciona un desglose detallado de los costos de producción y te facilita fijar precios competitivos y rentables para tus productos.</span>
+                                    <span>Genera rápidamente información crucial y Ahorra tiempo en la obtención de datos.</span>
                                 </div>
                             </div>
                         </div>
