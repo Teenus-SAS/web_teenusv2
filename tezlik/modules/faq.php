@@ -10,36 +10,44 @@
                 <div class="accordion accordion-1">
                     <div class="accordion-item-1">
                         <div class="title">
-                            <h6><span>01. </span>¿Qué beneficios tiene usar TezlikSoftware para mi negocio?</h6>
+                            <h6><span>01. </span>¿Cómo justifica TezlikSoftware su costo de suscripción y qué beneficios tangibles ofrece para respaldar su inversión?</h6>
                         </div>
                         <div class="accordion-info-1">
-                            <p>Usar TezlikSoftware te ayuda a optimizar tus costos de producción y maximizar tus ganancias, al establecer precios competitivos basados en los costos reales de tu proceso. Además, te permite tener un mayor control sobre tu materia prima, tus puntos de equilibrio y tus economías de escala, lo que mejora la rentabilidad de tu empresa.</p>
+                            <p>TezlikSoftware ofrece un retorno de inversión significativo al proporcionar herramientas especializadas para optimizar costos, mejorar la rentabilidad y tomar decisiones informadas. La precisión en los cálculos, la negociación efectiva con proveedores y la capacidad para ajustar estrategias de precios son solo algunas de las formas en que nuestros usuarios experimentan beneficios tangibles que superan con creces el costo de suscripción.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item-1">
                         <div class="title">
-                            <h6><span>02. </span>¿Cómo puedo registrarme y acceder a la plataforma?</h6>
+                            <h6><span>02. </span>¿Cómo se asegura TezlikSoftware de integrarse de manera efectiva con los sistemas existentes de una empresa, y cuál es el proceso de implementación para garantizar una transición sin problemas?</h6>
                         </div>
                         <div class="accordion-info-1">
-                            <p>Para registrarte y acceder a la plataforma, debes ingresar a https://www.teenus.com.co/tezliksoftware y en el formulario de contactenos ingresar tus datos personales y los de tu empresa. Luego, recibirás un correo electrónico de confirmación con tu usuario y contraseña. Con estos datos, podrás iniciar sesión en la plataforma y empezar a usar la solución.</p>
+                            <p>TezlikSoftware ha sido diseñado con una arquitectura flexible que facilita la integración con sistemas existentes. Nuestro equipo de soporte técnico trabaja estrechamente con cada cliente durante el proceso de implementación, proporcionando asesoramiento y asistencia personalizada para garantizar una transición suave y sin interrupciones.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item-1">
                         <div class="title">
-                            <h6><span>03. </span>¿Qué tipo de información necesito ingresar para usar la solución?</h6>
+                            <h6><span>03. </span>¿Qué recursos y herramientas de capacitación ofrece TezlikSoftware para garantizar una curva de aprendizaje suave y una implementación eficiente?</h6>
                         </div>
                         <div class="accordion-info-1">
-                            <p>Para usar la solución, necesitas ingresar la información necesaria para calcular los costos de producción y fijar los precios de tus productos. Esta información incluye: materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites. La plataforma te guiará paso a paso para ingresar esta información de forma fácil y rápida, además te daremos consultoria totalmente gratis</p>
+                            <p>TezlikSoftware ofrece una variedad de recursos de capacitación, desde tutoriales en línea hasta sesiones de formación personalizada. Además, nuestra interfaz intuitiva ha sido diseñada para facilitar la adopción, y nuestro equipo de soporte está siempre disponible para responder preguntas y proporcionar asistencia durante el proceso de aprendizaje.</p>
                         </div>
                     </div>
                     <div class="accordion-item-2">
                         <div class="title">
-                            <h6><span>04. </span>¿Qué tipo de productos puedo costear y fijar precios con TezlikSoftware?</h6>
+                            <h6><span>04. </span>¿Cuál es la estructura y disponibilidad del soporte técnico proporcionado por TezlikSoftware para asegurar la asistencia oportuna en caso de problemas o consultas?</h6>
                         </div>
                         <div class="accordion-info-2">
-                            <p>Puedes costear y fijar precios de cualquier tipo de producto que tenga un proceso de producción definido y que utilice materias primas, mano de obra y costos indirectos. TezlikSoftware se adapta a las necesidades de tu negocio y te permite crear productos personalizados según tus características y requerimientos.</p>
+                            <p>TezlikSoftware cuenta con un equipo de soporte técnico altamente capacitado disponible las 24 horas, los 7 días de la semana. Nuestra estructura de soporte garantiza respuestas rápidas a consultas y resolución eficiente de problemas, brindando a nuestros usuarios la tranquilidad de contar con asistencia oportuna.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item-2">
+                        <div class="title">
+                            <h6><span>05. </span>¿Cómo garantiza TezlikSoftware la precisión de los cálculos de costos, y qué medidas se han implementado para abordar posibles errores o discrepancias?</h6>
+                        </div>
+                        <div class="accordion-info-2">
+                            <p>La precisión es fundamental para TezlikSoftware. Utilizamos algoritmos avanzados y realizamos auditorías internas regulares para garantizar la exactitud de los cálculos. Además, hemos implementado mecanismos de corrección inmediata en caso de detectarse algún error, asegurando la integridad de los datos.</p>
                         </div>
                     </div>
                 </div>
@@ -49,35 +57,43 @@
                     <div class="accordion-item-2">
                         <div class="accordion-item-2">
                             <div class="title">
-                                <h6><span>05. </span>¿Qué diferencia a TezlikSoftware de otras soluciones similares?</h6>
+                                <h6><span>06. </span>¿En qué medida TezlikSoftware es adaptable a las necesidades específicas de diferentes industrias, y existen ejemplos o casos de éxito en sectores similares?</h6>
                             </div>
                             <div class="accordion-info-2">
-                                <p>TezlikSoftware se diferencia de otras soluciones similares por su facilidad de uso, su soporte personalizado, su actualización constante y su precio competitivo. Con TezlikSoftware, no necesitas tener conocimientos técnicos ni contables para costear y fijar precios de tus productos. Además, cuentas con el apoyo de un equipo de expertos que te asesoran y te ayudan a resolver cualquier duda o problema que tengas. También, te garantizamos que siempre tendrás acceso a las últimas herramientas y funcionalidades que te permitirán mejorar tu negocio. Y lo mejor de todo, es que te ofrecemos planes flexibles y asequibles que se adaptan a tus necesidades y presupuesto.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item-2">
-                            <div class="title">
-                                <h6><span>06. </span>¿Qué garantía tengo al usar TezlikSoftware?</h6>
-                            </div>
-                            <div class="accordion-info-2">
-                                <p>Al usar TezlikSoftware, tienes la garantía de que tu información está segura y protegida, ya que usamos los más altos estándares de seguridad y encriptación. Además, tienes la garantía de que recibirás una solución de calidad, actualizada y confiable, que te ayudará a mejorar tu negocio y a alcanzar tus objetivos. Si no quedas satisfecho con la solución, puedes cancelar tu plan en cualquier momento sin ningún costo adicional.</p>
+                                <p>TezlikSoftware ha sido diseñado para ser altamente adaptable a diversas industrias. Contamos con casos de éxito en sectores como Empaques, alimentos, estructuras metalicas, muebles, plastico, etc. Nuestra plataforma se ajusta a las necesidades específicas de cada industria, brindando soluciones personalizadas que han llevado al éxito a numerosas empresas.</p>
                             </div>
                         </div>
                         <div class="accordion-item-1">
                             <div class="title">
-                                <h6><span>07. </span>¿Cómo puedo contactar al soporte técnico si tengo algún problema o duda?</h6>
+                                <h6><span>07. </span>¿Cuáles son las medidas de seguridad implementadas por TezlikSoftware para garantizar la confidencialidad y protección de los datos de los usuarios?</h6>
                             </div>
                             <div class="accordion-info-1">
-                                <p>Si tienes algún problema o duda con la plataforma, puedes contactar al soporte técnico a través del correo electrónico soporte@teenus.com.co o del número de WhatsApp +(57)3002983150. Te atenderemos lo más pronto posible y te ayudaremos a resolver cualquier inconveniente que tengas.</p>
+                                <p>La seguridad de los datos es nuestra máxima prioridad. TezlikSoftware utiliza protocolos de cifrado avanzados, acceso restringido basado en roles y realiza auditorías de seguridad regularmente. Garantizamos la confidencialidad y protección de los datos de nuestros usuarios en todo momento.</p>
                             </div>
                         </div>
-                        <div class="title">
-                            <h6><span>08. </span>¿Cómo puedo actualizar o cancelar mi plan?</h6>
+                        <div class="accordion-item-1">
+                            <div class="title">
+                                <h6><span>08. </span>¿Cómo puede TezlikSoftware adaptarse y beneficiar a empresas de menor tamaño, y existen planes o funcionalidades específicas diseñadas para este segmento?</h6>
+                            </div>
+                            <div class="accordion-info-2">
+                                <p>TezlikSoftware ofrece planes y funcionalidades escalables para adaptarse a empresas de todos los tamaños. Nuestros paquetes están diseñados para ser flexibles y asequibles, permitiendo que incluso las empresas más pequeñas aprovechen las herramientas esenciales para mejorar su rentabilidad y eficiencia.</p>
+                            </div>
                         </div>
-                        <div class="accordion-info-2">
-                            <p>Si quieres actualizar o cancelar tu plan, puedes hacerlo escribiendo al WhatsApp +(57)3002983150. Allí podrás ver las opciones disponibles para cambiar o dar de baja tu plan. Recuerda que si cancelas tu plan, perderás el acceso a la plataforma y a toda la información que hayas ingresado.</p>
-                            <!-- <p>Si quieres actualizar o cancelar tu plan, puedes hacerlo desde tu perfil en la plataforma. Allí podrás ver las opciones disponibles para cambiar o dar de baja tu plan. Recuerda que si cancelas tu plan, perderás el acceso a la plataforma y a toda la información que hayas ingresado.</p> -->
+                        <div class="accordion-item-1">
+                            <div class="title">
+                                <h6><span>09. </span>¿Puede proporcionar ejemplos concretos de casos de éxito o testimonios de usuarios que hayan experimentado mejoras significativas utilizando TezlikSoftware?</h6>
+                            </div>
+                            <div class="accordion-info-2">
+                                <p>Sí, contamos con numerosos testimonios de usuarios satisfechos que han experimentado mejoras significativas en la eficiencia operativa, rentabilidad y toma de decisiones estratégicas gracias a TezlikSoftware. Estamos encantados de compartir estos casos de éxito para demostrar el impacto positivo de nuestra plataforma.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item-1">
+                            <div class="title">
+                                <h6><span>10. </span>¿Cuáles son los indicadores clave de rendimiento que respaldan la afirmación de que TezlikSoftware puede generar beneficios significativos, y cómo se han medido estos beneficios en el pasado?</h6>
+                            </div>
+                            <div class="accordion-info-2">
+                                <p>Los indicadores clave de rendimiento incluyen la mejora en márgenes de rentabilidad, la reducción de costos operativos y el aumento en la eficiencia productiva. Hemos medido estos beneficios a través de análisis detallados de datos con los usuarios que demuestran de manera concreta los impactos positivos de TezlikSoftware en fábricas de diversos sectores.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
