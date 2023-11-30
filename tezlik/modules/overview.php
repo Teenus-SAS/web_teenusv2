@@ -11,7 +11,7 @@
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Soporte técnico personalizado, para que puedas resolver cualquier duda o problema que surja con rapidez y eficacia.</span>
+                                <span>Consultoria personalizada, para que puedas resolver cualquier duda o problema que surja con rapidez y eficacia.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
@@ -23,7 +23,7 @@
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span>Precios competitivos y flexibles, adaptados a las necesidades de tu negocio y a tu presupuesto.</span>
+                                <span>Precios competitivos y flexibles, adaptados a las necesidades de tu fábrica y a tu presupuesto.</span>
                             </div>
                         </div>
                         <!-- <div class="col-lg-12 col-md-6 col-sm-12">
