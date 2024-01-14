@@ -4,7 +4,8 @@
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
-                    <h1 class="text-uppercase" style="color:white">Costea y cotiza en 5 minutos o te devolvemos tu dinero</h1>
+                    <!-- <h1 class="text-uppercase" style="color:white">Costea y cotiza en 5 minutos o te devolvemos tu dinero</h1> -->
+                    <h1 class="text-uppercase" style="color:white">Aumenta los cierre de venta: Si entregas una cotización en 5 min, tus clientes estaran más dispuestos a seguir adelante con el pedido</h1>
                     <div class="d-lg-none text-center z-index position-relative home-image">
                         <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                     </div>

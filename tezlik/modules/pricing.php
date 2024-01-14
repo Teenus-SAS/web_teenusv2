@@ -25,7 +25,8 @@
                         <div class="price-wrapper">
                             <span class="currency cop">$</span>
                             <!-- <span class="price cop">325.999 COP</span> -->
-                            <span class="price cop">383.999 COP</span>
+                            <!-- <span class="price cop">383.999 COP</span> -->
+                            <span class="price cop">419.900 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">98.99 USD</span>
                             <span class="period">Mes</span><br>
@@ -62,7 +63,8 @@
                         <div class="price-wrapper">
                             <span class="currency cop">$</span>
                             <!-- <span class="price cop">260.999 COP</span> -->
-                            <span class="price cop">319.999 COP</span>
+                            <!-- <span class="price cop">319.999 COP</span> -->
+                            <span class="price cop">349.900 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">79.99 USD</span>
                             <span class="period">Mes</span><br>
@@ -99,7 +101,8 @@
                         <div class="price-wrapper">
                             <span class="currency cop">$</span>
                             <!-- <span class="price cop">162.999 COP</span> -->
-                            <span class="price cop">220.999 COP</span>
+                            <!-- <span class="price cop">220.999 COP</span> -->
+                            <span class="price cop">241.900 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">49.99 USD</span>
                             <span class="period">Mes</span><br>
