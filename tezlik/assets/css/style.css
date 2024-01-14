@@ -2754,6 +2754,15 @@ ul.footer-nav li a {
   margin-top: 50px;
 }
 
+.slide:nth-child(10),
+.slide:nth-child(19) {
+  background-image: url("/tezlik/assets/img/clients/magru.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 50px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
