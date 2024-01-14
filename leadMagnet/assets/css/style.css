@@ -2728,7 +2728,7 @@ ul.footer-nav li a {
 
 .slide:nth-child(7),
 .slide:nth-child(16) {
-  background-image: url("/tezlik/assets/img/clients/Inversiones\ J&I.jpg");
+  background-image: url("/tezlik/assets/img/clients/magru.png");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 150px;
@@ -2747,6 +2747,15 @@ ul.footer-nav li a {
 
 .slide:nth-child(9),
 .slide:nth-child(18) {
+  background-image: url("/tezlik/assets/img/clients/pet\ gourmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.slide:nth-child(10),
+.slide:nth-child(19) {
   background-image: url("/tezlik/assets/img/clients/pet\ gourmet.png");
   background-size: 100%;
   background-repeat: no-repeat;
