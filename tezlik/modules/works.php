@@ -16,7 +16,7 @@
                     <div class="works-icon"><span class="pulse-p"><i class="ti-money"></i></span></div>
                     <div class="works-info">
                         <h3>Agiliza tu Proceso de Cotización.</h3>
-                        <p>Con TezlikSoftware generas y envias cotizaciones rápidamente. Esto se traduce en una toma de decisiones más veloz por parte de tus clientes, creando mas probabilidades de compra y mejorando su satisfacción al reducir los tiempos de espera.</p>
+                        <p>Con TezlikSoftware generas y envias cotizaciones en minutos. Esto se traduce en una toma de decisiones más veloz por parte de tus clientes, creando mas probabilidades de compra y mejorando su satisfacción al reducir los tiempos de espera.</p>
                     </div>
                     <span class="work-count">1</span>
                 </div>
@@ -27,7 +27,7 @@
                     <!-- <div class="works-icon icon-bg-2"><i class="ti-pulse"></i></div> -->
                     <div class="works-info">
                         <h3>Elimina Errores en tus Cotizaciones</h3>
-                        <p>Con TezlikSoftware reduces la necesidad de retrabajos, correcciones y ajustes. Esto no solo ahorra tiempo y recursos, sino que también contribuye a la mejora de la calidad de tu producto final.</p>
+                        <p>Con TezlikSoftware reduces la necesidad de retrabajos, correcciones y ajustes. Esto te ahorra tiempo y recursos, y contribuye a la mejora de la calidad de tu producto final.</p>
                     </div>
                     <span class="work-count">2</span>
                     <!--  <div class="works-info-bottom"><i class="ti-angle-double-down"></i></div> -->

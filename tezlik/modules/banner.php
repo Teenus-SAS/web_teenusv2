@@ -5,7 +5,7 @@
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
                     <!-- <h1 class="text-uppercase" style="color:white">Costea y cotiza en 5 minutos o te devolvemos tu dinero</h1> -->
-                    <h1 class="text-uppercase" style="color:white">Cotiza rapidamente: ¡Conquista a tus clientes!</h1>
+                    <h1 class="text-uppercase" style="color:white">La lentitud y falta de precisión en los cálculos de costos provocan pérdida de oportunidades de negocio al no poder enviar cotizaciones rápidas. <br>Cotiza rapidamente: ¡Conquista a tus clientes!</h1>
                     <div class="d-lg-none text-center z-index position-relative home-image">
                         <img src="/tezlik/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                     </div>
