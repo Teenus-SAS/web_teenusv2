@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>¿No logras calcular los costos de producción de manera precisa?</h1>
+                                    <h1>¿Estas satisfecho con tu proceso de cotización?</h1>
                                     <!-- <h5 class="mb-3">
                                         Podrías estar enfrentando desafíos como precios inadecuados y baja rentabilidad. ¿Deseas cambiar esta situación? Si tu respuesta es un rotundo "Sí", es fundamental gestionar adecuadamente los costos, establecer precios adecuados y agilizar el proceso de cotizar en solo 5 minutos. ¿Pero cómo hacerlo sin cometer errores?
                                         <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a>
@@ -28,7 +28,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>¿Te falta precisión en tus cotizaciones?</h1> <br>
+                                    <h1>Cotiza con precisión y con datos confiables y cambia esas complicadas hojas de cálculo.</h1> <br>
                                     <!-- <h5 class="mb-3"><a href="/tezlik" style="color:yellow">¿Pero cómo lograrlo? <span></span></a>Al alcanzar esta velocidad, podrías aumentar significativamente la probabilidad de cerrar tus ventas en un 25%. La capacidad de cotizar en 5 minutos es un valioso diferenciador en un mercado competitivo. Recuerda que la eficiencia y la calidad en el proceso de cotización son fundamentales para construir relaciones sólidas y cerrar ventas exitosas.</h5> -->
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
@@ -46,7 +46,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>¿Tienes dificultades para adaptarte a cambios en los costos?</h1> <br>
+                                    <h1>Costea fácilmente y crea cotizaciones rápidas: !Elimina errores en las cotizaciones que retrasan tus ventas!</h1> <br>
                                     <!-- <h5 class="mb-3"><a href="/tezlik" style="color:yellow">¿Para qué lograr un rendimiento operativo excepcional que impulse tu rentabilidad?<span></span></a> Tu fabrica se encuentra en un sector altamente competitivo y mantenerse a la vanguardia tecnológica es fundamental para el éxito empresarial. El desarrollo de software personalizado se ha convertido en la herramienta más poderosa para que transformes tu fabrica y sea más competitiva. ¡No te quedes rezagado, tu competencia ya lo esta haciendo. Atrévete a innovar y alcanza el éxito con soluciones de software personalizadas para tu fabrica!</h5> -->
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
