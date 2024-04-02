@@ -15,6 +15,15 @@
                     <div class="slide mr-3"></div>
                     <div class="slide mr-3"></div>
                     <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
+                    <div class="slide mr-3"></div>
                 </div>
             </div>
 
