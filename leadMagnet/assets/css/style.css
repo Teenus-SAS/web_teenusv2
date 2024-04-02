@@ -2754,17 +2754,17 @@ ul.footer-nav li a {
   margin-top: 50px;
 }
 
-.slide:nth-child(10),
+/* .slide:nth-child(10),
 .slide:nth-child(19) {
   background-image: url("/tezlik/assets/img/clients/pet\ gourmet.png");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 200px;
   margin-top: 50px;
-}
+} */
 
-.slide:nth-child(11),
-.slide:nth-child(20) {
+.slide:nth-child(10),
+.slide:nth-child(19) {
   background-image: url("/tezlik/assets/img/clients/labgusing.png");
   background-size: 100%;
   background-repeat: no-repeat;
