@@ -166,8 +166,8 @@
             </div> -->
 
             <div class="col-md-12 mt-4 section-title">
-                <h6 class="small-title">Modulos adicionales</h6>
-                <h2>Potencia tu empresa</h2>
+                <h6 class="small-title">Potencia tus cotizaciones</h6>
+                <h2>Modulos adicionales</h2>
             </div>
 
             <div class="col-lg-4 col-md-12 col-sm-12 price-item">

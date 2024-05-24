@@ -1,7 +1,7 @@
-<section id="price" class="price-area section-padding">
+<section id="price" class="price-area section-padding" style="padding-top: 10px;">
     <div class="row">
         <div class="col-md-12 section-title">
-            <h6 class="small-title">Potencia tu empresa</h6>
+            <h6 class="small-title">Confianza</h6>
             <h2>ALGUNOS DE NUESTROS CLIENTES</h2>
             <div class="slider mt-5">
                 <div class="slide-track">
