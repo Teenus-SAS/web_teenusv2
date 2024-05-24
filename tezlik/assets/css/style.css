@@ -2771,6 +2771,14 @@ ul.footer-nav li a {
   width: 200px;
   margin-top: 50px;
 }
+.slide:nth-child(12),
+.slide:nth-child(21) {
+  background-image: url("/tezlik/assets/img/clients/producom.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: 50px;
+}
 
 @keyframes scroll {
   0% {

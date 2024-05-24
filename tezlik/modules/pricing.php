@@ -23,14 +23,14 @@
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
-                            <span class="currency cop">$</span>
+                            <!-- <span class="currency cop">$</span> -->
                             <!-- <span class="price cop">325.999 COP</span> -->
                             <!-- <span class="price cop">383.999 COP</span> -->
-                            <span class="price cop">419.900 COP</span>
-                            <span class="currency usd" style="display:none;">$</span>
-                            <span class="price usd" style="display:none;">98.99 USD</span>
-                            <span class="period">Mes</span><br>
-                            <span class="period">Facturación Anual</span><br>
+                            <<!-- span class="price cop">419.900 COP</span>
+                                <span class="currency usd" style="display:none;">$</span>
+                                <span class="price usd" style="display:none;">98.99 USD</span>
+                                <span class="period">Mes</span><br>
+                                <span class="period">Facturación Anual</span><br> -->
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos Ilimitados</li>
@@ -40,9 +40,11 @@
                             <li class="active">Detalle de Costos y Precio</li>
                             <li class="active">Punto de Equilibrio</li>
                             <li class="active">Analisis Materia Prima</li>
-                            <li class="active">Economias de Escala</li>
+                            <li class="active">Negociaciones Eficientes</li>
+                            <li class="active">Ventas Objetivo</li>
                             <li class="active">Usuarios 5</li>
                             <li class="active">Capacitación</li>
+                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -61,14 +63,14 @@
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
-                            <span class="currency cop">$</span>
+                            <!-- <span class="currency cop">$</span> -->
                             <!-- <span class="price cop">260.999 COP</span> -->
                             <!-- <span class="price cop">319.999 COP</span> -->
-                            <span class="price cop">349.900 COP</span>
+                            <!-- <span class="price cop">349.900 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">79.99 USD</span>
                             <span class="period">Mes</span><br>
-                            <span class="period">Facturación Anual</span><br>
+                            <span class="period">Facturación Anual</span><br> -->
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 100</li>
@@ -78,9 +80,11 @@
                             <li class="active">Detalle de Costos y Precio</li>
                             <li class="active">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima</li>
-                            <li class="inactive">Economias de Escala</li>
+                            <li class="inactive">Negociaciones Eficientes</li>
+                            <li class="inactive">Ventas Objetivo</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Capacitación</li>
+                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -99,14 +103,14 @@
                     </div>
                     <div class="pricing-body">
                         <div class="price-wrapper">
-                            <span class="currency cop">$</span>
+                            <!-- <span class="currency cop">$</span> -->
                             <!-- <span class="price cop">162.999 COP</span> -->
                             <!-- <span class="price cop">220.999 COP</span> -->
-                            <span class="price cop">241.900 COP</span>
+                            <!-- <span class="price cop">241.900 COP</span>
                             <span class="currency usd" style="display:none;">$</span>
                             <span class="price usd" style="display:none;">49.99 USD</span>
                             <span class="period">Mes</span><br>
-                            <span class="period">Facturación Anual</span><br>
+                            <span class="period">Facturación Anual</span><br> -->
                         </div>
                         <ul class="list">
                             <li class="active">Creación de Productos 10</li>
@@ -116,9 +120,11 @@
                             <li class="active">Detalle de Costos y Precio</li>
                             <li class="inactive">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima</li>
-                            <li class="inactive">Economias de Escala</li>
+                            <li class="inactive">Negociaciones Eficientes</li>
+                            <li class="inactive">Ventas Objetivo</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Capacitación</li>
+                            <li class="inactive">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -159,21 +165,59 @@
                 </div>
             </div> -->
 
-            <div class="col-lg-12 col-md-12 col-sm-12 price-item">
+            <div class="col-md-12 mt-4 section-title">
+                <h6 class="small-title">Modulos adicionales</h6>
+                <h2>Potencia tu empresa</h2>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 price-item">
                 <div class="single-price-item">
                     <div class="pricing-header" style="height: 65px !important">
-                        <h3 class="pricing-title">Módulo Exportaciones</h3>
+                        <h3 class="pricing-title">Importaciones</h3>
                     </div>
                     <div class="pricing-body mt-1">
                         <div class="price-wrapper">
                             <!-- <span class=""><b>Cree precios competitivos y rentables que le ayuden a vender más.</b></span> <br>
                             <span><b>La cobertura cambiaria lo protege contra el riesgo de las fluctuaciónes del tipo de cambio.</b></span><br> -->
-                            <span class="price cop" style="font-size: 24px;">Preguntale a tu asesor Comercial</span>
                         </div>
                         <ul class="list">
-                            <li class="active">Calculo del precio en USD</li>
-                            <li class="active">Calculo Cobertura Cambiaria</li>
-                            <li class="active">Correción TRM</li>
+                            <li class="active">Costos Importaciones</li>
+                            <li class="active">Costos Nacionalización</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 price-item">
+                <div class="single-price-item">
+                    <div class="pricing-header" style="height: 65px !important">
+                        <h3 class="pricing-title">MultiEmpresa</h3>
+                    </div>
+                    <div class="pricing-body mt-1">
+                        <div class="price-wrapper">
+                            <!-- <span class=""><b>Cree precios competitivos y rentables que le ayuden a vender más.</b></span> <br>
+                            <span><b>La cobertura cambiaria lo protege contra el riesgo de las fluctuaciónes del tipo de cambio.</b></span><br> -->
+                        </div>
+                        <ul class="list">
+                            <li class="active">Creacion de Gastos Generales por Unidades de Producción</li>
+                            <li class="active">Distribucion de Gastos Generales por producto y Unidades de Producción</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 price-item">
+                <div class="single-price-item">
+                    <div class="pricing-header" style="height: 65px !important">
+                        <h3 class="pricing-title">Moneda</h3>
+                    </div>
+                    <div class="pricing-body mt-1">
+                        <div class="price-wrapper">
+                            <!-- <span class=""><b>Cree precios competitivos y rentables que le ayuden a vender más.</b></span> <br>
+                            <span><b>La cobertura cambiaria lo protege contra el riesgo de las fluctuaciónes del tipo de cambio.</b></span><br> -->
+                        </div>
+                        <ul class="list">
+                            <li class="active">Calculo de Costos y Precios en USD y EUR</li>
+                            <li class="active">Simulador de calculo de dolar y cobertura Cambiaria</li>
+                            <li class="active">Simulador Corrección TRM</li>
                         </ul>
                     </div>
                 </div>
