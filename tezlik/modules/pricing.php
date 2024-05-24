@@ -26,7 +26,7 @@
                             <!-- <span class="currency cop">$</span> -->
                             <!-- <span class="price cop">325.999 COP</span> -->
                             <!-- <span class="price cop">383.999 COP</span> -->
-                            <<!-- span class="price cop">419.900 COP</span>
+                            <!-- span class="price cop">419.900 COP</span>
                                 <span class="currency usd" style="display:none;">$</span>
                                 <span class="price usd" style="display:none;">98.99 USD</span>
                                 <span class="period">Mes</span><br>
