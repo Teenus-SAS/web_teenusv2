@@ -108,6 +108,7 @@
         <?php include_once dirname(__DIR__) . '/tezlik/modules/video.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/pricing.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/clients.php' ?>
+        <?php include_once dirname(__DIR__) . '/tezlik/modules/alliances.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/testimonials.php' ?>
         <?php include_once dirname(__DIR__) . '/tezlik/modules/faq.php' ?>
         <?php //include_once dirname(__DIR__) . '/tezlik/modules/team.php' 

@@ -22,8 +22,9 @@
                 <li class="nav-item"><a class="nav-link js-scroll active" href="#home">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll" href="#about">¿Cómo funciona? </a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#screenshort">Interfaces</a></li> -->
-                <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll" href="#video">Beneficios</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll" href="#customers">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll" href="#price">Precios</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll mr-5" href="/ebooks">Ebooks</a></li> -->
                 <li class="nav-item"><a class="nav-link js-scroll mr-5" href="/blogs">Blog</a></li>
                 <li class="nav-item"><a href="#javascript:;" target="_blank" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan buttonContact js-scroll apps-store-btn-1" id="contactUs" style="margin-top:0px;border-radius: 10px;">Contactanos</a></li>
