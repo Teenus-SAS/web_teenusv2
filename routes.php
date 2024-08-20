@@ -29,6 +29,7 @@ get('/admin/usuarios', '/admin/views/users/users.php');
 get('/', '/teenus/index.php');
 get('/desarrollo-de-software', '/develop/index.php');
 get('/tezliksoftware', '/tezlik/index.php');
+get('/analista-de-costos', '/cost-analyst/index.php');
 get('/lead-magnets/([^/]+)', '/leadMagnet/index.php');
 
 get('/blogs', '/blog/index.php');
