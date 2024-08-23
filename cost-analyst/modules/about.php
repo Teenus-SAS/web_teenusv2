@@ -6,14 +6,14 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
                     <h6 class="small-title">Cómo funciona. Simplemente ingresa la información necesaria y sigue estos pasos:</h6>
-                    <h2>¡TezlikSoftware es muy fácil de usar!</h2>
+                    <h2>¿Qué hacemos?</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
                             <div class="features-item">
                                 <!-- <div class="features-icon pulse-p"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">1</div>
                                 <div class="features-info">
-                                    <span>Registra todos los costos de tu producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites)</span>
+                                    <span>Implementamos un Sistema de Gestión de Costos integral, diseñado para optimizar cada proceso mediante la correcta clasificación, acumulación, control y asignación de los costos.</span>
                                 </div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                                 <!-- <div class="features-icon pulse-r"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">2</div>
                                 <div class="features-info">
-                                    <span>TezlikSoftware te calcula de forma rápida y sencilla el costo exacto de producir una unidad de tus productos.</span>
+                                    <span>Garantizamos un control preciso sobre los costos de cada producto</span>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                 <!-- <div class="features-icon pulse-b"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">3</div>
                                 <div class="features-info">
-                                    <span>Comienza y mejora la toma de decisiones: TezlikSoftware te Proporciona información en tiempo real de la rentabilidad y costos de tus para tomar decisiones informadas.</span>
+                                    <span>Mitigamos el riesgo de perdida financiera mediante la implementación de costos reales de producción y control de la rentabilidad.</span>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <!-- <div class="features-icon pulse-o"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">4</div>
                                 <div class="features-info">
-                                    <span>Genera rápidamente información crucial y Ahorra tiempo en la obtención de datos.</span>
+                                    <span>Mejorar la capacidad de tomar decisiones de nuestros clientes a través del análisis de datos.</span>
                                 </div>
                             </div>
                         </div>
