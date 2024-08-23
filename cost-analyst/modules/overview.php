@@ -11,37 +11,37 @@
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>Soluciones Personalizadas:</b> Entendemos que cada empresa es única, por eso adaptamos nuestros servicios a tus necesidades específicas, garantizando que obtengas resultados alineados con tus objetivos (Rentabilidad).</span>
+                                <span><b>Soluciones Personalizadas:</b> Entendemos que tu empresa es única, por eso adaptamos nuestros servicios a tus necesidades específicas, garantizando que obtengas resultados alineados con tus objetivos (Rentabilidad).</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>TezlikSoftware: 'Tecnología Avanzada'</b> Nuestro servicio está soportado por TezlikSoftware, una plataforma diseñada para ofrecer un control total sobre los costos, mejorar la rentabilidad y facilitar la toma de decisiones informadas.</span>
+                                <span><b>TezlikSoftware: 'Tecnología Avanzada'</b> Nuestro servicio está soportado por TezlikSoftware, una plataforma diseñada para ofrecer un control total sobre los costos, cotizar rapidamente, mejorar la rentabilidad y facilitar la toma de decisiones informadas.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>Análisis Preciso y Actualizado:</b> Proporcionamos informes detallados y actualizados que te permiten identificar oportunidades de mejora en tiempo real, optimizando tanto la gestión de costos como la rentabilidad.</span>
+                                <span><b>Análisis Preciso y Actualizado:</b> Identificamos oportunidades de mejora en tiempo real, optimizando tanto la gestión de costos como la rentabilidad.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>Asesoría Estratégica Continua:</b> No solo te entregamos datos; te acompañamos en cada paso, brindando asesoría estratégica para que puedas implementar mejoras que hagan crecer tu empresa de manera sostenible.</span>
+                                <span><b>Asesoría Estratégica Continua:</b> No solo te entregamos datos; te acompañamos brindandote asesoría estratégica para que puedas implementar mejoras que hagan crecer tu empresa de manera sostenible.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>Enfoque en Rentabilidad:</b> Nos enfocamos en maximizar tu rentabilidad, identificando las áreas con mayor contribución, ajustando estrategias de precios, y mejorando la eficiencia operativa para garantizar un retorno sobre la inversión superior.</span>
+                                <span><b>Enfoque en Rentabilidad:</b> Nos enfocamos en maximizar tu rentabilidad, identificando los productos con mayor contribución. Creamos estrategias de precios y costos para mejorar la eficiencia del retorno sobre la inversión superior.</span>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-6 col-sm-12">
                             <div class="why-choos-list">
                                 <i class="fa fa-check-circle"></i>
-                                <span><b>Mejora Continua:</b> Nos comprometemos a una mejora constante, asegurando que siempre estés al día con los últimos avances en gestión de costos y ajustando nuestras soluciones para que tu empresa mantenga su ventaja competitiva.</span>
+                                <span><b>Mejora Continua:</b> Nos aseguramos que estés al día con los últimos avances en gestión de costos y ajustando nuestras soluciones para que tu empresa siempre mantenga su ventaja competitiva.</span>
                             </div>
                         </div>
                     </div>
