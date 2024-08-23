@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="download-app-text text-center">
-                    <h2 class="text-uppercase">CON TEZLIKSOFTWARE COTIZAS FÁCIL, RÁPIDO Y EFECTIVO BASADO EN LOS COSTOS DE PRODUCCIÓN<br>
+                    <h2 class="text-uppercase">Elegirnos significa tener a tu lado un equipo de expertos dedicados a potenciar tu rentabilidad, apoyados en tecnología de vanguardia y un enfoque completamente personalizado.<br>
                         <!-- <br>NO IMPORTA SI NO TIENES EXPERIENCIA EN CONTABILIDAD O TECNOLOGÍA, NOSOTROS TE GUIAMOS EN CADA PASO PARA QUE PUEDAS AUMENTAR TUS GANANCIAS CON NUESTRA PLATAFORMA -->
                     </h2>
                     <!-- <a href="#javascript:;" onclick="window.location.href='https://wa.me/573002983150?text=¡Hola! Me gustaría ver un Demo'" class="button btnPlan js-scroll apps-store-btn-1" id="emprendedor"> -->

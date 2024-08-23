@@ -106,11 +106,11 @@
         <?php //include_once dirname(__DIR__) . '/cost-analyst/modules/interfaces.php' 
         ?>
         <?php include_once dirname(__DIR__) . '/cost-analyst/modules/video.php' ?>
-        <?php include_once dirname(__DIR__) . '/cost-analyst/modules/pricing.php' ?>
+        <?php //include_once dirname(__DIR__) . '/cost-analyst/modules/pricing.php' ?>
         <?php include_once dirname(__DIR__) . '/cost-analyst/modules/clients.php' ?>
         <?php include_once dirname(__DIR__) . '/cost-analyst/modules/alliances.php' ?>
         <?php include_once dirname(__DIR__) . '/cost-analyst/modules/testimonials.php' ?>
-        <?php include_once dirname(__DIR__) . '/cost-analyst/modules/faq.php' ?>
+        <?php //include_once dirname(__DIR__) . '/cost-analyst/modules/faq.php' ?>
         <?php //include_once dirname(__DIR__) . '/cost-analyst/modules/team.php' 
         ?>
         <?php include_once dirname(__DIR__) . '/cost-analyst/modules/download.php' ?>
