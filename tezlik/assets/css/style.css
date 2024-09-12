@@ -2625,7 +2625,6 @@ ul.footer-nav li a {
   transition-delay: 0.3s;
 }
 
-
 .slider {
   background: white;
   height: 250px;
@@ -2673,8 +2672,7 @@ ul.footer-nav li a {
   width: 250px;
 }
 
-.slideClient:nth-child(1),
-.slideClient:nth-child(10) {
+.slideClient:nth-child(1) {
   background-image: url("/tezlik/assets/img/clients/artepack.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2682,8 +2680,7 @@ ul.footer-nav li a {
   margin-top: 20px;
 }
 
-.slideClient:nth-child(2),
-.slideClient:nth-child(11) {
+.slideClient:nth-child(2) {
   background-image: url("/tezlik/assets/img/clients/Blomer.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2691,8 +2688,7 @@ ul.footer-nav li a {
   margin-top: 20px;
 }
 
-.slideClient:nth-child(3),
-.slideClient:nth-child(12) {
+.slideClient:nth-child(3) {
   background-image: url("/tezlik/assets/img/clients/Proyecformas.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2701,44 +2697,39 @@ ul.footer-nav li a {
 }
 
 
-.slideClient:nth-child(4),
-.slideClient:nth-child(13) {
+.slideClient:nth-child(4) {
   background-image: url("/tezlik/assets/img/clients/gblab.png");
   background-size: 100%;
   background-repeat: no-repeat
 }
 
-.slideClient:nth-child(5),
-.slideClient:nth-child(14) {
+.slideClient:nth-child(5) {
   background-image: url("/tezlik/assets/img/clients/micromotores.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 80px;
-  
+
 }
 
-.slideClient:nth-child(6),
-.slideClient:nth-child(15) {
+.slideClient:nth-child(6) {
   background-image: url("/tezlik/assets/img/clients/siloscem.png");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 350px;
   margin-top: 80px;
-  
+
 }
 
-.slideClient:nth-child(7),
-.slideClient:nth-child(16) {
+.slideClient:nth-child(7) {
   background-image: url("/tezlik/assets/img/clients/Inversiones\ J&I.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 150px;
   margin-top: 60px;
-  
+
 }
 
-.slideClient:nth-child(8),
-.slideClient:nth-child(17) {
+.slideClient:nth-child(8) {
   background-image: url("/tezlik/assets/img/clients/villa\ del\ rosario.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2746,8 +2737,7 @@ ul.footer-nav li a {
   margin-top: 50px;
 }
 
-.slideClient:nth-child(9),
-.slideClient:nth-child(18) {
+.slideClient:nth-child(9) {
   background-image: url("/tezlik/assets/img/clients/pet\ gourmet.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2755,8 +2745,7 @@ ul.footer-nav li a {
   margin-top: 50px;
 }
 
-.slideClient:nth-child(10),
-.slideClient:nth-child(19) {
+.slideClient:nth-child(10) {
   background-image: url("/tezlik/assets/img/clients/magru.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2764,16 +2753,15 @@ ul.footer-nav li a {
   margin-top: 60px;
 }
 
-.slideClient:nth-child(11),
-.slideClient:nth-child(20) {
+.slideClient:nth-child(11) {
   background-image: url("/tezlik/assets/img/clients/labgusing.png");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 300px;
   margin-top: 30px;
 }
-.slideClient:nth-child(12),
-.slideClient:nth-child(21) {
+
+.slideClient:nth-child(12) {
   background-image: url("/tezlik/assets/img/clients/logo-producom.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2781,13 +2769,12 @@ ul.footer-nav li a {
   margin-top: 90px;
 }
 
-.slideClient:nth-child(13),
-.slideClient:nth-child(22) {
-  background-image: url("/tezlik/assets/img/clients/logo-arepas_guerrero.jpg");
+.slideClient:nth-child(13) {
+  background-image: url("/tezlik/assets/img/clients/logo_arepas_guerrero.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 300px;
-  margin-top: 90px;
+  margin-top: 10px;
 }
 
 @keyframes scroll {

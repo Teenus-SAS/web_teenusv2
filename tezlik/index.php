@@ -363,6 +363,7 @@
 <?php include_once __DIR__ . '/partials/scriptsJS.php' ?>
 <script src="/tezlik/js/prices.js"></script>
 <script src="/tezlik/js/register.js"></script>
+<script src="/tezlik/js/sliders.js"></script>
 </body>
 
 </html>
