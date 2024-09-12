@@ -5,7 +5,7 @@
 
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
-                    <h6 class="small-title">Cómo funciona. Simplemente ingresa la información necesaria y sigue estos pasos:</h6>
+                    <h6 class="small-title">Cómo funciona.</h6>
                     <h2>¿Qué hacemos?</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">

@@ -2781,6 +2781,15 @@ ul.footer-nav li a {
   margin-top: 90px;
 }
 
+.slideClient:nth-child(13),
+.slideClient:nth-child(22) {
+  background-image: url("/tezlik/assets/img/clients/logo-arepas_guerrero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 300px;
+  margin-top: 90px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);

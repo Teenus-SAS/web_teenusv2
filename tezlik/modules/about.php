@@ -5,7 +5,7 @@
 
             <div class="col-lg-6 col-md-12">
                 <div class="about-info">
-                    <h6 class="small-title">Cómo funciona. Simplemente ingresa la información necesaria y sigue estos pasos:</h6>
+                    <h6 class="small-title">Cómo funciona.</h6>
                     <h2>¡TezlikSoftware es muy fácil de usar!</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-12 col-md-12 col-sm-12 features-item-box">
@@ -13,7 +13,7 @@
                                 <!-- <div class="features-icon pulse-p"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">1</div>
                                 <div class="features-info">
-                                    <span>Registra todos los costos de tu producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites)</span>
+                                    <span>Registra todos los costos de tu producción (Materias primas, mano de obra, tiempos, costos indirectos, rentabilidad y todo lo que necesites). No te preocupes ¡Nosotros te ayudamos!</span>
                                 </div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                                 <!-- <div class="features-icon pulse-r"></div> -->
                                 <div class="features-icon" style="font-size:xx-large;color:crimson">2</div>
                                 <div class="features-info">
-                                    <span>TezlikSoftware te calcula de forma rápida y sencilla el costo exacto de producir una unidad de tus productos.</span>
+                                    <span>TezlikSoftware te calcula de forma rápida y sencilla el costo y precio exacto de producirlo.</span>
                                 </div>
                             </div>
                         </div>

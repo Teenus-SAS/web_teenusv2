@@ -15,8 +15,8 @@
                     <!-- <div class='container'><span class='pulse-button'><i class="ti-cloud-down"></i></span></div> -->
                     <div class="works-icon"><span class="pulse-p"><i class="ti-money"></i></span></div>
                     <div class="works-info">
-                        <h3>Agiliza tu Proceso de Cotización.</h3>
-                        <p>Con TezlikSoftware generas y envias cotizaciones en minutos. Esto se traduce en una toma de decisiones más veloz por parte de tus clientes, creando mas probabilidades de compra y mejorando su satisfacción al reducir los tiempos de espera.</p>
+                        <h3>Aumenta la Liquidez de tu empresa</h3>
+                        <p>Crea cotizaciones exactas y ventas objetivo con los costos reales de tu produccion. Asegura que los precios de tus productos cubran los costos operativos y generen una verdadera rentabilidad. Mejora el flujo de caja de tu empresa.</p>
                     </div>
                     <span class="work-count">1</span>
                 </div>
@@ -26,8 +26,8 @@
                     <div class="works-icon"><span class="pulse-g"><i class="ti-star"></i></span></div>
                     <!-- <div class="works-icon icon-bg-2"><i class="ti-pulse"></i></div> -->
                     <div class="works-info">
-                        <h3>Elimina Errores en tus Cotizaciones</h3>
-                        <p>Con TezlikSoftware reduces la necesidad de retrabajos, correcciones y ajustes. Esto te ahorra tiempo y recursos, y contribuye a la mejora de la calidad de tu producto final.</p>
+                        <h3>Haz que tu empresa compita Eficazmente</h3>
+                        <p>Crea precios competitivos para cada uno de tus productos en el mercado sin sacrificar su rentabilidad. Asegura que tus productos si generan las rentabilidades y beneficios que necesita tu empresa.</p>
                     </div>
                     <span class="work-count">2</span>
                     <!--  <div class="works-info-bottom"><i class="ti-angle-double-down"></i></div> -->
@@ -38,8 +38,8 @@
                     <div class="works-icon"><span class="pulse-o"><i class="ti-control-shuffle"></i></span></div>
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
-                        <h3>Exactitud en tus Cotizaciones</h3>
-                        <p>Con TezlikSoftware utilizas algoritmos y herramientas avanzadas para garantizar la precisión en tus cotizaciones. Esto disminuye los errores humanos, asegurando que tus cotizaciones reflejen exactamente los costos asociados, evitando pérdidas financieras y manteniendo la integridad del proceso.</p>
+                        <h3>Incrementa la capacidad de pago de tu empresa</h3>
+                        <p>Con el aumento de la rentabilidad, tu empresa incrementa la capacidad de cubrir sus obligaciones. Identifica tus productos más rentables y prioriza su venta negociando y estableciendo mejores precios. Mejora su flujo de ingresos. </p>
                     </div>
                     <span class="work-count">3</span>
                 </div>
@@ -49,8 +49,8 @@
                     <div class="works-icon"><span class="pulse-r"><i class="ti-stats-up"></i></span></div>
                     <!-- <div class="works-icon icon-bg-3"><i class="ti-face-smile"></i></div> -->
                     <div class="works-info">
-                        <h3>Facilidad de Uso</h3>
-                        <p>La interfaz de TezlikSoftware está diseñada para ser intuitiva y fácil de usar, lo que simplifica la gestión de cotizaciones incluso para aquellos usuarios no familiarizados con tecnologías avanzadas. Esto reduce la curva de aprendizaje y minimiza la probabilidad de errores.</p>
+                        <h3>Incrementa la imagen de tu empresa</h3>
+                        <p>Al incrementar tu flujo de caja logras cumplir tus compromisos financieros y entregar productos con precios adecuados al mercado. Mejora la relación con tus clientes y proveedores y refuerza la buena reputación de tu empresa en el mercado.</p>
                     </div>
                     <span class="work-count">4</span>
                 </div>
