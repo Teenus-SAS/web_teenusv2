@@ -5,7 +5,7 @@
             <div class="col-12 col-md-7 col-lg-6">
                 <div class="text-left home-content z-index position-relative">
                     <!-- <h1 class="text-uppercase" style="color:white">Costea y cotiza en 5 minutos o te devolvemos tu dinero</h1> -->
-                    <h2 style="color:white">¡Potencia tus Ganancias! Mejora el costeo de tus productos, fijación de precios y estrategias para maximizar beneficios con nuestro servicio de análisis de costos eficiente y asequible. </h4>
+                    <h2 style="color:black">¡Potencia tus Ganancias! Mejora el costeo de tus productos, fijación de precios y estrategias para maximizar beneficios con nuestro servicio de análisis de costos eficiente y asequible. </h4>
                     <div class="d-lg-none text-center z-index position-relative home-image">
                         <img src="/cost-analyst/assets/img/calcular-precio-producto.png" class="img-fluid" alt="" />
                     </div>
