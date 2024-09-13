@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="svg-shape-bottom">
-        <img src="/cost-analyst/assets/img/home-bottom-shape.png" class="bottom-shape img-fluid" alt="" />
+        <img src="/cost-analyst/assets/img/incrementa-ventas.png" class="bottom-shape img-fluid" alt="" />
     </div>
 </header>
 <!-- Home Section End -->
