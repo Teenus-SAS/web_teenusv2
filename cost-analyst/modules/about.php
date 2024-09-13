@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="about-img animation-bounce">
-                    <img src="/tezlik/assets/img/about.png" class="img-fluid" alt="" />
+                    <img src="/cost-analyst/assets/img/como-funciona-tezliksoftware.jpg" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
