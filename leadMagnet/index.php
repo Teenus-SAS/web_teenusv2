@@ -27,7 +27,7 @@
     <div class="social-bar">
         <a href="https://www.facebook.com/profile.php?id=100089428009182" class="icon icon-facebook" target="_blank"></a>
         <a href="https://www.instagram.com/leadMagnetsoftware/" class="icon icon-instagram" target="_blank"></a>
-        <a href="https://www.tiktok.com/@tezliksofware" class="icon icon-tiktok" target="_blank"></a>
+        <a href="https://www.tiktok.com/@tezliksoftware" class="icon icon-tiktok" target="_blank"></a>
         <a href="https://www.linkedin.com/showcase/3704958/admin/" class="icon icon-linkedin" target="_blank"></a>
         <a href="https://www.youtube.com/@teenuss.a.s4396" class="icon icon-youtube" target="_blank"></a>
         <a href="https://twitter.com/teenus_sas" class="icon icon-twitter" target="_blank"></a>
