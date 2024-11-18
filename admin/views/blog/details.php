@@ -19,7 +19,11 @@ if (sizeof($_SESSION) == 0)
     <link rel="icon" type="image/png" href="/teenus/assets/img/favicon.png">
     <!-- <link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" /> -->
     <title>Teenus</title>
-    <?php include_once dirname(dirname(__DIR__)) . '/partials/scriptsJS.php'; ?>
+    <?php //include_once dirname(dirname(__DIR__)) . '/partials/scriptsJS.php'; 
+    $ruta = dirname(dirname(__DIR__)) . '/partials/scriptsJS.php';
+    echo "La ruta generada es: " . $ruta . "<br>";
+    include_once $ruta;
+    ?>
 </head>
 
 <body>
