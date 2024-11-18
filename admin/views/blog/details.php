@@ -21,7 +21,7 @@ if (sizeof($_SESSION) == 0)
     <title>Teenus</title>
     <?php //include_once dirname(dirname(__DIR__)) . '/partials/scriptsJS.php'; 
     $ruta = dirname(dirname(__DIR__)) . '/partials/scriptsJS.php';
-    echo "La ruta generada es: " . $ruta . "<br>";
+    //echo "La ruta generada es: " . $ruta . "<br>";
     include_once $ruta;
     ?>
 </head>
