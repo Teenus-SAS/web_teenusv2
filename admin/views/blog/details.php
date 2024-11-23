@@ -22,7 +22,7 @@ if (sizeof($_SESSION) == 0)
     <?php include_once dirname(dirname(__DIR__)) . '/partials/scriptsCSS.php'; ?>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <!--wrapper-->
     <div class="wrapper">
         <!--start header wrapper-->

@@ -8,7 +8,7 @@ $(document).ready(function () {
   fetchindata();
 
   loadTableArticles = (data) => {
-    tblArticles = $('#tblArticles').dataTable({
+    tblArticles = $('#tblArticles').DataTable({
       pageLength: 50,
       data: data,
       language: {
@@ -26,6 +26,7 @@ $(document).ready(function () {
         {
           title: 'Titulo',
           data: 'title',
+          width: '100px',
           className: 'classCenter',
         },
         {
