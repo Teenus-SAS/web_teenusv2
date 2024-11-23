@@ -8,7 +8,7 @@ $(document).ready(function () {
   fetchindata();
 
   loadTableArticles = (data) => {
-    tblArticles = $('#tblArticles').DataTable({
+    tblArticles = $('#tblArticles').dataTable({
       pageLength: 50,
       data: data,
       language: {
@@ -83,7 +83,7 @@ $(document).ready(function () {
           data: 'id_article',
           className: 'classCenter',
           render: function (data) {
-            return `<a href="/admin/editar-blog" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;"></i></a>`;
+            return `<a href="javascript:;" <i id="${data}" class="fa-solid fa-pencil updateArticles" data-toggle='tooltip' title='Actualizar Articulo' style="font-size: 30px;"></i></a>`;
           },
         },
         {

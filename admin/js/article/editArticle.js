@@ -60,14 +60,15 @@ $(document).ready(function () {
   };
 
   /* Actualizar Articulos */
-  $(document).on("click", ".updateArticles", function (e) {
+  $(document).on("click", ".updateArticles", function () {
     idArticle = this.id;
     sessionStorage.setItem("id_article", idArticle);
 
     let row = $(this).parent().parent()[0];
     let data = tblArticles.fnGetData(row);
-
     sessionStorage.setItem("data", JSON.stringify(data));
+
+    location.href = '/admin/editar-blog'; 
   });
 
   /* Eliminar Articulos */
