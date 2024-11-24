@@ -1,41 +1,59 @@
 $(document).ready(function () {
-  $('#registerTezlik').click(function (e) { 
+  $("#registerTezlik").click(function (e) {
     e.preventDefault();
 
-    $('#openModal').modal('show');    
+    $("#openModal").modal("show");
   });
 
-  $('.closeRegisterTezlik').click(function (e) { 
+  $(".closeRegisterTezlik").click(function (e) {
     e.preventDefault();
 
-    $('#openModal').modal('hide');    
+    $("#openModal").modal("hide");
   });
 
   /* Register */
-  $('#btnRegisterTezlik').click(function (e) {
+  $("#btnRegisterTezlik").click(function (e) {
     e.preventDefault();
 
-    let firstname = $('#firstname').val();
-    let lastname = $('#lastname').val();
-    let email = $('#email').val();
-    let employees = $('#employees').val();
+    // Selecciona todos los campos a validar
+    const fields = {
+      firstname: "Nombre",
+      lastname: "Apellido",
+      email: "Correo electrónico",
+      employees: "Número de empleados",
+      phone: "Teléfono",
+      company: "Empresa",
+    };
 
-    if (
-      firstname == ''||
-      lastname == ''||
-      email == ''||
-      employees == ''
-    ) {
-      toastr.error('Ingrese todos los campos');
+    // Verifica si algún campo está vacío
+    const emptyFields = Object.entries(fields).filter(([id, label]) => {
+      const value = $(`#${id}`).val().trim();
+      if (!value) {
+        $(`#${id}`).addClass("is-invalid"); // Resalta el campo vacío
+        return true;
+      } else {
+        $(`#${id}`).removeClass("is-invalid"); // Limpia el resaltado si no está vacío
+        return false;
+      }
+    });
+
+    // Si hay campos vacíos, muestra el error y detiene la ejecución
+    if (emptyFields.length > 0) {
+      const fieldNames = emptyFields.map(([id, label]) => label).join(", ");
+      toastr.error(`Por favor, complete los siguientes campos: ${fieldNames}`);
       return false;
     }
+
+    // Si todo está correcto, puedes continuar
+    toastr.success("Todos los campos están completos y válidos.");
+    return true;
 
     let data = new FormData(formRegister);
 
     $.ajax({
       type: "POST",
       // url: 'http://tezlikv3/api/newUserAndCompany',
-      url: 'https://demo.tezliksoftware.com.co/api/newUserAndCompany',
+      url: "https://demo.tezliksoftware.com.co/api/newUserAndCompany",
       data: data,
       contentType: false,
       cache: false,
@@ -48,7 +66,7 @@ $(document).ready(function () {
           console.log(resp.pass);
         } else if (resp.error == true) toastr.error(resp.message);
         else if (resp.info == true) toastr.info(resp.message);
-      }
+      },
     });
 
     // fetch(`https://demo.tezliksoftware.com.co/api/newUserAndCompany/${email}`)
@@ -70,6 +88,6 @@ $(document).ready(function () {
   });
 
   function reloadPage() {
-    location.href = '/tezliksoftware';
+    location.href = "/tezliksoftware";
   }
 });
