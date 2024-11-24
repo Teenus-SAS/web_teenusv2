@@ -17,7 +17,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Registrate <br>¡y comienza a usar TezlikSoftware en segundos!</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Registrate y comienza a usar TezlikSoftware en ¡segundos!</h5>
                 <button type="button" class="closeRegisterTezlik" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -28,40 +28,39 @@
                         <div class="vertical-app-tabs" id="rootwizard">
                             <div class="col-md-12 col-lg-12 InputGroup">
                                 <form id="formRegister">
-                                    <div class="row mt-5">
-                                        <div class="col-12 col-lg-12 titlePayroll">
-                                            <label><b>Datos</b></label>
-                                        </div>
+                                    <div class="row">
                                         <div class="col-12 col-lg-6">
-                                            <div class="form-group floating-label enable-floating-label show-label">
-                                                <input type="text" class="form-control" name="nameUser" id="firstname">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0">
                                                 <label for="firstname">Nombre<span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control" name="nameUser" id="firstname">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-6">
-                                            <div class="form-group floating-label enable-floating-label show-label">
-                                                <input type="text" class="form-control" name="lastnameUser" id="lastname">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0">
                                                 <label for="lastname">Apellido<span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control" name="lastnameUser" id="lastname">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-6">
-                                            <div class="form-group floating-label enable-floating-label show-label">
-                                                <input type="email" class="form-control" name="emailUser" id="email">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0">
                                                 <label for="email">Email<span class="text-danger">*</span></label>
+                                                <input type="email" class="form-control" name="emailUser" id="email">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-lg-12 titlePayroll">
+                                        <div class="col-12 col-lg-6 titlePayroll mb-0">
                                             <label><b>Compañia</b></label>
+                                            <input type="number" class="form-control" name="company" id="company">
+                                            <div class="validation-error d-none font-size-13">Requerido</div>
                                         </div>
 
                                         <div class="col-12 col-lg-4">
                                             <div class="form-group floating-label enable-floating-label show-label">
-                                                <input type="number" class="form-control" name="quantity_user" id="employees">
                                                 <label for="employees">No Empleados<span class="text-danger">*</span></label>
+                                                <input type="number" class="form-control" name="quantity_user" id="employees">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
