@@ -31,33 +31,41 @@
                                     <div class="row">
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group floating-label enable-floating-label show-label mb-0">
-                                                <label for="firstname">Nombre<span class="text-danger">*</span></label>
+                                                <label for="firstname">Nombres<span class="text-danger">*</span></label>
                                                 <input type="text" class="form-control" name="nameUser" id="firstname">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group floating-label enable-floating-label show-label mb-0">
-                                                <label for="lastname">Apellido<span class="text-danger">*</span></label>
+                                                <label for="lastname">Apellidos<span class="text-danger">*</span></label>
                                                 <input type="text" class="form-control" name="lastnameUser" id="lastname">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-6">
-                                            <div class="form-group floating-label enable-floating-label show-label mb-0">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-2">
                                                 <label for="email">Email<span class="text-danger">*</span></label>
                                                 <input type="email" class="form-control" name="emailUser" id="email">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
+                                        
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-2">
+                                                <label for="email">WhatsApp<span class="text-danger">*</span></label>
+                                                <input type="email" class="form-control" name="phone" id="phone">
+                                                <div class="validation-error d-none font-size-13">Requerido</div>
+                                            </div>
+                                        </div>
 
-                                        <div class="col-12 col-lg-6 titlePayroll mb-0">
-                                            <label><b>Compañia</b></label>
+                                        <div class="col-12 col-lg-6 titlePayroll mb-0 mt-2">
+                                            <label>Empresa</label>
                                             <input type="number" class="form-control" name="company" id="company">
                                             <div class="validation-error d-none font-size-13">Requerido</div>
                                         </div>
 
-                                        <div class="col-12 col-lg-4">
+                                        <div class="col-12 col-lg-4 mt-2">
                                             <div class="form-group floating-label enable-floating-label show-label">
                                                 <label for="employees">No Empleados<span class="text-danger">*</span></label>
                                                 <input type="number" class="form-control" name="quantity_user" id="employees">
