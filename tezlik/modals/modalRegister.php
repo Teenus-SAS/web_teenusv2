@@ -44,29 +44,31 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-8">
-                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-2">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-3">
                                                 <label for="email">Email<span class="text-danger">*</span></label>
                                                 <input type="email" class="form-control" name="emailUser" id="email">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-12 col-lg-4">
-                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-2">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-3">
                                                 <label for="email">WhatsApp<span class="text-danger">*</span></label>
                                                 <input type="text" class="form-control" name="phone" id="phone">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-lg-8 titlePayroll mb-0 mt-2">
-                                            <label>Empresa<span class="text-danger">*</span></label></label>
-                                            <input type="text" class="form-control" name="company" id="company">
-                                            <div class="validation-error d-none font-size-13">Requerido</div>
+                                        <div class="col-12 col-lg-8 titlePayroll">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-3">
+                                                <label>Empresa<span class="text-danger">*</span></label></label>
+                                                <input type="text" class="form-control" name="company" id="company">
+                                                <div class="validation-error d-none font-size-13">Requerido</div>
+                                            </div>
                                         </div>
 
                                         <div class="col-12 col-lg-4 mt-2">
-                                            <div class="form-group floating-label enable-floating-label show-label">
+                                            <div class="form-group floating-label enable-floating-label show-label mb-0 mt-3">
                                                 <label for="employees">No Empleados<span class="text-danger">*</span></label>
                                                 <input type="number" class="form-control" name="quantity_user" id="employees">
                                                 <div class="validation-error d-none font-size-13">Requerido</div>
