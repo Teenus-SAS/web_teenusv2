@@ -59,7 +59,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-lg-8 titlePayroll">
+                                        <div class="col-12 col-lg-8 titlePayroll mt-2">
                                             <div class="form-group floating-label enable-floating-label show-label mb-0 mt-3">
                                                 <label>Empresa<span class="text-danger">*</span></label></label>
                                                 <input type="text" class="form-control" name="company" id="company">
@@ -82,8 +82,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary closeRegisterTezlik" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary" id="btnRegisterTezlik">Crear</button>
+                <button type="button" class="btn btn-danger closeRegisterTezlik" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-success" id="btnRegisterTezlik">Crear</button>
             </div>
         </div>
     </div>

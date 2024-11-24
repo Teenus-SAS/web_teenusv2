@@ -96,7 +96,7 @@ img.btn-whatsapp:hover {
 
 .floating-label.is-valid label,
 .floating-label.enable-floating-label label {
-    top: -10px;
+    top: -8px;
     transform: scale(0.9);
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
