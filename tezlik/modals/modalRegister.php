@@ -60,7 +60,7 @@
                                         </div>
 
                                         <div class="col-12 col-lg-8 titlePayroll mb-0 mt-2">
-                                            <label>Empresa</label>
+                                            <label>Empresa<span class="text-danger">*</span></label></label>
                                             <input type="text" class="form-control" name="company" id="company">
                                             <div class="validation-error d-none font-size-13">Requerido</div>
                                         </div>
