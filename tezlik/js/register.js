@@ -46,7 +46,6 @@ $(document).ready(function () {
 
     // Si todo está correcto, puedes continuar
     toastr.success("Todos los campos están completos y válidos.");
-    return true;
 
     let data = new FormData(formRegister);
 
