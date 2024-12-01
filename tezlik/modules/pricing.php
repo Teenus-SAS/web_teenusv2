@@ -124,6 +124,8 @@
                             <li class="inactive">Analisis Materia Prima</li>
                             <li class="inactive">Negociaciones Eficientes</li>
                             <li class="inactive">Ventas Objetivo</li>
+                            <li class="inactive">Escalas de precios</li>
+                            <li class="inactive">Portafolio de Rentabilidades</li>
                             <li class="active">Usuarios 1</li>
                             <li class="inactive">Capacitación</li>
                             <li class="active">Soporte</li>
