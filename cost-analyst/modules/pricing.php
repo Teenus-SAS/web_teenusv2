@@ -44,7 +44,6 @@
                             <li class="active">Ventas Objetivo</li>
                             <li class="active">Usuarios 5</li>
                             <li class="active">Capacitación</li>
-                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -84,7 +83,6 @@
                             <li class="inactive">Ventas Objetivo</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Capacitación</li>
-                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -124,7 +122,6 @@
                             <li class="inactive">Ventas Objetivo</li>
                             <li class="active">Usuarios 1</li>
                             <li class="active">Capacitación</li>
-                            <li class="inactive">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>

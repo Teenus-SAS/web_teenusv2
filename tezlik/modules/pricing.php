@@ -42,9 +42,10 @@
                             <li class="active">Analisis Materia Prima</li>
                             <li class="active">Negociaciones Eficientes</li>
                             <li class="active">Ventas Objetivo</li>
+                            <li class="active">Escalas de precios</li>
+                            <li class="active">Portafolio de Rentabilidades</li>                            
                             <li class="active">Usuarios 5</li>
                             <li class="active">Capacitación</li>
-                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -79,12 +80,13 @@
                             <li class="active">Cotizador</li>
                             <li class="active">Detalle de Costos y Precio</li>
                             <li class="active">Punto de Equilibrio</li>
-                            <li class="inactive">Analisis Materia Prima</li>
+                            <li class="active">Analisis Materia Prima</li>
                             <li class="inactive">Negociaciones Eficientes</li>
                             <li class="inactive">Ventas Objetivo</li>
+                            <li class="inactive">Escalas de precios</li>
+                            <li class="inactive">Portafolio de Rentabilidades</li>
                             <li class="active">Usuarios 2</li>
                             <li class="active">Capacitación</li>
-                            <li class="active">Acompañamiento</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
@@ -115,16 +117,15 @@
                         <ul class="list">
                             <li class="active">Creación de Productos 10</li>
                             <li class="active">Lista de Precios</li>
-                            <li class="inactive">Lista de Precios Personalizado</li>
+                            <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
                             <li class="active">Detalle de Costos y Precio</li>
-                            <li class="inactive">Punto de Equilibrio</li>
+                            <li class="inactive">">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima</li>
                             <li class="inactive">Negociaciones Eficientes</li>
                             <li class="inactive">Ventas Objetivo</li>
                             <li class="active">Usuarios 1</li>
-                            <li class="active">Capacitación</li>
-                            <li class="inactive">Acompañamiento</li>
+                            <li class="inactive">Capacitación</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
