@@ -120,7 +120,7 @@
                             <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
                             <li class="active">Detalle de Costos y Precio</li>
-                            <li class="inactive">">Punto de Equilibrio</li>
+                            <li class="inactive">Punto de Equilibrio</li>
                             <li class="inactive">Analisis Materia Prima</li>
                             <li class="inactive">Negociaciones Eficientes</li>
                             <li class="inactive">Ventas Objetivo</li>
