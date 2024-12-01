@@ -115,7 +115,7 @@
                             <span class="period">Facturación Anual</span><br> -->
                         </div>
                         <ul class="list">
-                            <li class="active">Creación de Productos 10</li>
+                            <li class="active">Creación de Productos 30</li>
                             <li class="active">Lista de Precios</li>
                             <li class="active">Lista de Precios Personalizado</li>
                             <li class="active">Cotizador</li>
@@ -127,7 +127,7 @@
                             <li class="inactive">Escalas de precios</li>
                             <li class="inactive">Portafolio de Rentabilidades</li>
                             <li class="active">Usuarios 1</li>
-                            <li class="inactive">Capacitación</li>
+                            <li class="active">Capacitación</li>
                             <li class="active">Soporte</li>
                         </ul>
                     </div>
