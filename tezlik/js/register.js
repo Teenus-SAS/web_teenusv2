@@ -51,7 +51,6 @@ $(document).ready(function () {
 
     $.ajax({
       type: "POST",
-      // url: 'http://tezlikv3/api/newUserAndCompany',
       url: "https://demo.tezliksoftware.com.co/api/newUserAndCompany",
       data: data,
       contentType: false,
