@@ -2773,6 +2773,14 @@ ul.footer-nav li a {
   margin-top: 10px;
 }
 
+.slideClient:nth-child(14) {
+  background-image: url("/tezlik/assets/img/clients/aydapack.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 300px;
+  margin-top: 10px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);

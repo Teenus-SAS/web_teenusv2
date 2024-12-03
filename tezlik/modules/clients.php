@@ -19,6 +19,7 @@
                     <div class="slideClient mr-3"></div>
                     <div class="slideClient mr-3"></div>
                     <div class="slideClient mr-3"></div>
+                    <div class="slideClient mr-3"></div>
                 </div>
             </div>
 
