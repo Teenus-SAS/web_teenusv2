@@ -10,7 +10,7 @@ $(document).ready(function () {
         i = 1;
         // Generar dinámicamente los elementos de los proyectos
         slides.forEach((slide) => {
-          if (i == 4) i = 1;
+          if (i == 9) i = 1;
           const projectSlide = `
                 <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/slider-${i}.jpg" data-overlay-dark="3">
@@ -35,7 +35,7 @@ $(document).ready(function () {
             </div>
                       `;
           slidesContainer.append(projectSlide);
-          i = i++;
+          i = i + 1;
         });
       },
       error: function (xhr, status, error) {
