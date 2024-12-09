@@ -1,7 +1,7 @@
 <header class="slider slider-prlx">
     <div class="swiper-container parallax-slider">
         <div class="swiper-wrapper slidesContainer">
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/slider-2.jpg" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/slider-1.jpg" data-overlay-dark="3">
                     <div class="container">
