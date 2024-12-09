@@ -10,7 +10,7 @@
                                     <h1>¿Tu Fábrica sufre constantemente falta de liquidez?</h1>
                                     <h5 class="mb-3">
                                         Una rentabilidad insuficiente se puede generar por cotizaciones inexactas que subestiman los costos reales de produccion.
-                                        <!-- <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a> -->
+                                        <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a>
                                     </h5>
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
@@ -21,8 +21,8 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/slider-1.jpg" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
