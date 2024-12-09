@@ -40,3 +40,4 @@
 <script src="/global/js/loadArticles.js"></script>
 <script src="/teenus/js/blog/blog.js"></script>
 <script src="/teenus/js/customers/customer.js"></script>
+<script src="/teenus/js/customers/slides.js"></script>

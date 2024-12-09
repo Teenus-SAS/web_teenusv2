@@ -26,7 +26,7 @@
             </div>
             <div class="project-container">
                 <!-- project-item -->
-                <div class="col-lg-3 col-md-6 project-grid-item all plastic">
+                <!-- <div class="col-lg-3 col-md-6 project-grid-item all plastic">
                     <div class="project-item">
                         <img src="../../tezlik/assets/img/clients/aydapack.png" alt="aydapack">
                         <div class="project-content-overlay">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- project-item -->
+                
                 <div class="col-lg-6 col-md-6 project-grid-item all lab">
                     <div class="project-item">
                         <img src="../../tezlik/assets/img/clients/gblab.png" alt="gblab">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- project-item -->
+                
                 <div class="col-lg-3 col-md-6 project-grid-item all lab">
                     <div class="project-item">
                         <img src="../../tezlik/assets/img/clients/labgusing.png" alt="lab gusing">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- project-item -->
+                
                 <div class="col-lg-3 col-md-6 project-grid-item all food">
                     <div class="project-item">
                         <img src="../../tezlik/assets/img/clients/logo_arepas_guerrero.jpg" alt="image">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- project-item -->
+                
                 <div class="col-lg-3 col-md-6 project-grid-item all food">
                     <div class="project-item">
                         <img src="../../tezlik/assets/img/clients/pet gourmet.png" alt="image">
@@ -92,7 +92,7 @@
                             <h3><a href="single-projects.html">CRM</a></h3>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
