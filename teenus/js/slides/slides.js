@@ -13,7 +13,7 @@ $(document).ready(function () {
           if (i == 9) i = 1;
           const projectSlide = `
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="/teenus/assets/img/sliders/slider-${i}.jpg" data-overlay-dark="3">
+                <div class="bg-img valign" data-background="${slide.background_image}" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
