@@ -13,7 +13,7 @@ $(document).ready(function () {
           const projectItem = `
                         <div class="col-lg-3 col-md-6 project-grid-item all ${project.category}">
                             <div class="project-item">
-                                <img src="${project.image_url}" alt="${project.alt_text}" style="width:200px">
+                                <img src="${project.image_url}" alt="${project.alt_text}" style="width:150px">
                                 <div class="project-content-overlay">
                                     <p>${project.description}</p>
                                     <h3><a href="${project.link}">${project.title}</a></h3>
