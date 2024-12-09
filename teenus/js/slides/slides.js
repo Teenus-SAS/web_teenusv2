@@ -18,7 +18,7 @@ $(document).ready(function () {
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>${slide.pain_point}</h1>
+                                    <h1>${slide.pain_points}</h1>
                                    /*  <h5 class="mb-3">
                                         Una rentabilidad insuficiente se puede generar por cotizaciones inexactas que subestiman los costos reales de produccion.
                                         <!-- <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a> -->
