@@ -19,7 +19,7 @@ class clientsDao
     public function findAllClients()
     {
         $connection = Connection::getInstance()->getConnection();
-        $sql = "SELECT * FROM clients;";
+        $sql = "SELECT * FROM clients c INNER JOIN clientes_categories cc ON cc.id_category = c.id_category;";
         $stmt = $connection->prepare($sql);
         $stmt->execute();
 
