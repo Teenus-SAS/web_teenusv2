@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   function loadProjects() {
     $.ajax({
-      url: "/api/paint-points",
+      url: "/api/pain-points",
       success: function (slides) {
         // Limpiar el contenedor
         slidesContainer.empty();

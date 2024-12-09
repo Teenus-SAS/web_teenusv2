@@ -6,7 +6,7 @@ use tezlik_web\Constants\Constants;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;
 
-class PaintPointsDao
+class PainPointsDao
 {
     private $logger;
 
@@ -16,7 +16,7 @@ class PaintPointsDao
         $this->logger->pushHandler(new RotatingFileHandler(Constants::LOGS_PATH . 'querys.log', 20, Logger::DEBUG));
     }
 
-    public function findAllPaintPoints()
+    public function findAllPainPoints()
     {
         $connection = Connection::getInstance()->getConnection();
         $sql = "SELECT * FROM paint_points";

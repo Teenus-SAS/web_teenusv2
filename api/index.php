@@ -9,7 +9,7 @@ $app = AppFactory::create();
 $app->setBasePath('/api');
 
 //Paint Points
-require_once('../api/src/routes/global/slides/routePaintPoints.php');
+require_once('../api/src/routes/global/slides/routePainPoints.php');
 
 //Clients
 require_once('../api/src/routes/global/clients/routeClients.php');
