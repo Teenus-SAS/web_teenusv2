@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const projectContainer = $(".project-container");
+  const slidesContainer = $(".slidesContainer");
 
   function loadProjects() {
     $.ajax({
@@ -12,13 +12,14 @@ $(document).ready(function () {
         slides.forEach((slide) => {
           if (i == 4) i = 1;
           const projectSlide = `
+                <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/slider-${i}.jpg" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
-                                    <h1>${slide.pain_points}</h1>
-                                    /* <h5 class="mb-3">
+                                    <h1>${slide.pain-point}</h1>
+                                   /*  <h5 class="mb-3">
                                         Una rentabilidad insuficiente se puede generar por cotizaciones inexactas que subestiman los costos reales de produccion.
                                         <!-- <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a> -->
                                     </h5> */
@@ -31,6 +32,7 @@ $(document).ready(function () {
                         </div>
                     </div>
                 </div>
+            </div>
                       `;
           slidesContainer.append(projectSlide);
           i = i++;
