@@ -19,7 +19,7 @@ class PainPointsDao
     public function findAllPainPoints()
     {
         $connection = Connection::getInstance()->getConnection();
-        $sql = "SELECT * FROM paint_points";
+        $sql = "SELECT * FROM pain_points";
         $stmt = $connection->prepare($sql);
         $stmt->execute();
 
