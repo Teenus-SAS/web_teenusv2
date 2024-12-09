@@ -20,6 +20,7 @@
                         <li class="filter" data-filter=".electronic">Electronica</li>
                         <li class="filter" data-filter=".metal">Metalicos</li>
                         <li class="filter" data-filter=".wood">Madera</li>
+                        <li class="filter mt-2" data-filter=".furniture">Madera</li>
                     </ul>
                 </div>
             </div>
