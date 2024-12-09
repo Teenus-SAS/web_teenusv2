@@ -14,9 +14,12 @@
                     <ul class="nav" id="project-flters">
                         <li class="filter filter-active" data-filter=".all">all</li>
                         <li class="filter" data-filter=".plastic">Plastico</li>
-                        <li class="filter" data-filter=".lab">Laboratorios</li>
                         <li class="filter" data-filter=".food">Alimentos</li>
+                        <li class="filter" data-filter=".lab">Laboratorios</li>
                         <li class="filter" data-filter=".paper">Papel y Carton</li>
+                        <li class="filter" data-filter=".electronic">Electronica</li>
+                        <li class="filter" data-filter=".metal">Metalicos</li>
+                        <li class="filter" data-filter=".wood">Madera</li>
                     </ul>
                 </div>
             </div>
