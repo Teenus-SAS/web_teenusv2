@@ -27,12 +27,42 @@
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="/tezliksoftware" class="nav-link">TezlikSoftware</a></li>
-                        <li class="nav-item"><a href="/analista-de-costos" class="nav-link">Consultoria de Costos</a></li>
+                        <!-- <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li> -->
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="productsServicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Productos y Servicios
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="productsServicesDropdown">
+                                <a href="/tezliksoftware-pricing" class="dropdown-item">TezlikSoftware Pricing</a>
+                                <a href="/tezliksoftware-mpr" class="dropdown-item">TezlikSoftware MPR</a>
+                                <a href="/tezliksoftware-mpr" class="dropdown-item">Consultoria Precios y Rentabilidad</a>
+                                <a href="/analista-de-rentabilidad" class="dropdown-item">Especialista Precios y Rentabilidad</a>
+                                <a href="/analista-de-rentabilidad" class="dropdown-item">Desarrollo de Software</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="productsServicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Industrias
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="productsServicesDropdown">
+                                <a href="/tezliksoftware-mpr" class="dropdown-item">Madera</a>
+                                <a href="/tezliksoftware-pricing" class="dropdown-item">Laboratorios</a>
+                                <a href="/tezliksoftware-pricing" class="dropdown-item">Alimentos</a>
+                                <a href="/analista-de-rentabilidad" class="dropdown-item">Papel y Carton</a>
+                                <a href="/analista-de-rentabilidad" class="dropdown-item">Plasticos</a>
+                            </div>
+                        </li>
+
+                        <!-- <li class="nav-item"><a href="/tezliksoftware" class="nav-link">TezlikSoftware</a></li>
+                        <li class="nav-item"><a href="/analista-de-costos" class="nav-link">Consultoría de Costos</a></li> -->
                         <!-- <li class="nav-item"><a href="/desarrollo-de-software" class="nav-link">Desarrollo de Software</a></li> -->
                         <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
                         <!-- <li class="nav-item"><a href="/ebooks" class="nav-link">Ebooks</a></li> -->
+                        <li class="nav-item"><a href="/ebooks" class="nav-link">Nosotros</a></li>
                     </ul>
                     <div class="other-option">
                         <a class="default-btn register" href="javascript:;" id="btnShowModalLogin" style="display:none;">Login<span></span></a>

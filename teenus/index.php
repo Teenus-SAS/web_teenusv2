@@ -111,12 +111,12 @@
 			<!-- End About Section -->
 
 			<!-- Start Services Section -->
-			<?php //include_once __DIR__ . '/modules/services.php' 
+			<?php include_once __DIR__ . '/modules/services.php' 
 			?>
 			<!-- End Services Section -->
 
 			<!-- Start Project Section -->
-			<?php //include_once __DIR__ . '/modules/projects.php' 
+			<?php include_once __DIR__ . '/modules/projects.php' 
 			?>
 			<!-- End Project Section -->
 

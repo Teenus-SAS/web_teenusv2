@@ -8,6 +8,9 @@ include_once __DIR__ . '/AutoloaderSourceCode.php';
 $app = AppFactory::create();
 $app->setBasePath('/api');
 
+//Clients
+require_once('../api/src/routes/global/clients/routeClients.php');
+
 // Analysis
 require_once('../api/src/routes/global/routeContact.php');
 require_once('../api/src/routes/global/routeSubscribe.php');
