@@ -12,17 +12,14 @@ $(document).ready(function () {
         slides.forEach((slide) => {
           if (i == 9) i = 1;
           const projectSlide = `
-                <div class="swiper-slide">
+            <div class="swiper-slide">
                 <div class="bg-img valign" data-background="/teenus/assets/img/sliders/slider-${i}.jpg" data-overlay-dark="3">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-12">
                                 <div class="caption">
                                     <h1>${slide.pain_points}</h1>
-                                   /*  <h5 class="mb-3">
-                                        Una rentabilidad insuficiente se puede generar por cotizaciones inexactas que subestiman los costos reales de produccion.
-                                        <!-- <a href="/tezliksoftware" style="color:yellow">Lee más<span></span></a> -->
-                                    </h5> */
+                                   
                                     <div class="banner-btn home-slider-btn">
                                         <a href="/tezliksoftware" class="default-btn-one">Conoce más<span></span></a>
                                         <a class="default-btn" href="#contact">Contáctanos Ya<span></span></a>
